@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <!--Written by JMRI version 4.3.6-Re0639a6 on Fri Jun 10 17:47:44 MDT 2016 $Id$-->
+  <locomotive id="USRA 2-8-2 Mikado" fileName="USRA_2_8_2_Mikado_Updated.xml" roadNumber="746" roadName="Southern Pacific Lines" mfg="MRC" owner="Mike Dean" model="" dccAddress="746" comment="Updated decoder definition." maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>Jun 10, 2016 5:47:44 PM</dateUpdated>
+    <decoder model="1961 - N Scale - Model Power Pacific/Mikado" family="Sound Decoders - N Scale" comment="" />
+    <locoaddress>
+      <dcclocoaddress number="746" longaddress="yes" />
+      <number>746</number>
+      <protocol>dcc_long</protocol>
+    </locoaddress>
+    <functionlabels>
+      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Whistle</functionlabel>
+      <functionlabel num="3" lockable="false" functionImage="" functionImageSelected="">Long Air Release</functionlabel>
+      <functionlabel num="4" lockable="false" functionImage="" functionImageSelected="">Coupling</functionlabel>
+      <functionlabel num="5" lockable="false" functionImage="" functionImageSelected="">Brake squeal/release</functionlabel>
+      <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">Chuff sound on/off</functionlabel>
+      <functionlabel num="7" lockable="false" functionImage="" functionImageSelected="">Fire box</functionlabel>
+      <functionlabel num="8" lockable="false" functionImage="" functionImageSelected="">Water injector</functionlabel>
+      <functionlabel num="9" lockable="false" functionImage="" functionImageSelected="">Metal crank/Steam</functionlabel>
+      <functionlabel num="10" lockable="false" functionImage="" functionImageSelected="">Water filling</functionlabel>
+      <functionlabel num="11" lockable="false" functionImage="" functionImageSelected="">Blower hiss</functionlabel>
+      <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">All sounds on/off</functionlabel>
+      <functionlabel num="13" lockable="false" functionImage="" functionImageSelected="">Master vol. reduce by 2</functionlabel>
+      <functionlabel num="14" lockable="false" functionImage="" functionImageSelected="">Master vol. increase by 2</functionlabel>
+      <functionlabel num="15" lockable="false" functionImage="" functionImageSelected="">Flange noise</functionlabel>
+      <functionlabel num="16" lockable="false" functionImage="" functionImageSelected="">Shoveling</functionlabel>
+      <functionlabel num="17" lockable="false" functionImage="" functionImageSelected="">Coal auger</functionlabel>
+      <functionlabel num="18" lockable="false" functionImage="" functionImageSelected="">Bell type select</functionlabel>
+      <functionlabel num="19" lockable="false" functionImage="" functionImageSelected="">Whistle type select</functionlabel>
+      <functionlabel num="20" lockable="false" functionImage="" functionImageSelected="">Air hose firing/uncoupling lever</functionlabel>
+      <functionlabel num="21" lockable="false" functionImage="" functionImageSelected="">Flange noise</functionlabel>
+      <functionlabel num="22" lockable="false" functionImage="" functionImageSelected="">Associated loco sound</functionlabel>
+      <functionlabel num="23" lockable="false" functionImage="" functionImageSelected="">Flange noise</functionlabel>
+      <functionlabel num="24" lockable="false" functionImage="" functionImageSelected="">Chuff type select</functionlabel>
+      <functionlabel num="25" lockable="false" functionImage="" functionImageSelected="">Long air release</functionlabel>
+      <functionlabel num="26" lockable="false" functionImage="" functionImageSelected="">Sand dropping</functionlabel>
+      <functionlabel num="27" lockable="false" functionImage="" functionImageSelected="">Associated loco sound</functionlabel>
+      <functionlabel num="28" lockable="false" functionImage="" functionImageSelected="">Associated loco sound</functionlabel>
+    </functionlabels>
+    <values>
+      <decoderDef>
+        <varValue item="Start voltage" value="10" />
+        <varValue item="Acceleration" value="0" />
+        <varValue item="Deceleration" value="0" />
+        <varValue item="Top voltage" value="63" />
+        <varValue item="Adaptive Back EMF control enable" value="0" />
+        <varValue item="Manufacturer version number" value="21" />
+        <varValue item="Manufacturer ID" value="143" />
+        <varValue item="Master Volume Control" value="63" />
+        <varValue item="Whistle type" value="6" />
+        <varValue item="Whistle Volume" value="38" />
+        <varValue item="Bell type" value="3" />
+        <varValue item="Bell Volume" value="50" />
+        <varValue item="Bell Ring Rate" value="30" />
+        <varValue item="Chuff type" value="9" />
+        <varValue item="Chuff Volume" value="63" />
+        <varValue item="Brake Squeal Volume" value="33" />
+        <varValue item="Air Release Volume" value="63" />
+        <varValue item="Blower Hiss Volume" value="63" />
+        <varValue item="Fire box door Volume" value="63" />
+        <varValue item="Water Injector Volume" value="63" />
+        <varValue item="Coupling Volume" value="63" />
+        <varValue item="Water filling Volume" value="63" />
+        <varValue item="Rail Clack Volume" value="63" />
+        <varValue item="Speed Table" value="0,9,18,28,37,47,56,66,75,85,94,103,113,122,132,141,151,160,170,179,188,198,207,217,226,236,245,255" />
+        <varValue item="Metal crank Volume" value="3" />
+        <varValue item="Light Brightness" value="250" />
+        <varValue item="Brightness of Dim Light" value="120" />
+        <varValue item="Headlight Effect" value="17" />
+        <varValue item="Chuff Rate" value="75" />
+        <varValue item="Chuff Start Point" value="0" />
+        <varValue item="Double chuff enable" value="0" />
+        <varValue item="Safety valve type" value="2" />
+        <varValue item="Primary Address" value="3" />
+        <varValue item="Extended Address" value="746" />
+        <varValue item="Address Format" value="1" />
+        <varValue item="Advanced Consist Address" value="0" />
+        <varValue item="Locomotive Direction In Consist" value="0" />
+        <varValue item="Functions Respond to Address" value="0" />
+        <varValue item="Locomotive Direction" value="0" />
+        <varValue item="Speed Steps" value="1" />
+        <varValue item="Power Source Conversion" value="0" />
+        <varValue item="Use Speed Table" value="0" />
+        <varValue item="Kick Start Voltage" value="63" />
+        <varValue item="User ID #1 (0-255)" value="0" />
+        <varValue item="User ID #2 (0-255)" value="0" />
+        <varValue item="Back EMF Load Control proportional gain Kp" value="20" />
+        <varValue item="Back EMF Load Control integral gain Ki" value="10" />
+        <varValue item="Back EMF load control intensity" value="0" />
+      </decoderDef>
+      <CVvalue name="2" value="10" />
+      <CVvalue name="3" value="0" />
+      <CVvalue name="4" value="0" />
+      <CVvalue name="5" value="63" />
+      <CVvalue name="6" value="0" />
+      <CVvalue name="7" value="21" />
+      <CVvalue name="8" value="143" />
+      <CVvalue name="49" value="63" />
+      <CVvalue name="50" value="6" />
+      <CVvalue name="51" value="38" />
+      <CVvalue name="52" value="3" />
+      <CVvalue name="53" value="50" />
+      <CVvalue name="54" value="30" />
+      <CVvalue name="55" value="9" />
+      <CVvalue name="56" value="63" />
+      <CVvalue name="57" value="33" />
+      <CVvalue name="58" value="63" />
+      <CVvalue name="59" value="63" />
+      <CVvalue name="60" value="63" />
+      <CVvalue name="61" value="63" />
+      <CVvalue name="62" value="63" />
+      <CVvalue name="63" value="63" />
+      <CVvalue name="64" value="63" />
+      <CVvalue name="67" value="0" />
+      <CVvalue name="68" value="9" />
+      <CVvalue name="69" value="18" />
+      <CVvalue name="70" value="28" />
+      <CVvalue name="71" value="37" />
+      <CVvalue name="72" value="47" />
+      <CVvalue name="73" value="56" />
+      <CVvalue name="74" value="66" />
+      <CVvalue name="75" value="75" />
+      <CVvalue name="76" value="85" />
+      <CVvalue name="77" value="94" />
+      <CVvalue name="78" value="103" />
+      <CVvalue name="79" value="113" />
+      <CVvalue name="80" value="122" />
+      <CVvalue name="81" value="132" />
+      <CVvalue name="82" value="141" />
+      <CVvalue name="83" value="151" />
+      <CVvalue name="84" value="160" />
+      <CVvalue name="85" value="170" />
+      <CVvalue name="86" value="179" />
+      <CVvalue name="87" value="188" />
+      <CVvalue name="88" value="198" />
+      <CVvalue name="89" value="207" />
+      <CVvalue name="90" value="217" />
+      <CVvalue name="91" value="226" />
+      <CVvalue name="92" value="236" />
+      <CVvalue name="93" value="245" />
+      <CVvalue name="94" value="255" />
+      <CVvalue name="112" value="63" />
+      <CVvalue name="115" value="250" />
+      <CVvalue name="116" value="120" />
+      <CVvalue name="117" value="255" />
+      <CVvalue name="120" value="75" />
+      <CVvalue name="121" value="0" />
+      <CVvalue name="122" value="0" />
+      <CVvalue name="123" value="2" />
+      <CVvalue name="1" value="3" />
+      <CVvalue name="17" value="194" />
+      <CVvalue name="18" value="234" />
+      <CVvalue name="29" value="34" />
+      <CVvalue name="19" value="0" />
+      <CVvalue name="21" value="0" />
+      <CVvalue name="65" value="63" />
+      <CVvalue name="105" value="0" />
+      <CVvalue name="106" value="0" />
+      <CVvalue name="113" value="20" />
+      <CVvalue name="114" value="10" />
+      <CVvalue name="124" value="0" />
+    </values>
+  </locomotive>
+</locomotive-config>

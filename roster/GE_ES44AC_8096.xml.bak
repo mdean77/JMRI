@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <!--Written by JMRI version 4.11.8+R0997631 on Sat Jul 07 12:37:23 MDT 2018-->
+  <locomotive id="GE ES44AC 8096" fileName="GE_ES44AC_8096.xml" roadNumber="" roadName="Union Pacific" mfg="" owner="Mike Dean" model="" dccAddress="8096" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2018-07-07T18:37:23Z</dateUpdated>
+    <decoder model="Rolling Thunder" family="Paragon 3" comment="" />
+    <locoaddress>
+      <dcclocoaddress number="8096" longaddress="yes" />
+      <number>8096</number>
+      <protocol>dcc_long</protocol>
+    </locoaddress>
+    <attributepairs>
+      <keyvaluepair>
+        <key>LastOperated</key>
+        <value>2018-07-07T18:22:13Z</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>OperatingDuration</key>
+        <value>9</value>
+      </keyvaluepair>
+    </attributepairs>
+    <values>
+      <decoderDef>
+        <varValue item="Packet Time-out Value" value="2" />
+        <varValue item="Receivers Volume Rate of Change" value="2" />
+        <varValue item="Receivers Maximum Volume" value="128" />
+        <varValue item="Receivers Minimum Volume" value="0" />
+        <varValue item="RSS Digital Filter Coefficient" value="4" />
+        <varValue item="Signal Strength Volume Increase" value="135" />
+        <varValue item="Signal Strength Volume Decrease" value="111" />
+        <varValue item="Signal Search Dwell Time" value="80" />
+        <varValue item="Lock Signal Strength" value="100" />
+        <varValue item="Start Scan Channel" value="1" />
+        <varValue item="End Scan Channel" value="1" />
+        <varValue item="Frequency" value="1" />
+        <varValue item="Sensitivity." value="0" />
+        <varValue item="Primary Address" value="96" />
+        <varValue item="Extended Address" value="8096" />
+        <varValue item="Address Format" value="1" />
+        <varValue item="Manufacturer Version No: " value="0" />
+        <varValue item="Manufacturer ID: " value="0" />
+      </decoderDef>
+      <CVvalue name="11" value="2" />
+      <CVvalue name="130" value="2" />
+      <CVvalue name="131" value="128" />
+      <CVvalue name="132" value="0" />
+      <CVvalue name="133" value="4" />
+      <CVvalue name="135" value="135" />
+      <CVvalue name="136" value="111" />
+      <CVvalue name="140" value="80" />
+      <CVvalue name="141" value="100" />
+      <CVvalue name="142" value="1" />
+      <CVvalue name="143" value="1" />
+      <CVvalue name="213" value="128" />
+      <CVvalue name="1" value="96" />
+      <CVvalue name="17" value="223" />
+      <CVvalue name="18" value="160" />
+      <CVvalue name="29" value="32" />
+      <CVvalue name="7" value="0" />
+      <CVvalue name="8" value="0" />
+    </values>
+  </locomotive>
+</locomotive-config>

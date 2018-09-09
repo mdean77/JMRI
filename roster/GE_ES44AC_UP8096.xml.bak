@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <!--Written by JMRI version 4.11.8+R0997631 on Sat Jul 07 16:45:18 MDT 2018-->
+  <locomotive id="GE ES44AC UP8096" fileName="GE_ES44AC_UP8096.xml" roadNumber="8096" roadName="Union Pacific" mfg="Broadway Limited" owner="Mike Dean" model="" dccAddress="8096" comment="This was second one - first one defective within minutes." maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2018-07-07T22:45:18Z</dateUpdated>
+    <decoder model="Rolling Thunder" family="Paragon 3" comment="" />
+    <locoaddress>
+      <dcclocoaddress number="8096" longaddress="yes" />
+      <number>8096</number>
+      <protocol>dcc_long</protocol>
+    </locoaddress>
+    <functionlabels>
+      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Front light / Rear light</functionlabel>
+      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Diesel bell</functionlabel>
+      <functionlabel num="2" lockable="true" functionImage="" functionImageSelected="">Diesel horn</functionlabel>
+      <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Coupler Slack (couple when moving)</functionlabel>
+      <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Compressor (dynamic brake when moving)</functionlabel>
+      <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">Ramp diesel engine up</functionlabel>
+      <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">Ramp diesel engine down</functionlabel>
+      <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Ditch / MARS light on/off</functionlabel>
+      <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Volume / mute</functionlabel>
+      <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Startup / Shutdown Engine</functionlabel>
+      <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Radiator cooling fan</functionlabel>
+      <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Air filling/ air release</functionlabel>
+      <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Brake set/release/squeal</functionlabel>
+      <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Grade crossing horn</functionlabel>
+      <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Passenger announcements</functionlabel>
+      <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Freight announcements</functionlabel>
+      <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">Maintenance sounds</functionlabel>
+      <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Radio sounds</functionlabel>
+      <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">City background sounds</functionlabel>
+      <functionlabel num="19" lockable="true" functionImage="" functionImageSelected="">Farm background sounds</functionlabel>
+      <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Industrial background sounds</functionlabel>
+      <functionlabel num="21" lockable="true" functionImage="" functionImageSelected="">Lumber background sounds</functionlabel>
+      <functionlabel num="22" lockable="true" functionImage="" functionImageSelected="">Switch to second horn</functionlabel>
+      <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">Track sounds</functionlabel>
+      <functionlabel num="24" lockable="true" functionImage="" functionImageSelected="">Auxilliary light control</functionlabel>
+      <functionlabel num="25" lockable="true" functionImage="" functionImageSelected="">Long horn</functionlabel>
+      <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">Play record macro</functionlabel>
+      <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">Record start/stop</functionlabel>
+      <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake squeal</functionlabel>
+    </functionlabels>
+    <attributepairs>
+      <keyvaluepair>
+        <key>LastOperated</key>
+        <value>2018-07-07T22:29:55Z</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>OperatingDuration</key>
+        <value>144</value>
+      </keyvaluepair>
+    </attributepairs>
+    <values>
+      <decoderDef>
+        <varValue item="Packet Time-out Value" value="2" />
+        <varValue item="Receivers Volume Rate of Change" value="16" />
+        <varValue item="Receivers Maximum Volume" value="100" />
+        <varValue item="Receivers Minimum Volume" value="96" />
+        <varValue item="RSS Digital Filter Coefficient" value="16" />
+        <varValue item="Signal Strength Volume Increase" value="128" />
+        <varValue item="Signal Strength Volume Decrease" value="128" />
+        <varValue item="Signal Search Dwell Time" value="128" />
+        <varValue item="Lock Signal Strength" value="128" />
+        <varValue item="Start Scan Channel" value="29" />
+        <varValue item="End Scan Channel" value="29" />
+        <varValue item="Frequency" value="1" />
+        <varValue item="Sensitivity." value="0" />
+        <varValue item="Primary Address" value="96" />
+        <varValue item="Extended Address" value="8096" />
+        <varValue item="Address Format" value="1" />
+        <varValue item="Manufacturer Version No: " value="2" />
+        <varValue item="Manufacturer ID: " value="38" />
+      </decoderDef>
+      <CVvalue name="11" value="2" />
+      <CVvalue name="130" value="16" />
+      <CVvalue name="131" value="100" />
+      <CVvalue name="132" value="96" />
+      <CVvalue name="133" value="16" />
+      <CVvalue name="135" value="128" />
+      <CVvalue name="136" value="128" />
+      <CVvalue name="140" value="128" />
+      <CVvalue name="141" value="128" />
+      <CVvalue name="142" value="29" />
+      <CVvalue name="143" value="29" />
+      <CVvalue name="213" value="128" />
+      <CVvalue name="1" value="96" />
+      <CVvalue name="17" value="223" />
+      <CVvalue name="18" value="160" />
+      <CVvalue name="29" value="38" />
+      <CVvalue name="7" value="2" />
+      <CVvalue name="8" value="38" />
+    </values>
+  </locomotive>
+</locomotive-config>

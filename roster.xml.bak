@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
+<roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sun Sep 09 11:06:20 MDT 2018-->
+  <roster>
+    <locomotive id="1029 NW2 Switcher" fileName="1029_NW2_Switcher.xml" roadNumber="1029" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="176-4374" dccAddress="1029" comment="$92 plus decoder" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2015-08-15T14:58:45Z</dateUpdated>
+      <decoder model="DN123K3" family="Series 3 with FX3, silent, readback" comment="$24" />
+      <locoaddress>
+        <dcclocoaddress number="1029" longaddress="yes" />
+        <number>1029</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+    </locomotive>
+    <locomotive id="6001 EMD E7A" fileName="6001_EMD_E7A.xml" roadNumber="6001" roadName="Southern Pacific" mfg="Broadway Limited" owner="Mike Dean" model="3043" dccAddress="6001" comment="$159" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2015-08-15T15:48:53Z</dateUpdated>
+      <decoder model="Diesel" family="Paragon 2" comment="Have had to reset decoder." />
+      <locoaddress>
+        <dcclocoaddress number="6001" longaddress="yes" />
+        <number>6001</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="1" lockable="true">Bell</functionlabel>
+        <functionlabel num="2" lockable="true">Horn 1</functionlabel>
+        <functionlabel num="3" lockable="true">Coupler</functionlabel>
+        <functionlabel num="4" lockable="true">Blower</functionlabel>
+        <functionlabel num="5" lockable="true">Rev Up</functionlabel>
+        <functionlabel num="6" lockable="true">Rev Dn</functionlabel>
+        <functionlabel num="7" lockable="true">L1 Effect</functionlabel>
+        <functionlabel num="8" lockable="true">Master Volume</functionlabel>
+        <functionlabel num="9" lockable="true">Shutdown and Startup</functionlabel>
+        <functionlabel num="10" lockable="true">Radiator Cooling Fan</functionlabel>
+        <functionlabel num="11" lockable="true">Air Release and Fill</functionlabel>
+        <functionlabel num="12" lockable="true">Brake Set/Release/Squeal</functionlabel>
+        <functionlabel num="13" lockable="true">Horn Grade Crossing</functionlabel>
+        <functionlabel num="14" lockable="true">Passenger Sounds</functionlabel>
+        <functionlabel num="15" lockable="true">Freight Sounds</functionlabel>
+        <functionlabel num="16" lockable="true">Maintenance Sounds</functionlabel>
+        <functionlabel num="17" lockable="true">Radio Chatter</functionlabel>
+        <functionlabel num="18" lockable="true">City Sounds</functionlabel>
+        <functionlabel num="19" lockable="true">Farm Sounds</functionlabel>
+        <functionlabel num="20" lockable="true">Industrial Sounds</functionlabel>
+        <functionlabel num="21" lockable="true">Lumber Sounds</functionlabel>
+        <functionlabel num="22" lockable="true">Horn2</functionlabel>
+        <functionlabel num="26" lockable="true">Play Macro</functionlabel>
+        <functionlabel num="27" lockable="true">Record Macro</functionlabel>
+        <functionlabel num="28" lockable="true">Brake Squeal</functionlabel>
+      </functionlabels>
+    </locomotive>
+    <locomotive id="9155 NW Switcher" fileName="9155_NW_Switcher.xml" roadNumber="9155" roadName="Union Pacific" mfg="Bachmann" owner="Mike Dean" model="61651" dccAddress="9155" comment="$89.40" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2015-08-15T15:05:54Z</dateUpdated>
+      <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="9155" longaddress="yes" />
+        <number>9155</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true">Headlights</functionlabel>
+        <functionlabel num="1" lockable="true">Dim Lights</functionlabel>
+      </functionlabels>
+    </locomotive>
+    <locomotive id="ALCO 2-6-0 Steam" fileName="ALCO_2_6_0_Steam.xml" roadNumber="41" roadName="Union Pacific" mfg="Bachmann" owner="Mike Dean" model="" dccAddress="41" comment="$125" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2016-03-27T18:31:16Z</dateUpdated>
+      <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="Guessing whether this is 4 function or 2 function." />
+      <locoaddress>
+        <dcclocoaddress number="41" longaddress="yes" />
+        <number>41</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true">Headlight</functionlabel>
+      </functionlabels>
+    </locomotive>
+    <locomotive id="ALCO PA 605" fileName="ALCO_PA_605.xml" roadNumber="605" roadName="Union Pacific" mfg="Broadway Limited" owner="Mike Dean" model="3104" dccAddress="605" comment="$159" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2016-06-10T22:56:16Z</dateUpdated>
+      <decoder model="Diesel" family="Paragon 2" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="605" longaddress="yes" />
+        <number>605</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="1" lockable="true">Bell</functionlabel>
+        <functionlabel num="2" lockable="false">Horn 1</functionlabel>
+        <functionlabel num="3" lockable="true">Coupler</functionlabel>
+        <functionlabel num="4" lockable="true">Blower</functionlabel>
+        <functionlabel num="5" lockable="true">Rev Up</functionlabel>
+        <functionlabel num="6" lockable="true">Rev Dn</functionlabel>
+        <functionlabel num="7" lockable="true">L1 Effect</functionlabel>
+        <functionlabel num="8" lockable="true">Master Volume</functionlabel>
+        <functionlabel num="9" lockable="true">Shutdown and Startup</functionlabel>
+        <functionlabel num="10" lockable="true">Radiator Cooling Fan</functionlabel>
+        <functionlabel num="11" lockable="true">Air Release and Fill</functionlabel>
+        <functionlabel num="12" lockable="true">Brake Set/Release/Squeal</functionlabel>
+        <functionlabel num="13" lockable="true">Horn Grade Crossing</functionlabel>
+        <functionlabel num="14" lockable="true">Passenger Sounds</functionlabel>
+        <functionlabel num="15" lockable="true">Freight Sounds</functionlabel>
+        <functionlabel num="16" lockable="true">Maintenance Sounds</functionlabel>
+        <functionlabel num="17" lockable="true">Radio Chatter</functionlabel>
+        <functionlabel num="18" lockable="true">City Sounds</functionlabel>
+        <functionlabel num="19" lockable="true">Farm Sounds</functionlabel>
+        <functionlabel num="20" lockable="true">Industrial Sounds</functionlabel>
+        <functionlabel num="21" lockable="true">Lumber Sounds</functionlabel>
+        <functionlabel num="22" lockable="true">Horn2</functionlabel>
+        <functionlabel num="26" lockable="true">Play Macro</functionlabel>
+        <functionlabel num="27" lockable="true">Record Macro</functionlabel>
+        <functionlabel num="28" lockable="true">Brake Squeal</functionlabel>
+      </functionlabels>
+    </locomotive>
+    <locomotive id="ALCO PA 606" fileName="ALCO_PA_606.xml" roadNumber="606" roadName="Union Pacific" mfg="Broadway Limited" owner="Mike Dean" model="3202" dccAddress="606" comment="606A 606B pair purchased, B unit unpowered" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2016-06-10T23:57:24Z</dateUpdated>
+      <decoder model="Diesel" family="Paragon 2" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="606" longaddress="yes" />
+        <number>606</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="1" lockable="true">Bell</functionlabel>
+        <functionlabel num="2" lockable="false">Horn 1</functionlabel>
+        <functionlabel num="3" lockable="true">Coupler</functionlabel>
+        <functionlabel num="4" lockable="true">Blower</functionlabel>
+        <functionlabel num="5" lockable="true">Rev Up</functionlabel>
+        <functionlabel num="6" lockable="true">Rev Dn</functionlabel>
+        <functionlabel num="7" lockable="true">L1 Effect</functionlabel>
+        <functionlabel num="8" lockable="true">Master Volume</functionlabel>
+        <functionlabel num="9" lockable="true">Shutdown and Startup</functionlabel>
+        <functionlabel num="10" lockable="true">Radiator Cooling Fan</functionlabel>
+        <functionlabel num="11" lockable="true">Air Release and Fill</functionlabel>
+        <functionlabel num="12" lockable="true">Brake Set/Release/Squeal</functionlabel>
+        <functionlabel num="13" lockable="true">Horn Grade Crossing</functionlabel>
+        <functionlabel num="14" lockable="true">Passenger Sounds</functionlabel>
+        <functionlabel num="15" lockable="true">Freight Sounds</functionlabel>
+        <functionlabel num="16" lockable="true">Maintenance Sounds</functionlabel>
+        <functionlabel num="17" lockable="true">Radio Chatter</functionlabel>
+        <functionlabel num="18" lockable="true">City Sounds</functionlabel>
+        <functionlabel num="19" lockable="true">Farm Sounds</functionlabel>
+        <functionlabel num="20" lockable="true">Industrial Sounds</functionlabel>
+        <functionlabel num="21" lockable="true">Lumber Sounds</functionlabel>
+        <functionlabel num="22" lockable="true">Horn2</functionlabel>
+        <functionlabel num="26" lockable="true">Play Macro</functionlabel>
+        <functionlabel num="27" lockable="true">Record Macro</functionlabel>
+        <functionlabel num="28" lockable="true">Brake Squeal</functionlabel>
+      </functionlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>Mon Apr 24 20:23:29 MDT 2017</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>694</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="ALCO PA 606 Update" fileName="ALCO_PA_606_Update.xml" roadNumber="" roadName="" mfg="" owner="Mike Dean" model="" dccAddress="606" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2016-06-11T00:04:20Z</dateUpdated>
+      <decoder model="Diesel" family="Paragon 2" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="606" longaddress="yes" />
+        <number>606</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="1" lockable="true">Bell</functionlabel>
+        <functionlabel num="2" lockable="false">Horn 1</functionlabel>
+        <functionlabel num="3" lockable="true">Coupler</functionlabel>
+        <functionlabel num="4" lockable="true">Blower</functionlabel>
+        <functionlabel num="5" lockable="true">Rev Up</functionlabel>
+        <functionlabel num="6" lockable="true">Rev Dn</functionlabel>
+        <functionlabel num="7" lockable="true">L1 Effect</functionlabel>
+        <functionlabel num="8" lockable="true">Master Volume</functionlabel>
+        <functionlabel num="9" lockable="true">Shutdown and Startup</functionlabel>
+        <functionlabel num="10" lockable="true">Radiator Cooling Fan</functionlabel>
+        <functionlabel num="11" lockable="true">Air Release and Fill</functionlabel>
+        <functionlabel num="12" lockable="true">Brake Set/Release/Squeal</functionlabel>
+        <functionlabel num="13" lockable="true">Horn Grade Crossing</functionlabel>
+        <functionlabel num="14" lockable="true">Passenger Sounds</functionlabel>
+        <functionlabel num="15" lockable="true">Freight Sounds</functionlabel>
+        <functionlabel num="16" lockable="true">Maintenance Sounds</functionlabel>
+        <functionlabel num="17" lockable="true">Radio Chatter</functionlabel>
+        <functionlabel num="18" lockable="true">City Sounds</functionlabel>
+        <functionlabel num="19" lockable="true">Farm Sounds</functionlabel>
+        <functionlabel num="20" lockable="true">Industrial Sounds</functionlabel>
+        <functionlabel num="21" lockable="true">Lumber Sounds</functionlabel>
+        <functionlabel num="22" lockable="true">Horn2</functionlabel>
+        <functionlabel num="26" lockable="true">Play Macro</functionlabel>
+        <functionlabel num="27" lockable="true">Record Macro</functionlabel>
+        <functionlabel num="28" lockable="true">Brake Squeal</functionlabel>
+      </functionlabels>
+    </locomotive>
+    <locomotive id="ALCO RS3 " fileName="ALCO_RS3_.xml" roadNumber="5200" roadName="Rio Grande" mfg="Bachmann" owner="Mike Dean" model="" dccAddress="5200" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2016-06-10T22:25:52Z</dateUpdated>
+      <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="5200" longaddress="yes" />
+        <number>5200</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+    </locomotive>
+    <locomotive id="Baldwin 4-6-0 Steam" fileName="Baldwin_4_6_0_Steam.xml" roadNumber="1590" roadName="Union Pacific" mfg="Bachmann" owner="Mike Dean" model="51454" dccAddress="1590" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2015-08-15T14:48:22Z</dateUpdated>
+      <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="1590" longaddress="yes" />
+        <number>1590</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true">Headlights</functionlabel>
+        <functionlabel num="1" lockable="true">Dim Lights</functionlabel>
+      </functionlabels>
+    </locomotive>
+    <locomotive id="Big Boy 4-8-8-4" fileName="Big_Boy_4_8_8_4.xml" roadNumber="4023" roadName="Union Pacific" mfg="Athearn" owner="Mike Dean" model="22904" dccAddress="4023" comment="$418&lt;?p?&gt;Had to return to Athearn for repairs" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2015-08-15T22:47:43Z</dateUpdated>
+      <decoder model="Bigboy 4-8-8-4" family="Tsunami Steam Genesis OEM" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="4023" longaddress="yes" />
+        <number>4023</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true">Bell</functionlabel>
+        <functionlabel num="2" lockable="false">Whistle</functionlabel>
+        <functionlabel num="3" lockable="true">Short Whistle</functionlabel>
+        <functionlabel num="4" lockable="true">Steam Release</functionlabel>
+        <functionlabel num="5" lockable="true">FX5 Light</functionlabel>
+        <functionlabel num="6" lockable="true">FX6/# Board Light</functionlabel>
+        <functionlabel num="7" lockable="true">Dimmer</functionlabel>
+        <functionlabel num="8" lockable="true">Mute</functionlabel>
+        <functionlabel num="9" lockable="true">Brake Squeal</functionlabel>
+        <functionlabel num="10" lockable="true">Coupler</functionlabel>
+        <functionlabel num="11" lockable="true">Injectors</functionlabel>
+        <functionlabel num="12" lockable="true">Water Stop</functionlabel>
+      </functionlabels>
+    </locomotive>
+    <locomotive id="Challenger" fileName="Challenger.xml" roadNumber="3985" roadName="Union Pacific" mfg="Athearn" owner="Mike Dean" model="" dccAddress="3985" comment="$411" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2015-08-15T14:59:33Z</dateUpdated>
+      <decoder model="Challenger 4-6-6-4" family="Tsunami Steam Genesis OEM" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="3985" longaddress="yes" />
+        <number>3985</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true">Bell</functionlabel>
+        <functionlabel num="2" lockable="false">Whistle</functionlabel>
+        <functionlabel num="3" lockable="true">Short Whistle</functionlabel>
+        <functionlabel num="4" lockable="true">Steam Release</functionlabel>
+        <functionlabel num="5" lockable="true">FX5 Light</functionlabel>
+        <functionlabel num="6" lockable="true">FX6/# Board Light</functionlabel>
+        <functionlabel num="7" lockable="true">Dimmer</functionlabel>
+        <functionlabel num="8" lockable="true">Mute</functionlabel>
+        <functionlabel num="9" lockable="true">Brake Squeal</functionlabel>
+        <functionlabel num="10" lockable="true">Coupler</functionlabel>
+        <functionlabel num="11" lockable="true">Injectors</functionlabel>
+        <functionlabel num="12" lockable="true">Water Stop</functionlabel>
+      </functionlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2018-07-21T18:27:31Z</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>2470</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="EMD DD40AX 6900" fileName="EMD_DD40AX_6900.xml" roadNumber="6900" roadName="Union Pacific" mfg="Bachmann" owner="Mike Dean" model="65151" dccAddress="6900" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2015-08-15T22:31:39Z</dateUpdated>
+      <decoder model="EMD DD40AX" family="Bachmann Sound Value" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="6900" longaddress="yes" />
+        <number>6900</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true">Bell</functionlabel>
+        <functionlabel num="2" lockable="false">Air Horn</functionlabel>
+        <functionlabel num="3" lockable="true">Short Horn</functionlabel>
+        <functionlabel num="4" lockable="true">Dynamic Brake</functionlabel>
+        <functionlabel num="5" lockable="true">Flashing Light</functionlabel>
+        <functionlabel num="6" lockable="true">Lighted # Boards</functionlabel>
+        <functionlabel num="7" lockable="true">Dimming</functionlabel>
+        <functionlabel num="8" lockable="true">Mute</functionlabel>
+      </functionlabels>
+    </locomotive>
+    <locomotive id="EMD DD40AX 6929" fileName="EMD_DD40AX_6929.xml" roadNumber="6929" roadName="Union Pacific" mfg="Bachmann" owner="Mike Dean" model="65152" dccAddress="6929" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2015-08-15T22:21:52Z</dateUpdated>
+      <decoder model="EMD DD40AX" family="Bachmann Sound Value" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="6929" longaddress="yes" />
+        <number>6929</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true">Bell</functionlabel>
+        <functionlabel num="2" lockable="true">Air Horn</functionlabel>
+        <functionlabel num="3" lockable="true">Short Horn</functionlabel>
+        <functionlabel num="4" lockable="true">Dynamic Brake</functionlabel>
+        <functionlabel num="5" lockable="true">Flashing Light</functionlabel>
+        <functionlabel num="6" lockable="true">Lighted # Boards</functionlabel>
+        <functionlabel num="7" lockable="true">Dimming</functionlabel>
+        <functionlabel num="8" lockable="true">Mute</functionlabel>
+      </functionlabels>
+    </locomotive>
+    <locomotive id="EMD DD40AX 6940" fileName="EMD_DD40AX_6940.xml" roadNumber="6940" roadName="Union Pacific" mfg="Bachmann" owner="Mike Dean" model="" dccAddress="6940" comment="$125" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2015-08-15T14:59:41Z</dateUpdated>
+      <decoder model="EMD DD40AX" family="Bachmann Sound Value" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="6940" longaddress="yes" />
+        <number>6940</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true">Bell</functionlabel>
+        <functionlabel num="2" lockable="false">Air Horn</functionlabel>
+        <functionlabel num="3" lockable="true">Short Horn</functionlabel>
+        <functionlabel num="4" lockable="true">Dynamic Brake</functionlabel>
+        <functionlabel num="5" lockable="true">Flashing Light</functionlabel>
+        <functionlabel num="6" lockable="true">Lighted # Boards</functionlabel>
+        <functionlabel num="7" lockable="true">Dimming</functionlabel>
+        <functionlabel num="8" lockable="true">Mute</functionlabel>
+      </functionlabels>
+    </locomotive>
+    <locomotive id="F7A Diesel 317-A" fileName="F7A_Diesel_317_A.xml" roadNumber="317-A" roadName="Great Northern" mfg="Bachmann" owner="Mike Dean" model="" dccAddress="317" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2016-03-27T18:16:37Z</dateUpdated>
+      <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="317" longaddress="yes" />
+        <number>317</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+    </locomotive>
+    <locomotive id="FEF-3 Steam 844" fileName="FEF_3_Steam_844.xml" roadNumber="844" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="126-0401-1" dccAddress="844" comment="$264" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2015-08-15T19:30:20Z</dateUpdated>
+      <decoder model="K6D4" family="Jan 2012" comment="TCS K6D4 installed by Kato" />
+      <locoaddress>
+        <dcclocoaddress number="844" longaddress="yes" />
+        <number>844</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true">Headlights</functionlabel>
+      </functionlabels>
+    </locomotive>
+    <locomotive id="GE 44 Ton Yellow" fileName="GE_44_Ton_Yellow.xml" roadNumber="Unnumbered" roadName="Unlettered" mfg="Bachmann Spectrum" owner="Mike Dean" model="" dccAddress="1111" comment="Unnumbered and unlettered" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2015-08-15T15:00:39Z</dateUpdated>
+      <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="1111" longaddress="yes" />
+        <number>1111</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true">Headlights</functionlabel>
+        <functionlabel num="1" lockable="true">Dim Lights</functionlabel>
+      </functionlabels>
+    </locomotive>
+    <locomotive id="GE 70 Ton Green" fileName="GE_70_Ton_Green.xml" roadNumber="Unnumbered" roadName="Unlettered" mfg="Bachmann Spectrum" owner="Mike Dean" model="82053" dccAddress="3333" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2015-08-15T22:55:39Z</dateUpdated>
+      <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="3333" longaddress="yes" />
+        <number>3333</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true">Headlights</functionlabel>
+        <functionlabel num="1" lockable="true">Dim Lights</functionlabel>
+      </functionlabels>
+    </locomotive>
+    <locomotive id="GE 70 Ton Red" fileName="GE_70_Ton_Red.xml" roadNumber="Unnumbered" roadName="Unlettered" mfg="Bachmann Spectrum" owner="Mike Dean" model="82052" dccAddress="2222" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2015-08-15T22:50:25Z</dateUpdated>
+      <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="2222" longaddress="yes" />
+        <number>2222</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true">Headlights</functionlabel>
+        <functionlabel num="1" lockable="true">Dim Lights</functionlabel>
+      </functionlabels>
+    </locomotive>
+    <locomotive id="GE ES44AC &quot;GEVO&quot;" fileName="UP_GEVO.xml" roadNumber="5542" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="" dccAddress="5542" comment="Most reliable engine" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2018-07-08T15:55:45Z</dateUpdated>
+      <decoder model="DN163K1C" family="Series 3 with FX3, silent, readback" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="5542" longaddress="yes" />
+        <number>5542</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true">Headlight</functionlabel>
+      </functionlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2018-07-21T18:12:52Z</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>465</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="GE ES44AC &quot;Thunder&quot;" fileName="GE_ES44AC_Diesel.xml" roadNumber="8096" roadName="Union Pacific" mfg="Broadway Limited" owner="Mike Dean" model="" dccAddress="8096" comment="While this has a Rolling Thunder decoder, if I select that decoder then I cannot edit the motor settings." maxSpeed="100" imageFilePath="" iconFilePath="" URL="http://www.rrpicturearchives.net/showPicture.aspx?id=3608369" IsShuntingOn="">
+      <dateUpdated>2018-07-08T16:11:44Z</dateUpdated>
+      <decoder model="Diesel" family="Paragon 3" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="8096" longaddress="yes" />
+        <number>8096</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true">Bell</functionlabel>
+        <functionlabel num="2" lockable="false">Horn</functionlabel>
+        <functionlabel num="3" lockable="true">Coupler</functionlabel>
+        <functionlabel num="4" lockable="true">Compressor</functionlabel>
+        <functionlabel num="5" lockable="true">RPM Up</functionlabel>
+        <functionlabel num="6" lockable="true">RPM Dn</functionlabel>
+        <functionlabel num="7" lockable="true">Smoke Control</functionlabel>
+        <functionlabel num="8" lockable="true">Mute/Master Volume</functionlabel>
+        <functionlabel num="9" lockable="true">Shutdown and Startup</functionlabel>
+        <functionlabel num="10" lockable="true">Cooling Fan</functionlabel>
+        <functionlabel num="11" lockable="true">Air Release</functionlabel>
+        <functionlabel num="12" lockable="true">Brake Set/Release/Squeal</functionlabel>
+        <functionlabel num="13" lockable="true">Horn Grade Crossing</functionlabel>
+        <functionlabel num="14" lockable="true">Station Sounds</functionlabel>
+        <functionlabel num="15" lockable="true">Yard Sounds</functionlabel>
+        <functionlabel num="16" lockable="true">Maintenance Sounds</functionlabel>
+        <functionlabel num="17" lockable="true">Radio Chatter</functionlabel>
+        <functionlabel num="18" lockable="true">City Sounds</functionlabel>
+        <functionlabel num="19" lockable="true">Farm Sounds</functionlabel>
+        <functionlabel num="20" lockable="true">Industrial Sounds</functionlabel>
+        <functionlabel num="21" lockable="true">Lumber Sounds</functionlabel>
+        <functionlabel num="22" lockable="true">Horn2</functionlabel>
+        <functionlabel num="23" lockable="true">Track Sounds</functionlabel>
+        <functionlabel num="24" lockable="true">Aux Light Control</functionlabel>
+        <functionlabel num="25" lockable="true">Long Horn</functionlabel>
+        <functionlabel num="26" lockable="true">Play Macro</functionlabel>
+        <functionlabel num="27" lockable="true">Record Macro</functionlabel>
+        <functionlabel num="28" lockable="true">Brake Squeal</functionlabel>
+      </functionlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2018-09-03T21:46:00Z</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>252251</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="GP 35 UP 744" fileName="GP_38_UP_744.xml" roadNumber="" roadName="Union Pacific" mfg="" owner="Mike Dean" model="" dccAddress="744" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2018-07-07T00:19:01Z</dateUpdated>
+      <decoder model="N12A2-ATL by NCE" family="Atlas N-Scale" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="744" longaddress="yes" />
+        <number>744</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2018-07-06T23:56:13Z</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>214</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="GP 35 UP 749" fileName="Union_Pacific_749.xml" roadNumber="749" roadName="Union Pacific" mfg="Atlas" owner="Mike Dean" model="" dccAddress="749" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2016-08-28T21:50:39Z</dateUpdated>
+      <decoder model="N12A2-ATL by NCE" family="Atlas N-Scale" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="749" longaddress="yes" />
+        <number>749</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>Sun Aug 28 13:42:20 MDT 2016</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>31</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="GP7 Diesel" fileName="GP7_Diesel.xml" roadNumber="5102" roadName="Rio Grande" mfg="Bachmann" owner="Mike Dean" model="62458" dccAddress="5102" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2016-06-10T22:41:00Z</dateUpdated>
+      <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="5102" longaddress="yes" />
+        <number>5102</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+    </locomotive>
+    <locomotive id="GP7 UP 116" fileName="GP7_UP_116.xml" roadNumber="" roadName="" mfg="" owner="Mike Dean" model="" dccAddress="116" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2018-09-09T16:53:24Z</dateUpdated>
+      <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="116" longaddress="yes" />
+        <number>116</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2018-09-09T17:06:13Z</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>44</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="Great Northern 147" fileName="Great_Northern_147.xml" roadNumber="147" roadName="Great Northern" mfg="Bachmann" owner="Mike Dean" model="" dccAddress="147" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2016-03-27T18:02:55Z</dateUpdated>
+      <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="147" longaddress="yes" />
+        <number>147</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true">Dim Lights (?)</functionlabel>
+      </functionlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>Thu Aug 13 20:51:46 MDT 2015</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>7</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="P42 Amtrak Phase IV" fileName="P42_Amtrak_Phase_IV.xml" roadNumber="16" roadName="Amtrak" mfg="Kato" owner="Mike Dean" model="" dccAddress="16" comment="Complete set for Amfleet and Viewliner train" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2015-08-15T23:27:43Z</dateUpdated>
+      <decoder model="DN163K0A" family="Series 3 with FX3, silent, readback" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="16" longaddress="yes" />
+        <number>16</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true">Headlights</functionlabel>
+        <functionlabel num="1" lockable="true">Dim Lights</functionlabel>
+      </functionlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2018-07-21T05:04:53Z</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>731</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="RG 5327 SD45" fileName="RG_5327_SD45.xml" roadNumber="5327" roadName="Rio Grande" mfg="Kato" owner="Mike Dean" model="176-3123" dccAddress="5327" comment="Bought used from Cameron." maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2016-08-14T22:11:24Z</dateUpdated>
+      <decoder model="DN163K1C" family="Series 3 with FX3, silent, readback" comment="Installed myself." />
+      <locoaddress>
+        <dcclocoaddress number="5327" longaddress="yes" />
+        <number>5327</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+    </locomotive>
+    <locomotive id="RG 5334" fileName="RG_5334.xml" roadNumber="5334" roadName="Rio Grande" mfg="Kato" owner="Mike Dean" model="" dccAddress="5334" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2016-08-14T22:15:03Z</dateUpdated>
+      <decoder model="DN163K1C" family="Series 3 with FX3, silent, readback" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="5334" longaddress="yes" />
+        <number>5334</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+    </locomotive>
+    <locomotive id="SP 8584 SD45" fileName="SP_8584_SD45.xml" roadNumber="8584" roadName="Southern Pacific" mfg="Kato" owner="Mike Dean" model="176-3131" dccAddress="8584" comment="Purchased used as DC from Cameron." maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2016-08-14T17:07:01Z</dateUpdated>
+      <decoder model="DN163K1C" family="Series 3 with FX3, silent, readback" comment="Installed myself." />
+      <locoaddress>
+        <dcclocoaddress number="8584" longaddress="yes" />
+        <number>8584</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+    </locomotive>
+    <locomotive id="USRA 2-8-2 Mikado" fileName="USRA_2_8_2_Mikado_Updated.xml" roadNumber="746" roadName="Southern Pacific Lines" mfg="MRC" owner="Mike Dean" model="" dccAddress="746" comment="Updated decoder definition." maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2016-06-10T23:47:44Z</dateUpdated>
+      <decoder model="1961 - N Scale - Model Power Pacific/Mikado" family="Sound Decoders - N Scale" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="746" longaddress="yes" />
+        <number>746</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true">Bell</functionlabel>
+        <functionlabel num="2" lockable="false">Whistle</functionlabel>
+        <functionlabel num="3" lockable="false">Long Air Release</functionlabel>
+        <functionlabel num="4" lockable="false">Coupling</functionlabel>
+        <functionlabel num="5" lockable="false">Brake squeal/release</functionlabel>
+        <functionlabel num="6" lockable="true">Chuff sound on/off</functionlabel>
+        <functionlabel num="7" lockable="false">Fire box</functionlabel>
+        <functionlabel num="8" lockable="false">Water injector</functionlabel>
+        <functionlabel num="9" lockable="false">Metal crank/Steam</functionlabel>
+        <functionlabel num="10" lockable="false">Water filling</functionlabel>
+        <functionlabel num="11" lockable="false">Blower hiss</functionlabel>
+        <functionlabel num="12" lockable="true">All sounds on/off</functionlabel>
+        <functionlabel num="13" lockable="false">Master vol. reduce by 2</functionlabel>
+        <functionlabel num="14" lockable="false">Master vol. increase by 2</functionlabel>
+        <functionlabel num="15" lockable="false">Flange noise</functionlabel>
+        <functionlabel num="16" lockable="false">Shoveling</functionlabel>
+        <functionlabel num="17" lockable="false">Coal auger</functionlabel>
+        <functionlabel num="18" lockable="false">Bell type select</functionlabel>
+        <functionlabel num="19" lockable="false">Whistle type select</functionlabel>
+        <functionlabel num="20" lockable="false">Air hose firing/uncoupling lever</functionlabel>
+        <functionlabel num="21" lockable="false">Flange noise</functionlabel>
+        <functionlabel num="22" lockable="false">Associated loco sound</functionlabel>
+        <functionlabel num="23" lockable="false">Flange noise</functionlabel>
+        <functionlabel num="24" lockable="false">Chuff type select</functionlabel>
+        <functionlabel num="25" lockable="false">Long air release</functionlabel>
+        <functionlabel num="26" lockable="false">Sand dropping</functionlabel>
+        <functionlabel num="27" lockable="false">Associated loco sound</functionlabel>
+        <functionlabel num="28" lockable="false">Associated loco sound</functionlabel>
+      </functionlabels>
+    </locomotive>
+    <locomotive id="WP GP 40-2 3546" fileName="WP_GP_40_2_3546.xml" roadNumber="3546" roadName="Western Pacific" mfg="Atlas" owner="Mike Dean" model="" dccAddress="3" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2016-08-12T23:45:34Z</dateUpdated>
+      <decoder model="AN12A0 by NCE (Part #518299)" family="Atlas N-Scale" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="3" longaddress="no" />
+        <number>3</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+    </locomotive>
+    <locomotive id="WP GP 40-2 3548" fileName="WP_GP_40_2_3548.xml" roadNumber="3548" roadName="Western Pacific" mfg="Atlas" owner="Mike Dean" model="" dccAddress="3" comment="Purchased $65&#x9;&#x9;&#x9;" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2016-08-13T00:59:16Z</dateUpdated>
+      <decoder model="N12A1-ATL by NCE" family="Atlas N-Scale" comment="Actually is AN12A0 by NCE, not N12A1" />
+      <locoaddress>
+        <dcclocoaddress number="3" longaddress="no" />
+        <number>3</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+    </locomotive>
+    <locomotive id="WP GP 40-2 3549" fileName="WP_GP_40_2_3549.xml" roadNumber="3549" roadName="Western Pacific" mfg="Atlas" owner="Mike Dean" model="" dccAddress="3" comment="Purchased $45&#x9;&#x9;&#x9;" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2016-08-13T00:35:48Z</dateUpdated>
+      <decoder model="N12A1-ATL by NCE" family="Atlas N-Scale" comment="Unsure of model" />
+      <locoaddress>
+        <dcclocoaddress number="3" longaddress="no" />
+        <number>3</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>Sun Aug 28 13:32:20 MDT 2016</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>11</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+  </roster>
+</roster-config>
