@@ -5,4 +5,5 @@
             <options/>
         </connection>
     </connections>
+    <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd"/>
 </auxiliary-configuration>

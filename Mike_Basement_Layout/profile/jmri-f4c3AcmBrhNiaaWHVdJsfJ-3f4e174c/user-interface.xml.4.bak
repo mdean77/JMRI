@@ -3,6 +3,7 @@
     <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
         <preferences xmlns="" class="jmri.jmrit.beantable.SignalMastTableAction"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.LogixTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TurnoutTableAction"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.LRouteTableAction"/>
         <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction"/>
@@ -39,7 +40,7 @@
         <window xmlns="" class="PanelPro" height="231.0" locX="476.0" locY="334.0" width="487.0"/>
         <window xmlns="" class="Local JMRI throttles" height="222.0" locX="44.0" locY="23.0" width="320.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$4:ALCO 2-6-0 Steam" height="669.0" locX="66.0" locY="24.0" width="981.0"/>
-        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="484.0" locX="43.0" locY="23.0" width="554.0"/>
+        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="484.0" locX="44.0" locY="23.0" width="554.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="115.0" locY="171.0" width="1024.0">
             <properties>
                 <property>
