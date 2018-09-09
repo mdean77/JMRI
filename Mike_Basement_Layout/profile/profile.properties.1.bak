@@ -1,5 +1,5 @@
 #JMRI Preferences version 4.12+Rb6a9bb1
-#Sun Sep 09 11:10:50 MDT 2018
+#Sun Sep 09 16:11:34 MDT 2018
 apps-gui.fontSize=0
 apps-gui.graphicTableState=false
 apps-gui.locale=en-US
@@ -11,7 +11,7 @@ apps-systemconsole.fontSize=12
 apps-systemconsole.fontStyle=0
 apps-systemconsole.scheme=0
 apps-systemconsole.wrapStyle=2
-jmri-implementation.scripts=program\:jython/
+jmri-implementation.scripts=home\:JMRI/jython/
 jmri-implementation.user-files=profile\:
 jmri-jmris-json.heartbeatInterval=15000
 jmri-jmris-json.port=2056
@@ -28,12 +28,12 @@ jmri-jmrit-symbolicprog.showCvNumbers=false
 jmri-jmrit-symbolicprog.showEmptyPanes=true
 jmri-jmrix-loconet-loconetovertcp.port=1234
 jmri-managers.allInternalDefaults=false
-jmri-managers.defaults.jmri-AddressedProgrammerManager=NCE
+jmri-managers.defaults.jmri-AddressedProgrammerManager=Internal
 jmri-managers.defaults.jmri-CommandStation=NCE
-jmri-managers.defaults.jmri-ConsistManager=NCE
-jmri-managers.defaults.jmri-GlobalProgrammerManager=NCE
-jmri-managers.defaults.jmri-PowerManager=NCE
-jmri-managers.defaults.jmri-ThrottleManager=NCE
+jmri-managers.defaults.jmri-ConsistManager=Internal
+jmri-managers.defaults.jmri-GlobalProgrammerManager=Internal
+jmri-managers.defaults.jmri-PowerManager=Internal
+jmri-managers.defaults.jmri-ThrottleManager=Internal
 jmri-web-server.allowRemoteConfig=false
 jmri-web-server.clickDelay=1
 jmri-web-server.disableFrames=true

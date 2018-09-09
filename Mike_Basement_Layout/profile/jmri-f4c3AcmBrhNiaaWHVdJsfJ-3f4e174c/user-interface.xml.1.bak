@@ -20,9 +20,7 @@
         <comboBox xmlns="" lastSelected="NCE USB" name="NCE"/>
         <comboBox xmlns="" lastSelected="19,200 baud" name="jmri.jmrix.nce.usbdriver.UsbDriverAdapter.baud"/>
     </comboBoxLastValue>
-    <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd">
-        <setting xmlns="">apps.gui3.dp3.DecoderPro3Window.hideGroups</setting>
-    </settings>
+    <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd"/>
     <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd"/>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
         <window xmlns="" class="apps.gui3.TabbedPreferencesFrame:Preferences" height="464.0" locX="143.0" locY="203.0" width="937.0"/>
@@ -36,15 +34,15 @@
             </properties>
         </window>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
-        <window xmlns="" class="PanelPro" height="231.0" locX="476.0" locY="334.0" width="487.0"/>
-        <window xmlns="" class="Local JMRI throttles" height="222.0" locX="44.0" locY="23.0" width="320.0"/>
+        <window xmlns="" class="PanelPro" height="231.0" locX="590.0" locY="669.0" width="487.0"/>
+        <window xmlns="" class="Local JMRI throttles" height="222.0" locX="47.0" locY="23.0" width="320.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$4:ALCO 2-6-0 Steam" height="669.0" locX="66.0" locY="24.0" width="981.0"/>
-        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="484.0" locX="44.0" locY="23.0" width="554.0"/>
-        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="115.0" locY="171.0" width="1024.0">
+        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="484.0" locX="47.0" locY="23.0" width="554.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="64.0" locY="54.0" width="1024.0">
             <properties>
                 <property>
                     <key>selectedProgrammer</key>
-                    <value class="java.lang.String">edit</value>
+                    <value class="java.lang.String">service</value>
                 </property>
             </properties>
         </window>

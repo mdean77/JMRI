@@ -3,7 +3,6 @@
     <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
         <preferences xmlns="" class="jmri.jmrit.beantable.SignalMastTableAction"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.LogixTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.TurnoutTableAction"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.LRouteTableAction"/>
         <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction"/>
@@ -20,11 +19,26 @@
     <comboBoxLastValue xmlns="http://jmri.org/xml/schema/auxiliary-configuration/combobox-4-3-5.xsd">
         <comboBox xmlns="" lastSelected="Simulator" name="NCE"/>
     </comboBoxLastValue>
-    <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd"/>
+    <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd">
+        <setting xmlns="">jmri.jmrit.roster.swing.RosterFrame.hideGroups</setting>
+    </settings>
+    <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
+        <table xmlns="" name="jmri.jmrit.roster.swing.RosterFrame:Roster:roster">
+            <columns/>
+        </table>
+    </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
         <window xmlns="" class="apps.gui3.TabbedPreferencesFrame:Preferences" height="464.0" locX="167.0" locY="44.0" width="937.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
         <window xmlns="" class="PanelPro" height="231.0" locX="476.0" locY="334.0" width="487.0"/>
         <window xmlns="" class="Local JMRI throttles" height="222.0" locX="44.0" locY="23.0" width="320.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="44.0" locY="23.0" width="1024.0">
+            <properties>
+                <property>
+                    <key>selectedProgrammer</key>
+                    <value class="java.lang.String">service</value>
+                </property>
+            </properties>
+        </window>
     </windowDetails>
 </auxiliary-configuration>
