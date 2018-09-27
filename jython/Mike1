@@ -1,0 +1,21 @@
+import jmri
+
+class Mike1(jmri.jmrit.automat.AbstractAutomaton):
+	def init(self):
+		print("Inside init self")
+		self.throttle = self.getThrottle(5542,True)
+		return
+
+	def handle(self):
+		print("Inside handle self")
+		self.throttle.setIsForward(True)
+		print("Forward")
+		self.throttle.setSpeedSetting(1.0)
+		self.waitMsec(10000)
+		self.throttle.setIsForward(False)
+		print("Reverse")
+		self.waitMsec(10000)
+		self.throttle.setSpeedSetting(0)
+		return False
+		
+Mike1().start()

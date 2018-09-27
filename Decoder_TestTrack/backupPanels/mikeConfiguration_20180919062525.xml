@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>12</minor>
+    <test>0</test>
+    <modifier />
+  </jmriversion>
+  <sensors class="jmri.jmrix.nce.configurexml.NceSensorManagerXml">
+    <sensor inverted="false">
+      <systemName>NS144</systemName>
+      <userName>Block 1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS145</systemName>
+      <userName>Block 2</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS146</systemName>
+      <userName>Block 3</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS147</systemName>
+      <userName>Block 4</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS148</systemName>
+      <userName>Block 5</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS149</systemName>
+      <userName>Block 6</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS150</systemName>
+      <userName>Block 7</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS151</systemName>
+      <userName>Block 8</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS152</systemName>
+      <userName>Block 9</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS153</systemName>
+      <userName>Block 10</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS154</systemName>
+      <userName>Block 11</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS155</systemName>
+      <userName>Block 12</userName>
+    </sensor>
+  </sensors>
+  <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
+    <defaultInitialState>unknown</defaultInitialState>
+    <sensor inverted="false">
+      <systemName>ISCLOCKRUNNING</systemName>
+    </sensor>
+  </sensors>
+  <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
+    <memory value="7:14 AM">
+      <systemName>IMCURRENTTIME</systemName>
+    </memory>
+    <memory value="1.0">
+      <systemName>IMRATEFACTOR</systemName>
+    </memory>
+  </memories>
+  <signalmasts class="jmri.managers.configurexml.DefaultSignalMastManagerXml" />
+  <signalgroups class="jmri.managers.configurexml.DefaultSignalGroupManagerXml" />
+  <oblocks class="jmri.jmrit.logix.configurexml.OBlockManagerXml" />
+  <warrants class="jmri.jmrit.logix.configurexml.WarrantManagerXml" />
+  <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
+    <logicDelay>500</logicDelay>
+  </signalmastlogics>
+  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Fri Sep 14 07:27:27 MDT 2018" rate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startsettime="no" startclockoption="0" showbutton="no" />
+  <filehistory>
+    <operation>
+      <type>app</type>
+      <date>Tue Sep 18 07:10:48 MDT 2018</date>
+      <filename>JMRI program</filename>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Tue Sep 18 07:10:52 MDT 2018</date>
+      <filename>/home/pi/JMRI/Decoder_TestTrack/mikeConfiguration.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Fri Sep 14 07:27:26 MDT 2018</date>
+          <filename>JMRI program</filename>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Fri Sep 14 07:45:55 MDT 2018</date>
+          <filename />
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
+      <type>Store</type>
+      <date>Tue Sep 18 07:14:43 MDT 2018</date>
+      <filename />
+    </operation>
+  </filehistory>
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Tue Sep 18 07:14:43 MDT 2018-->
+</layout-config>
