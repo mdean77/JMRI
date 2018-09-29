@@ -10,7 +10,7 @@ class Mike1(jmri.jmrit.automat.AbstractAutomaton):
 		self.DecoderType = "Default"
 		return
 
-	def handle(self):
+    def readDecoder(self):
 		print ("Reading Locomotive...")
 		self.val29 = self.readServiceModeCV("29")
 		print ("CV 29 = ", self.val29)
@@ -46,7 +46,12 @@ class Mike1(jmri.jmrit.automat.AbstractAutomaton):
 			self.DecoderType = self.DecoderMap[self.mfrID]
 		else:
 			self.DecoderType = "Unknown"
-			
+            
+        return
+        
+	def handle(self):
+
+		self.readDecoder(self)	
 		print ("The Locomotive Address is: ", self.address)
 		print ("The Manufacturer is: ", self.DecoderType)
 		print ("The Manufacturer ID is: ", self.mfrID)
