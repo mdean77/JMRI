@@ -10,7 +10,7 @@ class Mike1(jmri.jmrit.automat.AbstractAutomaton):
 		self.DecoderType = "Default"
 		return
 
-    def readDecoder(self):
+    	def readDecoder(self):
 		print ("Reading Locomotive...")
 		self.val29 = self.readServiceModeCV("29")
 		print ("CV 29 = ", self.val29)
@@ -47,18 +47,65 @@ class Mike1(jmri.jmrit.automat.AbstractAutomaton):
 		else:
 			self.DecoderType = "Unknown"
             
-        return
-        
+        	return
+
+	def attachProgrammer(self):
+		self.programmer = addressedProgrammers.getAddressedProgrammer(self.long, self.address)
+		return
+
+	def myCVListener(self, value, status) :
+		self.writeLock = False
+		return
+	
+ 	def testbedWriteCV(self, cv, value) :
+		self.writeLock = True
+		self.programmer.writeCV(cv, value, self.myCVListener)
+		while (self.writeLock) :	# will be set to False by myCVListener()
+			pass
+		return
+ 
+	def attachThrottle(self):
+		self.throttle = self.getThrottle(self.address, self.long)
+		if (self.throttle == None) :
+			print ("ERROR: Couldn't assign throttle!")
+		else :
+			print ("Trottle assigned to locomotive: ", self.address)
+		return
+
+	def warmUpEngine(self):
+		self.attachThrottle()
+		self.throttle.setIsForward(True)
+		self.throttle.setSpeedSetting(1.0)
+		self.waitMsec(10000)
+		self.throttle.setSpeedSetting(0)
+		return
+	
+	      
 	def handle(self):
 
-		self.readDecoder(self)	
+		self.readDecoder()	
 		print ("The Locomotive Address is: ", self.address)
 		print ("The Manufacturer is: ", self.DecoderType)
 		print ("The Manufacturer ID is: ", self.mfrID)
 		print ("The Manufacturer Version is: ", self.mfrVersion)
 		print ("The Current Private ID is ", self.val105, ", ", self.val106)
+		#self.warmUpEngine()
+		#self.readDecoder()
+		self.attachThrottle()
+		self.attachProgrammer()
+		self.throttle.setIsForward(True)
+		self.throttle.setSpeedSetting(1.0)
+		self.waitMsec(5000)
+		self.testbedWriteCV(94, 250)
 
+		self.waitMsec(5000)
+		self.testbedWriteCV(94, 100)
 
+		self.waitMsec(5000)
+		self.testbedWriteCV(94, 50)
+
+		self.waitMsec(5000)
+		self.throttle.setSpeedSetting(0)
 		return False
 		
 Mike1().start()

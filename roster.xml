@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sun Sep 09 16:17:36 MDT 2018-->
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sat Sep 29 17:12:10 MDT 2018-->
   <roster>
     <locomotive id="1029 NW2 Switcher" fileName="1029_NW2_Switcher.xml" roadNumber="1029" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="176-4374" dccAddress="1029" comment="$92 plus decoder" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T14:58:45Z</dateUpdated>
@@ -391,8 +391,8 @@
         <functionlabel num="1" lockable="true">Dim Lights</functionlabel>
       </functionlabels>
     </locomotive>
-    <locomotive id="GE ES44AC &quot;GEVO&quot;" fileName="UP_GEVO.xml" roadNumber="5542" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="" dccAddress="5542" comment="Most reliable engine" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2018-07-08T15:55:45Z</dateUpdated>
+    <locomotive id="GE ES44AC &quot;GEVO&quot;" fileName="UP_GEVO.xml" roadNumber="5542" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="" dccAddress="5542" comment="Most reliable engine" maxSpeed="49" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2018-09-29T23:11:53Z</dateUpdated>
       <decoder model="DN163K1C" family="Series 3 with FX3, silent, readback" comment="" />
       <locoaddress>
         <dcclocoaddress number="5542" longaddress="yes" />
@@ -400,7 +400,7 @@
         <protocol>dcc_long</protocol>
       </locoaddress>
       <functionlabels>
-        <functionlabel num="0" lockable="true">Headlight</functionlabel>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
       </functionlabels>
       <attributepairs>
         <keyvaluepair>
