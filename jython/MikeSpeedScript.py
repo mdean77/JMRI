@@ -46,19 +46,19 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.fullSpeed = 100
 
 		# JMD:  I changed the sensor numbering since I will only have 12 blocks.
-		self.sensor1 = sensors.provideSensor("Block:1")
-		self.sensor2 = sensors.provideSensor("Block:2")
-		self.sensor3 = sensors.provideSensor("Block:3")
-		self.sensor4 = sensors.provideSensor("Block:4")
-		self.sensor5 = sensors.provideSensor("Block:5")
-		self.sensor6 = sensors.provideSensor("Block:6")
-		self.sensor7 = sensors.provideSensor("Block:7")
-		self.sensor8 = sensors.provideSensor("Block:8")
-		self.sensor9 = sensors.provideSensor("Block:9")
-		self.sensor10 = sensors.provideSensor("Block:10")
-		self.sensor11 = sensors.provideSensor("Block:11")
-		self.sensor12 = sensors.provideSensor("Block:12")
-		self.homesensor = sensors.provideSensor("Block:12")
+		self.sensor1 = sensors.provideSensor("Block 1")
+		self.sensor2 = sensors.provideSensor("Block 2")
+		self.sensor3 = sensors.provideSensor("Block 3")
+		self.sensor4 = sensors.provideSensor("Block 4")
+		self.sensor5 = sensors.provideSensor("Block 5")
+		self.sensor6 = sensors.provideSensor("Block 6")
+		self.sensor7 = sensors.provideSensor("Block 7")
+		self.sensor8 = sensors.provideSensor("Block 8")
+		self.sensor9 = sensors.provideSensor("Block 9")
+		self.sensor10 = sensors.provideSensor("Block 10")
+		self.sensor11 = sensors.provideSensor("Block 11")
+		self.sensor12 = sensors.provideSensor("Block 12")
+		self.homesensor = sensors.provideSensor("Block 12")
 
 		# Different block sizes for different speeds or it would take
 		# forever to do the low speed if loco had to circle whole track
@@ -168,6 +168,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		return
 
  	def waitNextActiveSensor(self, sensorlist) :
+		print("Inside waitNextActiveSensor")
 		inactivesensors = []
 		
 		if (len(sensorlist) == 1) :
@@ -186,7 +187,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		if (self.throttle == None) :
 			print ("ERROR: Couldn't assign throttle!")
 		else :
-			print ("Trottle assigned to locomotive: ", self.address)
+			print ("Throttle assigned to locomotive: ", self.address)
 		return
 
 	def warmUpEngine(self):
@@ -203,9 +204,10 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.waitMsec(250)
 		self.throttle.setSpeedSetting(1.0)
 
-		print ("Wait for the locomotive to get to block", self.homesensor_num, "after", self.warmupLaps, "laps...")
+		print ("Wait for the locomotive to get to",self.homesensor,"after",self.warmupLaps,"laps...")
 
 		for x in range (0, self.warmupLaps) :
+			print("loop number",x)
 			self.waitNextActiveSensor([self.homesensor])
 
 		print ("Stop the locomotive")
@@ -222,13 +224,16 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			for x in range (0, self.warmupLaps) :
 				self.waitNextActiveSensor([self.homesensor])
 
+			print ("Stop the locomotive")
+			self.throttle.setSpeedSetting(0.0)
+
 		return
 	
 	      
 	def handle(self):
-		topspeed = float(self.MaxSpeed.text)/100
-		print ("Top Target Speed is ", self.MaxSpeed.text, "MPH")
-		self.status.text = "Locomotive Setup"
+		
+		#topspeed = float(self.MaxSpeed.text)/100
+		#print ("Top Target Speed is ", self.MaxSpeed.text, "MPH")
 
 		self.readDecoder()	
 		print ("The Locomotive Address is: ", self.address)
@@ -237,23 +242,9 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		print ("The Manufacturer Version is: ", self.mfrVersion)
 		print ("The Current Private ID is ", self.val105, ", ", self.val106)
 
-		#self.warmUpEngine()
-		#self.readDecoder()
-		self.attachThrottle()
-		self.attachProgrammer()
-		self.throttle.setIsForward(True)
-		self.throttle.setSpeedSetting(1.0)
-		self.waitMsec(5000)
-		self.testbedWriteCV(94, 250)
+		self.warmUpEngine()
+		
 
-		self.waitMsec(5000)
-		self.testbedWriteCV(94, 100)
-
-		self.waitMsec(5000)
-		self.testbedWriteCV(94, 50)
-
-		self.waitMsec(5000)
-		self.throttle.setSpeedSetting(0)
 		return False
 		
 ####################################################################################
@@ -280,7 +271,6 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		# create the start button
 		self.startButton = javax.swing.JButton("Start")
 		self.startButton.actionPerformed = self.whenMyButtonClicked
-
 		self.status = javax.swing.JLabel("Press start when ready")
 
 		templabel = javax.swing.JLabel("", javax.swing.JLabel.CENTER)
