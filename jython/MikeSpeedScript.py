@@ -253,7 +253,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			print ("Warming up in the reverse direction for", self.warmupLaps, "laps...")
 			for x in range (0, self.warmupLaps) :
 				self.waitNextActiveSensor([self.homesensor])
-
+		else:
 			print ("Stop the locomotive")
 			self.throttle.setSpeedSetting(0.0)
 
@@ -339,8 +339,6 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		num_measurements = self.NumSpeedMeasurements
 		num_blocks = 1
 		sensor_array = []
-		
-		self.memory24.value = str(targetspeed)
 
 		if (int(targetspeed) >= self.HighSpeedThreshold) :
 			num_blocks = self.HighSpeedNBlocks
@@ -369,7 +367,6 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			else :
 				speed = (blocklength / (duration / 1000.0)) * (3600.0 / 5280)
 				print ("    Measurement ", z+1, ", Speed = ", str(round(speed,3)) , "MPH")
-				self.status.text = "Speed = " + str(round(speed,3)) + " MPH"
 			speedlist.append(speed)
 
 		speed = self.getSpeed(speedlist)
@@ -384,7 +381,22 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.attachProgrammer()
 		self.setDecoderKnownState()
 		self.warmUpEngine()
+
+
+		print ("Finding the maximum forward speed over", self.NumSpeedMeasurements, "laps...")
+		self.throttle.setIsForward(True)
+		self.waitMsec(500)
+		self.throttle.setSpeedSetting(1.0)
+		self.waitMsec(1000)
+		fwdmaxspeed = self.measureSpeed(self.fullSpeed)
+		print ("Maximum forward speed found = ",round(fwdmaxspeed))
+		print
+		print ("Returning locomotive to block 12", "...")
+		self.waitNextActiveSensor([self.homesensor])
+		self.throttle.setSpeedSetting(0.0)
+		self.waitMsec(1000)
 		
+		print("Done")
 
 		return False
 		
