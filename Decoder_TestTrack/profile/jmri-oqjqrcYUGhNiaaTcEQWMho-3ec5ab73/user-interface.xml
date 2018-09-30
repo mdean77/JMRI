@@ -175,7 +175,7 @@
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GE ES44AC &quot;GEVO&quot;" height="760.0" locX="50.0" locY="111.0" width="1097.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Sensors" height="545.0" locX="767.0" locY="672.0" width="965.0"/>
         <window xmlns="" class="Add New Sensor" height="271.0" locX="389.0" locY="240.0" width="849.0"/>
-        <window xmlns="" class="Script Output" height="851.0" locX="1293.0" locY="63.0" width="440.0"/>
+        <window xmlns="" class="Script Output" height="851.0" locX="1698.0" locY="90.0" width="440.0"/>
         <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="513.0" locX="150.0" locY="36.0" width="574.0"/>
         <window xmlns="" class="jmri.jmrit.revhistory.swing.FileHistoryAction$1" height="228.0" locX="150.0" locY="36.0" width="643.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="150.0" locY="36.0" width="1024.0">
@@ -187,7 +187,7 @@
             </properties>
         </window>
         <window xmlns="" class="apps.gui3.TabbedPreferencesFrame:Preferences" height="458.0" locX="150.0" locY="36.0" width="987.0"/>
-        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout" height="1044.0" locX="309.0" locY="461.0" width="1770.0">
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout" height="1044.0" locX="150.0" locY="36.0" width="1770.0">
             <properties>
                 <property>
                     <key>DropDownListsDisplayOrder.Enter name of Block for new turnout, level crossing, or track segment.</key>
@@ -235,7 +235,7 @@
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
         <window xmlns="" class="PanelPro" height="256.0" locX="696.0" locY="412.0" width="527.0"/>
         <window xmlns="" class="Local JMRI throttles" height="230.0" locX="30.0" locY="66.0" width="330.0"/>
-        <window xmlns="" class="Script Entry" height="1015.0" locX="101.0" locY="36.0" width="915.0"/>
+        <window xmlns="" class="Script Entry" height="1018.0" locX="858.0" locY="110.0" width="1066.0"/>
         <window xmlns="" class="Throttles preferences" height="403.0" locX="150.0" locY="36.0" width="832.0"/>
     </windowDetails>
 </auxiliary-configuration>
