@@ -149,8 +149,32 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			self.DecoderType = self.DecoderMap[self.mfrID]
 		else:
 			self.DecoderType = "Unknown"
-            
-        	return
+		print ("The Locomotive Address is: ", self.address)
+		print ("The Manufacturer is: ", self.DecoderType)
+		print ("The Manufacturer ID is: ", self.mfrID)
+		print ("The Manufacturer Version is: ", self.mfrVersion)
+		print ("The Current Private ID is ", self.val105, ", ", self.val106)
+		return
+
+
+	def setDecoderKnownState(self):
+		self.testbedWriteCV(62, 0) # Turn off verbal reporting on QSI decoders
+		self.testbedWriteCV(25, 0) # Turn off manufacture defined speed tables
+		self.testbedWriteCV(19, 0) # Clear Consist Address in locomotive
+
+		if self.long == True :			#turn off speed tables
+			self.testbedWriteCV(29, 34)
+		else:
+			self.testbedWriteCV(29, 2)
+
+		self.testbedWriteCV(2, 0)	#Start Voltage off
+		self.testbedWriteCV(3, 0)	#Acceleration off
+		self.testbedWriteCV(4, 0)	#Deceleration off
+		self.testbedWriteCV(5, 0)	#Maximum Voltage off
+		self.testbedWriteCV(6, 0)	#Mid Point Voltage off
+		self.testbedWriteCV(66, 0) 	#Turn off Forward Trim
+		self.testbedWriteCV(95, 0) 	#Turn off reverse Trim
+		return
 
 	def attachProgrammer(self):
 		self.programmer = addressedProgrammers.getAddressedProgrammer(self.long, self.address)
@@ -236,12 +260,8 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		#print ("Top Target Speed is ", self.MaxSpeed.text, "MPH")
 
 		self.readDecoder()	
-		print ("The Locomotive Address is: ", self.address)
-		print ("The Manufacturer is: ", self.DecoderType)
-		print ("The Manufacturer ID is: ", self.mfrID)
-		print ("The Manufacturer Version is: ", self.mfrVersion)
-		print ("The Current Private ID is ", self.val105, ", ", self.val106)
 
+		self.setDecoderKnownState()
 		self.warmUpEngine()
 		
 
