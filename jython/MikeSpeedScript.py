@@ -157,6 +157,23 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		return
 
 
+
+	def attachProgrammer(self):
+		self.programmer = addressedProgrammers.getAddressedProgrammer(self.long, self.address)
+		return
+
+	def myCVListener(self, value, status) :
+		self.writeLock = False
+		return
+	
+ 	def testbedWriteCV(self, cv, value) :
+		self.writeLock = True
+		self.programmer.writeCV(cv, value, self.myCVListener)
+		while (self.writeLock) :	# will be set to False by myCVListener()
+			pass
+		return
+
+
 	def setDecoderKnownState(self):
 		self.testbedWriteCV(62, 0) # Turn off verbal reporting on QSI decoders
 		self.testbedWriteCV(25, 0) # Turn off manufacture defined speed tables
@@ -174,21 +191,6 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.testbedWriteCV(6, 0)	#Mid Point Voltage off
 		self.testbedWriteCV(66, 0) 	#Turn off Forward Trim
 		self.testbedWriteCV(95, 0) 	#Turn off reverse Trim
-		return
-
-	def attachProgrammer(self):
-		self.programmer = addressedProgrammers.getAddressedProgrammer(self.long, self.address)
-		return
-
-	def myCVListener(self, value, status) :
-		self.writeLock = False
-		return
-	
- 	def testbedWriteCV(self, cv, value) :
-		self.writeLock = True
-		self.programmer.writeCV(cv, value, self.myCVListener)
-		while (self.writeLock) :	# will be set to False by myCVListener()
-			pass
 		return
 
  	def waitNextActiveSensor(self, sensorlist) :
@@ -212,6 +214,10 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			print ("ERROR: Couldn't assign throttle!")
 		else :
 			print ("Throttle assigned to locomotive: ", self.address)
+			print("Turn on the headlight")
+			self.throttle.setF0(True)
+			print("Mute the sound")
+			self.throttle.setF8(True)
 		return
 
 	def warmUpEngine(self):
@@ -252,7 +258,122 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			self.throttle.setSpeedSetting(0.0)
 
 		return
+	####################################################################################
+#
+# self.measureTime() is used as part of the speed measurement
+#
+# This has been rewritten to first get the set of only the inactive sensors then
+# wait just on a list of those sensors until one of them goes active.
+#
+# This should eliminate the false triggering of the block sensors that have a long
+# timeout delay when they go from active to inactive.
+#
+####################################################################################
+	def measureTime(self, sensorlist, starttime, stoptime) :
+
+		"""Measures the time between virtual blocks"""
+
+        # At the start of a measurement loop, we have to get the start time at the beginning
+        # of the block then measure the time for the block.
+        #
+        # Otherwise, we take the stop time from the previous block, make it the start time
+        # for this block and measure this block.
+
+		if (starttime == 0):
+			self.waitNextActiveSensor(sensorlist)
+			stoptime = java.lang.System.currentTimeMillis()
 	
+		starttime = stoptime
+
+		self.waitNextActiveSensor(sensorlist)
+		stoptime = java.lang.System.currentTimeMillis()
+
+		runtime = stoptime - starttime
+		return runtime, starttime, stoptime
+####################################################################################
+#
+# self.getSpeed() is used as part of the speed measurement
+#
+# This takes several speed measurements and returns an average value. If more than
+# 3 values are given, the min and max values are omitted from the average.
+# The final speed value returned is an average of the remaining values.
+#
+####################################################################################
+	def getSpeed(self, speedlist) :
+
+		imin = imax = 0
+		minval = maxval = 0.0
+		
+		if (self.NumSpeedMeasurements > 3):
+			minval = min(speedlist)
+			maxval = max(speedlist)
+			for s in range(0, self.NumSpeedMeasurements):
+				if (speedlist[s] == minval):
+					imin = s
+				if (speedlist[s] == maxval):
+					imax = s
+			if (imin > imax):
+				del speedlist[imin]
+				del speedlist[imax]
+			else:
+				del speedlist[imax]
+				del speedlist[imin]
+		
+		speed = sum(speedlist)/len(speedlist)
+		return speed
+####################################################################################
+#
+# self.measureSpeed() performs the speed measurement algorithm
+#
+# Given which track loop and the length of a block, we can measure the speed by
+# measuring the time through each block. This version takes several measurements and
+# averaging them, throwing out the high and low values.
+#
+# The targetspeed parameter is used to select the appropriate sensor array
+####################################################################################
+	def measureSpeed(self, targetspeed) :
+		"""converts time to speed, ft/sec - scale speed"""
+		starttime = stoptime = 0	# Needed when using every block
+		speed = 0.0
+		speedlist = []
+		num_measurements = self.NumSpeedMeasurements
+		num_blocks = 1
+		sensor_array = []
+		
+		self.memory24.value = str(targetspeed)
+
+		if (int(targetspeed) >= self.HighSpeedThreshold) :
+			num_blocks = self.HighSpeedNBlocks
+			sensor_array = self.HighSpeedArrayN
+			print ("Measuring speed using the high speed array,", num_blocks, "block(s)...")
+		elif (int(targetspeed) >= self.MediumSpeedThreshold) :
+			num_blocks = self.MediumSpeedNBlocks
+			sensor_array = self.MediumSpeedArrayN
+			print ("Measuring speed using the medium speed array,", num_blocks, "block(s)...")
+		else:
+			num_blocks = self.LowSpeedNBlocks
+			sensor_array = self.LowSpeedArrayN
+			print ("Measuring speed using the low speed array,", num_blocks, "block(s)...")
+
+		# Calculate the length of the selected block
+		blocklength = self.block * num_blocks
+
+        # Measure the speed a number of times and put those speeds into a list
+
+		for z in range(0,self.NumSpeedMeasurements) : # make 5 speed measurements
+			duration, starttime, stoptime = self.measureTime(sensor_array,starttime,stoptime)
+
+			if duration == 0 :
+				print ("Error: Got a zero for duration") # this should not happen
+				speed = 0.0
+			else :
+				speed = (blocklength / (duration / 1000.0)) * (3600.0 / 5280)
+				print ("    Measurement ", z+1, ", Speed = ", str(round(speed,3)) , "MPH")
+				self.status.text = "Speed = " + str(round(speed,3)) + " MPH"
+			speedlist.append(speed)
+
+		speed = self.getSpeed(speedlist)
+		return speed
 	      
 	def handle(self):
 		
@@ -260,7 +381,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		#print ("Top Target Speed is ", self.MaxSpeed.text, "MPH")
 
 		self.readDecoder()	
-
+		self.attachProgrammer()
 		self.setDecoderKnownState()
 		self.warmUpEngine()
 		

@@ -178,7 +178,7 @@
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GE ES44AC &quot;GEVO&quot;" height="760.0" locX="50.0" locY="111.0" width="1097.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Sensors" height="545.0" locX="513.0" locY="296.0" width="965.0"/>
         <window xmlns="" class="Add New Sensor" height="271.0" locX="389.0" locY="240.0" width="849.0"/>
-        <window xmlns="" class="Script Output" height="854.0" locX="928.0" locY="36.0" width="842.0"/>
+        <window xmlns="" class="Script Output" height="854.0" locX="1110.0" locY="54.0" width="842.0"/>
         <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="513.0" locX="150.0" locY="36.0" width="574.0"/>
         <window xmlns="" class="jmri.jmrit.revhistory.swing.FileHistoryAction$1" height="228.0" locX="150.0" locY="36.0" width="643.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="150.0" locY="36.0" width="1024.0">
@@ -238,7 +238,8 @@
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
         <window xmlns="" class="PanelPro" height="256.0" locX="696.0" locY="412.0" width="527.0"/>
         <window xmlns="" class="Local JMRI throttles" height="230.0" locX="30.0" locY="66.0" width="330.0"/>
-        <window xmlns="" class="Script Entry" height="699.0" locX="177.0" locY="42.0" width="749.0"/>
+        <window xmlns="" class="jmri.jmrit.automat.monitor.AutomatTableFrame" height="473.0" locX="150.0" locY="36.0" width="455.0"/>
+        <window xmlns="" class="Script Entry" height="699.0" locX="214.0" locY="218.0" width="749.0"/>
         <window xmlns="" class="Throttles preferences" height="403.0" locX="150.0" locY="36.0" width="832.0"/>
     </windowDetails>
 </auxiliary-configuration>
