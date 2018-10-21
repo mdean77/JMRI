@@ -12,7 +12,7 @@
 #	Kato unitrack isolator joiners (black) and drop lead sets (12 and six, the leads can be pulled apart)
 #	Occupancy detectors MRCS cpOD from Chuck Catania and Seth Neumann (12)
 #	All cables and wiring are on the underside, and all circuitry is on top so I could adjust the pots on the cpOD.
-#	
+#
 #	Note for the naive carpenter - I built a 40" X 40" table thinking that would leave 2 inches spare on the
 #	diameter, but track radius is measured from middle of track, so I have barely 0.5 inch margin on the four
 #	sides.  Would be much much better if I had built 44" X 44" table!
@@ -32,7 +32,7 @@ import jmri
 
 class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 	def init(self):
-
+	    	
 	    	# individual block section length (scale feet)
 		self.scriptversion = 3.0
 		self.block = float(132.65)  # 132.65 feet Erich's Speed Matching Track Kato Unitrack 19" Radius - 12 Sections / 24 Pieces
@@ -44,7 +44,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.throttle = None
 		self.writeLock = False
 		self.fullSpeed = 100
-
+		
 		# JMD:  I changed the sensor numbering since I will only have 12 blocks.
 		self.sensor1 = sensors.provideSensor("Block 1")
 		self.sensor2 = sensors.provideSensor("Block 2")
@@ -59,23 +59,23 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.sensor11 = sensors.provideSensor("Block 11")
 		self.sensor12 = sensors.provideSensor("Block 12")
 		self.homesensor = sensors.provideSensor("Block 12")
-
+		
 		# Different block sizes for different speeds or it would take
 		# forever to do the low speed if loco had to circle whole track
 		# for every measurement.
-
+		
 		self.HighSpeedNBlocks = 12
-		self.MediumSpeedNBlocks = 3		
+		self.MediumSpeedNBlocks = 3
 		self.LowSpeedNBlocks = 1
-
+		
 		self.HighSpeedArrayN = [self.homesensor]
-
+		
 		self.MediumSpeedArrayN= (
 				self.sensor1,
 				self.sensor4,
 				self.sensor7,
 				self.sensor10)
-
+		
 		self.LowSpeedArrayN = (
 				self.sensor1,
 				self.sensor2,
@@ -89,17 +89,17 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 				self.sensor10,
 				self.sensor11,
 				self.sensor12)
-				
+		
 		self.MediumSpeedThreshold = 45
 		self.HighSpeedThreshold = 85
 		
 		self.DecoderMap = {141:"Tsunami", 129:"Digitrax", 153:"TCS", 11:"NCE", 113: "QSI/BLI", 99:"Lenz Gen 5", 151:"ESU", 127:"Atlas/Lenz XF"}
 		self.DecoderType = "Default"
-
+		
 		#	These speed steps are measured.  All others are calculated
 		#	CV		70	74	78	82	86	90	94
 		#	Speedsteps	 4	 8	12	16	20	24	28
-
+		
 		#	These lists are percentages of full speed
 		self.DigitraxStepList = [10, 22, 35, 47, 60, 72, 85]
 		self.Lenz5GenStepList = [17, 30, 44, 57, 71, 84, 98]
@@ -113,7 +113,9 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.ESUStepList = [12,	27,	41,	56,	70,	85,	99]
 		return
 
-    	def readDecoder(self):
+
+
+	def readDecoder(self):
 		print ("Reading Locomotive...")
 		self.val29 = self.readServiceModeCV("29")
 		print ("CV 29 = ", self.val29)
@@ -131,7 +133,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		print ("CV 105 = ", self.val105)
 		self.val106 = self.readServiceModeCV("106")
 		print ("CV 106 = ", self.val106)
-
+		
 		# Determine if this locomotive uses a long address
 		if ((self.val29 & 32) == 32) :
 			self.long = True
@@ -139,7 +141,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		else :
 			self.long = False
 			self.address = self.val1
-
+		
 		# get the manufacturer so we can adjust for decoder-specific settings
 		
 		self.mfrID = self.val8
@@ -155,17 +157,15 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		print ("The Manufacturer Version is: ", self.mfrVersion)
 		print ("The Current Private ID is ", self.val105, ", ", self.val106)
 		return
-
-
-
+	
 	def attachProgrammer(self):
 		self.programmer = addressedProgrammers.getAddressedProgrammer(self.long, self.address)
 		return
-
+	
 	def myCVListener(self, value, status) :
 		self.writeLock = False
 		return
-	
+ 	
  	def testbedWriteCV(self, cv, value) :
 		self.writeLock = True
 		self.programmer.writeCV(cv, value, self.myCVListener)
@@ -173,18 +173,26 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			pass
 		return
 
-
+	
 	def setDecoderKnownState(self):
+		print("CV 62 original value: ",self.readServiceModeCV("62"))
+		print("Setting it to zero")
 		self.testbedWriteCV(62, 0) # Turn off verbal reporting on QSI decoders
+		print("CV 62 new value: ",self.readServiceModeCV("62"))
+
 		self.testbedWriteCV(25, 0) # Turn off manufacture defined speed tables
 		self.testbedWriteCV(19, 0) # Clear Consist Address in locomotive
-
+		
 		if self.long == True :			#turn off speed tables
 			self.testbedWriteCV(29, 34)
 		else:
 			self.testbedWriteCV(29, 2)
-
+		
+		print("CV 2 (start voltage) original value: ", self.readServiceModeCV("2"))
+		print("Setting CV2 to zero")
 		self.testbedWriteCV(2, 0)	#Start Voltage off
+		print("CV 2 new value :", self.readServiceModeCV("2"))
+		
 		self.testbedWriteCV(3, 0)	#Acceleration off
 		self.testbedWriteCV(4, 0)	#Deceleration off
 		self.testbedWriteCV(5, 0)	#Maximum Voltage off
@@ -192,7 +200,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.testbedWriteCV(66, 0) 	#Turn off Forward Trim
 		self.testbedWriteCV(95, 0) 	#Turn off reverse Trim
 		return
-
+ 	
  	def waitNextActiveSensor(self, sensorlist) :
 		print("Inside waitNextActiveSensor")
 		inactivesensors = []
@@ -207,7 +215,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 					inactivesensors.append(s)
 		self.waitSensorActive(inactivesensors)
 		return
-
+	
 	def attachThrottle(self):
 		self.throttle = self.getThrottle(self.address, self.long)
 		if (self.throttle == None) :
@@ -219,44 +227,44 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			print("Mute the sound")
 			self.throttle.setF8(True)
 		return
-
+	
 	def warmUpEngine(self):
 		self.attachThrottle()
-
+		
 		print ("Warming up Locomotive")
 		self.throttle.setIsForward(True)
-
+		
 		#01/09/09	TCS decoder would not move when setting throttle to 1.0
- 
+ 		
  		print ("Set the throttle to 1.0")
-
+		
 		self.throttle.setSpeedSetting(.99)
 		self.waitMsec(250)
 		self.throttle.setSpeedSetting(1.0)
-
+		
 		print ("Wait for the locomotive to get to",self.homesensor,"after",self.warmupLaps,"laps...")
-
+		
 		for x in range (0, self.warmupLaps) :
 			print("loop number",x)
 			self.waitNextActiveSensor([self.homesensor])
-
+		
 		print ("Stop the locomotive")
 		self.throttle.setSpeedSetting(0.0)
 		self.waitMsec(2000)
 		
 		# Warm up 5 laps reverse
-
+		
 		if self.Locomotive.getSelectedItem() <> "Steam" :
 			self.throttle.setIsForward(False)
 			self.throttle.setSpeedSetting(1.0)
-
+			
 			print ("Warming up in the reverse direction for", self.warmupLaps, "laps...")
 			for x in range (0, self.warmupLaps) :
 				self.waitNextActiveSensor([self.homesensor])
 		else:
 			print ("Stop the locomotive")
 			self.throttle.setSpeedSetting(0.0)
-
+		
 		return
 	####################################################################################
 #
@@ -270,24 +278,24 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 #
 ####################################################################################
 	def measureTime(self, sensorlist, starttime, stoptime) :
-
+		
 		"""Measures the time between virtual blocks"""
-
+        
         # At the start of a measurement loop, we have to get the start time at the beginning
         # of the block then measure the time for the block.
         #
         # Otherwise, we take the stop time from the previous block, make it the start time
         # for this block and measure this block.
-
+		
 		if (starttime == 0):
 			self.waitNextActiveSensor(sensorlist)
 			stoptime = java.lang.System.currentTimeMillis()
-	
+		
 		starttime = stoptime
-
+		
 		self.waitNextActiveSensor(sensorlist)
 		stoptime = java.lang.System.currentTimeMillis()
-
+		
 		runtime = stoptime - starttime
 		return runtime, starttime, stoptime
 ####################################################################################
@@ -300,7 +308,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 #
 ####################################################################################
 	def getSpeed(self, speedlist) :
-
+		
 		imin = imax = 0
 		minval = maxval = 0.0
 		
@@ -339,7 +347,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		num_measurements = self.NumSpeedMeasurements
 		num_blocks = 1
 		sensor_array = []
-
+		
 		if (int(targetspeed) >= self.HighSpeedThreshold) :
 			num_blocks = self.HighSpeedNBlocks
 			sensor_array = self.HighSpeedArrayN
@@ -352,15 +360,15 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			num_blocks = self.LowSpeedNBlocks
 			sensor_array = self.LowSpeedArrayN
 			print ("Measuring speed using the low speed array,", num_blocks, "block(s)...")
-
+		
 		# Calculate the length of the selected block
 		blocklength = self.block * num_blocks
-
+        
         # Measure the speed a number of times and put those speeds into a list
-
+		
 		for z in range(0,self.NumSpeedMeasurements) : # make 5 speed measurements
 			duration, starttime, stoptime = self.measureTime(sensor_array,starttime,stoptime)
-
+			
 			if duration == 0 :
 				print ("Error: Got a zero for duration") # this should not happen
 				speed = 0.0
@@ -368,21 +376,21 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 				speed = (blocklength / (duration / 1000.0)) * (3600.0 / 5280)
 				print ("    Measurement ", z+1, ", Speed = ", str(round(speed,3)) , "MPH")
 			speedlist.append(speed)
-
+		
 		speed = self.getSpeed(speedlist)
 		return speed
-	      
+	
 	def handle(self):
 		
 		#topspeed = float(self.MaxSpeed.text)/100
 		#print ("Top Target Speed is ", self.MaxSpeed.text, "MPH")
-
-		self.readDecoder()	
+		
+		self.readDecoder()
 		self.attachProgrammer()
 		self.setDecoderKnownState()
 		self.warmUpEngine()
 
-
+		
 		print ("Finding the maximum forward speed over", self.NumSpeedMeasurements, "laps...")
 		self.throttle.setIsForward(True)
 		self.waitMsec(500)
@@ -397,15 +405,15 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.waitMsec(1000)
 		
 		print("Done")
-
-		return False
 		
+		return False
+
 ####################################################################################
 	def whenMyButtonClicked(self,event) :
 		self.start()
 		# we leave the button off
 		self.startButton.enabled = False
-
+		
 		return
 
 ####################################################################################
@@ -414,18 +422,18 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 # the panel collects input parameters from the user
 #
 ####################################################################################
-
+	
 	def setup(self):
 		# create a frame to hold the button, set up for nice layout
 		f = javax.swing.JFrame("Testbed Input Panel")		# argument is the frames title
 		f.setLocation(300,200)
 		f.contentPane.setLayout(javax.swing.BoxLayout(f.contentPane, javax.swing.BoxLayout.Y_AXIS))
-
+		
 		# create the start button
 		self.startButton = javax.swing.JButton("Start")
 		self.startButton.actionPerformed = self.whenMyButtonClicked
 		self.status = javax.swing.JLabel("Press start when ready")
-
+		
 		templabel = javax.swing.JLabel("", javax.swing.JLabel.CENTER)
 		templabel.setText("Select Locomotive Type")
 		
@@ -435,11 +443,11 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.Locomotive.addItem("Steam")
 		
 		self.MaxSpeed = javax.swing.JTextField(3)
-
+		
 		temppanel3 = javax.swing.JPanel()
 		temppanel3.add(javax.swing.JLabel("Maximum Speed (MPH)"))
 		temppanel3.add(self.MaxSpeed)
-
+		
 		temppanel2 = javax.swing.JPanel()
 		f.contentPane.add(templabel)
 		f.contentPane.add(self.Locomotive)
@@ -449,7 +457,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		f.contentPane.add(self.status)
 		f.pack()
 		f.show()
-
+		
 		return
 
 ####################################################################################
