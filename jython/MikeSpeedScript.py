@@ -238,8 +238,8 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
  		
  		print ("Set the throttle to 1.0")
 		
-		self.throttle.setSpeedSetting(.99)
-		self.waitMsec(250)
+		self.throttle.setSpeedSetting(.5)
+		self.waitMsec(2500)
 		self.throttle.setSpeedSetting(1.0)
 		
 		print ("Wait for the locomotive to get to",self.homesensor,"after",self.warmupLaps,"laps...")
@@ -389,6 +389,8 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.attachThrottle()
 		self.attachProgrammer()
 		self.setDecoderKnownState()
+		self.attachThrottle()
+		self.waitMsec(2000)
 		self.warmUpEngine()
 
 		
