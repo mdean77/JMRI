@@ -229,7 +229,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		return
 	
 	def warmUpEngine(self):
-		self.attachThrottle()
+		#self.attachThrottle()
 		
 		print ("Warming up Locomotive")
 		self.throttle.setIsForward(True)
@@ -386,6 +386,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		#print ("Top Target Speed is ", self.MaxSpeed.text, "MPH")
 		
 		self.readDecoder()
+		self.attachThrottle()
 		self.attachProgrammer()
 		self.setDecoderKnownState()
 		self.warmUpEngine()
