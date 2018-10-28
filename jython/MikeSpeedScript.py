@@ -379,6 +379,26 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		
 		speed = self.getSpeed(speedlist)
 		return speed
+		
+	def findMaximumForwardSpeed(self) :
+		print ("Finding the maximum forward speed over", self.NumSpeedMeasurements, "laps...")
+		self.throttle.setIsForward(True)
+		self.waitMsec(500)
+		self.throttle.setSpeedSetting(1.0)
+		self.waitMsec(1000)
+		speed = self.measureSpeed(self.fullSpeed)
+		print ("Maximum forward speed found = ",round(speed))
+		return speed		
+
+	def findMaximumReverseSpeed(self) :
+		print ("Finding the maximum reverse speed over", self.NumSpeedMeasurements, "laps...")
+		self.throttle.setIsForward(False)
+		self.waitMsec(500)
+		self.throttle.setSpeedSetting(1.0)
+		self.waitMsec(1000)
+		speed = self.measureSpeed(self.fullSpeed)
+		print ("Maximum reverse speed found = ",round(speed))
+		return speed
 	
 	def handle(self):
 		
@@ -392,15 +412,16 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.attachThrottle()
 		self.waitMsec(2000)
 		self.warmUpEngine()
-
-		
-		print ("Finding the maximum forward speed over", self.NumSpeedMeasurements, "laps...")
-		self.throttle.setIsForward(True)
-		self.waitMsec(500)
-		self.throttle.setSpeedSetting(1.0)
-		self.waitMsec(1000)
-		fwdmaxspeed = self.measureSpeed(self.fullSpeed)
-		print ("Maximum forward speed found = ",round(fwdmaxspeed))
+		if self.Locomotive.getSelectedItem() <> "Steam" :
+			revmaxspeed = findMaximumReverseSpeed()
+			print ("Returning locomotive to block 12", "...")
+			self.waitNextActiveSensor([self.homesensor])
+			self.throttle.setSpeedSetting(0.0)
+			self.waitMsec(1000)
+		else:
+			revmaxspeed = 0
+			
+		fwdmaxspeed = findMaximumForwardSpeed()
 		print
 		print ("Returning locomotive to block 12", "...")
 		self.waitNextActiveSensor([self.homesensor])
