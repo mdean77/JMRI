@@ -36,7 +36,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 	    	# individual block section length (scale feet)
 		self.scriptversion = 3.0
 		self.block = float(132.65)  # 132.65 feet Erich's Speed Matching Track Kato Unitrack 19" Radius - 12 Sections / 24 Pieces
-		self.NumSpeedMeasurements = 5
+		self.NumSpeedMeasurements = 10
 		self.long = False
 		self.addr = 0
 		self.warmupLaps = 5
@@ -326,7 +326,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			else:
 				del speedlist[imax]
 				del speedlist[imin]
-		
+		print(speedlist)
 		speed = sum(speedlist)/len(speedlist)
 		return speed
 ####################################################################################
@@ -413,7 +413,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.waitMsec(2000)
 		self.warmUpEngine()
 		if self.Locomotive.getSelectedItem() <> "Steam" :
-			revmaxspeed = findMaximumReverseSpeed()
+			revmaxspeed = self.findMaximumReverseSpeed()
 			print ("Returning locomotive to block 12", "...")
 			self.waitNextActiveSensor([self.homesensor])
 			self.throttle.setSpeedSetting(0.0)
@@ -421,7 +421,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		else:
 			revmaxspeed = 0
 			
-		fwdmaxspeed = findMaximumForwardSpeed()
+		fwdmaxspeed = self.findMaximumForwardSpeed()
 		print
 		print ("Returning locomotive to block 12", "...")
 		self.waitNextActiveSensor([self.homesensor])
