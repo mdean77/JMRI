@@ -228,6 +228,12 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			self.throttle.setF8(True)
 		return
 	
+	def stopLocomotive(self):
+		print ("Stop the locomotive")
+		self.throttle.setSpeedSetting(0.0)
+		self.waitMsec(2000)
+		return
+		
 	def warmUpEngine(self):
 		#self.attachThrottle()
 		
@@ -248,9 +254,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			print("loop number",x)
 			self.waitNextActiveSensor([self.homesensor])
 		
-		print ("Stop the locomotive")
-		self.throttle.setSpeedSetting(0.0)
-		self.waitMsec(2000)
+		self.stopLocomotive()
 		
 		# Warm up 5 laps reverse
 		
@@ -262,8 +266,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			for x in range (0, self.warmupLaps) :
 				self.waitNextActiveSensor([self.homesensor])
 		else:
-			print ("Stop the locomotive")
-			self.throttle.setSpeedSetting(0.0)
+			self.stopLocomotive
 		
 		return
 	####################################################################################
@@ -416,8 +419,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			revmaxspeed = self.findMaximumReverseSpeed()
 			print ("Returning locomotive to block 12", "...")
 			self.waitNextActiveSensor([self.homesensor])
-			self.throttle.setSpeedSetting(0.0)
-			self.waitMsec(1000)
+			self.stopLocomotive()
 		else:
 			revmaxspeed = 0
 			
@@ -425,8 +427,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		print
 		print ("Returning locomotive to block 12", "...")
 		self.waitNextActiveSensor([self.homesensor])
-		self.throttle.setSpeedSetting(0.0)
-		self.waitMsec(1000)
+		self.stopLocomotive()
 		
 		print("Done")
 		
