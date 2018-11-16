@@ -36,7 +36,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 	    	# individual block section length (scale feet)
 		self.scriptversion = 3.0
 		self.block = float(132.65)  # 132.65 feet Erich's Speed Matching Track Kato Unitrack 19" Radius - 12 Sections / 24 Pieces
-		self.NumSpeedMeasurements = 10
+		self.NumSpeedMeasurements = 5
 		self.long = False
 		self.addr = 0
 		self.warmupLaps = 5
@@ -118,21 +118,21 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 	def readDecoder(self):
 		print ("Reading Locomotive...")
 		self.val29 = self.readServiceModeCV("29")
-		print ("CV 29 = ", self.val29)
+		print ("CV 29 = %s." % self.val29)
 		self.val1 = self.readServiceModeCV("1")
-		print ("CV 1 = ", self.val1)
+		print ("CV 1 = %s." % self.val1)
 		self.val17 = self.readServiceModeCV("17")
-		print ("CV 17 = ", self.val17)
+		print ("CV 17 = %s." % self.val17)
 		self.val18 = self.readServiceModeCV("18")
-		print ("CV 18 = ", self.val18)
+		print ("CV 18 = %s." % self.val18)
 		self.val7 = self.readServiceModeCV("7")
-		print ("CV 7 = ", self.val7)
+		print ("CV 7 = %s." % self.val7)
 		self.val8 = self.readServiceModeCV("8")
-		print ("CV 8 = ", self.val8)
+		print ("CV 8 = %s." % self.val8)
 		self.val105 = self.readServiceModeCV("105")
-		print ("CV 105 = ", self.val105)
+		print ("CV 105 = %s." % self.val105)
 		self.val106 = self.readServiceModeCV("106")
-		print ("CV 106 = ", self.val106)
+		print ("CV 106 = %s." % self.val106)
 		
 		# Determine if this locomotive uses a long address
 		if ((self.val29 & 32) == 32) :
@@ -175,11 +175,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 
 	
 	def setDecoderKnownState(self):
-		print("CV 62 original value: ",self.readServiceModeCV("62"))
-		print("Setting it to zero")
 		self.testbedWriteCV(62, 0) # Turn off verbal reporting on QSI decoders
-		print("CV 62 new value: ",self.readServiceModeCV("62"))
-
 		self.testbedWriteCV(25, 0) # Turn off manufacture defined speed tables
 		self.testbedWriteCV(19, 0) # Clear Consist Address in locomotive
 		
@@ -188,11 +184,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		else:
 			self.testbedWriteCV(29, 2)
 		
-		print("CV 2 (start voltage) original value: ", self.readServiceModeCV("2"))
-		print("Setting CV2 to zero")
 		self.testbedWriteCV(2, 0)	#Start Voltage off
-		print("CV 2 new value :", self.readServiceModeCV("2"))
-		
 		self.testbedWriteCV(3, 0)	#Acceleration off
 		self.testbedWriteCV(4, 0)	#Deceleration off
 		self.testbedWriteCV(5, 0)	#Maximum Voltage off
@@ -202,7 +194,6 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		return
  	
  	def waitNextActiveSensor(self, sensorlist) :
-		print("Inside waitNextActiveSensor")
 		inactivesensors = []
 		
 		if (len(sensorlist) == 1) :
@@ -239,7 +230,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.throttle.setSpeedSetting(1.0)
 		self.waitMsec(1000)
 		for x in range (0, self.warmupLaps) :
-			print("Warm up loop number",x)
+			print("Warm up loop number %s." % x)
 			self.waitNextActiveSensor([self.homesensor])
 		
 	def warmUpForward(self):
@@ -254,42 +245,8 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.waitMsec(500)
 		self.fullThrottleLaps()		
 		
-	def warmUpEngine(self):
-		#self.attachThrottle()
 		
-		print ("Warming up Locomotive")
-		self.throttle.setIsForward(True)
-		
-		#01/09/09	TCS decoder would not move when setting throttle to 1.0
- 		
- 		print ("Set the throttle to 1.0")
-		
-		self.throttle.setSpeedSetting(.5)
-		self.waitMsec(2500)
-		self.throttle.setSpeedSetting(1.0)
-		
-		print ("Wait for the locomotive to get to",self.homesensor,"after",self.warmupLaps,"laps...")
-		
-		for x in range (0, self.warmupLaps) :
-			print("loop number",x)
-			self.waitNextActiveSensor([self.homesensor])
-		
-		self.stopLocomotive()
-		
-		# Warm up 5 laps reverse
-		
-		if self.Locomotive.getSelectedItem() <> "Steam" :
-			self.throttle.setIsForward(False)
-			self.throttle.setSpeedSetting(1.0)
-			
-			print ("Warming up in the reverse direction for", self.warmupLaps, "laps...")
-			for x in range (0, self.warmupLaps) :
-				self.waitNextActiveSensor([self.homesensor])
-		else:
-			self.stopLocomotive
-		
-		return
-	####################################################################################
+####################################################################################
 #
 # self.measureTime() is used as part of the speed measurement
 #
@@ -321,6 +278,26 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		
 		runtime = stoptime - starttime
 		return runtime, starttime, stoptime
+		
+	def stripMinMax(self, speedlist):
+		for speed in speedlist:
+			if speed == max(speedlist):
+				continue
+			if speed == min(speedlist):
+				continue
+			yield speed
+	
+	def getSpeed(self, speedlist):
+		if(self.NumSpeedMeasurements > 3):
+			trimmedValues = []
+			for speed in stripMinMax(speedlist):
+				trimmedValues.append(speed)
+		else:
+			trimmedValues = speedlist
+		return sum(trimmedValues)/len(trimmedValues)
+		
+	
+	
 ####################################################################################
 #
 # self.getSpeed() is used as part of the speed measurement
@@ -330,7 +307,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 # The final speed value returned is an average of the remaining values.
 #
 ####################################################################################
-	def getSpeed(self, speedlist) :
+	def getSpeed2(self, speedlist) :
 		
 		imin = imax = 0
 		minval = maxval = 0.0
@@ -352,6 +329,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		print(speedlist)
 		speed = sum(speedlist)/len(speedlist)
 		return speed
+		
 ####################################################################################
 #
 # self.measureSpeed() performs the speed measurement algorithm
