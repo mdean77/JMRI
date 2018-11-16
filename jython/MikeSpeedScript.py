@@ -377,7 +377,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 				speed = 0.0
 			else :
 				speed = (blocklength / (duration / 1000.0)) * (3600.0 / 5280)
-				print("Measurement %s, Speed = %s MPH" % (z+1, str(round(speed,3))) 
+				print("Measurement %s, Speed = %s MPH" % (z+1, str(round(speed,3))))
 				speedlist.append(speed)
 		
 		speed = self.getSpeed(speedlist)
