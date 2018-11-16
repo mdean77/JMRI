@@ -290,10 +290,12 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 	def getSpeed(self, speedlist):
 		if(self.NumSpeedMeasurements > 3):
 			trimmedValues = []
-			for speed in stripMinMax(speedlist):
+			for speed in self.stripMinMax(speedlist):
 				trimmedValues.append(speed)
 		else:
 			trimmedValues = speedlist
+		print("Untrimmed list: %s" % speedlist)
+		print("Trimmed list: %s" % trimmedValues)
 		return sum(trimmedValues)/len(trimmedValues)
 		
 	
@@ -352,15 +354,15 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		if (int(targetspeed) >= self.HighSpeedThreshold) :
 			num_blocks = self.HighSpeedNBlocks
 			sensor_array = self.HighSpeedArrayN
-			print ("Measuring speed using the high speed array,", num_blocks, "block(s)...")
+			print ("Measuring speed using the high speed array, %s block(s)." % num_blocks)
 		elif (int(targetspeed) >= self.MediumSpeedThreshold) :
 			num_blocks = self.MediumSpeedNBlocks
 			sensor_array = self.MediumSpeedArrayN
-			print ("Measuring speed using the medium speed array,", num_blocks, "block(s)...")
+			print ("Measuring speed using the medium speed array, %s block(s)." % num_blocks)
 		else:
 			num_blocks = self.LowSpeedNBlocks
 			sensor_array = self.LowSpeedArrayN
-			print ("Measuring speed using the low speed array,", num_blocks, "block(s)...")
+			print ("Measuring speed using the low speed array, %s block(s)." % num_blocks)
 		
 		# Calculate the length of the selected block
 		blocklength = self.block * num_blocks
@@ -375,8 +377,8 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 				speed = 0.0
 			else :
 				speed = (blocklength / (duration / 1000.0)) * (3600.0 / 5280)
-				print ("    Measurement ", z+1, ", Speed = ", str(round(speed,3)) , "MPH")
-			speedlist.append(speed)
+				print("Measurement %s, Speed = %s MPH" % (z+1, str(round(speed,3))) 
+				speedlist.append(speed)
 		
 		speed = self.getSpeed(speedlist)
 		return speed
