@@ -29,6 +29,7 @@
 import java
 import javax.swing
 import jmri
+import sys
 
 class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 	def init(self):
@@ -224,13 +225,13 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		return
 	
 	def fullThrottleLaps(self):
-		print ("Starting the locomotive warmup laps: ",)
+		sys.stdout.write("Starting the locomotive warmup laps: ")
 		self.throttle.setSpeedSetting(1.0)
 		self.waitMsec(1000)
 		for x in range (0, self.warmupLaps) :
-			print("%s " % x,)
+			sys.stdout.write("%s " % x)
 			self.waitNextActiveSensor([self.homesensor])
-		print()
+		sys.stdout.write("\n")
 		
 	def warmUpForward(self):
 		print ("Engine warmup in forward direction.")
