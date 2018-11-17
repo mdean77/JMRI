@@ -119,21 +119,22 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 	def readDecoder(self):
 		print ("Reading Locomotive...")
 		self.val29 = self.readServiceModeCV("29")
-		print ("CV 29 = %s." % self.val29)
+		print ("	CV 29 = %s." % self.val29)
 		self.val1 = self.readServiceModeCV("1")
-		print ("CV 1 = %s." % self.val1)
+		print ("	CV 1 = %s." % self.val1)
 		self.val17 = self.readServiceModeCV("17")
-		print ("CV 17 = %s." % self.val17)
+		print ("	CV 17 = %s." % self.val17)
 		self.val18 = self.readServiceModeCV("18")
-		print ("CV 18 = %s." % self.val18)
+		print ("	CV 18 = %s." % self.val18)
 		self.val7 = self.readServiceModeCV("7")
-		print ("CV 7 = %s." % self.val7)
+		print ("	CV 7 = %s." % self.val7)
 		self.val8 = self.readServiceModeCV("8")
-		print ("CV 8 = %s." % self.val8)
+		print ("	CV 8 = %s." % self.val8)
 		self.val105 = self.readServiceModeCV("105")
-		print ("CV 105 = %s." % self.val105)
+		print ("	CV 105 = %s." % self.val105)
 		self.val106 = self.readServiceModeCV("106")
-		print ("CV 106 = %s." % self.val106)
+		print ("	CV 106 = %s." % self.val106)
+		print()
 		
 		# Determine if this locomotive uses a long address
 		if ((self.val29 & 32) == 32) :
@@ -229,7 +230,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.throttle.setSpeedSetting(1.0)
 		self.waitMsec(1000)
 		for x in range (0, self.warmupLaps) :
-			sys.stdout.write("%s " % x)
+			sys.stdout.write("%s " % x+1)
 			self.waitNextActiveSensor([self.homesensor])
 		sys.stdout.write("\n")
 		
@@ -314,17 +315,6 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		
 ####################################################################################
 #
-# self.getSpeed() is used as part of the speed measurement
-#
-# This takes several speed measurements and returns an average value. If more than
-# 3 values are given, the min and max values are omitted from the average.
-# The final speed value returned is an average of the remaining values.
-#
-####################################################################################
-
-		
-####################################################################################
-#
 # self.measureSpeed() performs the speed measurement algorithm
 #
 # Given which track loop and the length of a block, we can measure the speed by
@@ -345,15 +335,15 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		if (int(targetspeed) >= self.HighSpeedThreshold) :
 			num_blocks = self.HighSpeedNBlocks
 			sensor_array = self.HighSpeedArrayN
-			print ("Measuring speed using the high speed array, %s block(s)." % num_blocks)
+			print ("Measuring speed using the high speed array (%s block(s))." % num_blocks)
 		elif (int(targetspeed) >= self.MediumSpeedThreshold) :
 			num_blocks = self.MediumSpeedNBlocks
 			sensor_array = self.MediumSpeedArrayN
-			print ("Measuring speed using the medium speed array, %s block(s)." % num_blocks)
+			print ("Measuring speed using the medium speed array (%s block(s))." % num_blocks)
 		else:
 			num_blocks = self.LowSpeedNBlocks
 			sensor_array = self.LowSpeedArrayN
-			print ("Measuring speed using the low speed array, %s block(s)." % num_blocks)
+			print ("Measuring speed using the low speed array (%s block(s))." % num_blocks)
 		
 		# Calculate the length of the selected block
 		blocklength = self.block * num_blocks
@@ -368,32 +358,34 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 				speed = 0.0
 			else :
 				speed = (blocklength / (duration / 1000.0)) * (3600.0 / 5280)
-				print("Measurement %s, Speed = %s MPH" % (z+1, str(round(speed,3))))
+				print("		Measurement %s: Speed = %s MPH" % (z+1, str(round(speed,3))))
 				speedlist.append(speed)
 		
 		speed = self.getSpeed(speedlist)
 		return speed
 		
 	def findMaximumForwardSpeed(self) :
-		print ("Finding the maximum forward speed over", self.NumSpeedMeasurements, "laps...")
+		print ("Finding the maximum forward speed over %s laps." % self.NumSpeedMeasurements)
 		self.throttle.setIsForward(True)
 		self.waitMsec(500)
 		self.throttle.setSpeedSetting(1.0)
 		self.waitMsec(1000)
 		speed = self.measureSpeed(self.fullSpeed)
-		print ("Maximum forward speed found = ",round(speed))
+		print ("Maximum forward speed found = %s MPH." % round(speed))
+		print()
 		self.waitNextActiveSensor([self.homesensor])
 		self.stopLocomotive()
 		return speed		
 
 	def findMaximumReverseSpeed(self) :
-		print ("Finding the maximum reverse speed over", self.NumSpeedMeasurements, "laps...")
+		print ("Finding the maximum reverse speed over %s laps/" % self.NumSpeedMeasurements)
 		self.throttle.setIsForward(False)
 		self.waitMsec(500)
 		self.throttle.setSpeedSetting(1.0)
 		self.waitMsec(1000)
 		speed = self.measureSpeed(self.fullSpeed)
-		print ("Maximum reverse speed found = ",round(speed))
+		print ("Maximum reverse speed found = %s MPH." % round(speed))
+		print()
 		self.waitNextActiveSensor([self.homesensor])
 		self.stopLocomotive()
 		return speed
