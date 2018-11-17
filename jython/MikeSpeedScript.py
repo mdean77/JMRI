@@ -97,6 +97,8 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.DecoderMap = {141:"Tsunami", 129:"Digitrax", 153:"TCS", 11:"NCE", 113: "QSI/BLI", 99:"Lenz Gen 5", 151:"ESU", 127:"Atlas/Lenz XF"}
 		self.DecoderType = "Default"
 		
+		
+		
 		#	These speed steps are measured.  All others are calculated
 		#	CV		70	74	78	82	86	90	94
 		#	Speedsteps	 4	 8	12	16	20	24	28
@@ -112,6 +114,8 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.SoundtraxxDSDStepList = [14,	28,	42,	56,	70,	84,	99]
 		self.TsunamiStepList = [14.5,	28.5,	42.5,	57,	71,	85,	99]
 		self.ESUStepList = [12,	27,	41,	56,	70,	85,	99]
+		
+		self.DecoderStepLists = {141:self.TsunamiStepList,129:self.DigitraxStepList}
 		return
 
 
@@ -230,6 +234,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		sys.stdout.write("Starting the locomotive warmup laps: ")
 		self.throttle.setSpeedSetting(1.0)
 		self.waitMsec(1000)
+		self.waitNextActiveSensor([self.homesensor])
 		for x in range (0, self.warmupLaps) :
 			sys.stdout.write("%s " % x)
 			self.waitNextActiveSensor([self.homesensor])
@@ -390,7 +395,28 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.waitNextActiveSensor([self.homesensor])
 		self.stopLocomotive()
 		return speed
-	
+		
+####################################################################################
+# setCalibrateDirection() checks to see in what direction the locomotive is slower
+# and sets the throttle appropriately.  Goal is to set up speed tables for a 
+# diesel locomotive in the slower direction.
+####################################################################################		
+	def setCalibrateDirection(self, fwdmaxspeed, revmaxspeed):
+		if (fwdmaxspeed > revmaxspeed) :
+			print ("Locomotive %s is faster in the forward direction." % self.address)
+			self.throttle.setIsForward(True)
+			self.waitMsec(500)
+		elif (revmaxspeed > fwdmaxspeed) :
+			print ("Locomotive %s is faster in the reverse direction." % self.address)
+			self.throttle.setIsForward(False)
+			self.waitMsec(500)
+		else :
+			print ("Locomotive %s runs equally well in both directions." % self.address)
+			self.throttle.setIsForward(True)
+			self.waitMsec(500)
+
+
+		
 	def handle(self):
 		print("Speed Table Script Version %s." % self.scriptversion)
 		print("")
@@ -413,7 +439,20 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			self.warmUpReverse()
 			revmaxspeed = self.findMaximumReverseSpeed()
 		else:
+			print("Not checking speeds in reverse direction because this is a steam locomotive.")
+			print("")
 			revmaxspeed = 0
+		
+		self.setCalibrateDirection(fwdmaxspeed, revmaxspeed)	
+		
+		if (self.DecoderStepLists.has_key(self.mfrID)):
+			steplist  = self.DecoderStepLists[self.mfrID]
+			print("Found steplist in the dictionary")
+		else:
+			steplist = [10, 22, 35, 47, 60, 72, 85]
+			print("No steplist in dictionry so selected default")
+			
+		print(steplist)
 			
 		print("Handle Procedure Done")
 		
