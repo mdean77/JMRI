@@ -134,7 +134,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		print ("	CV 105 = %s." % self.val105)
 		self.val106 = self.readServiceModeCV("106")
 		print ("	CV 106 = %s." % self.val106)
-		print()
+		print("")
 		
 		# Determine if this locomotive uses a long address
 		if ((self.val29 & 32) == 32) :
@@ -158,6 +158,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		print ("The Manufacturer ID is: %s."  % self.mfrID)
 		print ("The Manufacturer Version is: %s." % self.mfrVersion)
 		print ("The Current Private ID is %s, %s." % (self.val105, self.val106))
+		print("")
 		return
 	
 	def attachProgrammer(self):
@@ -230,7 +231,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.throttle.setSpeedSetting(1.0)
 		self.waitMsec(1000)
 		for x in range (0, self.warmupLaps) :
-			sys.stdout.write("%s " % x+1)
+			sys.stdout.write("%s " % x)
 			self.waitNextActiveSensor([self.homesensor])
 		sys.stdout.write("\n")
 		
@@ -372,7 +373,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.waitMsec(1000)
 		speed = self.measureSpeed(self.fullSpeed)
 		print ("Maximum forward speed found = %s MPH." % round(speed))
-		print()
+		print("")
 		self.waitNextActiveSensor([self.homesensor])
 		self.stopLocomotive()
 		return speed		
@@ -385,7 +386,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.waitMsec(1000)
 		speed = self.measureSpeed(self.fullSpeed)
 		print ("Maximum reverse speed found = %s MPH." % round(speed))
-		print()
+		print("")
 		self.waitNextActiveSensor([self.homesensor])
 		self.stopLocomotive()
 		return speed
