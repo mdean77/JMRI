@@ -359,7 +359,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 				speed = 0.0
 			else :
 				speed = (blocklength / (duration / 1000.0)) * (3600.0 / 5280)
-				print("		Measurement %s: Speed = %s MPH" % (z+1, str(round(speed,3))))
+				print("	Measurement %s: Speed = %s MPH" % (z+1, str(round(speed,3))))
 				speedlist.append(speed)
 		
 		speed = self.getSpeed(speedlist)
@@ -392,9 +392,11 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		return speed
 	
 	def handle(self):
-		
-		#topspeed = float(self.MaxSpeed.text)/100
-		#print ("Top Target Speed is ", self.MaxSpeed.text, "MPH")
+		print("Speed Table Script Version %s." % self.scriptversion)
+		print("")
+		topspeed = float(self.MaxSpeed.text)/100
+		print ("Top Target Speed is %s MPH" % self.MaxSpeed.text)
+		print("")
 		
 		self.readDecoder()
 		self.attachThrottle()
