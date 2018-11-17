@@ -224,11 +224,11 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		return
 	
 	def fullThrottleLaps(self):
-		print ("Starting the locomotive warmup laps: ", end="", flush=True)
+		print ("Starting the locomotive warmup laps: ",)
 		self.throttle.setSpeedSetting(1.0)
 		self.waitMsec(1000)
 		for x in range (0, self.warmupLaps) :
-			print("%s " % x, end="", flush=True)
+			print("%s " % x,)
 			self.waitNextActiveSensor([self.homesensor])
 		print()
 		
