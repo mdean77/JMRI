@@ -115,9 +115,9 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.TsunamiStepList = [14.5,	28.5,	42.5,	57,	71,	85,	99]
 		self.ESUStepList = [12,	27,	41,	56,	70,	85,	99]
 		
-		self.DecoderStepLists = {141:self.TsunamiStepList,129:self.DigitraxStepList, 153:NewTCSStepList,
-								11:NCEStepList,113:QSIStepList, 99:Lenz5GenStepList, 151:ESUStepList, 
-								127:LenzXFStepList}
+		self.DecoderStepLists = {141:self.TsunamiStepList,129:self.DigitraxStepList, 153:self.NewTCSStepList,
+								11:self.NCEStepList,113:self.QSIStepList, 99:self.Lenz5GenStepList, 151:self.ESUStepList, 
+								127:self.LenzXFStepList}
 		
 		return
 
