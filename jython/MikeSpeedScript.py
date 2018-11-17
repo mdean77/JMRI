@@ -212,10 +212,8 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		if (self.throttle == None) :
 			print ("ERROR: Couldn't assign throttle!")
 		else :
-			print ("Throttle assigned to locomotive: ", self.address)
-			print("Turn on the headlight")
+			print ("Throttle assigned to locomotive: %s." % self.address)
 			self.throttle.setF0(True)
-			print("Mute the sound")
 			self.throttle.setF8(True)
 		return
 	
@@ -226,12 +224,13 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		return
 	
 	def fullThrottleLaps(self):
-		print ("Starting the locomotive warmup laps")
+		print ("Starting the locomotive warmup laps: ", end="", flush=True)
 		self.throttle.setSpeedSetting(1.0)
 		self.waitMsec(1000)
 		for x in range (0, self.warmupLaps) :
-			print("Warm up loop number %s." % x)
+			print("%s " % x, end="", flush=True)
 			self.waitNextActiveSensor([self.homesensor])
+		print()
 		
 	def warmUpForward(self):
 		print ("Engine warmup in forward direction.")
@@ -279,6 +278,13 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		runtime = stoptime - starttime
 		return runtime, starttime, stoptime
 		
+
+####################################################################################
+#
+# self.stripMinMax() is a generator that yields all values in a list that are
+# NOT minimum or maximum values in the list.
+#
+####################################################################################
 	def stripMinMax(self, speedlist):
 		for speed in speedlist:
 			if speed == max(speedlist):
@@ -286,7 +292,16 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			if speed == min(speedlist):
 				continue
 			yield speed
-	
+			
+####################################################################################
+#
+# self.getSpeed() is used as part of the speed measurement
+#
+# This takes several speed measurements and returns an average value. If more than
+# 3 values are given, the min and max values are omitted from the average.
+# The final speed value returned is an average of the remaining values.
+#
+####################################################################################	
 	def getSpeed(self, speedlist):
 		if(self.NumSpeedMeasurements > 3):
 			trimmedValues = []
@@ -294,12 +309,8 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 				trimmedValues.append(speed)
 		else:
 			trimmedValues = speedlist
-		print("Untrimmed list: %s" % speedlist)
-		print("Trimmed list: %s" % trimmedValues)
 		return sum(trimmedValues)/len(trimmedValues)
 		
-	
-	
 ####################################################################################
 #
 # self.getSpeed() is used as part of the speed measurement
@@ -309,28 +320,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 # The final speed value returned is an average of the remaining values.
 #
 ####################################################################################
-	def getSpeed2(self, speedlist) :
-		
-		imin = imax = 0
-		minval = maxval = 0.0
-		
-		if (self.NumSpeedMeasurements > 3):
-			minval = min(speedlist)
-			maxval = max(speedlist)
-			for s in range(0, self.NumSpeedMeasurements):
-				if (speedlist[s] == minval):
-					imin = s
-				if (speedlist[s] == maxval):
-					imax = s
-			if (imin > imax):
-				del speedlist[imin]
-				del speedlist[imax]
-			else:
-				del speedlist[imax]
-				del speedlist[imin]
-		print(speedlist)
-		speed = sum(speedlist)/len(speedlist)
-		return speed
+
 		
 ####################################################################################
 #
