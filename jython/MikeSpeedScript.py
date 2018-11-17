@@ -115,7 +115,10 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.TsunamiStepList = [14.5,	28.5,	42.5,	57,	71,	85,	99]
 		self.ESUStepList = [12,	27,	41,	56,	70,	85,	99]
 		
-		self.DecoderStepLists = {141:self.TsunamiStepList,129:self.DigitraxStepList}
+		self.DecoderStepLists = {141:self.TsunamiStepList,129:self.DigitraxStepList, 153:NewTCSStepList,
+								11:NCEStepList,113:QSIStepList, 99:Lenz5GenStepList, 151:ESUStepList, 
+								127:LenzXFStepList}
+		
 		return
 
 
@@ -415,7 +418,15 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			self.throttle.setIsForward(True)
 			self.waitMsec(500)
 
-
+####################################################################################
+# Look up the step list for the decoder 
+####################################################################################
+	def getDecoderSteplist(self):
+		if (self.DecoderStepLists.has_key(self.mfrID)):
+			return self.DecoderStepLists[self.mfrID]
+		else:
+			return [10, 22, 35, 47, 60, 72, 85]  # Picked Digitrax list as the default
+			
 		
 	def handle(self):
 		print("Speed Table Script Version %s." % self.scriptversion)
@@ -444,15 +455,8 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			revmaxspeed = 0
 		
 		self.setCalibrateDirection(fwdmaxspeed, revmaxspeed)	
-		
-		if (self.DecoderStepLists.has_key(self.mfrID)):
-			steplist  = self.DecoderStepLists[self.mfrID]
-			print("Found steplist in the dictionary")
-		else:
-			steplist = [10, 22, 35, 47, 60, 72, 85]
-			print("No steplist in dictionry so selected default")
-			
-		print(steplist)
+		steplist = getDecoderSteplist()
+
 			
 		print("Handle Procedure Done")
 		
