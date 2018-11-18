@@ -455,7 +455,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			revmaxspeed = 0
 		
 		self.setCalibrateDirection(fwdmaxspeed, revmaxspeed)	
-		steplist = getDecoderSteplist()
+		steplist = self.getDecoderSteplist()
 
 			#Find throttle setting that gives desired speed
 
