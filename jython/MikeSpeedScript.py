@@ -462,6 +462,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		stepvaluelist = [0]
 		throttlesetting = 35	# starting throttle setting(determined by lots of testing)
 		lowthrottle = 0
+		badlocomotive = False
 
 		for speedvalue in steplist :
 
