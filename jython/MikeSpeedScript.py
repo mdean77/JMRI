@@ -457,6 +457,254 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.setCalibrateDirection(fwdmaxspeed, revmaxspeed)	
 		steplist = getDecoderSteplist()
 
+			#Find throttle setting that gives desired speed
+
+		stepvaluelist = [0]
+		throttlesetting = 35	# starting throttle setting(determined by lots of testing)
+		lowthrottle = 0
+
+		for speedvalue in steplist :
+
+			targetspeed = round(speedvalue * topspeed)		
+
+			print
+			print ("Target Speed ",targetspeed)
+			print
+
+			stepvaluelist.extend([0,0,0]) #create spots in list for calculated speed steps
+
+			#initializing all variables for next measured speed step
+			Done = False
+			speed = 1000
+			minimumdifference = 20
+			beenupone = False
+			beendownone = False
+			lowspeed = 0	
+			hispeed = 1000
+			hithrottle = 127
+
+                #05/21/10
+			if ((self.Locomotive.getSelectedItem() == "Diesel") and (targetspeed > revmaxspeed)) or targetspeed > fwdmaxspeed :
+				print
+				print ("Locomotive can not reach ",targetspeed, " MPH")
+				print
+				Done = True
+				throttlesetting = 127
+
+			while Done == False:
+
+				# Measure speed
+				self.throttle.setSpeedSetting(.0079365 * throttlesetting)
+				self.waitMsec(100)
+				print
+				print ("Throttle Setting ",throttlesetting)
+				speed = self.measureSpeed(targetspeed)
+ 
+				# compare it to desired speed and decide whether or not to test a different throttle setting
+				difference = targetspeed - speed
+				print ("Measured Speed = ",round(speed,3), "Difference = ",round(speed - targetspeed,3), " at throttle setting ",throttlesetting)
+
+				#Coarse Measurement
+				if difference < -10 and targetspeed < 20 and throttlesetting > 15 : #started at 35 want to drop fast to reduce time
+					hithrottle = throttlesetting
+					throttlesetting = throttlesetting - 10
+					if throttlesetting < lowthrottle :
+						print ("throttlesetting ",throttlesetting,"is too slow")
+						throttlesetting = lowthrottle + 1
+                            #09/17/09
+						if hithrottle-lowthrottle < 2 :
+							Done = True
+							if (hispeed - targetspeed) > (targetspeed - lowspeed) :
+								throttlesetting = lowthrottle
+							else :
+								throttlesetting = hithrottlesetting
+
+				elif difference < -13 and throttlesetting > 15 : # keep throttle setting > 0
+					hithrottle = throttlesetting
+					throttlesetting = throttlesetting - 6	 # and don't want drastic changes
+					if throttlesetting < lowthrottle :
+						print ("throttlesetting ",throttlesetting,"is too slow")
+                            #08/29/09 This didn't resolve the issue			throttlesetting = lowthrottle
+                            #12-05-08 Having problems with some BEMF decoders	throttlesetting = lowthrottle + 1
+						throttlesetting = lowthrottle + 1
+                            #09/17/09
+						if hithrottle-lowthrottle < 2 :
+							Done = True
+							if (hispeed - targetspeed) > (targetspeed - lowspeed) :
+								throttlesetting = lowthrottle
+							else :
+								throttlesetting = hithrottlesetting
+
+				elif difference < -8 and throttlesetting > 6 : # keep throttle setting > 0
+					hithrottle = throttlesetting
+					throttlesetting = throttlesetting - 3
+					if throttlesetting < lowthrottle :
+						print ("throttlesetting ",throttlesetting,"is too slow")
+						throttlesetting = lowthrottle + 1
+                            #09/17/09
+						if hithrottle-lowthrottle < 2 :
+							Done = True
+							if (hispeed - targetspeed) > (targetspeed - lowspeed) :
+								throttlesetting = lowthrottle
+							else :
+								throttlesetting = hithrottlesetting
+
+				elif difference > 13 and throttlesetting < 121 : # keep throtte setting < 128
+					lowthrottle = throttlesetting
+					throttlesetting = throttlesetting + 7
+					if throttlesetting > hithrottle :
+						print ("throttlesetting ",throttlesetting,"is too fast")
+						throttlesetting = hithrottle - 1
+				elif difference > 8 and throttlesetting < 123 : # keep throtte setting < 128
+					lowthrottle = throttlesetting
+					throttlesetting = throttlesetting + 4
+					if throttlesetting > hithrottle :
+						print ("throttlesetting ",throttlesetting,"is too fast")
+						throttlesetting = hithrottle - 1
+				elif difference > 5 and targetspeed < 20 and throttlesetting > 10 : #for motors that need a lot at the beginning
+					lowthrottle = throttlesetting
+					throttlesetting = throttlesetting + 5
+					if throttlesetting > hithrottle :
+						print ("throttlesetting ",throttlesetting,"is too fast")
+						throttlesetting = hithrottle - 1
+
+				else :
+					#Fine Measurement
+					if minimumdifference > abs(difference) :
+						minimumdifference = abs(difference)
+						savethrottlesetting = throttlesetting
+					elif beenupone == True and beendownone == True :
+						Done = True
+						throttlesetting = savethrottlesetting
+						lowthrottle = throttlesetting + 1
+                            #09/11/08	added print
+						print ("Closest throttle setting is", throttlesetting)
+                            #09/22/08
+
+					if difference < 0  and Done != True :
+						throttlesetting = throttlesetting - 1
+						beendownone = True
+					elif difference > 0 and Done != True :
+						throttlesetting = throttlesetting + 1
+						lowthrottle = throttlesetting
+						beenupone = True
+					else :
+						Done = True
+						throttlesetting = savethrottlesetting
+						lowthrottle = throttlesetting + 1
+
+				if throttlesetting < 1 :
+					print
+					print ("Cannot create speedtable")
+					print ("Locomotive has mechanical or decoder problem")
+					print
+					Done = True
+					badlocomotive = True
+					throttlesetting = 1
+
+	
+				if throttlesetting > 127 :
+					print
+					print ("Locomotive can not reach ",targetspeed, " MPH")
+					print
+					Done = True
+					throttlesetting = 127
+
+			lowthrottle = throttlesetting
+			if difference < -5 :
+				stepvaluelist.append(int(round((throttlesetting - .5) * 2)))
+			elif difference > 5 :
+				stepvaluelist.append(int(round((throttlesetting + .5) * 2)))
+			else :
+				stepvaluelist.append(int(round(throttlesetting * 2)))
+			throttlesetting = throttlesetting + 10 	# no need test a value already in the table
+										# time to do the next speed step
+                                            #09/17/09	had instance where prior statment set speed to 128
+			if throttlesetting > 127 :
+				throttlsetting = 127
+
+			# Stop locomotive
+
+			self.throttle.setSpeedSetting(0.0)
+			self.waitMsec(3000)
+
+			#Calculate speed step values inbetween measured ones
+
+			if badlocomotive == False :
+				print
+				print ("Measured Values")
+				print (stepvaluelist)
+
+				if stepvaluelist[4] < 4 :
+					stepvaluelist[4] = 4
+
+				stepvaluelist[0] = stepvaluelist[4] - (stepvaluelist[8] - stepvaluelist[4]) #trying to improve the bottom end performance
+
+				# making sure none of the speedsteps are < 1
+				if ((stepvaluelist[4] - stepvaluelist[0]) / 4) + stepvaluelist[0] < 1 :
+					stepvaluelist[0] = 0
+
+				for  z in range (4, 29, 4) :
+					# To prevent speedsteps from having the same value
+					# decided it was better to error faster than slower
+					if stepvaluelist[z] - stepvaluelist[z - 4] < 4 :
+						stepvaluelist[z] = stepvaluelist[z - 4] + 4
+
+					if stepvaluelist[z] > 255 :	#can't have a value greater than 255
+						stepvaluelist[z] = 255
+ 
+
+					# Create calculated speed steps
+					y = stepvaluelist[z] - stepvaluelist[z - 4]
+					x = (y/4)
+					stepvaluelist[z -3] = stepvaluelist[z] - round(x * 3)
+					stepvaluelist[z -2] = stepvaluelist[z] - round(x * 2)
+					stepvaluelist[z -1] = stepvaluelist[z] - round(x)
+
+                    #01/09/09	some TCS decoders will stop if a speed step value is 250 or greater
+
+				if self.DecoderType == "TCS" :
+					print
+					print ("Values before TCS correction")
+					print (stepvaluelist)
+					counter = 0
+					for  z in range (21, 29, 1) :
+                        #						print "z= ",z," ",stepvaluelist[z],"counter = ",counter
+						if stepvaluelist[z] > 242 + counter:
+							stepvaluelist[z] = 242 + counter
+						counter = counter + 1
+
+				print
+				print ("All Values")
+				print (stepvaluelist)
+
+				print("Writing Speed table to locomotive")
+				# Write Speed Table to locomotive
+				for z in range (67, 95) :
+					self.testbedWriteCV(z, int(stepvaluelist[z - 66]))
+
+				# Turn on speed table
+				if self.DecoderType == "SoundtraxxDSD" or self.DecoderType == "Tsunami" :			
+					self.testbedWriteCV(25, 16)
+
+				if self.DecoderType == "QSI/BLI" :			
+					self.testbedWriteCV(25, 1)
+
+				if self.long == True :
+					self.testbedWriteCV(29, 50)
+				else:
+					self.testbedWriteCV(29, 18)
+
+				# Turn on acceleration and deceleration
+				self.testbedWriteCV(3, 1)	#Acceleration on
+				self.testbedWriteCV(4, 1)	#Deceleration on
+
+				self.status.text = "Done"
+			else :
+				self.status.text = "Done - Locomotive has decoder or mechanical problem; cannot create speed table"
+
+		else :
+			self.status.text = "Done - Unknown Decoder Cannot Proceed"
 			
 		print("Handle Procedure Done")
 		
