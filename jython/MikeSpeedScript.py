@@ -459,7 +459,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 
 			#Find throttle setting that gives desired speed
 
-		stepvaluelist = [0]
+		stepvaluelist = []
 		throttlesetting = 35	# starting throttle setting(determined by lots of testing)
 		lowthrottle = 0
 		badlocomotive = False
@@ -503,7 +503,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
  
 				# compare it to desired speed and decide whether or not to test a different throttle setting
 				difference = targetspeed - speed
-				print ("Measured Speed = ",round(speed,3), "Difference = ",round(speed - targetspeed,3), " at throttle setting ",throttlesetting)
+				print ("Measured Speed = ",round(speed,3), "Difference = ",round(difference ,3), " at throttle setting ",throttlesetting)
 
 				#Coarse Measurement
 				if difference < -10 and targetspeed < 20 and throttlesetting > 15 : #started at 35 want to drop fast to reduce time
