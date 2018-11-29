@@ -117,7 +117,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.val18 = self.readServiceModeCV("18")
 		print ("	CV 18 = %s." % self.val18)
 		self.mfrID = self.readServiceModeCV("8")
-		print ("	CV 8 = %s." % self.val8)
+		print ("	CV 8 = %s." % self.mfrID)
 		print("")
 		
 		# Determine if this locomotive uses a long address
