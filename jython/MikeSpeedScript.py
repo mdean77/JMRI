@@ -97,28 +97,11 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.DecoderMap = {141:"Tsunami", 129:"Digitrax", 153:"TCS", 11:"NCE", 113: "QSI/BLI", 99:"Lenz Gen 5", 151:"ESU", 127:"Atlas/Lenz XF"}
 		self.DecoderType = "Default"
 		
-		
-		
-		#	These speed steps are measured.  All others are calculated
-		#	CV		70	74	78	82	86	90	94
+		#	These seven speed steps are measured.  All others are calculated.
+		#	CV			70	74	78	82	86	90	94
 		#	Speedsteps	 4	 8	12	16	20	24	28
-		
-		#	These lists are percentages of full speed
-		self.DigitraxStepList = [10, 22, 35, 47, 60, 72, 85]
-		self.Lenz5GenStepList = [17, 30, 44, 57, 71, 84, 98]
-		self.LenzXFStepList = [11, 26, 40.5, 55, 70, 84, 98.5]
-		self.NCEStepList = [10.5, 25, 39.5, 54,	68, 83,	98]
-		self.OldTCSStepList = [14.5, 28.5, 42.5, 57, 71.5, 86, 99]
-		self.NewTCSStepList = [13, 25.5, 38, 50.5, 63, 75.5, 88]
-		self.QSIStepList = [11,	26,	41,	55,	70,	85,	99]
-		self.SoundtraxxDSDStepList = [14,	28,	42,	56,	70,	84,	99]
-		self.TsunamiStepList = [14.5,	28.5,	42.5,	57,	71,	85,	99]
-		self.ESUStepList = [12,	27,	41,	56,	70,	85,	99]
-		
-		self.DecoderStepLists = {141:self.TsunamiStepList,129:self.DigitraxStepList, 153:self.NewTCSStepList,
-								11:self.NCEStepList,113:self.QSIStepList, 99:self.Lenz5GenStepList, 151:self.ESUStepList, 
-								127:self.LenzXFStepList}
-		
+		#	This list contains percentages of full speed, 1/7 per step
+		self.stepList = [14.5, 28.5, 42.5, 57, 71.5, 86, 99]
 		return
 
 
@@ -133,14 +116,8 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		print ("	CV 17 = %s." % self.val17)
 		self.val18 = self.readServiceModeCV("18")
 		print ("	CV 18 = %s." % self.val18)
-		self.val7 = self.readServiceModeCV("7")
-		print ("	CV 7 = %s." % self.val7)
-		self.val8 = self.readServiceModeCV("8")
+		self.mfrID = self.readServiceModeCV("8")
 		print ("	CV 8 = %s." % self.val8)
-		self.val105 = self.readServiceModeCV("105")
-		print ("	CV 105 = %s." % self.val105)
-		self.val106 = self.readServiceModeCV("106")
-		print ("	CV 106 = %s." % self.val106)
 		print("")
 		
 		# Determine if this locomotive uses a long address
@@ -152,19 +129,14 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			self.address = self.val1
 		
 		# get the manufacturer so we can adjust for decoder-specific settings
-		
-		self.mfrID = self.val8
-		self.mfrVersion = self.val7
-		
 		if (self.DecoderMap.has_key(self.mfrID)):
 			self.DecoderType = self.DecoderMap[self.mfrID]
 		else:
 			self.DecoderType = "Unknown"
+			
 		print ("The Locomotive Address is: %s." % self.address)
 		print ("The Manufacturer is: %s."  % self.DecoderType)
 		print ("The Manufacturer ID is: %s."  % self.mfrID)
-		print ("The Manufacturer Version is: %s." % self.mfrVersion)
-		print ("The Current Private ID is %s, %s." % (self.val105, self.val106))
 		print("")
 		return
 	
@@ -407,27 +379,14 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 	def setCalibrateDirection(self, fwdmaxspeed, revmaxspeed):
 		if (fwdmaxspeed > revmaxspeed) :
 			print ("Locomotive %s is faster in the forward direction." % self.address)
-			self.throttle.setIsForward(True)
-			self.waitMsec(500)
 		elif (revmaxspeed > fwdmaxspeed) :
 			print ("Locomotive %s is faster in the reverse direction." % self.address)
-			self.throttle.setIsForward(False)
-			self.waitMsec(500)
 		else :
 			print ("Locomotive %s runs equally well in both directions." % self.address)
-			self.throttle.setIsForward(True)
-			self.waitMsec(500)
-
-####################################################################################
-# Look up the step list for the decoder 
-####################################################################################
-	def getDecoderSteplist(self):
-		if (self.DecoderStepLists.has_key(self.mfrID)):
-			return self.DecoderStepLists[self.mfrID]
-		else:
-			return [10, 22, 35, 47, 60, 72, 85]  # Picked Digitrax list as the default
+		self.throttle.setIsForward(fwdmaxspeed > revmaxspeed)
+		self.waitMsec(500)
 			
-		
+					
 	def handle(self):
 		print("Speed Table Script Version %s." % self.scriptversion)
 		print("")
@@ -455,7 +414,6 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			revmaxspeed = 0
 		
 		self.setCalibrateDirection(fwdmaxspeed, revmaxspeed)	
-		steplist = self.getDecoderSteplist()
 
 			#Find throttle setting that gives desired speed
 
@@ -464,7 +422,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		lowthrottle = 0
 		badlocomotive = False
 
-		for speedvalue in steplist :
+		for speedvalue in self.stepList :
 
 			targetspeed = round(speedvalue * topspeed)		
 
