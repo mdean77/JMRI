@@ -616,19 +616,6 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 				self.stepValueList[z -2] = self.stepValueList[z] - round(x * 2)
 				self.stepValueList[z -1] = self.stepValueList[z] - round(x)
 
-                    #01/09/09	some TCS decoders will stop if a speed step value is 250 or greater
-
-			if self.DecoderType == "TCS" :
-				print
-				print ("Values before TCS correction")
-				print (self.stepValueList)
-				counter = 0
-				for  z in range (21, 29, 1) :
-                        #						print "z= ",z," ",self.stepValueList[z],"counter = ",counter
-					if self.stepValueList[z] > 242 + counter:
-						self.stepValueList[z] = 242 + counter
-					counter = counter + 1
-
 			print
 			print ("All Values")
 			print (self.stepValueList)
@@ -636,15 +623,11 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			print("Writing Speed table to locomotive")
 			# Write Speed Table to locomotive
 			for z in range (67, 95) :
+				print("Writing CV: %s with value %s." % (z, self.stepValueList[z - 66]))
 				self.testbedWriteCV(z, int(self.stepValueList[z - 66]))
 
 			# Turn on speed table
-			if self.DecoderType == "SoundtraxxDSD" or self.DecoderType == "Tsunami" :			
-				self.testbedWriteCV(25, 16)
-
-			if self.DecoderType == "QSI/BLI" :			
-				self.testbedWriteCV(25, 1)
-
+			print("Turning on speed table")
 			if self.long == True :
 				self.testbedWriteCV(29, 50)
 			else:
