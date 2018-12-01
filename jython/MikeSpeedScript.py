@@ -70,7 +70,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.MediumSpeedNBlocks = 3
 		self.LowSpeedNBlocks = 1
 		
-		self.HighSpeedArrayN = [self.sensor1, self.sensor7]
+		self.HighSpeedArrayN = (self.sensor1, self.sensor7)
 		
 		self.MediumSpeedArrayN= (
 				self.sensor1,
