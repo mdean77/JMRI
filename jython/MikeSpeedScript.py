@@ -355,7 +355,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		speed = self.measureSpeed(self.fullSpeed)
 		print ("Maximum forward speed found = %s MPH." % round(speed))
 		print("")
-		self.waitNextActiveSensor([self.homesensor])
+		self.waitNextActiveSensor(self.HighSpeedArrayN)
 		self.stopLocomotive()
 		return speed		
 
@@ -368,7 +368,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		speed = self.measureSpeed(self.fullSpeed)
 		print ("Maximum reverse speed found = %s MPH." % round(speed))
 		print("")
-		self.waitNextActiveSensor([self.homesensor])
+		self.waitNextActiveSensor(self.HighSpeedArrayN)
 		self.stopLocomotive()
 		return speed
 		
