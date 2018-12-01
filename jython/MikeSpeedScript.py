@@ -66,11 +66,11 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		# forever to do the low speed if loco had to circle whole track
 		# for every measurement.
 		
-		self.HighSpeedNBlocks = 6
+		self.HighSpeedNBlocks = 12
 		self.MediumSpeedNBlocks = 3
 		self.LowSpeedNBlocks = 1
 		
-		self.HighSpeedArrayN = (self.sensor1, self.sensor7)
+		self.HighSpeedArrayN = [self.homesensor]
 		
 		self.MediumSpeedArrayN= (
 				self.sensor1,
@@ -355,7 +355,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		speed = self.measureSpeed(self.fullSpeed)
 		print ("Maximum forward speed found = %s MPH." % round(speed))
 		print("")
-		self.waitNextActiveSensor(self.HighSpeedArrayN)
+		self.waitNextActiveSensor([self.homesensor])
 		self.stopLocomotive()
 		return speed		
 
@@ -368,7 +368,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		speed = self.measureSpeed(self.fullSpeed)
 		print ("Maximum reverse speed found = %s MPH." % round(speed))
 		print("")
-		self.waitNextActiveSensor(self.HighSpeedArrayN)
+		self.waitNextActiveSensor([self.homesensor])
 		self.stopLocomotive()
 		return speed
 		
