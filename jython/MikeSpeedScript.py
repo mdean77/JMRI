@@ -45,7 +45,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.throttle = None
 		self.writeLock = False
 		self.fullSpeed = 100
-		self.stepValueList = []
+		self.stepValueList = [0]
 		
 		# JMD:  I changed the sensor numbering since I will only have 12 blocks.
 		self.sensor1 = sensors.provideSensor("Block 1")
