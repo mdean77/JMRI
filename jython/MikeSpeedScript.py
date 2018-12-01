@@ -45,6 +45,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.throttle = None
 		self.writeLock = False
 		self.fullSpeed = 100
+		self.self.stepValueList = []
 		
 		# JMD:  I changed the sensor numbering since I will only have 12 blocks.
 		self.sensor1 = sensors.provideSensor("Block 1")
@@ -417,7 +418,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 
 			#Find throttle setting that gives desired speed
 
-		stepvaluelist = []
+		
 		throttlesetting = 35	# starting throttle setting(determined by lots of testing)
 		lowthrottle = 0
 		badlocomotive = False
@@ -430,7 +431,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			print ("Target Speed ",targetspeed)
 			print
 
-			stepvaluelist.extend([0,0,0]) #create spots in list for calculated speed steps
+			self.stepValueList.extend([0,0,0]) #create spots in list for calculated speed steps
 
 			#initializing all variables for next measured speed step
 			Done = False
@@ -566,11 +567,11 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 
 			lowthrottle = throttlesetting
 			if difference < -5 :
-				stepvaluelist.append(int(round((throttlesetting - .5) * 2)))
+				self.stepValueList.append(int(round((throttlesetting - .5) * 2)))
 			elif difference > 5 :
-				stepvaluelist.append(int(round((throttlesetting + .5) * 2)))
+				self.stepValueList.append(int(round((throttlesetting + .5) * 2)))
 			else :
-				stepvaluelist.append(int(round(throttlesetting * 2)))
+				self.stepValueList.append(int(round(throttlesetting * 2)))
 			throttlesetting = throttlesetting + 10 	# no need test a value already in the table
 										# time to do the next speed step
                                             #09/17/09	had instance where prior statment set speed to 128
@@ -587,55 +588,55 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		if badlocomotive == False :
 			print
 			print ("Measured Values")
-			print (stepvaluelist)
+			print (self.stepValueList)
 
-			if stepvaluelist[4] < 4 :
-				stepvaluelist[4] = 4
+			if self.stepValueList[4] < 4 :
+				self.stepValueList[4] = 4
 
-			stepvaluelist[0] = stepvaluelist[4] - (stepvaluelist[8] - stepvaluelist[4]) #trying to improve the bottom end performance
+			self.stepValueList[0] = self.stepValueList[4] - (self.stepValueList[8] - self.stepValueList[4]) #trying to improve the bottom end performance
 
 			# making sure none of the speedsteps are < 1
-			if ((stepvaluelist[4] - stepvaluelist[0]) / 4) + stepvaluelist[0] < 1 :
-				stepvaluelist[0] = 0
+			if ((self.stepValueList[4] - self.stepValueList[0]) / 4) + self.stepValueList[0] < 1 :
+				self.stepValueList[0] = 0
 
 			for  z in range (4, 29, 4) :
 				# To prevent speedsteps from having the same value
 				# decided it was better to error faster than slower
-				if stepvaluelist[z] - stepvaluelist[z - 4] < 4 :
-					stepvaluelist[z] = stepvaluelist[z - 4] + 4
+				if self.stepValueList[z] - self.stepValueList[z - 4] < 4 :
+					self.stepValueList[z] = self.stepValueList[z - 4] + 4
 
-				if stepvaluelist[z] > 255 :	#can't have a value greater than 255
-					stepvaluelist[z] = 255
+				if self.stepValueList[z] > 255 :	#can't have a value greater than 255
+					self.stepValueList[z] = 255
  
 
 				# Create calculated speed steps
-				y = stepvaluelist[z] - stepvaluelist[z - 4]
+				y = self.stepValueList[z] - self.stepValueList[z - 4]
 				x = (y/4)
-				stepvaluelist[z -3] = stepvaluelist[z] - round(x * 3)
-				stepvaluelist[z -2] = stepvaluelist[z] - round(x * 2)
-				stepvaluelist[z -1] = stepvaluelist[z] - round(x)
+				self.stepValueList[z -3] = self.stepValueList[z] - round(x * 3)
+				self.stepValueList[z -2] = self.stepValueList[z] - round(x * 2)
+				self.stepValueList[z -1] = self.stepValueList[z] - round(x)
 
                     #01/09/09	some TCS decoders will stop if a speed step value is 250 or greater
 
 			if self.DecoderType == "TCS" :
 				print
 				print ("Values before TCS correction")
-				print (stepvaluelist)
+				print (self.stepValueList)
 				counter = 0
 				for  z in range (21, 29, 1) :
-                        #						print "z= ",z," ",stepvaluelist[z],"counter = ",counter
-					if stepvaluelist[z] > 242 + counter:
-						stepvaluelist[z] = 242 + counter
+                        #						print "z= ",z," ",self.stepValueList[z],"counter = ",counter
+					if self.stepValueList[z] > 242 + counter:
+						self.stepValueList[z] = 242 + counter
 					counter = counter + 1
 
 			print
 			print ("All Values")
-			print (stepvaluelist)
+			print (self.stepValueList)
 
 			print("Writing Speed table to locomotive")
 			# Write Speed Table to locomotive
 			for z in range (67, 95) :
-				self.testbedWriteCV(z, int(stepvaluelist[z - 66]))
+				self.testbedWriteCV(z, int(self.stepValueList[z - 66]))
 
 			# Turn on speed table
 			if self.DecoderType == "SoundtraxxDSD" or self.DecoderType == "Tsunami" :			
