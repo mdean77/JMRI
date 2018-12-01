@@ -66,11 +66,11 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		# forever to do the low speed if loco had to circle whole track
 		# for every measurement.
 		
-		self.HighSpeedNBlocks = 12
+		self.HighSpeedNBlocks = 6
 		self.MediumSpeedNBlocks = 3
 		self.LowSpeedNBlocks = 1
 		
-		self.HighSpeedArrayN = [self.homesensor]
+		self.HighSpeedArrayN = [self.sensor1, self.sensor7]
 		
 		self.MediumSpeedArrayN= (
 				self.sensor1,
@@ -619,12 +619,14 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			print
 			print ("All Values")
 			print (self.stepValueList)
+			self.attachProgrammer()
 
 			print("Writing Speed table to locomotive")
 			# Write Speed Table to locomotive
 			for z in range (67, 95) :
 				print("Writing CV: %s with value %s." % (z, self.stepValueList[z - 66]))
 				self.testbedWriteCV(z, int(self.stepValueList[z - 66]))
+				print(self.readServiceModeCV(z)
 
 			# Turn on speed table
 			print("Turning on speed table")
