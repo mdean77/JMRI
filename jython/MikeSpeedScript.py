@@ -626,7 +626,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			for z in range (67, 95) :
 				print("Writing CV: %s with value %s." % (z, self.stepValueList[z - 66]))
 				self.testbedWriteCV(z, int(self.stepValueList[z - 66]))
-				print(self.readServiceModeCV(z))
+				print(self.readServiceModeCV(str(z)))
 
 			# Turn on speed table
 			print("Turning on speed table")
