@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.4-R1ccf76b on Sun Aug 14 11:07:01 MDT 2016 $Id$-->
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sun Dec 02 16:23:35 MST 2018-->
   <locomotive id="SP 8584 SD45" fileName="SP_8584_SD45.xml" roadNumber="8584" roadName="Southern Pacific" mfg="Kato" owner="Mike Dean" model="176-3131" dccAddress="8584" comment="Purchased used as DC from Cameron." maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>Aug 14, 2016 11:07:01 AM</dateUpdated>
+    <dateUpdated>2018-12-02T23:23:35Z</dateUpdated>
     <decoder model="DN163K1C" family="Series 3 with FX3, silent, readback" comment="Installed myself." />
     <locoaddress>
       <dcclocoaddress number="8584" longaddress="yes" />
@@ -34,7 +34,10 @@
         <varValue item="Advanced Consist Function 6 Override" value="0" />
         <varValue item="Advanced Consist Function 7 Override" value="0" />
         <varValue item="Advanced Consist Function 8 Override" value="0" />
-        <varValue item="Advanced Consist Function 0 Override" value="0" />
+        <varValue item="Advanced Consist Function F0F Override" value="0" />
+        <varValue item="Advanced Consist Function F0R Override" value="0" />
+        <varValue item="Advanced Consist Function 9 Override" value="0" />
+        <varValue item="Advanced Consist Function 10 Override" value="0" />
         <varValue item="Normal Direction of Travel" value="0" />
         <varValue item="Speed Steps" value="1" />
         <varValue item="Analog conversion mode" value="0" />
@@ -98,7 +101,7 @@
         <varValue item="Function 4 behavior" value="0" />
         <varValue item="Switching speed enabled by F6" value="0" />
         <varValue item="Torque compensation" value="0" />
-        <varValue item="Decoder Lock Feature" value="0" />
+        <varValue item="Decoder Lock Feature" value="1" />
         <varValue item="Static compensation for speed stabilization" value="128" />
         <varValue item="Dynamic compensation for speed stabilization" value="80" />
         <varValue item="Solo operation droop compensation for speed stabilization" value="6" />
@@ -167,17 +170,17 @@
       <CVvalue name="36" value="8" />
       <CVvalue name="37" value="16" />
       <CVvalue name="38" value="4" />
-      <CVvalue name="39" value="0" />
-      <CVvalue name="40" value="0" />
-      <CVvalue name="41" value="0" />
-      <CVvalue name="42" value="0" />
+      <CVvalue name="39" value="8" />
+      <CVvalue name="40" value="16" />
+      <CVvalue name="41" value="32" />
+      <CVvalue name="42" value="64" />
       <CVvalue name="49" value="0" />
       <CVvalue name="50" value="0" />
       <CVvalue name="51" value="0" />
       <CVvalue name="52" value="0" />
       <CVvalue name="113" value="0" />
       <CVvalue name="114" value="0" />
-      <CVvalue name="54" value="0" />
+      <CVvalue name="54" value="64" />
       <CVvalue name="55" value="128" />
       <CVvalue name="56" value="80" />
       <CVvalue name="57" value="6" />

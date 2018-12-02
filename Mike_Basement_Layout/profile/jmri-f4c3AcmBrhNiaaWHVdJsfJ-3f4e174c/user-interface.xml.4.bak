@@ -22,7 +22,11 @@
         <comboBox xmlns="" lastSelected="19,200 baud" name="jmri.jmrix.nce.usbdriver.UsbDriverAdapter.baud"/>
     </comboBoxLastValue>
     <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd"/>
-    <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd"/>
+    <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
+        <table xmlns="" name="jmri.jmrit.roster.swing.RosterFrame:Roster:roster">
+            <columns/>
+        </table>
+    </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
         <window xmlns="" class="apps.gui3.TabbedPreferencesFrame:Preferences" height="464.0" locX="143.0" locY="203.0" width="937.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$4:9155 NW Switcher" height="576.0" locX="509.0" locY="159.0" width="1060.0"/>
@@ -43,7 +47,7 @@
             <properties>
                 <property>
                     <key>selectedProgrammer</key>
-                    <value class="java.lang.String">edit</value>
+                    <value class="java.lang.String">service</value>
                 </property>
             </properties>
         </window>

@@ -3,6 +3,7 @@
     <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
         <preferences xmlns="" class="jmri.jmrit.beantable.SignalMastTableAction"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.LogixTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TurnoutTableAction"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.LRouteTableAction"/>
         <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction"/>
@@ -33,11 +34,12 @@
             <properties>
                 <property>
                     <key>selectedProgrammer</key>
-                    <value class="java.lang.String">ops</value>
+                    <value class="java.lang.String">service</value>
                 </property>
             </properties>
         </window>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GP 35 UP 749" height="688.0" locX="47.0" locY="23.0" width="1052.0"/>
         <window xmlns="" class="PanelPro" height="231.0" locX="436.0" locY="334.0" width="568.0"/>
         <window xmlns="" class="Local JMRI throttles" height="222.0" locX="47.0" locY="23.0" width="320.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GP7 UP 116" height="711.0" locX="65.0" locY="24.0" width="1060.0"/>

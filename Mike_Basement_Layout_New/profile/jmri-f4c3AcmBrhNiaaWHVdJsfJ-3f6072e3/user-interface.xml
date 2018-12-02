@@ -26,6 +26,6 @@
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
         <window xmlns="" class="PanelPro" height="231.0" locX="476.0" locY="334.0" width="487.0"/>
         <window xmlns="" class="Local JMRI throttles" height="222.0" locX="69.0" locY="24.0" width="320.0"/>
-        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="484.0" locX="46.0" locY="23.0" width="554.0"/>
+        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="484.0" locX="47.0" locY="23.0" width="554.0"/>
     </windowDetails>
 </auxiliary-configuration>

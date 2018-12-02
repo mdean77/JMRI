@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sun Sep 30 17:12:44 MDT 2018-->
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sun Dec 02 16:29:13 MST 2018-->
   <roster>
     <locomotive id="1029 NW2 Switcher" fileName="1029_NW2_Switcher.xml" roadNumber="1029" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="176-4374" dccAddress="1029" comment="$92 plus decoder" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T14:58:45Z</dateUpdated>
@@ -576,7 +576,7 @@
       </attributepairs>
     </locomotive>
     <locomotive id="RG 5327 SD45" fileName="RG_5327_SD45.xml" roadNumber="5327" roadName="Rio Grande" mfg="Kato" owner="Mike Dean" model="176-3123" dccAddress="5327" comment="Bought used from Cameron." maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2016-08-14T22:11:24Z</dateUpdated>
+      <dateUpdated>2018-12-02T23:26:46Z</dateUpdated>
       <decoder model="DN163K1C" family="Series 3 with FX3, silent, readback" comment="Installed myself." />
       <locoaddress>
         <dcclocoaddress number="5327" longaddress="yes" />
@@ -594,7 +594,7 @@
       </locoaddress>
     </locomotive>
     <locomotive id="SP 8584 SD45" fileName="SP_8584_SD45.xml" roadNumber="8584" roadName="Southern Pacific" mfg="Kato" owner="Mike Dean" model="176-3131" dccAddress="8584" comment="Purchased used as DC from Cameron." maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2016-08-14T17:07:01Z</dateUpdated>
+      <dateUpdated>2018-12-02T23:23:35Z</dateUpdated>
       <decoder model="DN163K1C" family="Series 3 with FX3, silent, readback" comment="Installed myself." />
       <locoaddress>
         <dcclocoaddress number="8584" longaddress="yes" />
