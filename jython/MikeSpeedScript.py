@@ -391,6 +391,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 	def handle(self):
 		print("Speed Table Script Version %s." % self.scriptversion)
 		print("")
+		startProgramTime = java.lang.System.currentTimeMillis()
 		topspeed = float(self.MaxSpeed.text)/100
 		print ("Top Target Speed is %s MPH" % self.MaxSpeed.text)
 		print("")
@@ -643,8 +644,10 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		else :
 				print("Done - Locomotive has decoder or mechanical problem; cannot create speed table")
 
-			
-		print("Handle Procedure Done")
+		stopProgramTime = java.lang.System.currentTimeMillis()
+		timeElapsed = (stopProgramTime - startProgramTime)/60000
+		
+		print("Handle Procedure Done - required %s minutes." % timeElapsed)
 		
 		return False
 
