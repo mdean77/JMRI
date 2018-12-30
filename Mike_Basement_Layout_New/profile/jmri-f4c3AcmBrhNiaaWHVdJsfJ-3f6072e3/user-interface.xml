@@ -20,9 +20,18 @@
         <comboBox xmlns="" lastSelected="NCE USB" name="NCE"/>
         <comboBox xmlns="" lastSelected="19,200 baud" name="jmri.jmrix.nce.usbdriver.UsbDriverAdapter.baud"/>
     </comboBoxLastValue>
+    <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd"/>
     <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd"/>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
         <window xmlns="" class="apps.gui3.TabbedPreferencesFrame:Preferences" height="464.0" locX="331.0" locY="608.0" width="937.0"/>
+        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="600.0" locX="47.0" locY="23.0" width="1024.0">
+            <properties>
+                <property>
+                    <key>selectedProgrammer</key>
+                    <value class="java.lang.String">ops</value>
+                </property>
+            </properties>
+        </window>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
         <window xmlns="" class="PanelPro" height="231.0" locX="476.0" locY="334.0" width="487.0"/>
         <window xmlns="" class="Local JMRI throttles" height="222.0" locX="69.0" locY="24.0" width="320.0"/>

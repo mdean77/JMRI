@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sun Dec 02 16:29:13 MST 2018-->
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sun Dec 30 13:49:29 MST 2018-->
   <roster>
     <locomotive id="1029 NW2 Switcher" fileName="1029_NW2_Switcher.xml" roadNumber="1029" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="176-4374" dccAddress="1029" comment="$92 plus decoder" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T14:58:45Z</dateUpdated>
@@ -455,11 +455,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2018-09-09T22:16:53Z</value>
+          <value>2018-12-30T20:49:26Z</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>252283</value>
+          <value>252510</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>

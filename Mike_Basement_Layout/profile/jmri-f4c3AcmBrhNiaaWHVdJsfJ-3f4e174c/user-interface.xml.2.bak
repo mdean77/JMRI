@@ -34,9 +34,10 @@
             </properties>
         </window>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
-        <window xmlns="" class="PanelPro" height="231.0" locX="590.0" locY="669.0" width="487.0"/>
+        <window xmlns="" class="PanelPro" height="231.0" locX="476.0" locY="334.0" width="487.0"/>
         <window xmlns="" class="Local JMRI throttles" height="222.0" locX="47.0" locY="23.0" width="320.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$4:ALCO 2-6-0 Steam" height="669.0" locX="66.0" locY="24.0" width="981.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:Program GE ES44AC &quot;Thunder&quot; in Operations Mode (Main Track):1" height="865.0" locX="69.0" locY="23.0" width="1273.0"/>
         <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="484.0" locX="47.0" locY="23.0" width="554.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="64.0" locY="54.0" width="1024.0">
             <properties>
@@ -46,5 +47,6 @@
                 </property>
             </properties>
         </window>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:Program GE ES44AC &quot;Thunder&quot; in Operations Mode (Main Track)" height="865.0" locX="69.0" locY="23.0" width="1273.0"/>
     </windowDetails>
 </auxiliary-configuration>
