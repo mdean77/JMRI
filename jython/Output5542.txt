@@ -1,0 +1,588 @@
+Speed Table Script Version 3.0.
+
+Top Target Speed is 100 MPH
+
+Reading Locomotive...
+	CV 29 = 50.
+	CV 1 = 3.
+	CV 17 = 213.
+	CV 18 = 166.
+	CV 8 = 129.
+
+The Locomotive Address is: 5542.
+The Manufacturer is: Digitrax.
+The Manufacturer ID is: 129.
+
+Throttle assigned to locomotive: 5542.
+Throttle assigned to locomotive: 5542.
+Engine warmup in forward direction.
+Starting the locomotive warmup laps: 0 1 2 3 4 
+Finding the maximum forward speed over 5 laps.
+Measuring speed using the high speed array (12 block(s)).
+	Measurement 1: Speed = 96.541 MPH
+	Measurement 2: Speed = 94.937 MPH
+	Measurement 3: Speed = 94.812 MPH
+	Measurement 4: Speed = 96.834 MPH
+	Measurement 5: Speed = 94.829 MPH
+Maximum forward speed found = 95.0 MPH.
+
+Stop the locomotive
+Engine warmup in reverse direction.
+Starting the locomotive warmup laps: 0 1 2 3 4 
+Finding the maximum reverse speed over 5 laps/
+Measuring speed using the high speed array (12 block(s)).
+	Measurement 1: Speed = 98.881 MPH
+	Measurement 2: Speed = 98.845 MPH
+	Measurement 3: Speed = 98.926 MPH
+	Measurement 4: Speed = 98.845 MPH
+	Measurement 5: Speed = 96.817 MPH
+Maximum reverse speed found = 99.0 MPH.
+
+Stop the locomotive
+Locomotive 5542 is faster in the reverse direction.
+
+('Target Speed ', 15.0)
+
+
+Throttle Setting 35
+Measuring speed using the low speed array (1 block(s)).
+	Measurement 1: Speed = 35.233 MPH
+	Measurement 2: Speed = 38.569 MPH
+	Measurement 3: Speed = 35.26 MPH
+	Measurement 4: Speed = 35.124 MPH
+	Measurement 5: Speed = 38.867 MPH
+('Measured Speed = ', 36.354, 'Difference = ', -21.354, ' at throttle setting ', 35)
+
+Throttle Setting 25
+Measuring speed using the low speed array (1 block(s)).
+	Measurement 1: Speed = 27.701 MPH
+	Measurement 2: Speed = 24.196 MPH
+	Measurement 3: Speed = 24.248 MPH
+	Measurement 4: Speed = 25.797 MPH
+	Measurement 5: Speed = 25.841 MPH
+('Measured Speed = ', 25.295, 'Difference = ', -10.295, ' at throttle setting ', 25)
+
+Throttle Setting 15
+Measuring speed using the low speed array (1 block(s)).
+	Measurement 1: Speed = 17.596 MPH
+	Measurement 2: Speed = 15.5 MPH
+	Measurement 3: Speed = 15.901 MPH
+	Measurement 4: Speed = 17.596 MPH
+	Measurement 5: Speed = 15.487 MPH
+('Measured Speed = ', 15.7, 'Difference = ', -0.7, ' at throttle setting ', 15)
+
+Throttle Setting 14
+Measuring speed using the low speed array (1 block(s)).
+	Measurement 1: Speed = 16.174 MPH
+	Measurement 2: Speed = 15.353 MPH
+	Measurement 3: Speed = 13.785 MPH
+	Measurement 4: Speed = 14.9 MPH
+	Measurement 5: Speed = 14.352 MPH
+('Measured Speed = ', 14.868, 'Difference = ', 0.132, ' at throttle setting ', 14)
+
+Throttle Setting 15
+Measuring speed using the low speed array (1 block(s)).
+	Measurement 1: Speed = 17.593 MPH
+	Measurement 2: Speed = 16.142 MPH
+	Measurement 3: Speed = 16.13 MPH
+	Measurement 4: Speed = 16.83 MPH
+	Measurement 5: Speed = 16.133 MPH
+('Measured Speed = ', 16.368, 'Difference = ', -1.368, ' at throttle setting ', 15)
+('Closest throttle setting is', 14)
+
+('Target Speed ', 29.0)
+
+
+Throttle Setting 24
+Measuring speed using the low speed array (1 block(s)).
+	Measurement 1: Speed = 27.692 MPH
+	Measurement 2: Speed = 25.811 MPH
+	Measurement 3: Speed = 21.56 MPH
+	Measurement 4: Speed = 25.811 MPH
+	Measurement 5: Speed = 24.17 MPH
+('Measured Speed = ', 25.264, 'Difference = ', 3.736, ' at throttle setting ', 24)
+
+Throttle Setting 25
+Measuring speed using the low speed array (1 block(s)).
+	Measurement 1: Speed = 25.797 MPH
+	Measurement 2: Speed = 24.06 MPH
+	Measurement 3: Speed = 24.196 MPH
+	Measurement 4: Speed = 27.701 MPH
+	Measurement 5: Speed = 22.77 MPH
+('Measured Speed = ', 24.684, 'Difference = ', 4.316, ' at throttle setting ', 25)
+
+Throttle Setting 26
+Measuring speed using the low speed array (1 block(s)).
+	Measurement 1: Speed = 29.869 MPH
+	Measurement 2: Speed = 27.599 MPH
+	Measurement 3: Speed = 25.856 MPH
+	Measurement 4: Speed = 27.633 MPH
+	Measurement 5: Speed = 29.79 MPH
+('Measured Speed = ', 28.341, 'Difference = ', 0.659, ' at throttle setting ', 26)
+
+Throttle Setting 27
+Measuring speed using the low speed array (1 block(s)).
+	Measurement 1: Speed = 27.701 MPH
+	Measurement 2: Speed = 27.616 MPH
+	Measurement 3: Speed = 25.848 MPH
+	Measurement 4: Speed = 29.751 MPH
+	Measurement 5: Speed = 25.826 MPH
+('Measured Speed = ', 27.055, 'Difference = ', 1.945, ' at throttle setting ', 27)
+
+Throttle Setting 28
+Measuring speed using the low speed array (1 block(s)).
+	Measurement 1: Speed = 29.83 MPH
+	Measurement 2: Speed = 27.642 MPH
+	Measurement 3: Speed = 24.254 MPH
+	Measurement 4: Speed = 29.761 MPH
+	Measurement 5: Speed = 27.701 MPH
+('Measured Speed = ', 28.368, 'Difference = ', 0.632, ' at throttle setting ', 28)
+
+Throttle Setting 29
+Measuring speed using the low speed array (1 block(s)).
+	Measurement 1: Speed = 27.701 MPH
+	Measurement 2: Speed = 27.633 MPH
+	Measurement 3: Speed = 27.684 MPH
+	Measurement 4: Speed = 29.751 MPH
+	Measurement 5: Speed = 25.856 MPH
+('Measured Speed = ', 27.673, 'Difference = ', 1.327, ' at throttle setting ', 29)
+
+Throttle Setting 30
+Measuring speed using the low speed array (1 block(s)).
+	Measurement 1: Speed = 32.29 MPH
+	Measurement 2: Speed = 27.642 MPH
+	Measurement 3: Speed = 27.701 MPH
+	Measurement 4: Speed = 29.761 MPH
+	Measurement 5: Speed = 32.301 MPH
+('Measured Speed = ', 29.917, 'Difference = ', -0.917, ' at throttle setting ', 30)
+
+Throttle Setting 29
+Measuring speed using the low speed array (1 block(s)).
+	Measurement 1: Speed = 27.692 MPH
+	Measurement 2: Speed = 27.633 MPH
+	Measurement 3: Speed = 25.856 MPH
+	Measurement 4: Speed = 32.221 MPH
+	Measurement 5: Speed = 25.856 MPH
+('Measured Speed = ', 27.663, 'Difference = ', 1.337, ' at throttle setting ', 29)
+('Closest throttle setting is', 28)
+
+('Target Speed ', 43.0)
+
+
+Throttle Setting 38
+Measuring speed using the low speed array (1 block(s)).
+	Measurement 1: Speed = 48.262 MPH
+	Measurement 2: Speed = 38.75 MPH
+	Measurement 3: Speed = 35.302 MPH
+	Measurement 4: Speed = 42.905 MPH
+	Measurement 5: Speed = 38.767 MPH
+('Measured Speed = ', 40.141, 'Difference = ', 2.859, ' at throttle setting ', 38)
+
+Throttle Setting 39
+Measuring speed using the low speed array (1 block(s)).
+	Measurement 1: Speed = 38.833 MPH
+	Measurement 2: Speed = 38.767 MPH
+	Measurement 3: Speed = 38.618 MPH
+	Measurement 4: Speed = 43.15 MPH
+	Measurement 5: Speed = 38.734 MPH
+('Measured Speed = ', 38.778, 'Difference = ', 4.222, ' at throttle setting ', 39)
+
+Throttle Setting 40
+Measuring speed using the low speed array (1 block(s)).
+	Measurement 1: Speed = 43.089 MPH
+	Measurement 2: Speed = 43.15 MPH
+	Measurement 3: Speed = 35.151 MPH
+	Measurement 4: Speed = 38.767 MPH
+	Measurement 5: Speed = 43.171 MPH
+('Measured Speed = ', 41.669, 'Difference = ', 1.331, ' at throttle setting ', 40)
+
+Throttle Setting 41
+Measuring speed using the low speed array (1 block(s)).
+	Measurement 1: Speed = 43.068 MPH
+	Measurement 2: Speed = 38.651 MPH
+	Measurement 3: Speed = 35.329 MPH
+	Measurement 4: Speed = 43.027 MPH
+	Measurement 5: Speed = 38.667 MPH
+('Measured Speed = ', 40.115, 'Difference = ', 2.885, ' at throttle setting ', 41)
+
+Throttle Setting 42
+Measuring speed using the low speed array (1 block(s)).
+	Measurement 1: Speed = 48.573 MPH
+	Measurement 2: Speed = 42.884 MPH
+	Measurement 3: Speed = 35.219 MPH
+	Measurement 4: Speed = 48.573 MPH
+	Measurement 5: Speed = 42.925 MPH
+('Measured Speed = ', 42.905, 'Difference = ', 0.095, ' at throttle setting ', 42)
+
+Throttle Setting 43
+Measuring speed using the low speed array (1 block(s)).
+	Measurement 1: Speed = 43.109 MPH
+	Measurement 2: Speed = 42.905 MPH
+	Measurement 3: Speed = 38.734 MPH
+	Measurement 4: Speed = 48.521 MPH
+	Measurement 5: Speed = 38.634 MPH
+('Measured Speed = ', 41.583, 'Difference = ', 1.417, ' at throttle setting ', 43)
+
+Throttle Setting 44
+Measuring speed using the low speed array (1 block(s)).
+	Measurement 1: Speed = 48.521 MPH
+	Measurement 2: Speed = 42.925 MPH
+	Measurement 3: Speed = 38.75 MPH
+	Measurement 4: Speed = 43.171 MPH
+	Measurement 5: Speed = 42.925 MPH
+('Measured Speed = ', 43.007, 'Difference = ', -0.007, ' at throttle setting ', 44)
+
+Throttle Setting 43
+Measuring speed using the low speed array (1 block(s)).
+	Measurement 1: Speed = 42.884 MPH
+	Measurement 2: Speed = 43.15 MPH
+	Measurement 3: Speed = 38.75 MPH
+	Measurement 4: Speed = 48.211 MPH
+	Measurement 5: Speed = 38.833 MPH
+('Measured Speed = ', 41.623, 'Difference = ', 1.377, ' at throttle setting ', 43)
+('Closest throttle setting is', 44)
+
+('Target Speed ', 57.0)
+
+
+Throttle Setting 54
+Measuring speed using the medium speed array (3 block(s)).
+	Measurement 1: Speed = 54.364 MPH
+	Measurement 2: Speed = 52.767 MPH
+	Measurement 3: Speed = 52.901 MPH
+	Measurement 4: Speed = 52.778 MPH
+	Measurement 5: Speed = 55.328 MPH
+('Measured Speed = ', 53.347, 'Difference = ', 3.653, ' at throttle setting ', 54)
+
+Throttle Setting 55
+Measuring speed using the medium speed array (3 block(s)).
+	Measurement 1: Speed = 52.778 MPH
+	Measurement 2: Speed = 55.396 MPH
+	Measurement 3: Speed = 50.499 MPH
+	Measurement 4: Speed = 55.317 MPH
+	Measurement 5: Speed = 55.249 MPH
+('Measured Speed = ', 54.448, 'Difference = ', 2.552, ' at throttle setting ', 55)
+
+Throttle Setting 56
+Measuring speed using the medium speed array (3 block(s)).
+	Measurement 1: Speed = 52.798 MPH
+	Measurement 2: Speed = 55.294 MPH
+	Measurement 3: Speed = 52.829 MPH
+	Measurement 4: Speed = 52.788 MPH
+	Measurement 5: Speed = 52.767 MPH
+('Measured Speed = ', 52.805, 'Difference = ', 4.195, ' at throttle setting ', 56)
+
+Throttle Setting 57
+Measuring speed using the medium speed array (3 block(s)).
+	Measurement 1: Speed = 52.747 MPH
+	Measurement 2: Speed = 55.339 MPH
+	Measurement 3: Speed = 52.788 MPH
+	Measurement 4: Speed = 52.891 MPH
+	Measurement 5: Speed = 55.283 MPH
+('Measured Speed = ', 53.654, 'Difference = ', 3.346, ' at throttle setting ', 57)
+
+Throttle Setting 58
+Measuring speed using the medium speed array (3 block(s)).
+	Measurement 1: Speed = 55.339 MPH
+	Measurement 2: Speed = 58.026 MPH
+	Measurement 3: Speed = 55.407 MPH
+	Measurement 4: Speed = 58.026 MPH
+	Measurement 5: Speed = 55.317 MPH
+('Measured Speed = ', 55.373, 'Difference = ', 1.627, ' at throttle setting ', 58)
+
+Throttle Setting 59
+Measuring speed using the medium speed array (3 block(s)).
+	Measurement 1: Speed = 55.396 MPH
+	Measurement 2: Speed = 58.026 MPH
+	Measurement 3: Speed = 55.294 MPH
+	Measurement 4: Speed = 58.014 MPH
+	Measurement 5: Speed = 55.396 MPH
+('Measured Speed = ', 56.269, 'Difference = ', 0.731, ' at throttle setting ', 59)
+
+Throttle Setting 60
+Measuring speed using the medium speed array (3 block(s)).
+	Measurement 1: Speed = 55.328 MPH
+	Measurement 2: Speed = 58.038 MPH
+	Measurement 3: Speed = 55.419 MPH
+	Measurement 4: Speed = 55.283 MPH
+	Measurement 5: Speed = 58.088 MPH
+('Measured Speed = ', 56.262, 'Difference = ', 0.738, ' at throttle setting ', 60)
+
+Throttle Setting 61
+Measuring speed using the medium speed array (3 block(s)).
+	Measurement 1: Speed = 58.175 MPH
+	Measurement 2: Speed = 55.283 MPH
+	Measurement 3: Speed = 55.317 MPH
+	Measurement 4: Speed = 58.026 MPH
+	Measurement 5: Speed = 55.419 MPH
+('Measured Speed = ', 56.254, 'Difference = ', 0.746, ' at throttle setting ', 61)
+
+Throttle Setting 62
+Measuring speed using the medium speed array (3 block(s)).
+	Measurement 1: Speed = 58.101 MPH
+	Measurement 2: Speed = 64.449 MPH
+	Measurement 3: Speed = 58.175 MPH
+	Measurement 4: Speed = 61.165 MPH
+	Measurement 5: Speed = 61.083 MPH
+('Measured Speed = ', 60.141, 'Difference = ', -3.141, ' at throttle setting ', 62)
+
+Throttle Setting 61
+Measuring speed using the medium speed array (3 block(s)).
+	Measurement 1: Speed = 55.283 MPH
+	Measurement 2: Speed = 55.339 MPH
+	Measurement 3: Speed = 55.283 MPH
+	Measurement 4: Speed = 55.272 MPH
+	Measurement 5: Speed = 58.175 MPH
+('Measured Speed = ', 55.302, 'Difference = ', 1.698, ' at throttle setting ', 61)
+('Closest throttle setting is', 59)
+
+('Target Speed ', 72.0)
+
+
+Throttle Setting 69
+Measuring speed using the medium speed array (3 block(s)).
+	Measurement 1: Speed = 64.51 MPH
+	Measurement 2: Speed = 64.572 MPH
+	Measurement 3: Speed = 60.714 MPH
+	Measurement 4: Speed = 68.293 MPH
+	Measurement 5: Speed = 64.587 MPH
+('Measured Speed = ', 64.556, 'Difference = ', 7.444, ' at throttle setting ', 69)
+
+Throttle Setting 70
+Measuring speed using the medium speed array (3 block(s)).
+	Measurement 1: Speed = 72.606 MPH
+	Measurement 2: Speed = 68.293 MPH
+	Measurement 3: Speed = 68.483 MPH
+	Measurement 4: Speed = 67.9 MPH
+	Measurement 5: Speed = 72.762 MPH
+('Measured Speed = ', 69.794, 'Difference = ', 2.206, ' at throttle setting ', 70)
+
+Throttle Setting 71
+Measuring speed using the medium speed array (3 block(s)).
+	Measurement 1: Speed = 68.328 MPH
+	Measurement 2: Speed = 68.466 MPH
+	Measurement 3: Speed = 72.548 MPH
+	Measurement 4: Speed = 68.259 MPH
+	Measurement 5: Speed = 68.448 MPH
+('Measured Speed = ', 68.414, 'Difference = ', 3.586, ' at throttle setting ', 71)
+
+Throttle Setting 72
+Measuring speed using the medium speed array (3 block(s)).
+	Measurement 1: Speed = 68.483 MPH
+	Measurement 2: Speed = 68.328 MPH
+	Measurement 3: Speed = 68.259 MPH
+	Measurement 4: Speed = 72.762 MPH
+	Measurement 5: Speed = 68.328 MPH
+('Measured Speed = ', 68.379, 'Difference = ', 3.621, ' at throttle setting ', 72)
+
+Throttle Setting 73
+Measuring speed using the medium speed array (3 block(s)).
+	Measurement 1: Speed = 68.259 MPH
+	Measurement 2: Speed = 72.606 MPH
+	Measurement 3: Speed = 68.466 MPH
+	Measurement 4: Speed = 68.345 MPH
+	Measurement 5: Speed = 68.466 MPH
+('Measured Speed = ', 68.425, 'Difference = ', 3.575, ' at throttle setting ', 73)
+
+Throttle Setting 74
+Measuring speed using the medium speed array (3 block(s)).
+	Measurement 1: Speed = 72.626 MPH
+	Measurement 2: Speed = 72.723 MPH
+	Measurement 3: Speed = 72.587 MPH
+	Measurement 4: Speed = 72.762 MPH
+	Measurement 5: Speed = 77.434 MPH
+('Measured Speed = ', 72.704, 'Difference = ', -0.704, ' at throttle setting ', 74)
+
+Throttle Setting 73
+Measuring speed using the medium speed array (3 block(s)).
+	Measurement 1: Speed = 68.518 MPH
+	Measurement 2: Speed = 68.328 MPH
+	Measurement 3: Speed = 72.782 MPH
+	Measurement 4: Speed = 68.259 MPH
+	Measurement 5: Speed = 68.345 MPH
+('Measured Speed = ', 68.397, 'Difference = ', 3.603, ' at throttle setting ', 73)
+('Closest throttle setting is', 74)
+
+('Target Speed ', 86.0)
+
+
+Throttle Setting 84
+Measuring speed using the high speed array (12 block(s)).
+	Measurement 1: Speed = 80.186 MPH
+	Measurement 2: Speed = 79.809 MPH
+	Measurement 3: Speed = 81.609 MPH
+	Measurement 4: Speed = 80.186 MPH
+	Measurement 5: Speed = 81.261 MPH
+('Measured Speed = ', 80.544, 'Difference = ', 5.456, ' at throttle setting ', 84)
+
+Throttle Setting 85
+Measuring speed using the high speed array (12 block(s)).
+	Measurement 1: Speed = 80.151 MPH
+	Measurement 2: Speed = 81.572 MPH
+	Measurement 3: Speed = 81.566 MPH
+	Measurement 4: Speed = 80.145 MPH
+	Measurement 5: Speed = 81.499 MPH
+('Measured Speed = ', 81.072, 'Difference = ', 4.928, ' at throttle setting ', 85)
+
+Throttle Setting 86
+Measuring speed using the high speed array (12 block(s)).
+	Measurement 1: Speed = 83.013 MPH
+	Measurement 2: Speed = 81.554 MPH
+	Measurement 3: Speed = 83.02 MPH
+	Measurement 4: Speed = 81.529 MPH
+	Measurement 5: Speed = 84.513 MPH
+('Measured Speed = ', 82.529, 'Difference = ', 3.471, ' at throttle setting ', 86)
+
+Throttle Setting 87
+Measuring speed using the high speed array (12 block(s)).
+	Measurement 1: Speed = 81.517 MPH
+	Measurement 2: Speed = 82.982 MPH
+	Measurement 3: Speed = 82.988 MPH
+	Measurement 4: Speed = 82.969 MPH
+	Measurement 5: Speed = 82.982 MPH
+('Measured Speed = ', 82.978, 'Difference = ', 3.022, ' at throttle setting ', 87)
+
+Throttle Setting 88
+Measuring speed using the high speed array (12 block(s)).
+	Measurement 1: Speed = 83.045 MPH
+	Measurement 2: Speed = 83.052 MPH
+	Measurement 3: Speed = 81.584 MPH
+	Measurement 4: Speed = 83.039 MPH
+	Measurement 5: Speed = 83.039 MPH
+('Measured Speed = ', 83.041, 'Difference = ', 2.959, ' at throttle setting ', 88)
+
+Throttle Setting 89
+Measuring speed using the high speed array (12 block(s)).
+	Measurement 1: Speed = 83.013 MPH
+	Measurement 2: Speed = 82.969 MPH
+	Measurement 3: Speed = 82.994 MPH
+	Measurement 4: Speed = 83.001 MPH
+	Measurement 5: Speed = 82.988 MPH
+('Measured Speed = ', 82.994, 'Difference = ', 3.006, ' at throttle setting ', 89)
+
+Throttle Setting 90
+Measuring speed using the high speed array (12 block(s)).
+	Measurement 1: Speed = 86.061 MPH
+	Measurement 2: Speed = 85.351 MPH
+	Measurement 3: Speed = 84.507 MPH
+	Measurement 4: Speed = 84.5 MPH
+	Measurement 5: Speed = 86.082 MPH
+('Measured Speed = ', 85.306, 'Difference = ', 0.694, ' at throttle setting ', 90)
+
+Throttle Setting 91
+Measuring speed using the high speed array (12 block(s)).
+	Measurement 1: Speed = 84.507 MPH
+	Measurement 2: Speed = 86.034 MPH
+	Measurement 3: Speed = 83.77 MPH
+	Measurement 4: Speed = 86.041 MPH
+	Measurement 5: Speed = 84.513 MPH
+('Measured Speed = ', 85.018, 'Difference = ', 0.982, ' at throttle setting ', 91)
+
+Throttle Setting 92
+Measuring speed using the high speed array (12 block(s)).
+	Measurement 1: Speed = 84.54 MPH
+	Measurement 2: Speed = 86.109 MPH
+	Measurement 3: Speed = 84.546 MPH
+	Measurement 4: Speed = 84.546 MPH
+	Measurement 5: Speed = 86.102 MPH
+('Measured Speed = ', 85.065, 'Difference = ', 0.935, ' at throttle setting ', 92)
+
+Throttle Setting 93
+Measuring speed using the high speed array (12 block(s)).
+	Measurement 1: Speed = 84.434 MPH
+	Measurement 2: Speed = 86.143 MPH
+	Measurement 3: Speed = 84.421 MPH
+	Measurement 4: Speed = 86.089 MPH
+	Measurement 5: Speed = 84.52 MPH
+('Measured Speed = ', 85.014, 'Difference = ', 0.986, ' at throttle setting ', 93)
+
+Throttle Setting 94
+Measuring speed using the high speed array (12 block(s)).
+	Measurement 1: Speed = 89.371 MPH
+	Measurement 2: Speed = 87.702 MPH
+	Measurement 3: Speed = 89.378 MPH
+	Measurement 4: Speed = 89.363 MPH
+	Measurement 5: Speed = 87.681 MPH
+('Measured Speed = ', 88.812, 'Difference = ', -2.812, ' at throttle setting ', 94)
+
+Throttle Setting 93
+Measuring speed using the high speed array (12 block(s)).
+	Measurement 1: Speed = 82.994 MPH
+	Measurement 2: Speed = 86.068 MPH
+	Measurement 3: Speed = 84.5 MPH
+	Measurement 4: Speed = 84.5 MPH
+	Measurement 5: Speed = 86.061 MPH
+('Measured Speed = ', 85.02, 'Difference = ', 0.98, ' at throttle setting ', 93)
+('Closest throttle setting is', 90)
+
+('Target Speed ', 99.0)
+
+
+('Locomotive can not reach ', 99.0, ' MPH')
+
+
+Measured Values
+[0, 0, 0, 0, 28, 0, 0, 0, 56, 0, 0, 0, 88, 0, 0, 0, 118, 0, 0, 0, 148, 0, 0, 0, 180, 0, 0, 0, 254]
+
+All Values
+[0, 7.0, 14.0, 21.0, 28, 35.0, 42.0, 49.0, 56, 64.0, 72.0, 80.0, 88, 97.0, 104.0, 111.0, 118, 127.0, 134.0, 141.0, 148, 156.0, 164.0, 172.0, 180, 200.0, 218.0, 236.0, 254]
+Writing Speed table to locomotive
+Writing CV: 67 with value 7.0.
+7
+Writing CV: 68 with value 14.0.
+14
+Writing CV: 69 with value 21.0.
+21
+Writing CV: 70 with value 28.
+28
+Writing CV: 71 with value 35.0.
+35
+Writing CV: 72 with value 42.0.
+42
+Writing CV: 73 with value 49.0.
+49
+Writing CV: 74 with value 56.
+56
+Writing CV: 75 with value 64.0.
+64
+Writing CV: 76 with value 72.0.
+72
+Writing CV: 77 with value 80.0.
+80
+Writing CV: 78 with value 88.
+88
+Writing CV: 79 with value 97.0.
+97
+Writing CV: 80 with value 104.0.
+104
+Writing CV: 81 with value 111.0.
+111
+Writing CV: 82 with value 118.
+118
+Writing CV: 83 with value 127.0.
+127
+Writing CV: 84 with value 134.0.
+134
+Writing CV: 85 with value 141.0.
+141
+Writing CV: 86 with value 148.
+148
+Writing CV: 87 with value 156.0.
+156
+Writing CV: 88 with value 164.0.
+164
+Writing CV: 89 with value 172.0.
+172
+Writing CV: 90 with value 180.
+180
+Writing CV: 91 with value 200.0.
+200
+Writing CV: 92 with value 218.0.
+218
+Writing CV: 93 with value 236.0.
+236
+Writing CV: 94 with value 254.
+254
+Turning on speed table
+Done
+Handle Procedure Done - required 38 minutes.
