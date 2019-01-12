@@ -51,8 +51,6 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		print ("	CV 17 = %s." % self.val17)
 		self.val18 = self.readServiceModeCV("18")
 		print ("	CV 18 = %s." % self.val18)
-		self.mfrID = self.readServiceModeCV("8")
-		print ("	CV 8 = %s." % self.mfrID)
 		print("")
 		
 		# Determine if this locomotive uses a long address
@@ -62,16 +60,9 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		else :
 			self.long = False
 			self.address = self.val1
-		
-		# get the manufacturer so we can adjust for decoder-specific settings
-		if (self.DecoderMap.has_key(self.mfrID)):
-			self.DecoderType = self.DecoderMap[self.mfrID]
-		else:
-			self.DecoderType = "Unknown"
 			
 		print ("The Locomotive Address is: %s." % self.address)
 		print ("The Manufacturer is: %s."  % self.DecoderType)
-		print ("The Manufacturer ID is: %s."  % self.mfrID)
 		print("")
 		return
 	
