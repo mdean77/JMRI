@@ -62,7 +62,6 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			self.address = self.val1
 			
 		print ("The Locomotive Address is: %s." % self.address)
-		print ("The Manufacturer is: %s."  % self.DecoderType)
 		print("")
 		return
 	
