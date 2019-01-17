@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sun Dec 02 16:26:46 MST 2018-->
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sat Jan 12 15:39:40 MST 2019-->
   <locomotive id="RG 5327 SD45" fileName="RG_5327_SD45.xml" roadNumber="5327" roadName="Rio Grande" mfg="Kato" owner="Mike Dean" model="176-3123" dccAddress="5327" comment="Bought used from Cameron." maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-12-02T23:26:46Z</dateUpdated>
+    <dateUpdated>2019-01-12T22:39:40Z</dateUpdated>
     <decoder model="DN163K1C" family="Series 3 with FX3, silent, readback" comment="Installed myself." />
     <locoaddress>
       <dcclocoaddress number="5327" longaddress="yes" />
@@ -170,10 +170,10 @@
       <CVvalue name="36" value="8" />
       <CVvalue name="37" value="16" />
       <CVvalue name="38" value="4" />
-      <CVvalue name="39" value="0" />
-      <CVvalue name="40" value="0" />
-      <CVvalue name="41" value="0" />
-      <CVvalue name="42" value="0" />
+      <CVvalue name="39" value="8" />
+      <CVvalue name="40" value="16" />
+      <CVvalue name="41" value="32" />
+      <CVvalue name="42" value="64" />
       <CVvalue name="49" value="0" />
       <CVvalue name="50" value="0" />
       <CVvalue name="51" value="0" />

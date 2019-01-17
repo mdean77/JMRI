@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
     <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
-        <connection xmlns="" class="jmri.jmrix.nce.usbdriver.configurexml.ConnectionConfigXml" disabled="no" manufacturer="NCE" port="cu.SLAB_USBtoUART" speed="19,200 baud" systemPrefix="N" userName="NCE">
+        <connection xmlns="" class="jmri.jmrix.nce.usbdriver.configurexml.ConnectionConfigXml" disabled="no" manufacturer="NCE" port="cu.SLAB_USBtoUART1" speed="19,200 baud" systemPrefix="N" userName="NCE">
             <options>
                 <option>
                     <name>System</name>

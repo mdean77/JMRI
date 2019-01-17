@@ -264,68 +264,103 @@
     <logicDelay>500</logicDelay>
   </signalmastlogics>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Fri Sep 14 07:27:27 MDT 2018" rate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startsettime="no" startclockoption="0" showbutton="no" />
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="My Layout" x="0" y="0" height="960" width="1900" windowheight="1044" windowwidth="1770" panelheight="960" panelwidth="1900" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="no" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+    <layoutTrackDrawingOptions name="My Layout" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
+      <mainBallastColor>#000000</mainBallastColor>
+      <mainBallastWidth>0</mainBallastWidth>
+      <mainBlockLineDashPercentageX10>0</mainBlockLineDashPercentageX10>
+      <mainBlockLineWidth>4</mainBlockLineWidth>
+      <mainRailColor>#404040</mainRailColor>
+      <mainRailCount>1</mainRailCount>
+      <mainRailGap>0</mainRailGap>
+      <mainRailWidth>2</mainRailWidth>
+      <mainTieColor>#000000</mainTieColor>
+      <mainTieGap>0</mainTieGap>
+      <mainTieLength>0</mainTieLength>
+      <mainTieWidth>0</mainTieWidth>
+      <sideBallastColor>#000000</sideBallastColor>
+      <sideBallastWidth>0</sideBallastWidth>
+      <sideBlockLineDashPercentageX10>0</sideBlockLineDashPercentageX10>
+      <sideBlockLineWidth>2</sideBlockLineWidth>
+      <sideRailColor>#404040</sideRailColor>
+      <sideRailCount>1</sideRailCount>
+      <sideRailGap>0</sideRailGap>
+      <sideRailWidth>1</sideRailWidth>
+      <sideTieColor>#000000</sideTieColor>
+      <sideTieGap>0</sideTieGap>
+      <sideTieLength>0</sideTieLength>
+      <sideTieWidth>0</sideTieWidth>
+    </layoutTrackDrawingOptions>
+    <tracksegment ident="T1" blockname="AUTOBLK:1" connect1name="A12" type1="1" connect2name="A1" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T2" blockname="AUTOBLK:2" connect1name="A5" type1="1" connect2name="A1" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T3" blockname="AUTOBLK:3" connect1name="A6" type1="1" connect2name="A5" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T4" blockname="AUTOBLK:4" connect1name="A6" type1="1" connect2name="A4" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T5" blockname="AUTOBLK:5" connect1name="A7" type1="1" connect2name="A8" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T6" blockname="AUTOBLK:6" connect1name="A4" type1="1" connect2name="A7" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T7" blockname="AUTOBLK:7" connect1name="A8" type1="1" connect2name="A3" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T8" blockname="AUTOBLK:8" connect1name="A3" type1="1" connect2name="A9" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T9" blockname="AUTOBLK:9" connect1name="A9" type1="1" connect2name="A10" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T10" blockname="AUTOBLK:10" connect1name="A12" type1="1" connect2name="A11" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T11" blockname="AUTOBLK:11" connect1name="A11" type1="1" connect2name="A2" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T12" blockname="AUTOBLK:12" connect1name="A2" type1="1" connect2name="A10" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <positionablepoint ident="A1" type="1" x="600.0" y="195.0" connect1name="T1" connect2name="T2" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A2" type="1" x="798.0" y="398.0" connect1name="T11" connect2name="T12" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A3" type="1" x="594.0" y="595.0" connect1name="T7" connect2name="T8" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A4" type="1" x="398.0" y="396.0" connect1name="T4" connect2name="T6" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A5" type="1" x="497.0" y="197.0" connect1name="T2" connect2name="T3" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A6" type="1" x="398.0" y="295.0" connect1name="T3" connect2name="T4" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A7" type="1" x="397.0" y="498.0" connect1name="T5" connect2name="T6" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A8" type="1" x="500.0" y="599.0" connect1name="T5" connect2name="T7" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A9" type="1" x="696.0" y="598.0" connect1name="T8" connect2name="T9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A10" type="1" x="795.0" y="492.0" connect1name="T9" connect2name="T12" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A11" type="1" x="797.0" y="296.0" connect1name="T10" connect2name="T11" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A12" type="1" x="693.0" y="194.0" connect1name="T1" connect2name="T10" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+  </LayoutEditor>
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sat Jan 12 16:07:27 MST 2019</date>
+      <date>Tue Sep 18 08:45:03 MDT 2018</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sat Jan 12 16:07:31 MST 2019</date>
-      <filename>/Users/mdean/JMRI/Decoder_TestTrack/mikeConfiguration.xml</filename>
+      <date>Tue Sep 18 08:45:08 MDT 2018</date>
+      <filename>/home/pi/JMRI/Decoder_TestTrack/mikeConfiguration.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Tue Sep 18 08:45:03 MDT 2018</date>
+          <date>Tue Sep 18 07:10:48 MDT 2018</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Tue Sep 18 08:45:08 MDT 2018</date>
+          <date>Tue Sep 18 07:10:52 MDT 2018</date>
           <filename>/home/pi/JMRI/Decoder_TestTrack/mikeConfiguration.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Tue Sep 18 07:10:48 MDT 2018</date>
+              <date>Fri Sep 14 07:27:26 MDT 2018</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
-              <type>Load OK</type>
-              <date>Tue Sep 18 07:10:52 MDT 2018</date>
-              <filename>/home/pi/JMRI/Decoder_TestTrack/mikeConfiguration.xml</filename>
-              <filehistory>
-                <operation>
-                  <type>app</type>
-                  <date>Fri Sep 14 07:27:26 MDT 2018</date>
-                  <filename>JMRI program</filename>
-                </operation>
-                <operation>
-                  <type>Store</type>
-                  <date>Fri Sep 14 07:45:55 MDT 2018</date>
-                  <filename />
-                </operation>
-              </filehistory>
-            </operation>
-            <operation>
               <type>Store</type>
-              <date>Tue Sep 18 07:14:43 MDT 2018</date>
+              <date>Fri Sep 14 07:45:55 MDT 2018</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Wed Sep 19 08:46:13 MDT 2018</date>
+          <date>Tue Sep 18 07:14:43 MDT 2018</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sat Jan 12 16:08:01 MST 2019</date>
+      <date>Wed Sep 19 08:46:13 MDT 2018</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sat Jan 12 16:08:01 MST 2019-->
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Wed Sep 19 08:46:13 MDT 2018-->
 </layout-config>

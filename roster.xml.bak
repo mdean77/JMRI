@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sun Dec 02 16:29:13 MST 2018-->
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Thu Jan 17 06:05:05 MST 2019-->
   <roster>
     <locomotive id="1029 NW2 Switcher" fileName="1029_NW2_Switcher.xml" roadNumber="1029" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="176-4374" dccAddress="1029" comment="$92 plus decoder" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T14:58:45Z</dateUpdated>
@@ -290,6 +290,16 @@
         <functionlabel num="7" lockable="true">Dimming</functionlabel>
         <functionlabel num="8" lockable="true">Mute</functionlabel>
       </functionlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2018-12-31T02:25:34Z</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>2195</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="EMD DD40AX 6929" fileName="EMD_DD40AX_6929.xml" roadNumber="6929" roadName="Union Pacific" mfg="Bachmann" owner="Mike Dean" model="65152" dccAddress="6929" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T22:21:52Z</dateUpdated>
@@ -455,11 +465,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2018-09-09T22:16:53Z</value>
+          <value>2018-12-30T21:13:38Z</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>252283</value>
+          <value>253478</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -576,13 +586,23 @@
       </attributepairs>
     </locomotive>
     <locomotive id="RG 5327 SD45" fileName="RG_5327_SD45.xml" roadNumber="5327" roadName="Rio Grande" mfg="Kato" owner="Mike Dean" model="176-3123" dccAddress="5327" comment="Bought used from Cameron." maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2018-12-02T23:26:46Z</dateUpdated>
+      <dateUpdated>2019-01-12T22:39:40Z</dateUpdated>
       <decoder model="DN163K1C" family="Series 3 with FX3, silent, readback" comment="Installed myself." />
       <locoaddress>
         <dcclocoaddress number="5327" longaddress="yes" />
         <number>5327</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2019-01-17T13:02:25Z</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>29</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="RG 5334" fileName="RG_5334.xml" roadNumber="5334" roadName="Rio Grande" mfg="Kato" owner="Mike Dean" model="" dccAddress="5334" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2016-08-14T22:15:03Z</dateUpdated>
