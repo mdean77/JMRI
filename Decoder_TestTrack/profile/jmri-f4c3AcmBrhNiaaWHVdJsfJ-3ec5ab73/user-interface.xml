@@ -22,10 +22,9 @@
         <comboBox xmlns="" lastSelected="python" name="jmri.jmrit.jython.InputWindow.language"/>
     </comboBoxLastValue>
     <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd">
-        <setting xmlns="">jmri.jmrit.roster.swing.RosterFrame.hideGroups</setting>
         <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout.toolBarThin</setting>
         <setting xmlns="">jmri.jmrit.jython.JythonWindow.alwaysScroll</setting>
-        <setting xmlns="">apps.gui3.dp3.DecoderPro3Window.hideGroups</setting>
+        <setting xmlns="">jmri.jmrit.jython.InputWindow.alwaysOnTopChecked</setting>
     </settings>
     <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd"/>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
@@ -37,6 +36,7 @@
                 </property>
             </properties>
         </window>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$4:3548" height="553.0" locX="141.0" locY="73.0" width="985.0"/>
         <window xmlns="" class="jmri.jmrix.nce.ncemon.NceMonPanel.FilterField">
             <properties>
                 <property>
@@ -47,8 +47,9 @@
         </window>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:RG 5327 SD45" height="854.0" locX="69.0" locY="23.0" width="1052.0"/>
         <window xmlns="" class="Script Output" height="374.0" locX="590.0" locY="31.0" width="804.0"/>
-        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="484.0" locX="856.0" locY="43.0" width="554.0"/>
-        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="44.0" locY="23.0" width="1024.0">
+        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="484.0" locX="784.0" locY="27.0" width="554.0"/>
+        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow:1" height="484.0" locX="753.0" locY="380.0" width="554.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="46.0" locY="23.0" width="1024.0">
             <properties>
                 <property>
                     <key>selectedProgrammer</key>
@@ -56,6 +57,7 @@
                 </property>
             </properties>
         </window>
+        <window xmlns="" class="Create New Loco" height="581.0" locX="151.0" locY="28.0" width="804.0"/>
         <window xmlns="" class="apps.gui3.TabbedPreferencesFrame:Preferences" height="464.0" locX="120.0" locY="156.0" width="937.0"/>
         <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout" locX="47.0" locY="23.0">
             <properties>
@@ -101,11 +103,12 @@
                 </property>
             </properties>
         </window>
-        <window xmlns="" class="Script Entry:1" height="679.0" locX="16.0" locY="23.0" width="679.0"/>
+        <window xmlns="" class="Script Entry:1" height="362.0" locX="52.0" locY="367.0" width="715.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
-        <window xmlns="" class="PanelPro" height="231.0" locX="411.0" locY="660.0" width="487.0"/>
+        <window xmlns="" class="PanelPro" height="231.0" locX="476.0" locY="334.0" width="487.0"/>
         <window xmlns="" class="Local JMRI throttles" height="222.0" locX="47.0" locY="23.0" width="320.0"/>
-        <window xmlns="" class="jmri.jmrit.automat.monitor.AutomatTableFrame" height="184.0" locX="65.0" locY="725.0" width="570.0"/>
-        <window xmlns="" class="Script Entry" height="843.0" locX="92.0" locY="23.0" width="822.0"/>
+        <window xmlns="" class="jmri.jmrit.automat.monitor.AutomatTableFrame" height="184.0" locX="85.0" locY="656.0" width="570.0"/>
+        <window xmlns="" class="Script Entry" height="360.0" locX="56.0" locY="27.0" width="718.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:3548 WP" height="688.0" locX="111.0" locY="92.0" width="1052.0"/>
     </windowDetails>
 </auxiliary-configuration>

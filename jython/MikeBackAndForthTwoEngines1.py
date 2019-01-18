@@ -11,19 +11,20 @@
 import jarray
 import jmri
 
-class BackAndForth(jmri.jmrit.automat.AbstractAutomaton) :
+class BackAndForth1(jmri.jmrit.automat.AbstractAutomaton) :
 	def init(self):
 		# get the sensors
 		self.fwdSensor = sensors.provideSensor("Block 12")
 		self.revSensor = sensors.provideSensor("Block 7")
 		self.throttle = self.getThrottle(5327, True)
+		self.throttle.setIsForward(True)
+		self.throttle.setSpeedSetting(0.15)
 		return
 
 	def handle(self):
 
 		# set loco to forward
 		self.throttle.setIsForward(True)
-		self.throttle.setSpeedSetting(0.25)
 
 		# wait for sensor in forward direction to trigger
 		self.waitSensorActive(self.fwdSensor)
@@ -44,7 +45,7 @@ class BackAndForth(jmri.jmrit.automat.AbstractAutomaton) :
 # end of class definition
 
 # create one of these
-a = BackAndForth()
+a = BackAndForth1()
 
 # and start it running
 a.start()

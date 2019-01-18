@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Thu Jan 17 06:06:08 MST 2019-->
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Thu Jan 17 23:11:06 MST 2019-->
   <roster>
     <locomotive id="1029 NW2 Switcher" fileName="1029_NW2_Switcher.xml" roadNumber="1029" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="176-4374" dccAddress="1029" comment="$92 plus decoder" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T14:58:45Z</dateUpdated>
@@ -11,6 +11,25 @@
         <number>1029</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
+    </locomotive>
+    <locomotive id="3548 WP" fileName="3548.xml" roadNumber="3548" roadName="Western Pacific" mfg="" owner="" model="" dccAddress="3548" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2019-01-18T05:49:48Z</dateUpdated>
+      <decoder model="AN12A0 by NCE (Part #518299)" family="Atlas N-Scale" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="3548" longaddress="yes" />
+        <number>3548</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2019-01-18T06:11:03Z</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>2000</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="6001 EMD E7A" fileName="6001_EMD_E7A.xml" roadNumber="6001" roadName="Southern Pacific" mfg="Broadway Limited" owner="Mike Dean" model="3043" dccAddress="6001" comment="$159" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T15:48:53Z</dateUpdated>
