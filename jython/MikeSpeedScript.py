@@ -104,7 +104,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		#	CV			70	74	78	82	86	90	94
 		#	Speedsteps	 4	 8	12	16	20	24	28
 		#	This list contains percentages of full speed, 1/7 per step
-		self.stepList = [14.5, 28.5, 42.5, 57, 71.5, 86, 99]
+		self.stepList = [14.3, 28.5, 42.9, 57, 71.5, 85.7, 100]
 		return
 
 	def printSave(self, aString):
@@ -595,7 +595,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		if badlocomotive == False :
 			print
 			self.printSave ("Measured Values")
-			self.printSave (self.stepValueList)
+			self.printSave ("%s" % self.stepValueList)
 
 			if self.stepValueList[4] < 4 :
 				self.stepValueList[4] = 4
@@ -625,7 +625,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 
 			print
 			self.printSave ("All Values")
-			self.printSave (self.stepValueList)
+			self.printSave ("%s" % self.stepValueList)
 			self.attachProgrammer()
 
 			self.printSave("Writing Speed table to locomotive")
