@@ -114,18 +114,18 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		f.close()
 
 	def readDecoder(self):
-		print ("Reading Locomotive...")
+		self.printSave ("Reading Locomotive...")
 		self.val29 = self.readServiceModeCV("29")
-		print ("	CV 29 = %s." % self.val29)
+		self.printSave ("	CV 29 = %s." % self.val29)
 		self.val1 = self.readServiceModeCV("1")
-		print ("	CV 1 = %s." % self.val1)
+		self.printSave ("	CV 1 = %s." % self.val1)
 		self.val17 = self.readServiceModeCV("17")
-		print ("	CV 17 = %s." % self.val17)
+		self.printSave ("	CV 17 = %s." % self.val17)
 		self.val18 = self.readServiceModeCV("18")
-		print ("	CV 18 = %s." % self.val18)
+		self.printSave ("	CV 18 = %s." % self.val18)
 		self.mfrID = self.readServiceModeCV("8")
-		print ("	CV 8 = %s." % self.mfrID)
-		print("")
+		self.printSave ("	CV 8 = %s." % self.mfrID)
+		self.printSave("")
 		
 		# Determine if this locomotive uses a long address
 		if ((self.val29 & 32) == 32) :
@@ -144,7 +144,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.printSave("The Locomotive Address is: %s." % self.address)
 		self.printSave("The Manufacturer is: %s."  % self.DecoderType)
 		self.printSave("The Manufacturer ID is: %s."  % self.mfrID)
-		print("")
+		self.printSave("")
 		return
 	
 	def attachProgrammer(self):
@@ -201,7 +201,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		if (self.throttle == None) :
 			print ("ERROR: Couldn't assign throttle!")
 		else :
-			print ("Throttle assigned to locomotive: %s." % self.address)
+			self.printSave ("Throttle assigned to locomotive: %s." % self.address)
 			self.throttle.setF0(True)
 			self.throttle.setF8(True)
 		return
@@ -346,7 +346,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 				speed = 0.0
 			else :
 				speed = (blocklength / (duration / 1000.0)) * (3600.0 / 5280)
-				print("	Measurement %s: Speed = %s MPH" % (z+1, str(round(speed,3))))
+				self.printSave("	Measurement %s: Speed = %s MPH" % (z+1, str(round(speed,3))))
 				speedlist.append(speed)
 		
 		speed = self.getSpeed(speedlist)
@@ -359,7 +359,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.throttle.setSpeedSetting(1.0)
 		self.waitMsec(1000)
 		speed = self.measureSpeed(self.fullSpeed)
-		print ("Maximum forward speed found = %s MPH." % round(speed))
+		self.printSave ("Maximum forward speed found = %s MPH." % round(speed))
 		print("")
 		self.waitNextActiveSensor([self.homesensor])
 		self.stopLocomotive()
@@ -372,7 +372,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.throttle.setSpeedSetting(1.0)
 		self.waitMsec(1000)
 		speed = self.measureSpeed(self.fullSpeed)
-		print ("Maximum reverse speed found = %s MPH." % round(speed))
+		self.printSave ("Maximum reverse speed found = %s MPH." % round(speed))
 		print("")
 		self.waitNextActiveSensor([self.homesensor])
 		self.stopLocomotive()
@@ -385,22 +385,22 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 ####################################################################################		
 	def setCalibrateDirection(self, fwdmaxspeed, revmaxspeed):
 		if (fwdmaxspeed > revmaxspeed) :
-			print ("Locomotive %s is faster in the forward direction." % self.address)
+			self.printSave ("Locomotive %s is faster in the forward direction." % self.address)
 		elif (revmaxspeed > fwdmaxspeed) :
-			print ("Locomotive %s is faster in the reverse direction." % self.address)
+			self.printSave ("Locomotive %s is faster in the reverse direction." % self.address)
 		else :
-			print ("Locomotive %s runs equally well in both directions." % self.address)
+			self.printSave ("Locomotive %s runs equally well in both directions." % self.address)
 		self.throttle.setIsForward(fwdmaxspeed > revmaxspeed)
 		self.waitMsec(500)
 			
 					
 	def handle(self):
-		print("Speed Table Script Version %s." % self.scriptversion)
-		print("")
+		self.printSave("Speed Table Script Version %s." % self.scriptversion)
+		self.printSave("")
 		startProgramTime = java.lang.System.currentTimeMillis()
 		topspeed = float(self.MaxSpeed.text)/100
-		print ("Top Target Speed is %s MPH" % self.MaxSpeed.text)
-		print("")
+		self.printSave("Top Target Speed is %s MPH" % self.MaxSpeed.text)
+		self.printSave("")
 		
 		self.readDecoder()
 		self.attachThrottle()
@@ -417,8 +417,8 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			self.warmUpReverse()
 			revmaxspeed = self.findMaximumReverseSpeed()
 		else:
-			print("Not checking speeds in reverse direction because this is a steam locomotive.")
-			print("")
+			self.printSave("Not checking speeds in reverse direction because this is a steam locomotive.")
+			self.printSave("")
 			revmaxspeed = 0
 		
 		self.setCalibrateDirection(fwdmaxspeed, revmaxspeed)	
@@ -435,7 +435,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			targetspeed = round(speedvalue * topspeed)		
 
 			print
-			print ("Target Speed ",targetspeed)
+			self.printSave ("Target Speed ",targetspeed)
 			print
 
 			self.stepValueList.extend([0,0,0]) #create spots in list for calculated speed steps
@@ -453,7 +453,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
             #05/21/10
 			if ((self.Locomotive.getSelectedItem() == "Diesel") and (targetspeed > revmaxspeed)) or targetspeed > fwdmaxspeed :
 				print
-				print ("Locomotive can not reach ",targetspeed, " MPH")
+				self.printSave ("Locomotive can not reach ",targetspeed, " MPH")
 				print
 				Done = True
 				throttlesetting = 127
@@ -464,19 +464,19 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 				self.throttle.setSpeedSetting(.0079365 * throttlesetting)
 				self.waitMsec(100)
 				print
-				print ("Throttle Setting %s" % throttlesetting)
+				self.printSave ("Throttle Setting %s" % throttlesetting)
 				speed = self.measureSpeed(targetspeed)
  
 				# compare it to desired speed and decide whether or not to test a different throttle setting
 				difference = targetspeed - speed
-				print ("Measured Speed = ",round(speed,3), "Difference = ",round(difference ,3), " at throttle setting ",throttlesetting)
+				self.printSave ("Measured Speed = ",round(speed,3), "Difference = ",round(difference ,3), " at throttle setting ",throttlesetting)
 
 				#Coarse Measurement
 				if difference < -10 and targetspeed < 20 and throttlesetting > 15 : #started at 35 want to drop fast to reduce time
 					hithrottle = throttlesetting
 					throttlesetting = throttlesetting - 10
 					if throttlesetting < lowthrottle :
-						print ("throttlesetting ",throttlesetting,"is too slow")
+						self.printSave ("throttlesetting ",throttlesetting,"is too slow")
 						throttlesetting = lowthrottle + 1
 						if hithrottle-lowthrottle < 2 :
 							Done = True
@@ -489,7 +489,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 					hithrottle = throttlesetting
 					throttlesetting = throttlesetting - 6	 # and don't want drastic changes
 					if throttlesetting < lowthrottle :
-						print ("throttlesetting ",throttlesetting,"is too slow")
+						self.printSave ("throttlesetting ",throttlesetting,"is too slow")
 						throttlesetting = lowthrottle + 1
 						if hithrottle-lowthrottle < 2 :
 							Done = True
@@ -502,7 +502,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 					hithrottle = throttlesetting
 					throttlesetting = throttlesetting - 3
 					if throttlesetting < lowthrottle :
-						print ("throttlesetting ",throttlesetting,"is too slow")
+						self.printSave ("throttlesetting ",throttlesetting,"is too slow")
 						throttlesetting = lowthrottle + 1
 						if hithrottle-lowthrottle < 2 :
 							Done = True
@@ -515,21 +515,21 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 					lowthrottle = throttlesetting
 					throttlesetting = throttlesetting + 7
 					if throttlesetting > hithrottle :
-						print ("throttlesetting ",throttlesetting,"is too fast")
+						self.printSave ("throttlesetting ",throttlesetting,"is too fast")
 						throttlesetting = hithrottle - 1
 						
 				elif difference > 8 and throttlesetting < 123 : # keep throtte setting < 128
 					lowthrottle = throttlesetting
 					throttlesetting = throttlesetting + 4
 					if throttlesetting > hithrottle :
-						print ("throttlesetting ",throttlesetting,"is too fast")
+						self.printSave ("throttlesetting ",throttlesetting,"is too fast")
 						throttlesetting = hithrottle - 1
 						
 				elif difference > 5 and targetspeed < 20 and throttlesetting > 10 : #for motors that need a lot at the beginning
 					lowthrottle = throttlesetting
 					throttlesetting = throttlesetting + 5
 					if throttlesetting > hithrottle :
-						print ("throttlesetting ",throttlesetting,"is too fast")
+						self.printSave ("throttlesetting ",throttlesetting,"is too fast")
 						throttlesetting = hithrottle - 1
 
 				else :
@@ -540,7 +540,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 					elif beenupone == True and beendownone == True :
 						throttlesetting = savethrottlesetting
 						lowthrottle = throttlesetting + 1
-						print ("Closest throttle setting is", throttlesetting)
+						self.printSave ("Closest throttle setting is", throttlesetting)
 						Done = True
 
 					if difference < 0  and Done != True :
@@ -557,8 +557,8 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 
 				if throttlesetting < 1 :
 					print
-					print ("Cannot create speedtable")
-					print ("Locomotive has mechanical or decoder problem")
+					self.printSave ("Cannot create speedtable")
+					self.printSave ("Locomotive has mechanical or decoder problem")
 					print
 					Done = True
 					badlocomotive = True
@@ -567,7 +567,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 	
 				if throttlesetting > 127 :
 					print
-					print ("Locomotive can not reach ",targetspeed, " MPH")
+					self.printSave ("Locomotive can not reach ",targetspeed, " MPH")
 					print
 					Done = True
 					throttlesetting = 127
@@ -594,8 +594,8 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 
 		if badlocomotive == False :
 			print
-			print ("Measured Values")
-			print (self.stepValueList)
+			self.printSave ("Measured Values")
+			self.printSave (self.stepValueList)
 
 			if self.stepValueList[4] < 4 :
 				self.stepValueList[4] = 4
@@ -624,14 +624,14 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 				self.stepValueList[z -1] = self.stepValueList[z] - round(x)
 
 			print
-			print ("All Values")
-			print (self.stepValueList)
+			self.printSave ("All Values")
+			self.printSave (self.stepValueList)
 			self.attachProgrammer()
 
-			print("Writing Speed table to locomotive")
+			self.printSave("Writing Speed table to locomotive")
 			# Write Speed Table to locomotive
 			for z in range (67, 95) :
-				print("Writing CV: %s with value %s." % (z, self.stepValueList[z - 66]))
+				self.printSave("Writing CV: %s with value %s." % (z, self.stepValueList[z - 66]))
 				self.testbedWriteCV(z, int(self.stepValueList[z - 66]))
 				print(self.readServiceModeCV(str(z)))
 
@@ -646,14 +646,14 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			self.testbedWriteCV(3, 1)	#Acceleration on
 			self.testbedWriteCV(4, 1)	#Deceleration on
 
-			print("Done")
+			self.printSave("Done")
 		else :
 				print("Done - Locomotive has decoder or mechanical problem; cannot create speed table")
 
 		stopProgramTime = java.lang.System.currentTimeMillis()
 		timeElapsed = (stopProgramTime - startProgramTime)/60000
 		
-		print("Handle Procedure Done - required %s minutes." % timeElapsed)
+		self.printSave("Handle Procedure Done - required %s minutes." % timeElapsed)
 		
 		return False
 
