@@ -201,7 +201,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		if (self.throttle == None) :
 			print ("ERROR: Couldn't assign throttle!")
 		else :
-			self.printSave ("Throttle assigned to locomotive: %s." % self.address)
+			print ("Throttle assigned to locomotive: %s." % self.address)
 			self.throttle.setF0(True)
 			self.throttle.setF8(True)
 		return
