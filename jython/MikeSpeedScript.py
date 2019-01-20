@@ -30,6 +30,7 @@ import java
 import javax.swing
 import jmri
 import sys
+import datetime
 
 class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 	def init(self):
@@ -46,6 +47,8 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.writeLock = False
 		self.fullSpeed = 100
 		self.stepValueList = [0]
+        self.outputFileName = "SpeedOutput " + str(datetime.datetime.now()) + ".txt"
+        
 		
 		# JMD:  I changed the sensor numbering since I will only have 12 blocks.
 		self.sensor1 = sensors.provideSensor("Block 1")

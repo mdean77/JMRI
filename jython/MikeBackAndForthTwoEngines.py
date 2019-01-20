@@ -18,6 +18,7 @@ class BackAndForth(jmri.jmrit.automat.AbstractAutomaton) :
 		self.revSensor2 = sensors.provideSensor("Block 12")
 		
 		self.throttle1 = self.getThrottle(5327, True)
+        self.throttle2 = self.getThrottle()
 		return
 
 	def handle(self):

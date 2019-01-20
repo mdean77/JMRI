@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sat Sep 29 17:11:53 MDT 2018-->
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sat Jan 19 18:05:28 MST 2019-->
   <locomotive id="GE ES44AC &quot;GEVO&quot;" fileName="UP_GEVO.xml" roadNumber="5542" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="" dccAddress="5542" comment="Most reliable engine" maxSpeed="49" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-09-29T23:11:53Z</dateUpdated>
+    <dateUpdated>2019-01-20T01:05:28Z</dateUpdated>
     <decoder model="DN163K1C" family="Series 3 with FX3, silent, readback" comment="" />
     <locoaddress>
       <dcclocoaddress number="5542" longaddress="yes" />
@@ -25,7 +25,7 @@
     </attributepairs>
     <values>
       <decoderDef>
-        <varValue item="Speed Table" value="0,9,18,28,37,47,56,66,75,85,94,103,113,122,132,141,151,160,170,179,188,198,207,217,226,236,245,255" />
+        <varValue item="Speed Table" value="0,2,4,6,8,11,13,15,17,20,22,24,26,28,31,33,35,37,40,42,44,46,48,51,53,55,57,60" />
         <varValue item="Primary Address" value="42" />
         <varValue item="Extended Address" value="5542" />
         <varValue item="Address Format" value="1" />
@@ -135,33 +135,33 @@
         <varValue item="User ID #2 (0-255)" value="255" />
       </decoderDef>
       <CVvalue name="67" value="0" />
-      <CVvalue name="68" value="9" />
-      <CVvalue name="69" value="18" />
-      <CVvalue name="70" value="28" />
-      <CVvalue name="71" value="37" />
-      <CVvalue name="72" value="47" />
-      <CVvalue name="73" value="56" />
-      <CVvalue name="74" value="66" />
-      <CVvalue name="75" value="75" />
-      <CVvalue name="76" value="85" />
-      <CVvalue name="77" value="94" />
-      <CVvalue name="78" value="103" />
-      <CVvalue name="79" value="113" />
-      <CVvalue name="80" value="122" />
-      <CVvalue name="81" value="132" />
-      <CVvalue name="82" value="141" />
-      <CVvalue name="83" value="151" />
-      <CVvalue name="84" value="160" />
-      <CVvalue name="85" value="170" />
-      <CVvalue name="86" value="179" />
-      <CVvalue name="87" value="188" />
-      <CVvalue name="88" value="198" />
-      <CVvalue name="89" value="207" />
-      <CVvalue name="90" value="217" />
-      <CVvalue name="91" value="226" />
-      <CVvalue name="92" value="236" />
-      <CVvalue name="93" value="245" />
-      <CVvalue name="94" value="255" />
+      <CVvalue name="68" value="2" />
+      <CVvalue name="69" value="4" />
+      <CVvalue name="70" value="6" />
+      <CVvalue name="71" value="8" />
+      <CVvalue name="72" value="11" />
+      <CVvalue name="73" value="13" />
+      <CVvalue name="74" value="15" />
+      <CVvalue name="75" value="17" />
+      <CVvalue name="76" value="20" />
+      <CVvalue name="77" value="22" />
+      <CVvalue name="78" value="24" />
+      <CVvalue name="79" value="26" />
+      <CVvalue name="80" value="28" />
+      <CVvalue name="81" value="31" />
+      <CVvalue name="82" value="33" />
+      <CVvalue name="83" value="35" />
+      <CVvalue name="84" value="37" />
+      <CVvalue name="85" value="40" />
+      <CVvalue name="86" value="42" />
+      <CVvalue name="87" value="44" />
+      <CVvalue name="88" value="46" />
+      <CVvalue name="89" value="48" />
+      <CVvalue name="90" value="51" />
+      <CVvalue name="91" value="53" />
+      <CVvalue name="92" value="55" />
+      <CVvalue name="93" value="57" />
+      <CVvalue name="94" value="60" />
       <CVvalue name="1" value="42" />
       <CVvalue name="17" value="213" />
       <CVvalue name="18" value="166" />

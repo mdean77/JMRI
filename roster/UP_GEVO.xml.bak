@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sat Sep 29 13:43:25 MDT 2018-->
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sat Jan 19 17:22:17 MST 2019-->
   <locomotive id="GE ES44AC &quot;GEVO&quot;" fileName="UP_GEVO.xml" roadNumber="5542" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="" dccAddress="5542" comment="Most reliable engine" maxSpeed="49" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-09-29T19:43:25Z</dateUpdated>
+    <dateUpdated>2019-01-20T00:22:17Z</dateUpdated>
     <decoder model="DN163K1C" family="Series 3 with FX3, silent, readback" comment="" />
     <locoaddress>
       <dcclocoaddress number="5542" longaddress="yes" />

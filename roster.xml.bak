@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Thu Jan 17 22:49:48 MST 2019-->
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sat Jan 19 18:05:29 MST 2019-->
   <roster>
     <locomotive id="1029 NW2 Switcher" fileName="1029_NW2_Switcher.xml" roadNumber="1029" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="176-4374" dccAddress="1029" comment="$92 plus decoder" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T14:58:45Z</dateUpdated>
@@ -13,7 +13,7 @@
       </locoaddress>
     </locomotive>
     <locomotive id="3548 WP" fileName="3548.xml" roadNumber="3548" roadName="Western Pacific" mfg="" owner="" model="" dccAddress="3548" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-18T05:49:48Z</dateUpdated>
+      <dateUpdated>2019-01-19T15:59:15Z</dateUpdated>
       <decoder model="AN12A0 by NCE (Part #518299)" family="Atlas N-Scale" comment="" />
       <locoaddress>
         <dcclocoaddress number="3548" longaddress="yes" />
@@ -23,11 +23,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2019-01-18T05:37:57Z</value>
+          <value>2019-01-19T16:02:47Z</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>216</value>
+          <value>2330</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -421,7 +421,7 @@
       </functionlabels>
     </locomotive>
     <locomotive id="GE ES44AC &quot;GEVO&quot;" fileName="UP_GEVO.xml" roadNumber="5542" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="" dccAddress="5542" comment="Most reliable engine" maxSpeed="49" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2018-09-29T23:11:53Z</dateUpdated>
+      <dateUpdated>2019-01-20T01:05:28Z</dateUpdated>
       <decoder model="DN163K1C" family="Series 3 with FX3, silent, readback" comment="" />
       <locoaddress>
         <dcclocoaddress number="5542" longaddress="yes" />
@@ -429,7 +429,7 @@
         <protocol>dcc_long</protocol>
       </locoaddress>
       <functionlabels>
-        <functionlabel num="0" lockable="true">Headlight</functionlabel>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
       </functionlabels>
       <attributepairs>
         <keyvaluepair>
