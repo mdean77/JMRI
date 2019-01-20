@@ -47,8 +47,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.writeLock = False
 		self.fullSpeed = 100
 		self.stepValueList = [0]
-        self.outputFileName = "SpeedOutput " + str(datetime.datetime.now()) + ".txt"
-        
+		self.outputFileName = "SpeedOutput " + str(datetime.datetime.now()) + ".txt"
 		
 		# JMD:  I changed the sensor numbering since I will only have 12 blocks.
 		self.sensor1 = sensors.provideSensor("Block 1")
@@ -108,7 +107,11 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		self.stepList = [14.5, 28.5, 42.5, 57, 71.5, 86, 99]
 		return
 
-
+	def printSave(self, aString):
+		print(aString)
+		f = open(self.outputFileName, 'a')
+		f.write(aString+"\n")
+		f.close()
 
 	def readDecoder(self):
 		print ("Reading Locomotive...")
@@ -138,9 +141,9 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 		else:
 			self.DecoderType = "Unknown"
 			
-		print ("The Locomotive Address is: %s." % self.address)
-		print ("The Manufacturer is: %s."  % self.DecoderType)
-		print ("The Manufacturer ID is: %s."  % self.mfrID)
+		self.printSave("The Locomotive Address is: %s." % self.address)
+		self.printSave("The Manufacturer is: %s."  % self.DecoderType)
+		self.printSave("The Manufacturer ID is: %s."  % self.mfrID)
 		print("")
 		return
 	

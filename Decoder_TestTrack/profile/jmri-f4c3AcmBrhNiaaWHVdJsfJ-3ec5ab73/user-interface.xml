@@ -49,7 +49,7 @@
         <window xmlns="" class="Script Output:1" height="765.0" locX="426.0" locY="39.0" width="623.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GE ES44AC &quot;GEVO&quot;" height="595.0" locX="69.0" locY="23.0" width="1049.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:RG 5327 SD45" height="854.0" locX="69.0" locY="23.0" width="1052.0"/>
-        <window xmlns="" class="Script Output" height="600.0" locX="878.0" locY="455.0" width="1248.0"/>
+        <window xmlns="" class="Script Output" height="600.0" locX="646.0" locY="89.0" width="1248.0"/>
         <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="484.0" locX="606.0" locY="107.0" width="554.0"/>
         <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow:1" height="484.0" locX="687.0" locY="213.0" width="554.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="47.0" locY="23.0" width="1024.0">
@@ -108,10 +108,10 @@
         </window>
         <window xmlns="" class="Script Entry:1" height="640.0" locX="789.0" locY="237.0" width="607.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
-        <window xmlns="" class="PanelPro" height="231.0" locX="476.0" locY="334.0" width="487.0"/>
+        <window xmlns="" class="PanelPro" height="231.0" locX="476.0" locY="332.0" width="487.0"/>
         <window xmlns="" class="Local JMRI throttles" height="222.0" locX="47.0" locY="23.0" width="320.0"/>
-        <window xmlns="" class="jmri.jmrit.automat.monitor.AutomatTableFrame" height="184.0" locX="673.0" locY="513.0" width="570.0"/>
-        <window xmlns="" class="Script Entry" height="554.0" locX="965.0" locY="65.0" width="798.0"/>
+        <window xmlns="" class="jmri.jmrit.automat.monitor.AutomatTableFrame" height="184.0" locX="947.0" locY="721.0" width="570.0"/>
+        <window xmlns="" class="Script Entry" height="554.0" locX="554.0" locY="139.0" width="487.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:3548 WP" height="685.0" locX="159.0" locY="23.0" width="1052.0"/>
     </windowDetails>
 </auxiliary-configuration>
