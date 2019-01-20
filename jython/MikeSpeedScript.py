@@ -435,7 +435,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 			targetspeed = round(speedvalue * topspeed)		
 
 			print
-			self.printSave ("Target Speed ",targetspeed)
+			self.printSave ("Target Speed is %s." % targetspeed)
 			print
 
 			self.stepValueList.extend([0,0,0]) #create spots in list for calculated speed steps
@@ -453,7 +453,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
             #05/21/10
 			if ((self.Locomotive.getSelectedItem() == "Diesel") and (targetspeed > revmaxspeed)) or targetspeed > fwdmaxspeed :
 				print
-				self.printSave ("Locomotive can not reach ",targetspeed, " MPH")
+				self.printSave ("Locomotive can not reach %s MPH." % targetspeed)
 				print
 				Done = True
 				throttlesetting = 127
@@ -469,14 +469,14 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
  
 				# compare it to desired speed and decide whether or not to test a different throttle setting
 				difference = targetspeed - speed
-				self.printSave ("Measured Speed = ",round(speed,3), "Difference = ",round(difference ,3), " at throttle setting ",throttlesetting)
+				self.printSave ("Measured Speed = %s.  Difference = %s at throttle setting %s." % (round(speed,3), round(difference ,3),throttlesetting))
 
 				#Coarse Measurement
 				if difference < -10 and targetspeed < 20 and throttlesetting > 15 : #started at 35 want to drop fast to reduce time
 					hithrottle = throttlesetting
 					throttlesetting = throttlesetting - 10
 					if throttlesetting < lowthrottle :
-						self.printSave ("throttlesetting ",throttlesetting,"is too slow")
+						self.printSave ("Throttlesetting %s is too slow." % throttlesetting)
 						throttlesetting = lowthrottle + 1
 						if hithrottle-lowthrottle < 2 :
 							Done = True
@@ -489,7 +489,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 					hithrottle = throttlesetting
 					throttlesetting = throttlesetting - 6	 # and don't want drastic changes
 					if throttlesetting < lowthrottle :
-						self.printSave ("throttlesetting ",throttlesetting,"is too slow")
+						self.printSave ("Throttlesetting %s is too slow." % throttlesetting)
 						throttlesetting = lowthrottle + 1
 						if hithrottle-lowthrottle < 2 :
 							Done = True
@@ -502,7 +502,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 					hithrottle = throttlesetting
 					throttlesetting = throttlesetting - 3
 					if throttlesetting < lowthrottle :
-						self.printSave ("throttlesetting ",throttlesetting,"is too slow")
+						self.printSave ("Throttlesetting %s is too slow." % throttlesetting)
 						throttlesetting = lowthrottle + 1
 						if hithrottle-lowthrottle < 2 :
 							Done = True
@@ -515,21 +515,21 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 					lowthrottle = throttlesetting
 					throttlesetting = throttlesetting + 7
 					if throttlesetting > hithrottle :
-						self.printSave ("throttlesetting ",throttlesetting,"is too fast")
+						self.printSave ("Throttlesetting %s is too fast." % throttlesetting)
 						throttlesetting = hithrottle - 1
 						
 				elif difference > 8 and throttlesetting < 123 : # keep throtte setting < 128
 					lowthrottle = throttlesetting
 					throttlesetting = throttlesetting + 4
 					if throttlesetting > hithrottle :
-						self.printSave ("throttlesetting ",throttlesetting,"is too fast")
+						self.printSave ("Throttlesetting %s is too fast." % throttlesetting)
 						throttlesetting = hithrottle - 1
 						
 				elif difference > 5 and targetspeed < 20 and throttlesetting > 10 : #for motors that need a lot at the beginning
 					lowthrottle = throttlesetting
 					throttlesetting = throttlesetting + 5
 					if throttlesetting > hithrottle :
-						self.printSave ("throttlesetting ",throttlesetting,"is too fast")
+						self.printSave ("Throttlesetting %s is too fast." % throttlesetting)
 						throttlesetting = hithrottle - 1
 
 				else :
@@ -540,7 +540,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 					elif beenupone == True and beendownone == True :
 						throttlesetting = savethrottlesetting
 						lowthrottle = throttlesetting + 1
-						self.printSave ("Closest throttle setting is", throttlesetting)
+						self.printSave ("Closest throttle setting is %s." % throttlesetting)
 						Done = True
 
 					if difference < 0  and Done != True :
@@ -567,7 +567,7 @@ class DCCDecoderCalibration(jmri.jmrit.automat.AbstractAutomaton):
 	
 				if throttlesetting > 127 :
 					print
-					self.printSave ("Locomotive can not reach ",targetspeed, " MPH")
+					self.printSave ("Locomotive can not reach %s MPH." % targetspeed)
 					print
 					Done = True
 					throttlesetting = 127
