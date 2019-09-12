@@ -3,6 +3,7 @@
     <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
         <preferences xmlns="" class="jmri.jmrit.beantable.SignalMastTableAction"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.LogixTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TurnoutTableAction"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.LRouteTableAction"/>
         <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction"/>
@@ -33,39 +34,6 @@
         <setting xmlns="">jmri.jmrit.roster.swing.RosterFrame.hideGroups</setting>
     </settings>
     <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
-        <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:Internal">
-            <columns/>
-        </table>
-        <table xmlns="" name="jmri.jmrit.beantable.TurnoutTableAction:NCE">
-            <columns/>
-        </table>
-        <table xmlns="" name="jmri.jmrit.beantable.BlockTableAction:Blocks">
-            <columns/>
-        </table>
-        <table xmlns="" name="jmri.jmrit.beantable.TransitTableAction:Transits">
-            <columns/>
-        </table>
-        <table xmlns="" name="jmri.jmrit.beantable.LRouteTableAction:LRoutes">
-            <columns/>
-        </table>
-        <table xmlns="" name="jmri.jmrit.beantable.IdTagTableAction:ID Tags">
-            <columns/>
-        </table>
-        <table xmlns="" name="jmri.jmrit.beantable.LightTableAction:All">
-            <columns/>
-        </table>
-        <table xmlns="" name="jmri.jmrit.beantable.LogixTableAction:Logix">
-            <columns/>
-        </table>
-        <table xmlns="" name="jmri.jmrit.beantable.SignalGroupTableAction:Signal Groups">
-            <columns/>
-        </table>
-        <table xmlns="" name="jmri.jmrit.beantable.SignalMastLogicTableAction:Signal Mast Logic">
-            <columns/>
-        </table>
-        <table xmlns="" name="jmri.jmrit.beantable.TurnoutTableAction:All">
-            <columns/>
-        </table>
         <table xmlns="" name="jmri.jmrit.beantable.AudioTableAction">
             <columns>
                 <column hidden="false" name="Comment" order="3" width="169"/>
@@ -79,25 +47,7 @@
                 <sortKey column="0" sortOrder="ASCENDING"/>
             </sortOrder>
         </table>
-        <table xmlns="" name="jmri.jmrit.beantable.ReporterTableAction:Reporters">
-            <columns/>
-        </table>
-        <table xmlns="" name="jmri.jmrit.beantable.TurnoutTableAction:Internal">
-            <columns/>
-        </table>
-        <table xmlns="" name="jmri.jmrit.beantable.MemoryTableAction:Memory Variables">
-            <columns/>
-        </table>
-        <table xmlns="" name="jmri.jmrit.beantable.RouteTableAction:Routes">
-            <columns/>
-        </table>
-        <table xmlns="" name="jmri.jmrit.beantable.LightTableAction:Internal">
-            <columns/>
-        </table>
-        <table xmlns="" name="jmri.jmrit.beantable.RailComTableAction:RailCom IDs">
-            <columns/>
-        </table>
-        <table xmlns="" name="jmri.jmrit.beantable.SignalMastTableAction:Signal Masts">
+        <table xmlns="" name="jmri.jmrit.roster.swing.RosterFrame:Roster:roster">
             <columns/>
         </table>
         <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:NCE">
@@ -120,15 +70,6 @@
                 <sortKey column="1" sortOrder="ASCENDING"/>
             </sortOrder>
         </table>
-        <table xmlns="" name="jmri.jmrit.beantable.SectionTableAction:Sections">
-            <columns/>
-        </table>
-        <table xmlns="" name="jmri.jmrit.beantable.LightTableAction:NCE">
-            <columns/>
-        </table>
-        <table xmlns="" name="jmri.jmrit.roster.swing.RosterFrame:Roster:roster">
-            <columns/>
-        </table>
         <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:All">
             <columns>
                 <column hidden="false" name="Comment" order="3" width="169"/>
@@ -149,9 +90,6 @@
                 <sortKey column="1" sortOrder="ASCENDING"/>
             </sortOrder>
         </table>
-        <table xmlns="" name="jmri.jmrit.beantable.SignalHeadTableAction:Signal Heads">
-            <columns/>
-        </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
         <window xmlns="" class="InstallTest" height="255.0" locX="687.0" locY="412.0" width="538.0"/>
@@ -164,12 +102,16 @@
                 </property>
             </properties>
         </window>
+        <window xmlns="" class="jmri.jmrix.nce.usbinterface.UsbInterfacePanel" height="151.0" locX="240.0" locY="126.0" width="402.0"/>
         <window xmlns="" class="SoundPro" height="331.0" locX="665.0" locY="374.0" width="582.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.AudioTableAction$1" height="540.0" locX="150.0" locY="36.0" width="475.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GP 35 UP 749" height="655.0" locX="180.0" locY="66.0" width="1097.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Sensors" height="545.0" locX="513.0" locY="296.0" width="965.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GP7 UP 116" height="979.0" locX="744.0" locY="374.0" width="1093.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GP 35 UP 744" height="655.0" locX="150.0" locY="36.0" width="1097.0"/>
         <window xmlns="" class="Add New Sensor" height="271.0" locX="389.0" locY="240.0" width="849.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:SP 8584 SD45" height="760.0" locX="180.0" locY="66.0" width="1097.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:RG 5327 SD45" height="760.0" locX="150.0" locY="36.0" width="1097.0"/>
         <window xmlns="" class="apps.gui3.TabbedPreferencesFrame:Preferences" height="458.0" locX="150.0" locY="36.0" width="987.0"/>
         <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout" height="1044.0" locX="150.0" locY="36.0" width="1770.0">
             <properties>
@@ -215,11 +157,15 @@
                 </property>
             </properties>
         </window>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:GP 35 UP 744" height="641.0" locX="180.0" locY="66.0" width="1097.0"/>
         <window xmlns="" class="jmri.jmrit.audio.swing.AudioSourceFrame:Add/Edit Audio Source" height="710.0" locX="180.0" locY="66.0" width="463.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
         <window xmlns="" class="Local JMRI throttles" height="230.0" locX="30.0" locY="66.0" width="330.0"/>
         <window xmlns="" class="Script Entry" height="699.0" locX="50.0" locY="36.0" width="749.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:3548 WP" height="655.0" locX="180.0" locY="66.0" width="1097.0"/>
         <window xmlns="" class="Throttles preferences" height="403.0" locX="150.0" locY="36.0" width="832.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GP 35 UP 744:2" height="655.0" locX="210.0" locY="96.0" width="1097.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GP 35 UP 744:1" height="655.0" locX="180.0" locY="66.0" width="1097.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$4:GE ES44AC &quot;GEVO&quot;" height="657.0" locX="180.0" locY="66.0" width="854.0"/>
         <window xmlns="" class="jmri.jmrix.nce.ncemon.NceMonPanel.FilterField">
             <properties>
@@ -231,7 +177,7 @@
         </window>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GE ES44AC &quot;GEVO&quot;" height="760.0" locX="50.0" locY="111.0" width="1097.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program GP7 in Service Mode (Programming Track)" height="627.0" locX="801.0" locY="285.0" width="1097.0"/>
-        <window xmlns="" class="Script Output" height="674.0" locX="1034.0" locY="104.0" width="890.0"/>
+        <window xmlns="" class="Script Output" height="674.0" locX="880.0" locY="104.0" width="890.0"/>
         <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="513.0" locX="256.0" locY="69.0" width="574.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GP7 Diesel" height="627.0" locX="150.0" locY="36.0" width="1097.0"/>
         <window xmlns="" class="jmri.jmrit.revhistory.swing.FileHistoryAction$1" height="228.0" locX="150.0" locY="36.0" width="643.0"/>
@@ -239,12 +185,12 @@
             <properties>
                 <property>
                     <key>selectedProgrammer</key>
-                    <value class="java.lang.String">service</value>
+                    <value class="java.lang.String">ops</value>
                 </property>
             </properties>
         </window>
         <window xmlns="" class="Create New Loco" height="550.0" locX="857.0" locY="220.0" width="402.0"/>
-        <window xmlns="" class="PanelPro" height="256.0" locX="696.0" locY="412.0" width="527.0"/>
-        <window xmlns="" class="jmri.jmrit.automat.monitor.AutomatTableFrame" height="473.0" locX="239.0" locY="571.0" width="455.0"/>
+        <window xmlns="" class="PanelPro" height="256.0" locX="1236.0" locY="168.0" width="527.0"/>
+        <window xmlns="" class="jmri.jmrit.automat.monitor.AutomatTableFrame" height="473.0" locX="718.0" locY="875.0" width="455.0"/>
     </windowDetails>
 </auxiliary-configuration>

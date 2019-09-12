@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sun Jun 02 12:51:34 MDT 2019-->
+  <!--Written by JMRI version 4.14+Rd060e0b on Thu Sep 12 06:41:14 MDT 2019-->
   <roster>
     <locomotive id="1029 NW2 Switcher" fileName="1029_NW2_Switcher.xml" roadNumber="1029" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="176-4374" dccAddress="1029" comment="$92 plus decoder" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T14:58:45Z</dateUpdated>
@@ -23,11 +23,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2019-01-19T16:02:47Z</value>
+          <value>2019-06-02T22:19:21Z</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>2330</value>
+          <value>2335</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -493,8 +493,8 @@
       </attributepairs>
     </locomotive>
     <locomotive id="GP 35 UP 744" fileName="GP_38_UP_744.xml" roadNumber="" roadName="Union Pacific" mfg="" owner="Mike Dean" model="" dccAddress="744" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2018-07-07T00:19:01Z</dateUpdated>
-      <decoder model="N12A2-ATL by NCE" family="Atlas N-Scale" comment="" />
+      <dateUpdated>2019-09-12T12:40:50Z</dateUpdated>
+      <decoder model="N12A2-ATL by NCE" family="Atlas N-Scale" comment="Reset by setting CV 30 to 002 from programming track." />
       <locoaddress>
         <dcclocoaddress number="744" longaddress="yes" />
         <number>744</number>
@@ -503,11 +503,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2018-07-06T23:56:13Z</value>
+          <value>2019-09-12T11:54:10Z</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>214</value>
+          <value>284</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -625,11 +625,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2019-01-17T13:02:25Z</value>
+          <value>2019-06-02T22:34:52Z</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>29</value>
+          <value>44</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
