@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.14+Rd060e0b on Thu Sep 12 06:41:14 MDT 2019-->
+  <!--Written by JMRI version 4.14+Rd060e0b on Thu Sep 12 07:15:40 MDT 2019-->
   <roster>
     <locomotive id="1029 NW2 Switcher" fileName="1029_NW2_Switcher.xml" roadNumber="1029" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="176-4374" dccAddress="1029" comment="$92 plus decoder" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T14:58:45Z</dateUpdated>
@@ -511,9 +511,9 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="GP 35 UP 749" fileName="Union_Pacific_749.xml" roadNumber="749" roadName="Union Pacific" mfg="Atlas" owner="Mike Dean" model="" dccAddress="749" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2016-08-28T21:50:39Z</dateUpdated>
-      <decoder model="N12A2-ATL by NCE" family="Atlas N-Scale" comment="" />
+    <locomotive id="GP 35 UP 749" fileName="Union_Pacific_749.xml" roadNumber="749" roadName="Union Pacific" mfg="Atlas" owner="Mike Dean" model="" dccAddress="749" comment="Set vStart to 80, kick 2 strength 4.  Top right now is&lt;?p?&gt;180 but need to check speed." maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2019-09-12T13:15:26Z</dateUpdated>
+      <decoder model="N12A2-ATL by NCE" family="Atlas N-Scale" comment="Reset with 002 into CV 30 on programming track." />
       <locoaddress>
         <dcclocoaddress number="749" longaddress="yes" />
         <number>749</number>
