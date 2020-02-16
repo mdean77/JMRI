@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.4-R1ccf76b on Sun Aug 28 15:46:18 MDT 2016 $Id$-->
+  <!--Written by JMRI version 4.4-R1ccf76b on Sun Aug 28 15:50:39 MDT 2016 $Id$-->
   <locomotive id="GP 35 UP 749" fileName="Union_Pacific_749.xml" roadNumber="749" roadName="Union Pacific" mfg="Atlas" owner="Mike Dean" model="" dccAddress="749" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>Aug 28, 2016 3:46:18 PM</dateUpdated>
+    <dateUpdated>Aug 28, 2016 3:50:39 PM</dateUpdated>
     <decoder model="N12A2-ATL by NCE" family="Atlas N-Scale" comment="" />
     <locoaddress>
       <dcclocoaddress number="749" longaddress="yes" />
@@ -54,7 +54,7 @@
         <varValue item="Output 2 effect generated" value="0" />
         <varValue item="Output 2 active" value="2" />
         <varValue item="Output 2 connected to" value="0" />
-        <varValue item="Primary Address" value="12" />
+        <varValue item="Primary Address" value="3" />
         <varValue item="Extended Address" value="749" />
         <varValue item="Address Format" value="1" />
         <varValue item="Vstart" value="0" />
@@ -117,7 +117,7 @@
       <CVvalue name="118" value="20" />
       <CVvalue name="120" value="1" />
       <CVvalue name="121" value="2" />
-      <CVvalue name="1" value="12" />
+      <CVvalue name="1" value="3" />
       <CVvalue name="17" value="194" />
       <CVvalue name="18" value="237" />
       <CVvalue name="2" value="0" />

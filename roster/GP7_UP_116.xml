@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sun Sep 09 10:53:24 MDT 2018-->
+  <!--Written by JMRI version 4.18+R37ad3d0 on Sun Feb 09 16:52:40 MST 2020-->
   <locomotive id="GP7 UP 116" fileName="GP7_UP_116.xml" roadNumber="" roadName="" mfg="" owner="Mike Dean" model="" dccAddress="116" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-09-09T16:53:24Z</dateUpdated>
+    <dateUpdated>2020-02-09T23:52:40.449+0000</dateUpdated>
     <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" />
     <locoaddress>
       <dcclocoaddress number="116" longaddress="yes" />
       <number>116</number>
       <protocol>dcc_long</protocol>
     </locoaddress>
+    <functionlabels />
+    <soundlabels />
     <attributepairs>
       <keyvaluepair>
         <key>LastOperated</key>
-        <value>2018-09-09T16:52:57Z</value>
+        <value>2020-02-09T23:52:17.840+0000</value>
       </keyvaluepair>
       <keyvaluepair>
         <key>OperatingDuration</key>
-        <value>34</value>
+        <value>483</value>
       </keyvaluepair>
     </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Start Volts" value="10" />
-        <varValue item="Accel" value="1" />
-        <varValue item="Decel" value="1" />
+        <varValue item="Accel" value="5" />
+        <varValue item="Decel" value="5" />
         <varValue item="Motor Drive Selection" value="0" />
         <varValue item="Output A dimming control" value="0" />
         <varValue item="Output A dimming" value="0" />
@@ -60,7 +62,6 @@
         <varValue item="F6 controls output D" value="1" />
         <varValue item="F7 controls output D" value="1" />
         <varValue item="F8 controls output D" value="1" />
-        <varValue item="Speed Table" value="0,9,18,28,37,47,56,66,75,85,94,103,113,122,132,141,151,160,170,179,188,198,207,217,226,236,245,255" />
         <varValue item="FL(f) controls output 1" value="1" />
         <varValue item="FL(r) controls output 2" value="1" />
         <varValue item="Primary Address" value="3" />
@@ -68,22 +69,23 @@
         <varValue item="Address Format" value="1" />
         <varValue item="Manufacturer Version No: " value="46" />
         <varValue item="Manufacturer ID: " value="101" />
-        <varValue item="Advanced Consist Address" value="0" />
         <varValue item="Locomotive Direction In Consist" value="0" />
+        <varValue item="Advanced Consist Address" value="0" />
         <varValue item="Locomotive Direction" value="0" />
         <varValue item="Speed Steps" value="1" />
         <varValue item="Power Source Conversion" value="0" />
-        <varValue item="Use Speed Table" value="0" />
+        <varValue item="Use Speed Table" value="1" />
         <varValue item="Brake Momentum on DC" value="1" />
-        <varValue item="Directional Headlights" value="1" />
+        <varValue item="Directional Headlights" value="0" />
         <varValue item="User ID #1 (0-255)" value="255" />
         <varValue item="User ID #2 (0-255)" value="255" />
+        <varValue item="Speed Table" value="38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65" />
       </decoderDef>
       <CVvalue name="2" value="10" />
-      <CVvalue name="3" value="1" />
-      <CVvalue name="4" value="1" />
+      <CVvalue name="3" value="5" />
+      <CVvalue name="4" value="5" />
       <CVvalue name="50" value="4" />
-      <CVvalue name="51" value="1" />
+      <CVvalue name="51" value="0" />
       <CVvalue name="52" value="64" />
       <CVvalue name="57" value="4" />
       <CVvalue name="58" value="255" />
@@ -91,43 +93,43 @@
       <CVvalue name="53" value="255" />
       <CVvalue name="54" value="255" />
       <CVvalue name="55" value="255" />
-      <CVvalue name="67" value="0" />
-      <CVvalue name="68" value="9" />
-      <CVvalue name="69" value="18" />
-      <CVvalue name="70" value="28" />
-      <CVvalue name="71" value="37" />
-      <CVvalue name="72" value="47" />
-      <CVvalue name="73" value="56" />
-      <CVvalue name="74" value="66" />
-      <CVvalue name="75" value="75" />
-      <CVvalue name="76" value="85" />
-      <CVvalue name="77" value="94" />
-      <CVvalue name="78" value="103" />
-      <CVvalue name="79" value="113" />
-      <CVvalue name="80" value="122" />
-      <CVvalue name="81" value="132" />
-      <CVvalue name="82" value="141" />
-      <CVvalue name="83" value="151" />
-      <CVvalue name="84" value="160" />
-      <CVvalue name="85" value="170" />
-      <CVvalue name="86" value="179" />
-      <CVvalue name="87" value="188" />
-      <CVvalue name="88" value="198" />
-      <CVvalue name="89" value="207" />
-      <CVvalue name="90" value="217" />
-      <CVvalue name="91" value="226" />
-      <CVvalue name="92" value="236" />
-      <CVvalue name="93" value="245" />
-      <CVvalue name="94" value="255" />
       <CVvalue name="1" value="3" />
       <CVvalue name="17" value="192" />
       <CVvalue name="18" value="116" />
-      <CVvalue name="29" value="34" />
+      <CVvalue name="29" value="50" />
       <CVvalue name="7" value="46" />
       <CVvalue name="8" value="101" />
       <CVvalue name="19" value="0" />
       <CVvalue name="105" value="255" />
       <CVvalue name="106" value="255" />
+      <CVvalue name="67" value="38" />
+      <CVvalue name="68" value="39" />
+      <CVvalue name="69" value="40" />
+      <CVvalue name="70" value="41" />
+      <CVvalue name="71" value="42" />
+      <CVvalue name="72" value="43" />
+      <CVvalue name="73" value="44" />
+      <CVvalue name="74" value="45" />
+      <CVvalue name="75" value="46" />
+      <CVvalue name="76" value="47" />
+      <CVvalue name="77" value="48" />
+      <CVvalue name="78" value="49" />
+      <CVvalue name="79" value="50" />
+      <CVvalue name="80" value="51" />
+      <CVvalue name="81" value="52" />
+      <CVvalue name="82" value="53" />
+      <CVvalue name="83" value="54" />
+      <CVvalue name="84" value="55" />
+      <CVvalue name="85" value="56" />
+      <CVvalue name="86" value="57" />
+      <CVvalue name="87" value="58" />
+      <CVvalue name="88" value="59" />
+      <CVvalue name="89" value="60" />
+      <CVvalue name="90" value="61" />
+      <CVvalue name="91" value="62" />
+      <CVvalue name="92" value="63" />
+      <CVvalue name="93" value="64" />
+      <CVvalue name="94" value="65" />
     </values>
   </locomotive>
 </locomotive-config>
