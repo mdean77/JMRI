@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
+<<<<<<< HEAD
   <!--Written by JMRI version 4.18+R37ad3d0 on Sat Feb 15 13:29:34 MST 2020-->
+=======
+  <!--Written by JMRI version 4.14+Rd060e0b on Thu Sep 12 07:15:26 MDT 2019-->
+>>>>>>> 6f147da90e210596c292f0df523481311ac7ad3d
   <roster>
     <locomotive id="1029 NW2 Switcher" fileName="1029_NW2_Switcher.xml" roadNumber="1029" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="176-4374" dccAddress="1029" comment="$92 plus decoder" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-02-15T20:29:34.960+0000</dateUpdated>
@@ -37,11 +41,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2019-01-19T16:02:47Z</value>
+          <value>2019-06-02T22:19:21Z</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>2330</value>
+          <value>2335</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -473,7 +477,7 @@
         <protocol>dcc_long</protocol>
       </locoaddress>
       <functionlabels>
-        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="0" lockable="true">Headlight</functionlabel>
       </functionlabels>
       <soundlabels />
       <attributepairs>
@@ -539,8 +543,13 @@
       </attributepairs>
     </locomotive>
     <locomotive id="GP 35 UP 744" fileName="GP_38_UP_744.xml" roadNumber="" roadName="Union Pacific" mfg="" owner="Mike Dean" model="" dccAddress="744" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+<<<<<<< HEAD
       <dateUpdated>2018-07-07T00:19:01.000+0000</dateUpdated>
       <decoder model="N12A2-ATL by NCE" family="Atlas N-Scale" comment="" />
+=======
+      <dateUpdated>2019-09-12T12:40:50Z</dateUpdated>
+      <decoder model="N12A2-ATL by NCE" family="Atlas N-Scale" comment="Reset by setting CV 30 to 002 from programming track." />
+>>>>>>> 6f147da90e210596c292f0df523481311ac7ad3d
       <locoaddress>
         <dcclocoaddress number="744" longaddress="yes" />
         <number>744</number>
@@ -551,17 +560,23 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2018-07-06T23:56:13Z</value>
+          <value>2019-09-12T11:54:10Z</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>214</value>
+          <value>284</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
+<<<<<<< HEAD
     <locomotive id="GP 35 UP 749" fileName="Union_Pacific_749.xml" roadNumber="749" roadName="Union Pacific" mfg="Atlas" owner="Mike Dean" model="" dccAddress="749" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-02-02T00:17:38.294+0000</dateUpdated>
       <decoder model="N12A2-ATL by NCE" family="Atlas N-Scale" comment="" />
+=======
+    <locomotive id="GP 35 UP 749" fileName="Union_Pacific_749.xml" roadNumber="749" roadName="Union Pacific" mfg="Atlas" owner="Mike Dean" model="" dccAddress="749" comment="Set vStart to 80, kick 2 strength 4.  Top right now is&lt;?p?&gt;180 but need to check speed." maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2019-09-12T13:15:26Z</dateUpdated>
+      <decoder model="N12A2-ATL by NCE" family="Atlas N-Scale" comment="Reset with 002 into CV 30 on programming track." />
+>>>>>>> 6f147da90e210596c292f0df523481311ac7ad3d
       <locoaddress>
         <dcclocoaddress number="749" longaddress="yes" />
         <number>749</number>
@@ -588,12 +603,29 @@
         <number>5102</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
+<<<<<<< HEAD
       <functionlabels />
       <soundlabels />
     </locomotive>
     <locomotive id="GP7 UP 116" fileName="GP7_UP_116.xml" roadNumber="" roadName="" mfg="" owner="Mike Dean" model="" dccAddress="116" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-02-09T23:52:40.449+0000</dateUpdated>
       <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" />
+=======
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2019-06-02T18:49:14Z</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>5</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="GP7 UP 116" fileName="GP7.xml" roadNumber="0116" roadName="Union Pacific" mfg="Bachmann" owner="Mike Dean" model="" dccAddress="116" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2019-06-02T18:51:34Z</dateUpdated>
+      <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" />
+>>>>>>> 6f147da90e210596c292f0df523481311ac7ad3d
       <locoaddress>
         <dcclocoaddress number="116" longaddress="yes" />
         <number>116</number>
@@ -604,11 +636,19 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
+<<<<<<< HEAD
           <value>2020-02-09T23:55:18.000+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
           <value>612</value>
+=======
+          <value>2019-06-02T18:51:14Z</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>26</value>
+>>>>>>> 6f147da90e210596c292f0df523481311ac7ad3d
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -673,11 +713,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2019-01-17T13:02:25Z</value>
+          <value>2019-06-02T22:34:52Z</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>29</value>
+          <value>44</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -693,13 +733,18 @@
       <soundlabels />
     </locomotive>
     <locomotive id="SP 8584 SD45" fileName="SP_8584_SD45.xml" roadNumber="8584" roadName="Southern Pacific" mfg="Kato" owner="Mike Dean" model="176-3131" dccAddress="8584" comment="Purchased used as DC from Cameron." maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+<<<<<<< HEAD
       <dateUpdated>2018-12-02T23:23:35.000+0000</dateUpdated>
+=======
+      <dateUpdated>2019-05-27T21:59:54Z</dateUpdated>
+>>>>>>> 6f147da90e210596c292f0df523481311ac7ad3d
       <decoder model="DN163K1C" family="Series 3 with FX3, silent, readback" comment="Installed myself." />
       <locoaddress>
         <dcclocoaddress number="8584" longaddress="yes" />
         <number>8584</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
+<<<<<<< HEAD
       <functionlabels />
       <soundlabels />
     </locomotive>
@@ -720,6 +765,18 @@
         <soundlabel num="26">Automatic brake sound</soundlabel>
         <soundlabel num="27">Gear shift sound</soundlabel>
       </soundlabels>
+=======
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2019-05-27T22:02:03Z</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>140</value>
+        </keyvaluepair>
+      </attributepairs>
+>>>>>>> 6f147da90e210596c292f0df523481311ac7ad3d
     </locomotive>
     <locomotive id="USRA 2-8-2 Mikado" fileName="USRA_2_8_2_Mikado_Updated.xml" roadNumber="746" roadName="Southern Pacific Lines" mfg="MRC" owner="Mike Dean" model="" dccAddress="746" comment="Updated decoder definition." maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2016-06-10T23:47:44.000+0000</dateUpdated>

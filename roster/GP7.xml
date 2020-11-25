@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sun Jun 02 12:48:35 MDT 2019-->
+  <locomotive id="GP7 UP 116" fileName="GP7.xml" roadNumber="0116" roadName="Union Pacific" mfg="Bachmann" owner="Mike Dean" model="" dccAddress="116" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2019-06-02T18:48:35Z</dateUpdated>
+    <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" />
+    <locoaddress>
+      <dcclocoaddress number="116" longaddress="yes" />
+      <number>116</number>
+      <protocol>dcc_long</protocol>
+    </locoaddress>
+    <values>
+      <decoderDef>
+        <varValue item="Start Volts" value="0" />
+        <varValue item="Accel" value="1" />
+        <varValue item="Decel" value="1" />
+        <varValue item="Headlight Dimmed By" value="1" />
+        <varValue item="Headlight Dimming intensity" value="64" />
+        <varValue item="FL(f) controls output 1" value="1" />
+        <varValue item="FL(r) controls output 2" value="1" />
+        <varValue item="Primary Address" value="3" />
+        <varValue item="Extended Address" value="116" />
+        <varValue item="Address Format" value="1" />
+        <varValue item="Advanced Consist Address" value="0" />
+        <varValue item="Locomotive Direction In Consist" value="0" />
+        <varValue item="Locomotive Direction" value="0" />
+        <varValue item="Speed Steps" value="1" />
+        <varValue item="Power Source Conversion" value="0" />
+        <varValue item="Brake Momentum on DC" value="1" />
+        <varValue item="User ID #1 (0-255)" value="255" />
+        <varValue item="User ID #2 (0-255)" value="255" />
+      </decoderDef>
+      <CVvalue name="2" value="0" />
+      <CVvalue name="3" value="1" />
+      <CVvalue name="4" value="1" />
+      <CVvalue name="51" value="1" />
+      <CVvalue name="52" value="64" />
+      <CVvalue name="1" value="3" />
+      <CVvalue name="17" value="192" />
+      <CVvalue name="18" value="116" />
+      <CVvalue name="29" value="34" />
+      <CVvalue name="19" value="0" />
+      <CVvalue name="50" value="4" />
+      <CVvalue name="105" value="255" />
+      <CVvalue name="106" value="255" />
+    </values>
+  </locomotive>
+</locomotive-config>
