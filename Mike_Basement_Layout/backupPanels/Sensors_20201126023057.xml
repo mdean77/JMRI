@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-4-19-2.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-4-19-2.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>21</minor>
+    <test>2</test>
+    <modifier />
+  </jmriversion>
+  <sensors class="jmri.jmrix.nce.configurexml.NceSensorManagerXml">
+    <sensor inverted="false">
+      <systemName>NS96</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS97</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS98</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS99</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS100</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS101</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS102</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS103</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS104</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS105</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS106</systemName>
+      <userName>West / Staging</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS109</systemName>
+      <userName>Mountain</userName>
+    </sensor>
+  </sensors>
+  <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
+    <defaultInitialState>unknown</defaultInitialState>
+    <sensor inverted="false">
+      <systemName>ISCLOCKRUNNING</systemName>
+    </sensor>
+  </sensors>
+  <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
+    <memory value="2:07 PM">
+      <systemName>IMCURRENTTIME</systemName>
+    </memory>
+    <memory value="1.0">
+      <systemName>IMRATEFACTOR</systemName>
+    </memory>
+  </memories>
+  <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
+    <logicDelay>500</logicDelay>
+  </signalmastlogics>
+  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Thu Nov 26 14:05:46 MST 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
+  <filehistory>
+    <operation>
+      <type>app</type>
+      <date>Thu Nov 26 14:05:46 MST 2020</date>
+      <filename>JMRI program</filename>
+    </operation>
+    <operation>
+      <type>Store</type>
+      <date>Thu Nov 26 14:07:35 MST 2020</date>
+      <filename />
+    </operation>
+  </filehistory>
+  <!--Written by JMRI version 4.21.2+R4558b1c10 on Thu Nov 26 14:07:35 MST 2020-->
+</layout-config>

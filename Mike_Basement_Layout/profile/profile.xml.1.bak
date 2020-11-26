@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
     <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
-        <connection xmlns="" class="jmri.jmrix.nce.usbdriver.configurexml.ConnectionConfigXml" disabled="no" manufacturer="NCE" port="cu.SLAB_USBtoUART" speed="19,200 baud" systemPrefix="N" userName="NCE">
+        <connection xmlns="" class="jmri.jmrix.nce.usbdriver.configurexml.ConnectionConfigXml" disabled="no" manufacturer="NCE" port="cu.SLAB_USBtoUART" reconnectMaxAttempts="100" reconnectMaxInterval="120" speed="19200" systemPrefix="N" turnoutInterval="250" userName="NCE">
             <options>
                 <option>
                     <name>System</name>
@@ -14,5 +14,9 @@
             </options>
         </connection>
     </connections>
-    <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd"/>
+    <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" name="jmri.jmrit.withrottle.WiThrottleCreationAction" type="Action">
+            <property name="systemPrefix" value=""/>
+        </perform>
+    </startup>
 </auxiliary-configuration>
