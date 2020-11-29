@@ -33,6 +33,8 @@
         <setting xmlns="">jmri.jmrix.nce.ncemon.NceMonPanel.RawData</setting>
         <setting xmlns="">jmri.jmrit.jython.JythonWindow.alwaysScroll</setting>
         <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout.toolBarThin</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:Mike Dean's Basement Layout.antialiasingOn</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:Mike Dean's Basement Layout.toolBarThin</setting>
     </settings>
     <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
         <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:Internal">
@@ -184,6 +186,9 @@
                 <sortKey column="1" sortOrder="ASCENDING"/>
             </sortOrder>
         </table>
+        <table xmlns="" name="jmri.jmrit.beantable.IdTagTableAction:RailCom">
+            <columns/>
+        </table>
         <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:All">
             <columns>
                 <column hidden="false" name="Comment" order="3" width="190"/>
@@ -225,6 +230,14 @@
         <window xmlns="" class="jmri.jmrix.nce.ncemon.NceMonPanel" height="344.0" locX="52.0" locY="23.0" width="827.0"/>
         <window xmlns="" class="jmri.jmrit.display.switchboardEditor.SwitchboardEditor:Switchboard" locX="860.0" locY="38.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Sensors" height="831.0" locX="51.0" locY="46.0" width="1338.0"/>
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Mike Dean's Basement Layout" height="877.0" locX="51.0" locY="23.0" width="1389.0">
+            <properties>
+                <property>
+                    <key>zoom</key>
+                    <value class="java.lang.Double">1.1000000000000008</value>
+                </property>
+            </properties>
+        </window>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$4:ALCO 2-6-0 Steam" height="669.0" locX="66.0" locY="24.0" width="981.0"/>
         <window xmlns="" class="JMRI System Console" height="806.0" locX="51.0" locY="23.0" width="1227.0"/>
         <window xmlns="" class="Add New Sensor" height="165.0" locX="185.0" locY="100.0" width="852.0"/>
@@ -279,10 +292,10 @@
         </window>
         <window xmlns="" class="Switchboard" height="330.0" locX="187.0" locY="23.0" width="550.0"/>
         <window xmlns="" class="jmri.jmrit.revhistory.swing.FileHistoryAction$1" height="282.0" locX="51.0" locY="23.0" width="673.0"/>
-        <window xmlns="" class="Edit Turnout" locX="50.0" locY="23.0"/>
+        <window xmlns="" class="Edit Turnout" locX="51.0" locY="23.0"/>
         <window xmlns="" class="jmri.jmrit.display.switchboardEditor.SwitchboardEditor:Switchboard:1" locX="83.0" locY="343.0"/>
         <window xmlns="" class="apps.jmrit.log.LogFrame" height="87.0" locX="51.0" locY="23.0" width="563.0"/>
-        <window xmlns="" class="PanelPro" height="231.0" locX="502.0" locY="329.0" width="487.0"/>
+        <window xmlns="" class="PanelPro" height="231.0" locX="953.0" locY="155.0" width="487.0"/>
         <window xmlns="" class="jmri.jmrit.automat.monitor.AutomatTableFrame" height="442.0" locX="886.0" locY="504.0" width="454.0"/>
         <window xmlns="" class="Add New Block" locX="51.0" locY="23.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="831.0" locX="51.0" locY="46.0" width="1338.0"/>

@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
-    <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
-        <connection xmlns="" class="jmri.jmrix.nce.usbdriver.configurexml.ConnectionConfigXml" disabled="no" manufacturer="NCE" port="cu.SLAB_USBtoUART" speed="19200" systemPrefix="N" userName="NCE">
-            <options>
-                <option>
-                    <name>System</name>
-                    <value>SB3/SB3a</value>
-                </option>
-                <option>
-                    <name>USB Version</name>
-                    <value>V7.x.x</value>
-                </option>
-            </options>
-        </connection>
-    </connections>
+    <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd"/>
     <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd"/>
 </auxiliary-configuration>

@@ -24,7 +24,7 @@
     <comboBoxLastValue xmlns="http://jmri.org/xml/schema/auxiliary-configuration/combobox-4-3-5.xsd">
         <comboBox xmlns="" lastSelected="NCE USB" name="NCE"/>
         <comboBox xmlns="" lastSelected="NCE" name="jmri.jmrit.beantable.SensorTableAction.SystemSelected"/>
-        <comboBox xmlns="" lastSelected="19,200 baud" name="jmri.jmrix.nce.usbdriver.UsbDriverAdapter.baud"/>
+        <comboBox xmlns="" lastSelected="19,200 bps" name="jmri.jmrix.nce.usbdriver.UsbDriverAdapter.baud"/>
         <comboBox xmlns="" lastSelected="python" name="jmri.jmrit.jython.InputWindow.language"/>
         <comboBox xmlns="" lastSelected="NCE" name="jmri.jmrit.beantable.TurnoutTableAction.SystemSelected"/>
     </comboBoxLastValue>
@@ -35,6 +35,9 @@
         <setting xmlns="">jmri.jmrit.jython.JythonWindow.alwaysScroll</setting>
     </settings>
     <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
+        <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:Internal">
+            <columns/>
+        </table>
         <table xmlns="" name="jmri.jmrit.beantable.TurnoutTableAction:NCE">
             <columns>
                 <column hidden="false" name="Comment" order="3" width="190"/>
@@ -61,6 +64,33 @@
             <sortOrder>
                 <sortKey column="1" sortOrder="ASCENDING"/>
             </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.ReporterTableAction:Internal">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.BlockTableAction:Blocks">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.TransitTableAction:Transits">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.LRouteTableAction:LRoutes">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.LightTableAction:All">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.ReporterTableAction:All">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.LogixTableAction:Logix">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.SignalGroupTableAction:Signal Groups">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.SignalMastLogicTableAction:Signal Mast Logic">
+            <columns/>
         </table>
         <table xmlns="" name="jmri.jmrit.beantable.TurnoutTableAction:All">
             <columns>
@@ -103,6 +133,39 @@
                 <sortKey column="0" sortOrder="ASCENDING"/>
             </sortOrder>
         </table>
+        <table xmlns="" name="jmri.jmrit.beantable.TurnoutTableAction:Internal">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.MemoryTableAction:Memory Variables">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.LightTableAction:Internal">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.RailComTableAction:RailCom IDs">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.SignalMastTableAction:Signal Masts">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.IdTagTableAction:Internal">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:NCE">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.IdTagTableAction:All">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.RouteTableDataModel:Routes">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.SectionTableAction:Sections">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.LightTableAction:NCE">
+            <columns/>
+        </table>
         <table xmlns="" name="jmri.jmrit.roster.swing.RosterFrame:Roster:roster">
             <columns>
                 <column hidden="false" name="Owner" order="8" width="71"/>
@@ -143,6 +206,9 @@
                 <sortKey column="10" sortOrder="ASCENDING"/>
             </sortOrder>
         </table>
+        <table xmlns="" name="jmri.jmrit.beantable.SignalHeadTableAction:Signal Heads">
+            <columns/>
+        </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
         <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="600.0" locX="195.0" locY="157.0" width="1024.0">
@@ -154,12 +220,12 @@
             </properties>
         </window>
         <window xmlns="" class="jmri.jmrix.nce.usbinterface.UsbInterfacePanel" height="123.0" locX="183.0" locY="62.0" width="400.0"/>
-        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="464.0" locX="168.0" locY="55.0" width="1212.0"/>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="464.0" locX="111.0" locY="76.0" width="1212.0"/>
         <window xmlns="" class="jmri.jmrix.nce.ncemon.NceMonPanel" height="344.0" locX="52.0" locY="23.0" width="827.0"/>
         <window xmlns="" class="jmri.jmrit.display.switchboardEditor.SwitchboardEditor:Switchboard" locX="860.0" locY="38.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Sensors" height="831.0" locX="51.0" locY="46.0" width="1338.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$4:ALCO 2-6-0 Steam" height="669.0" locX="66.0" locY="24.0" width="981.0"/>
-        <window xmlns="" class="JMRI System Console" height="398.0" locX="45.0" locY="23.0" width="1227.0"/>
+        <window xmlns="" class="JMRI System Console" height="806.0" locX="51.0" locY="23.0" width="1227.0"/>
         <window xmlns="" class="Add New Sensor" height="165.0" locX="185.0" locY="100.0" width="852.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:Program GE ES44AC &quot;Thunder&quot; in Operations Mode (Main Track)" height="865.0" locX="69.0" locY="23.0" width="1273.0"/>
         <window xmlns="" class="apps.gui3.TabbedPreferencesFrame:Preferences" height="464.0" locX="143.0" locY="203.0" width="937.0"/>
@@ -206,6 +272,6 @@
         <window xmlns="" class="PanelPro" height="231.0" locX="502.0" locY="329.0" width="487.0"/>
         <window xmlns="" class="jmri.jmrit.automat.monitor.AutomatTableFrame" height="442.0" locX="886.0" locY="504.0" width="454.0"/>
         <window xmlns="" class="Add New Block" locX="51.0" locY="23.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="831.0" locX="299.0" locY="98.0" width="1338.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="831.0" locX="51.0" locY="46.0" width="1338.0"/>
     </windowDetails>
 </auxiliary-configuration>
