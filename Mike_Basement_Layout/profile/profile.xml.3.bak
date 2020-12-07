@@ -14,5 +14,14 @@
             </options>
         </connection>
     </connections>
-    <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd"/>
+    <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
+        <perform xmlns="" class="apps.configurexml.PerformFileModelXml" name="preference:Sensors.xml" type="XmlFile"/>
+        <perform xmlns="" class="apps.configurexml.PerformFileModelXml" name="preference:Turnouts.xml" type="XmlFile"/>
+        <perform xmlns="" class="apps.configurexml.PerformActionModelXml" name="jmri.jmrit.withrottle.WiThrottleCreationAction" type="Action">
+            <property name="systemPrefix" value=""/>
+        </perform>
+        <perform xmlns="" class="apps.configurexml.PerformActionModelXml" name="jmri.web.server.WebServerAction" type="Action">
+            <property name="systemPrefix" value=""/>
+        </perform>
+    </startup>
 </auxiliary-configuration>
