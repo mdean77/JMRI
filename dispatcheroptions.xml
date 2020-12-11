@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/dispatcheroptions.xsl" type="text/xsl"?>
+<!DOCTYPE dispatcheroptions SYSTEM "/xml/DTD/dispatcher-options.dtd">
+<dispatcheroptions>
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Thu Dec 10 16:32:58 MST 2020-->
+  <options lename="My Layout" useconnectivity="yes" trainsfromroster="no" trainsfromtrains="no" trainsfromuser="yes" autoallocate="yes" autoturnouts="yes" trustknownturnouts="no" minthrottleinterval="100" fullramptime="10000" hasoccupancydetection="yes" shortactivetrainnames="no" shortnameinblock="yes" extracolorforallocated="yes" nameinallocatedblock="no" supportvsdecoder="no" layoutscale="N" usescalemeters="no" userosterentryinblock="yes" stoppingspeedname="RestrictedSlow" usesignaltype="signalmast" />
+</dispatcheroptions>

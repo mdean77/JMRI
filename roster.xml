@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Thu Nov 26 15:51:06 MST 2020-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Thu Dec 10 14:17:12 MST 2020-->
   <roster>
     <locomotive id="1029 NW2 Switcher" fileName="1029_NW2_Switcher.xml" roadNumber="1029" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="176-4374" dccAddress="1029" comment="$92 plus decoder" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T14:58:45.000+0000</dateUpdated>
@@ -13,6 +13,12 @@
       </locoaddress>
       <functionlabels />
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>DispatcherTrainType</key>
+          <value>LOCAL_FREIGHT</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="3548 WP" fileName="3548.xml" roadNumber="3548" roadName="Western Pacific" mfg="" owner="mdean" model="" dccAddress="3548" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2019-01-19T15:59:15.000+0000</dateUpdated>
@@ -520,17 +526,6 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="GP7 UP 116" fileName="GP7.xml" roadNumber="0116" roadName="Union Pacific" mfg="Bachmann" owner="Mike Dean" model="" dccAddress="116" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-06-02T18:48:35.000+0000</dateUpdated>
-      <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" />
-      <locoaddress>
-        <dcclocoaddress number="116" longaddress="yes" />
-        <number>116</number>
-        <protocol>dcc_long</protocol>
-      </locoaddress>
-      <functionlabels />
-      <soundlabels />
-    </locomotive>
     <locomotive id="GP7 UP 116" fileName="GP7_UP_116.xml" roadNumber="" roadName="" mfg="" owner="Mike Dean" model="" dccAddress="116" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-02-09T23:52:40.449+0000</dateUpdated>
       <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" />
@@ -551,6 +546,17 @@
           <value>483</value>
         </keyvaluepair>
       </attributepairs>
+    </locomotive>
+    <locomotive id="GP7 UP 116" fileName="GP7.xml" roadNumber="0116" roadName="Union Pacific" mfg="Bachmann" owner="Mike Dean" model="" dccAddress="116" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2019-06-02T18:48:35.000+0000</dateUpdated>
+      <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="116" longaddress="yes" />
+        <number>116</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
     </locomotive>
     <locomotive id="Great Northern 147" fileName="Great_Northern_147.xml" roadNumber="147" roadName="Great Northern" mfg="Bachmann" owner="Mike Dean" model="" dccAddress="147" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2016-03-27T18:02:55.000+0000</dateUpdated>
