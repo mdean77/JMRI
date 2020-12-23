@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Wed Dec 23 12:52:53 MST 2020-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Wed Dec 23 13:00:11 MST 2020-->
   <roster>
     <locomotive id="1029 NW2 Switcher" fileName="1029_NW2_Switcher.xml" roadNumber="1029" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="176-4374" dccAddress="1029" comment="$92 plus decoder" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T14:58:45.000+0000</dateUpdated>
@@ -17,27 +17,6 @@
         <keyvaluepair>
           <key>DispatcherTrainType</key>
           <value>LOCAL_FREIGHT</value>
-        </keyvaluepair>
-      </attributepairs>
-    </locomotive>
-    <locomotive id="3548 WP" fileName="3548.xml" roadNumber="3548" roadName="Western Pacific" mfg="" owner="mdean" model="" dccAddress="3548" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-19T15:59:15.000+0000</dateUpdated>
-      <decoder model="AN12A0 by NCE (Part #518299)" family="Atlas N-Scale" comment="" />
-      <locoaddress>
-        <dcclocoaddress number="3548" longaddress="yes" />
-        <number>3548</number>
-        <protocol>dcc_long</protocol>
-      </locoaddress>
-      <functionlabels />
-      <soundlabels />
-      <attributepairs>
-        <keyvaluepair>
-          <key>LastOperated</key>
-          <value>2019-01-19T15:53:47Z</value>
-        </keyvaluepair>
-        <keyvaluepair>
-          <key>OperatingDuration</key>
-          <value>2129</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
