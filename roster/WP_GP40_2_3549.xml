@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Wed Dec 23 10:44:17 MST 2020-->
-  <locomotive id="WP GP 40-2 3546" fileName="WP_GP_40_2_3546.xml" roadNumber="3546" roadName="Western Pacific" mfg="Atlas" owner="Mike Dean" model="" dccAddress="3546" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2020-12-23T17:44:17.002+0000</dateUpdated>
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Wed Dec 23 12:52:48 MST 2020-->
+  <locomotive id="WP GP40-2 3549" fileName="WP_GP40_2_3549.xml" roadNumber="3549" roadName="Western Pacific" mfg="Atlas" owner="Mike Dean" model="" dccAddress="3549" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2020-12-23T19:52:48.207+0000</dateUpdated>
     <decoder model="AN12A0 by NCE (Part #518299)" family="Atlas N-Scale" comment="" />
     <locoaddress>
-      <dcclocoaddress number="3546" longaddress="yes" />
-      <number>3546</number>
+      <dcclocoaddress number="3549" longaddress="yes" />
+      <number>3549</number>
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels />
@@ -68,7 +68,7 @@
         <varValue item="Output 4 effect generated" value="0" />
         <varValue item="Output 4 active" value="0" />
         <varValue item="Primary Address" value="3" />
-        <varValue item="Extended Address" value="3546" />
+        <varValue item="Extended Address" value="3549" />
         <varValue item="Address Format" value="1" />
         <varValue item="Vstart" value="0" />
         <varValue item="Vhigh" value="0" />
@@ -90,7 +90,7 @@
       <CVvalue name="11" value="0" />
       <CVvalue name="15" value="0" />
       <CVvalue name="21" value="255" />
-      <CVvalue name="22" value="255" />
+      <CVvalue name="22" value="3" />
       <CVvalue name="29" value="50" />
       <CVvalue name="33" value="1" />
       <CVvalue name="34" value="2" />
@@ -110,7 +110,7 @@
       <CVvalue name="123" value="128" />
       <CVvalue name="1" value="3" />
       <CVvalue name="17" value="205" />
-      <CVvalue name="18" value="218" />
+      <CVvalue name="18" value="221" />
       <CVvalue name="2" value="0" />
       <CVvalue name="5" value="0" />
       <CVvalue name="6" value="0" />

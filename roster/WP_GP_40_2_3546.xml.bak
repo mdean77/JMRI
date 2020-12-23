@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.4-R1ccf76b on Thu Aug 11 17:20:47 MDT 2016 $Id$-->
-  <locomotive id="WP GP 40-2 3546" fileName="WP_GP_40_2_3546.xml" roadNumber="3546" roadName="Western Pacific" mfg="Atlas" owner="Mike Dean" model="" dccAddress="3" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>Aug 11, 2016 5:20:47 PM</dateUpdated>
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Wed Dec 23 10:44:12 MST 2020-->
+  <locomotive id="WP GP 40-2 3546" fileName="WP_GP_40_2_3546.xml" roadNumber="3546" roadName="Western Pacific" mfg="Atlas" owner="Mike Dean" model="" dccAddress="3546" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2020-12-23T17:44:12.178+0000</dateUpdated>
     <decoder model="AN12A0 by NCE (Part #518299)" family="Atlas N-Scale" comment="" />
     <locoaddress>
-      <dcclocoaddress number="3" longaddress="no" />
-      <number>3</number>
-      <protocol>dcc_short</protocol>
+      <dcclocoaddress number="3546" longaddress="yes" />
+      <number>3546</number>
+      <protocol>dcc_long</protocol>
     </locoaddress>
+    <functionlabels />
+    <soundlabels />
     <values>
       <decoderDef>
         <varValue item="Packet Time-out Value (0=Don't Brake)" value="0" />
@@ -19,106 +21,133 @@
         <varValue item="Consist Address Active For F3" value="1" />
         <varValue item="Consist Address Active For F4" value="1" />
         <varValue item="Consist Address Active For F5" value="1" />
+        <varValue item="Consist Address Active For F6" value="1" />
+        <varValue item="Consist Address Active For F7" value="1" />
+        <varValue item="Consist Address Active For F8" value="1" />
         <varValue item="Consist Address Active For FL in Forward" value="1" />
         <varValue item="Consist Address Active For FL in Reverse" value="1" />
         <varValue item="Speed Steps" value="1" />
         <varValue item="FL(f) controls output 1" value="1" />
         <varValue item="FL(f) controls output 2" value="0" />
+        <varValue item="FL(f) controls output 3" value="0" />
+        <varValue item="FL(f) controls output 4" value="0" />
         <varValue item="FL(r) controls output 1" value="0" />
         <varValue item="FL(r) controls output 2" value="1" />
+        <varValue item="FL(r) controls output 3" value="0" />
+        <varValue item="FL(r) controls output 4" value="0" />
         <varValue item="F1 controls output 1" value="0" />
         <varValue item="F1 controls output 2" value="0" />
+        <varValue item="F1 controls output 3" value="0" />
+        <varValue item="F1 controls output 4" value="0" />
         <varValue item="F2 controls output 1" value="0" />
         <varValue item="F2 controls output 2" value="0" />
+        <varValue item="F2 controls output 3" value="1" />
+        <varValue item="F2 controls output 4" value="1" />
         <varValue item="F3 controls output 1" value="0" />
         <varValue item="F3 controls output 2" value="0" />
-        <varValue item="Speed Table" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+        <varValue item="F3 controls output 3" value="0" />
+        <varValue item="F3 controls output 4" value="0" />
+        <varValue item="F4 controls output 4" value="0" />
+        <varValue item="F5 controls output 4" value="0" />
+        <varValue item="F6 controls output 4" value="0" />
         <varValue item="Reverse Trim Adjustment" value="0" />
         <varValue item="Reverse Trim Sign" value="0" />
-        <varValue item="Torque Kick Rate" value="4" />
-        <varValue item="Torque Kick Strength" value="20" />
+        <varValue item="Torque Kick Rate" value="0" />
+        <varValue item="Torque Kick Strength" value="0" />
         <varValue item="Ditch light hold time" value="20" />
         <varValue item="Output 1 effect generated" value="0" />
         <varValue item="Output 1 active" value="1" />
-        <varValue item="Output 1 connected to" value="0" />
+        <varValue item="Output 1 connected to" value="1" />
         <varValue item="Output 2 effect generated" value="0" />
         <varValue item="Output 2 active" value="2" />
-        <varValue item="Output 2 connected to" value="0" />
+        <varValue item="Output 2 connected to" value="1" />
+        <varValue item="Output 3 effect generated" value="0" />
+        <varValue item="Output 3 active" value="0" />
+        <varValue item="Output 3 connected to" value="1" />
+        <varValue item="Output 4 connected to" value="1" />
+        <varValue item="Output 4 effect generated" value="0" />
+        <varValue item="Output 4 active" value="0" />
         <varValue item="Primary Address" value="3" />
         <varValue item="Extended Address" value="3546" />
-        <varValue item="Address Format" value="0" />
-        <varValue item="Vstart" value="30" />
-        <varValue item="Vhigh" value="140" />
-        <varValue item="Vmid" value="50" />
+        <varValue item="Address Format" value="1" />
+        <varValue item="Vstart" value="0" />
+        <varValue item="Vhigh" value="0" />
+        <varValue item="Vmid" value="0" />
         <varValue item="Acceleration Rate" value="0" />
         <varValue item="Deceleration Rate" value="0" />
         <varValue item="Manufacturer Version No: " value="36" />
         <varValue item="Manufacturer ID: " value="127" />
         <varValue item="Decoder Lock ID number" value="0" />
-        <varValue item="Advanced Consist Address" value="0" />
         <varValue item="Locomotive Direction In Consist" value="0" />
+        <varValue item="Advanced Consist Address" value="0" />
         <varValue item="Locomotive Direction" value="0" />
         <varValue item="Power Source Conversion" value="0" />
-        <varValue item="Use Speed Table" value="0" />
+        <varValue item="Use Speed Table" value="1" />
+        <varValue item="Speed Table" value="45,52,60,68,76,83,91,99,107,115,122,130,138,146,153,161,169,177,185,192,200,208,216,223,231,239,247,255" />
         <varValue item="User ID #1 (0-255)" value="0" />
         <varValue item="User ID #2 (0-255)" value="0" />
       </decoderDef>
       <CVvalue name="11" value="0" />
       <CVvalue name="15" value="0" />
       <CVvalue name="21" value="255" />
-      <CVvalue name="22" value="63" />
-      <CVvalue name="29" value="2" />
+      <CVvalue name="22" value="255" />
+      <CVvalue name="29" value="50" />
       <CVvalue name="33" value="1" />
       <CVvalue name="34" value="2" />
       <CVvalue name="35" value="0" />
       <CVvalue name="36" value="12" />
-      <CVvalue name="37" value="16" />
-      <CVvalue name="67" value="0" />
-      <CVvalue name="68" value="0" />
-      <CVvalue name="69" value="0" />
-      <CVvalue name="70" value="0" />
-      <CVvalue name="71" value="0" />
-      <CVvalue name="72" value="0" />
-      <CVvalue name="73" value="0" />
-      <CVvalue name="74" value="0" />
-      <CVvalue name="75" value="0" />
-      <CVvalue name="76" value="0" />
-      <CVvalue name="77" value="0" />
-      <CVvalue name="78" value="0" />
-      <CVvalue name="79" value="0" />
-      <CVvalue name="80" value="0" />
-      <CVvalue name="81" value="0" />
-      <CVvalue name="82" value="0" />
-      <CVvalue name="83" value="0" />
-      <CVvalue name="84" value="0" />
-      <CVvalue name="85" value="0" />
-      <CVvalue name="86" value="0" />
-      <CVvalue name="87" value="0" />
-      <CVvalue name="88" value="0" />
-      <CVvalue name="89" value="0" />
-      <CVvalue name="90" value="0" />
-      <CVvalue name="91" value="0" />
-      <CVvalue name="92" value="0" />
-      <CVvalue name="93" value="0" />
-      <CVvalue name="94" value="0" />
+      <CVvalue name="37" value="0" />
+      <CVvalue name="38" value="0" />
+      <CVvalue name="39" value="0" />
+      <CVvalue name="40" value="0" />
       <CVvalue name="95" value="0" />
-      <CVvalue name="116" value="4" />
-      <CVvalue name="117" value="20" />
+      <CVvalue name="116" value="0" />
+      <CVvalue name="117" value="0" />
       <CVvalue name="118" value="20" />
-      <CVvalue name="120" value="1" />
-      <CVvalue name="121" value="2" />
+      <CVvalue name="120" value="129" />
+      <CVvalue name="121" value="130" />
+      <CVvalue name="122" value="128" />
+      <CVvalue name="123" value="128" />
       <CVvalue name="1" value="3" />
       <CVvalue name="17" value="205" />
       <CVvalue name="18" value="218" />
-      <CVvalue name="2" value="30" />
-      <CVvalue name="5" value="140" />
-      <CVvalue name="6" value="50" />
+      <CVvalue name="2" value="0" />
+      <CVvalue name="5" value="0" />
+      <CVvalue name="6" value="0" />
       <CVvalue name="3" value="0" />
       <CVvalue name="4" value="0" />
       <CVvalue name="7" value="36" />
       <CVvalue name="8" value="127" />
       <CVvalue name="16" value="0" />
       <CVvalue name="19" value="0" />
+      <CVvalue name="67" value="45" />
+      <CVvalue name="68" value="52" />
+      <CVvalue name="69" value="60" />
+      <CVvalue name="70" value="68" />
+      <CVvalue name="71" value="76" />
+      <CVvalue name="72" value="83" />
+      <CVvalue name="73" value="91" />
+      <CVvalue name="74" value="99" />
+      <CVvalue name="75" value="107" />
+      <CVvalue name="76" value="115" />
+      <CVvalue name="77" value="122" />
+      <CVvalue name="78" value="130" />
+      <CVvalue name="79" value="138" />
+      <CVvalue name="80" value="146" />
+      <CVvalue name="81" value="153" />
+      <CVvalue name="82" value="161" />
+      <CVvalue name="83" value="169" />
+      <CVvalue name="84" value="177" />
+      <CVvalue name="85" value="185" />
+      <CVvalue name="86" value="192" />
+      <CVvalue name="87" value="200" />
+      <CVvalue name="88" value="208" />
+      <CVvalue name="89" value="216" />
+      <CVvalue name="90" value="223" />
+      <CVvalue name="91" value="231" />
+      <CVvalue name="92" value="239" />
+      <CVvalue name="93" value="247" />
+      <CVvalue name="94" value="255" />
       <CVvalue name="105" value="0" />
       <CVvalue name="106" value="0" />
     </values>
