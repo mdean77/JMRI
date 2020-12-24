@@ -16,12 +16,12 @@
     </comboBoxLastValue>
     <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd">
         <setting xmlns="">apps.gui3.dp3.DecoderPro3Window.hideGroups</setting>
-        <setting xmlns="">jmri.jmrit.roster.swing.RosterFrame.hideGroups</setting>
         <setting xmlns="">jmri.jmrix.nce.ncemon.NceMonPanel.RawData</setting>
         <setting xmlns="">jmri.jmrit.jython.JythonWindow.alwaysScroll</setting>
         <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout.toolBarThin</setting>
         <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:Mike Dean's Basement Layout.antialiasingOn</setting>
         <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:Mike Dean's Basement Layout.toolBarThin</setting>
+        <setting xmlns="">jmri.jmrit.roster.swing.RosterFrame.hideGroups</setting>
     </settings>
     <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
         <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:Internal">
@@ -229,11 +229,11 @@
         </window>
         <window xmlns="" class="jmri.jmrix.nce.usbinterface.UsbInterfacePanel" height="123.0" locX="183.0" locY="62.0" width="400.0"/>
         <window xmlns="" class="jmri.jmrit.display.switchboardEditor.SwitchboardEditor:Switchboard" locX="860.0" locY="38.0"/>
-        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Mike Dean's Basement Layout" height="877.0" locX="51.0" locY="23.0" width="1389.0">
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Mike Dean's Basement Layout" height="877.0" locX="172.0" locY="258.0" width="1389.0">
             <properties>
                 <property>
                     <key>zoom</key>
-                    <value class="java.lang.Double">0.6209213230591574</value>
+                    <value class="java.lang.Double">1.6105100000000072</value>
                 </property>
             </properties>
         </window>
