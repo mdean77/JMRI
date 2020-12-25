@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-4-19-2.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-4-19-2.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>20</minor>
+    <test>0</test>
+    <modifier />
+  </jmriversion>
+  <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
+    <defaultInitialState>unknown</defaultInitialState>
+    <sensor inverted="false">
+      <systemName>IS1</systemName>
+      <userName>Sensor 1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS2</systemName>
+      <userName>Sensor 2</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS3</systemName>
+      <userName>Sensor 3</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS4</systemName>
+      <userName>Sensor 4</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS5</systemName>
+      <userName>Sensor 5</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS10</systemName>
+      <userName>Int10</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS11</systemName>
+      <userName>Int11</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS12</systemName>
+      <userName>Int12</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS13</systemName>
+      <userName>Int13</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS14</systemName>
+      <userName>Int14</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS15</systemName>
+      <userName>Int15</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS16</systemName>
+      <userName>Int16</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS17</systemName>
+      <userName>Int17</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISCLOCKRUNNING</systemName>
+    </sensor>
+  </sensors>
+  <turnouts class="jmri.jmrix.nce.configurexml.NceTurnoutManagerXml">
+    <operations automate="false">
+      <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Raw" class="jmri.configurexml.turnoutoperations.RawTurnoutOperationXml" interval="300" maxtries="1" />
+      <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
+    </operations>
+    <defaultclosedspeed>Normal</defaultclosedspeed>
+    <defaultthrownspeed>Restricted</defaultthrownspeed>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT100</systemName>
+      <userName>Turnout 100</userName>
+    </turnout>
+  </turnouts>
+  <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
+    <memory value="12:01 PM">
+      <systemName>IMCURRENTTIME</systemName>
+    </memory>
+    <memory value="1.0">
+      <systemName>IMRATEFACTOR</systemName>
+    </memory>
+  </memories>
+  <signalmasts class="jmri.managers.configurexml.DefaultSignalMastManagerXml">
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-searchlight($0003)</systemName>
+      <userName>z1Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-searchlight($0004)</systemName>
+      <userName>z5Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-searchlight($0005)</systemName>
+      <userName>v17</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <dccsignalmast class="jmri.implementation.configurexml.DccSignalMastXml">
+      <systemName>NF$dsm:basic:one-searchlight(1)</systemName>
+      <userName>z1z2mast</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <packetsendcount>3</packetsendcount>
+      <aspect defines="Clear">
+        <number>2</number>
+      </aspect>
+      <aspect defines="Approach">
+        <number>1</number>
+      </aspect>
+      <aspect defines="Stop">
+        <number>0</number>
+      </aspect>
+      <aspect defines="Unlit">
+        <number>31</number>
+      </aspect>
+    </dccsignalmast>
+    <dccsignalmast class="jmri.implementation.configurexml.DccSignalMastXml">
+      <systemName>NF$dsm:basic:one-searchlight(2)</systemName>
+      <userName>z2z1mast</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <packetsendcount>3</packetsendcount>
+      <aspect defines="Clear">
+        <number>2</number>
+      </aspect>
+      <aspect defines="Approach">
+        <number>1</number>
+      </aspect>
+      <aspect defines="Stop">
+        <number>0</number>
+      </aspect>
+      <aspect defines="Unlit">
+        <number>31</number>
+      </aspect>
+    </dccsignalmast>
+    <dccsignalmast class="jmri.implementation.configurexml.DccSignalMastXml">
+      <systemName>NF$dsm:basic:one-searchlight(3)</systemName>
+      <userName>z2z3mast</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <packetsendcount>3</packetsendcount>
+      <aspect defines="Clear">
+        <number>2</number>
+      </aspect>
+      <aspect defines="Approach">
+        <number>1</number>
+      </aspect>
+      <aspect defines="Stop">
+        <number>0</number>
+      </aspect>
+      <aspect defines="Unlit">
+        <number>31</number>
+      </aspect>
+    </dccsignalmast>
+    <dccsignalmast class="jmri.implementation.configurexml.DccSignalMastXml">
+      <systemName>NF$dsm:basic:one-searchlight(4)</systemName>
+      <userName>z3z2mast</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <packetsendcount>3</packetsendcount>
+      <aspect defines="Clear">
+        <number>2</number>
+      </aspect>
+      <aspect defines="Approach">
+        <number>1</number>
+      </aspect>
+      <aspect defines="Stop">
+        <number>0</number>
+      </aspect>
+      <aspect defines="Unlit">
+        <number>31</number>
+      </aspect>
+    </dccsignalmast>
+    <dccsignalmast class="jmri.implementation.configurexml.DccSignalMastXml">
+      <systemName>NF$dsm:basic:one-searchlight(5)</systemName>
+      <userName>z3z4mast</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <packetsendcount>3</packetsendcount>
+      <aspect defines="Clear">
+        <number>2</number>
+      </aspect>
+      <aspect defines="Approach">
+        <number>1</number>
+      </aspect>
+      <aspect defines="Stop">
+        <number>0</number>
+      </aspect>
+      <aspect defines="Unlit">
+        <number>31</number>
+      </aspect>
+    </dccsignalmast>
+    <dccsignalmast class="jmri.implementation.configurexml.DccSignalMastXml">
+      <systemName>NF$dsm:basic:one-searchlight(6)</systemName>
+      <userName>z4z3mast</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <packetsendcount>3</packetsendcount>
+      <aspect defines="Clear">
+        <number>2</number>
+      </aspect>
+      <aspect defines="Approach">
+        <number>1</number>
+      </aspect>
+      <aspect defines="Stop">
+        <number>0</number>
+      </aspect>
+      <aspect defines="Unlit">
+        <number>31</number>
+      </aspect>
+    </dccsignalmast>
+    <dccsignalmast class="jmri.implementation.configurexml.DccSignalMastXml">
+      <systemName>NF$dsm:basic:one-searchlight(7)</systemName>
+      <userName>z4z5mast</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <packetsendcount>3</packetsendcount>
+      <aspect defines="Clear">
+        <number>2</number>
+      </aspect>
+      <aspect defines="Approach">
+        <number>1</number>
+      </aspect>
+      <aspect defines="Stop">
+        <number>0</number>
+      </aspect>
+      <aspect defines="Unlit">
+        <number>31</number>
+      </aspect>
+    </dccsignalmast>
+    <dccsignalmast class="jmri.implementation.configurexml.DccSignalMastXml">
+      <systemName>NF$dsm:basic:one-searchlight(8)</systemName>
+      <userName>z5z4mast</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <packetsendcount>3</packetsendcount>
+      <aspect defines="Clear">
+        <number>2</number>
+      </aspect>
+      <aspect defines="Approach">
+        <number>1</number>
+      </aspect>
+      <aspect defines="Stop">
+        <number>0</number>
+      </aspect>
+      <aspect defines="Unlit">
+        <number>31</number>
+      </aspect>
+    </dccsignalmast>
+    <dccsignalmast class="jmri.implementation.configurexml.DccSignalMastXml">
+      <systemName>NF$dsm:basic:one-searchlight(200)</systemName>
+      <userName>b10Virtual</userName>
+      <unlit allowed="no" />
+      <packetsendcount>3</packetsendcount>
+      <aspect defines="Clear">
+        <number>2</number>
+      </aspect>
+      <aspect defines="Approach">
+        <number>1</number>
+      </aspect>
+      <aspect defines="Stop">
+        <number>0</number>
+      </aspect>
+      <aspect defines="Unlit">
+        <number>31</number>
+      </aspect>
+    </dccsignalmast>
+    <dccsignalmast class="jmri.implementation.configurexml.DccSignalMastXml">
+      <systemName>NF$dsm:basic:one-searchlight(201)</systemName>
+      <userName>b10_11</userName>
+      <unlit allowed="no" />
+      <packetsendcount>3</packetsendcount>
+      <aspect defines="Clear">
+        <number>2</number>
+      </aspect>
+      <aspect defines="Approach">
+        <number>1</number>
+      </aspect>
+      <aspect defines="Stop">
+        <number>0</number>
+      </aspect>
+      <aspect defines="Unlit">
+        <number>31</number>
+      </aspect>
+    </dccsignalmast>
+    <dccsignalmast class="jmri.implementation.configurexml.DccSignalMastXml">
+      <systemName>NF$dsm:basic:one-searchlight(202)</systemName>
+      <userName>b11_10</userName>
+      <unlit allowed="no" />
+      <packetsendcount>3</packetsendcount>
+      <aspect defines="Clear">
+        <number>2</number>
+      </aspect>
+      <aspect defines="Approach">
+        <number>1</number>
+      </aspect>
+      <aspect defines="Stop">
+        <number>0</number>
+      </aspect>
+      <aspect defines="Unlit">
+        <number>31</number>
+      </aspect>
+    </dccsignalmast>
+    <dccsignalmast class="jmri.implementation.configurexml.DccSignalMastXml">
+      <systemName>NF$dsm:basic:one-searchlight(203)</systemName>
+      <userName>b13_14</userName>
+      <unlit allowed="no" />
+      <packetsendcount>3</packetsendcount>
+      <aspect defines="Clear">
+        <number>2</number>
+      </aspect>
+      <aspect defines="Approach">
+        <number>1</number>
+      </aspect>
+      <aspect defines="Stop">
+        <number>0</number>
+      </aspect>
+      <aspect defines="Unlit">
+        <number>31</number>
+      </aspect>
+    </dccsignalmast>
+    <dccsignalmast class="jmri.implementation.configurexml.DccSignalMastXml">
+      <systemName>NF$dsm:basic:one-searchlight(204)</systemName>
+      <userName>b14_13</userName>
+      <unlit allowed="no" />
+      <packetsendcount>3</packetsendcount>
+      <aspect defines="Clear">
+        <number>2</number>
+      </aspect>
+      <aspect defines="Approach">
+        <number>1</number>
+      </aspect>
+      <aspect defines="Stop">
+        <number>0</number>
+      </aspect>
+      <aspect defines="Unlit">
+        <number>31</number>
+      </aspect>
+    </dccsignalmast>
+    <dccsignalmast class="jmri.implementation.configurexml.DccSignalMastXml">
+      <systemName>NF$dsm:basic:one-searchlight(205)</systemName>
+      <userName>b12_13</userName>
+      <unlit allowed="no" />
+      <packetsendcount>3</packetsendcount>
+      <aspect defines="Clear">
+        <number>2</number>
+      </aspect>
+      <aspect defines="Approach">
+        <number>1</number>
+      </aspect>
+      <aspect defines="Stop">
+        <number>0</number>
+      </aspect>
+      <aspect defines="Unlit">
+        <number>31</number>
+      </aspect>
+    </dccsignalmast>
+    <dccsignalmast class="jmri.implementation.configurexml.DccSignalMastXml">
+      <systemName>NF$dsm:basic:one-searchlight(207)</systemName>
+      <userName>b13_12</userName>
+      <unlit allowed="no" />
+      <packetsendcount>3</packetsendcount>
+      <aspect defines="Clear">
+        <number>2</number>
+      </aspect>
+      <aspect defines="Approach">
+        <number>1</number>
+      </aspect>
+      <aspect defines="Stop">
+        <number>0</number>
+      </aspect>
+      <aspect defines="Unlit">
+        <number>31</number>
+      </aspect>
+    </dccsignalmast>
+  </signalmasts>
+  <blocks class="jmri.configurexml.BlockManagerXml">
+    <defaultspeed>Normal</defaultspeed>
+    <block systemName="IB:AUTO:0001">
+      <systemName>IB:AUTO:0001</systemName>
+      <userName>Block 1</userName>
+    </block>
+    <block systemName="IB:AUTO:0002">
+      <systemName>IB:AUTO:0002</systemName>
+      <userName>Block 2</userName>
+    </block>
+    <block systemName="IB:AUTO:0003">
+      <systemName>IB:AUTO:0003</systemName>
+      <userName>Block 3</userName>
+    </block>
+    <block systemName="IB:AUTO:0004">
+      <systemName>IB:AUTO:0004</systemName>
+      <userName>Block 4</userName>
+    </block>
+    <block systemName="IB:AUTO:0005">
+      <systemName>IB:AUTO:0005</systemName>
+      <userName>Block 5</userName>
+    </block>
+    <block systemName="IB:AUTO:0006">
+      <systemName>IB:AUTO:0006</systemName>
+      <userName>B1</userName>
+    </block>
+    <block systemName="IB:AUTO:0007">
+      <systemName>IB:AUTO:0007</systemName>
+      <userName>B10</userName>
+    </block>
+    <block systemName="IB:AUTO:0008">
+      <systemName>IB:AUTO:0008</systemName>
+      <userName>B11</userName>
+    </block>
+    <block systemName="IB:AUTO:0009">
+      <systemName>IB:AUTO:0009</systemName>
+      <userName>B12</userName>
+    </block>
+    <block systemName="IB:AUTO:0010">
+      <systemName>IB:AUTO:0010</systemName>
+      <userName>B13</userName>
+    </block>
+    <block systemName="IB:AUTO:0011">
+      <systemName>IB:AUTO:0011</systemName>
+      <userName>B14</userName>
+    </block>
+    <block systemName="IB:AUTO:0012">
+      <systemName>IB:AUTO:0012</systemName>
+      <userName>B15</userName>
+    </block>
+    <block systemName="IB:AUTO:0013">
+      <systemName>IB:AUTO:0013</systemName>
+      <userName>B16</userName>
+    </block>
+    <block systemName="IB:AUTO:0014">
+      <systemName>IB:AUTO:0014</systemName>
+      <userName>B17</userName>
+    </block>
+    <block systemName="IB:AUTO:0001" length="2540.0" curve="0">
+      <systemName>IB:AUTO:0001</systemName>
+      <userName>Block 1</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Sensor 1</occupancysensor>
+      <path todir="64" fromdir="128" block="IB:AUTO:0002" />
+    </block>
+    <block systemName="IB:AUTO:0002" length="2540.0" curve="0">
+      <systemName>IB:AUTO:0002</systemName>
+      <userName>Block 2</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Sensor 2</occupancysensor>
+      <path todir="128" fromdir="64" block="IB:AUTO:0001" />
+      <path todir="64" fromdir="128" block="IB:AUTO:0003" />
+    </block>
+    <block systemName="IB:AUTO:0003" length="2540.0" curve="0">
+      <systemName>IB:AUTO:0003</systemName>
+      <userName>Block 3</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Sensor 3</occupancysensor>
+      <path todir="128" fromdir="64" block="IB:AUTO:0002" />
+      <path todir="64" fromdir="128" block="IB:AUTO:0004" />
+    </block>
+    <block systemName="IB:AUTO:0004" length="2540.0" curve="0">
+      <systemName>IB:AUTO:0004</systemName>
+      <userName>Block 4</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Sensor 4</occupancysensor>
+      <path todir="128" fromdir="64" block="IB:AUTO:0003" />
+      <path todir="64" fromdir="128" block="IB:AUTO:0005" />
+    </block>
+    <block systemName="IB:AUTO:0005" length="2540.0" curve="0">
+      <systemName>IB:AUTO:0005</systemName>
+      <userName>Block 5</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Sensor 5</occupancysensor>
+      <path todir="128" fromdir="64" block="IB:AUTO:0004" />
+    </block>
+    <block systemName="IB:AUTO:0006" length="0.0" curve="0">
+      <systemName>IB:AUTO:0006</systemName>
+      <userName>B1</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB:AUTO:0007" length="0.0" curve="0">
+      <systemName>IB:AUTO:0007</systemName>
+      <userName>B10</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Int10</occupancysensor>
+      <path todir="64" fromdir="128" block="IB:AUTO:0008" />
+    </block>
+    <block systemName="IB:AUTO:0008" length="0.0" curve="0">
+      <systemName>IB:AUTO:0008</systemName>
+      <userName>B11</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Int11</occupancysensor>
+      <path todir="128" fromdir="64" block="IB:AUTO:0007" />
+      <path todir="64" fromdir="128" block="IB:AUTO:0009" />
+    </block>
+    <block systemName="IB:AUTO:0009" length="0.0" curve="0">
+      <systemName>IB:AUTO:0009</systemName>
+      <userName>B12</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Int12</occupancysensor>
+      <path todir="128" fromdir="64" block="IB:AUTO:0008" />
+      <path todir="64" fromdir="128" block="IB:AUTO:0010" />
+    </block>
+    <block systemName="IB:AUTO:0010" length="0.0" curve="0">
+      <systemName>IB:AUTO:0010</systemName>
+      <userName>B13</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Int13</occupancysensor>
+      <path todir="128" fromdir="64" block="IB:AUTO:0009" />
+      <path todir="64" fromdir="128" block="IB:AUTO:0011" />
+    </block>
+    <block systemName="IB:AUTO:0011" length="0.0" curve="0">
+      <systemName>IB:AUTO:0011</systemName>
+      <userName>B14</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Int14</occupancysensor>
+      <path todir="128" fromdir="64" block="IB:AUTO:0010" />
+      <path todir="64" fromdir="128" block="IB:AUTO:0012">
+        <beansetting setting="2">
+          <turnout systemName="Turnout 100" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB:AUTO:0012" length="0.0" curve="0">
+      <systemName>IB:AUTO:0012</systemName>
+      <userName>B15</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Int15</occupancysensor>
+      <path todir="128" fromdir="64" block="IB:AUTO:0011" />
+      <path todir="64" fromdir="128" block="IB:AUTO:0013" />
+    </block>
+    <block systemName="IB:AUTO:0013" length="0.0" curve="0">
+      <systemName>IB:AUTO:0013</systemName>
+      <userName>B16</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Int16</occupancysensor>
+      <path todir="128" fromdir="64" block="IB:AUTO:0012" />
+      <path todir="64" fromdir="128" block="IB:AUTO:0014" />
+    </block>
+    <block systemName="IB:AUTO:0014" length="0.0" curve="0">
+      <systemName>IB:AUTO:0014</systemName>
+      <userName>B17</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Int17</occupancysensor>
+      <path todir="128" fromdir="64" block="IB:AUTO:0013" />
+    </block>
+  </blocks>
+  <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml" blockrouting="yes">
+    <layoutblock systemName="ILB1" occupancysensor="Sensor 1" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB1</systemName>
+      <userName>Block 1</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB2" occupancysensor="Sensor 2" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB2</systemName>
+      <userName>Block 2</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB3" occupancysensor="Sensor 3" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB3</systemName>
+      <userName>Block 3</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB4" occupancysensor="Sensor 4" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB4</systemName>
+      <userName>Block 4</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB5" occupancysensor="Sensor 5" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB5</systemName>
+      <userName>Block 5</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB7" occupancysensor="Int10" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB7</systemName>
+      <userName>B10</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB8" occupancysensor="Int11" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB8</systemName>
+      <userName>B11</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB9" occupancysensor="Int12" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB9</systemName>
+      <userName>B12</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB11" occupancysensor="Int14" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB11</systemName>
+      <userName>B14</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB12" occupancysensor="Int15" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB12</systemName>
+      <userName>B15</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB13" occupancysensor="Int16" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB13</systemName>
+      <userName>B16</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB14" occupancysensor="Int17" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB14</systemName>
+      <userName>B17</userName>
+    </layoutblock>
+  </layoutblocks>
+  <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
+    <logicDelay>500</logicDelay>
+    <signalmastlogic source="z1z2mast">
+      <sourceSignalMast>z1z2mast</sourceSignalMast>
+      <destinationMast destination="z2z3mast">
+        <destinationSignalMast>z2z3mast</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="z2z1mast">
+      <sourceSignalMast>z2z1mast</sourceSignalMast>
+      <destinationMast destination="z1Virtual">
+        <destinationSignalMast>z1Virtual</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="z2z3mast">
+      <sourceSignalMast>z2z3mast</sourceSignalMast>
+      <destinationMast destination="z3z4mast">
+        <destinationSignalMast>z3z4mast</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="z3z2mast">
+      <sourceSignalMast>z3z2mast</sourceSignalMast>
+      <destinationMast destination="z2z1mast">
+        <destinationSignalMast>z2z1mast</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="z3z4mast">
+      <sourceSignalMast>z3z4mast</sourceSignalMast>
+      <destinationMast destination="z4z5mast">
+        <destinationSignalMast>z4z5mast</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="z4z3mast">
+      <sourceSignalMast>z4z3mast</sourceSignalMast>
+      <destinationMast destination="z3z2mast">
+        <destinationSignalMast>z3z2mast</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="z4z5mast">
+      <sourceSignalMast>z4z5mast</sourceSignalMast>
+      <destinationMast destination="z5Virtual">
+        <destinationSignalMast>z5Virtual</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="z5z4mast">
+      <sourceSignalMast>z5z4mast</sourceSignalMast>
+      <destinationMast destination="z4z3mast">
+        <destinationSignalMast>z4z3mast</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+  </signalmastlogics>
+  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Wed Dec 09 11:37:37 MST 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="My Layout" x="137" y="156" windowheight="869" windowwidth="1876" panelheight="517" panelwidth="1477" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="no" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+    <layoutTrackDrawingOptions name="My Layout" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
+      <mainBallastColor>#000000</mainBallastColor>
+      <mainBallastWidth>0</mainBallastWidth>
+      <mainBlockLineDashPercentageX10>0</mainBlockLineDashPercentageX10>
+      <mainBlockLineWidth>4</mainBlockLineWidth>
+      <mainRailColor>#404040</mainRailColor>
+      <mainRailCount>1</mainRailCount>
+      <mainRailGap>0</mainRailGap>
+      <mainRailWidth>2</mainRailWidth>
+      <mainTieColor>#000000</mainTieColor>
+      <mainTieGap>0</mainTieGap>
+      <mainTieLength>0</mainTieLength>
+      <mainTieWidth>0</mainTieWidth>
+      <sideBallastColor>#000000</sideBallastColor>
+      <sideBallastWidth>0</sideBallastWidth>
+      <sideBlockLineDashPercentageX10>0</sideBlockLineDashPercentageX10>
+      <sideBlockLineWidth>2</sideBlockLineWidth>
+      <sideRailColor>#404040</sideRailColor>
+      <sideRailCount>1</sideRailCount>
+      <sideRailGap>0</sideRailGap>
+      <sideRailWidth>1</sideRailWidth>
+      <sideTieColor>#000000</sideTieColor>
+      <sideTieGap>0</sideTieGap>
+      <sideTieLength>0</sideTieLength>
+      <sideTieWidth>0</sideTieWidth>
+    </layoutTrackDrawingOptions>
+    <positionablelabel x="382" y="450" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Zone 1" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="580" y="451" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Zone 2" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="783" y="451" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Zone 3" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1082" y="451" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Zone 4" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1286" y="450" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Zone 5" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="449" y="358" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="z1z2mast" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="500" y="425" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="z2z1mast" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="646" y="357" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="z2z3mast" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="697" y="426" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="z3z2mast" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="942" y="352" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="z3z4mast" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="999" y="424" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="z4z3mast" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1151" y="352" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="z4z5mast" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1199" y="423" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="z5z4mast" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="274" y="357" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="z1Virtual" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1371" y="353" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="z5Virtual" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <signalmasticon signalmast="z1Virtual" x="306" y="405" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="z5Virtual" x="1375" y="375" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="91" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="z1z2mast" x="455" y="376" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="z2z1mast" x="504" y="405" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="z2z3mast" x="653" y="376" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="z3z2mast" x="702" y="405" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="z3z4mast" x="951" y="374" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="89" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="z4z3mast" x="1003" y="404" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="z4z5mast" x="1159" y="375" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="z5z4mast" x="1208" y="404" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <positionablelabel x="240" y="63" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="10" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="342" y="62" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="11" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="443" y="69" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="12" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="585" y="70" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="13" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="750" y="120" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="14" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="844" y="71" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="15" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="946" y="72" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="16" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1093" y="68" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="17" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <signalmasticon signalmast="b10Virtual" x="203" y="103" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="b10_11" x="252" y="74" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="b11_10" x="301" y="103" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="b13_14" x="775" y="74" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="93" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="b14_13" x="804" y="104" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="269" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="v17" x="1155" y="74" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="b12_13" x="457" y="75" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="b13_12" x="506" y="102" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="699.0" ycen="98.0" xa="678.0" ya="99.0" xb="720.0" yb="97.0" xc="719.0" yc="88.0" xd="678.0" yd="99.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Turnout 100" blockname="B14" connectaname="T10" connectbname="T11" connectcname="T15" />
+    <tracksegment ident="T1" blockname="Block 1" connect1name="EB2" type1="POS_POINT" connect2name="A2" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="start" color="#000000" linewidth="8" length="10" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T2" blockname="Block 2" connect1name="A2" type1="POS_POINT" connect2name="A3" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T3" blockname="Block 3" connect1name="A3" type1="POS_POINT" connect2name="A1" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T4" blockname="Block 4" connect1name="A4" type1="POS_POINT" connect2name="A5" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T5" blockname="Block 5" connect1name="A5" type1="POS_POINT" connect2name="EB1" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="stop" color="#000000" linewidth="8" length="10" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T6" blockname="Block 3" connect1name="A1" type1="POS_POINT" connect2name="A4" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T7" blockname="B10" connect1name="EB3" type1="POS_POINT" connect2name="A8" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T8" blockname="B11" connect1name="A8" type1="POS_POINT" connect2name="A7" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T9" blockname="B12" connect1name="A7" type1="POS_POINT" connect2name="A6" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T10" blockname="B13" connect1name="A6" type1="POS_POINT" connect2name="TO2" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T11" blockname="B14" connect1name="TO2" type1="TURNOUT_B" connect2name="A9" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T12" blockname="B15" connect1name="A9" type1="POS_POINT" connect2name="A10" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T13" blockname="B16" connect1name="A10" type1="POS_POINT" connect2name="A11" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T14" blockname="B17" connect1name="A11" type1="POS_POINT" connect2name="EB4" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T15" connect1name="TO2" type1="TURNOUT_C" connect2name="EB5" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <positionablepoint ident="EB2" type="END_BUMPER" x="301.0" y="400.0" connect1name="T1" westboundsignalmast="z1Virtual" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A2" type="ANCHOR" x="499.0" y="400.0" connect1name="T1" connect2name="T2" eastboundsignalmast="z1z2mast" westboundsignalmast="z2z1mast" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A3" type="ANCHOR" x="697.0" y="400.0" connect1name="T2" connect2name="T3" eastboundsignalmast="z2z3mast" westboundsignalmast="z3z2mast" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A4" type="ANCHOR" x="998.0" y="399.0" connect1name="T6" connect2name="T4" eastboundsignalmast="z3z4mast" westboundsignalmast="z4z3mast" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A5" type="ANCHOR" x="1203.0" y="399.0" connect1name="T4" connect2name="T5" eastboundsignalmast="z4z5mast" westboundsignalmast="z5z4mast" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB1" type="END_BUMPER" x="1400.0" y="401.0" connect1name="T5" eastboundsignalmast="z5Virtual" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A1" type="ANCHOR" x="897.5" y="399.5" connect1name="T3" connect2name="T6" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A6" type="ANCHOR" x="501.0" y="99.0" connect1name="T9" connect2name="T10" eastboundsignalmast="b12_13" westboundsignalmast="b13_12" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A7" type="ANCHOR" x="399.0" y="99.0" connect1name="T8" connect2name="T9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A8" type="ANCHOR" x="296.0" y="98.0" connect1name="T7" connect2name="T8" eastboundsignalmast="b10_11" westboundsignalmast="b11_10" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB3" type="END_BUMPER" x="198.0" y="98.0" connect1name="T7" westboundsignalmast="b10Virtual" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A9" type="ANCHOR" x="799.0" y="100.0" connect1name="T11" connect2name="T12" eastboundsignalmast="b13_14" westboundsignalmast="b14_13" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A10" type="ANCHOR" x="897.0" y="98.0" connect1name="T12" connect2name="T13" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A11" type="ANCHOR" x="999.0" y="98.0" connect1name="T13" connect2name="T14" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB4" type="END_BUMPER" x="1199.0" y="98.0" connect1name="T14" eastboundsignalmast="v17" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB5" type="END_BUMPER" x="796.0" y="51.0" connect1name="T15" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+  </LayoutEditor>
+  <filehistory>
+    <operation>
+      <type>app</type>
+      <date>Mon Dec 21 11:34:43 MST 2020</date>
+      <filename>JMRI program</filename>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Mon Dec 21 11:34:51 MST 2020</date>
+      <filename>/Users/mdean/JMRI/linear.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Thu Dec 10 10:12:49 MST 2020</date>
+          <filename>JMRI program</filename>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Thu Dec 10 10:12:57 MST 2020</date>
+          <filename>/Users/mdean/JMRI/linear.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Thu Dec 10 09:43:33 MST 2020</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Thu Dec 10 09:43:44 MST 2020</date>
+              <filename>/Users/mdean/JMRI/linear.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Thu Dec 10 09:34:54 MST 2020</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Thu Dec 10 09:35:03 MST 2020</date>
+                  <filename>/Users/mdean/JMRI/linear.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Thu Dec 10 09:15:36 MST 2020</date>
+                      <filename>JMRI program</filename>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Thu Dec 10 09:15:44 MST 2020</date>
+                      <filename>/Users/mdean/JMRI/linear.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Wed Dec 09 15:32:31 MST 2020</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Wed Dec 09 15:32:39 MST 2020</date>
+                          <filename>/Users/mdean/JMRI/linear.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Thu Dec 10 09:15:12 MST 2020</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Thu Dec 10 09:34:13 MST 2020</date>
+                      <filename />
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Thu Dec 10 09:43:22 MST 2020</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Thu Dec 10 10:12:31 MST 2020</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Thu Dec 10 13:25:12 MST 2020</date>
+          <filename />
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
+      <type>Store</type>
+      <date>Mon Dec 21 12:01:08 MST 2020</date>
+      <filename />
+    </operation>
+  </filehistory>
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Mon Dec 21 12:01:08 MST 2020-->
+</layout-config>
