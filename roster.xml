@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Thu Dec 10 14:17:12 MST 2020-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Wed Dec 23 13:00:11 MST 2020-->
   <roster>
     <locomotive id="1029 NW2 Switcher" fileName="1029_NW2_Switcher.xml" roadNumber="1029" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="176-4374" dccAddress="1029" comment="$92 plus decoder" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T14:58:45.000+0000</dateUpdated>
@@ -17,27 +17,6 @@
         <keyvaluepair>
           <key>DispatcherTrainType</key>
           <value>LOCAL_FREIGHT</value>
-        </keyvaluepair>
-      </attributepairs>
-    </locomotive>
-    <locomotive id="3548 WP" fileName="3548.xml" roadNumber="3548" roadName="Western Pacific" mfg="" owner="mdean" model="" dccAddress="3548" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-19T15:59:15.000+0000</dateUpdated>
-      <decoder model="AN12A0 by NCE (Part #518299)" family="Atlas N-Scale" comment="" />
-      <locoaddress>
-        <dcclocoaddress number="3548" longaddress="yes" />
-        <number>3548</number>
-        <protocol>dcc_long</protocol>
-      </locoaddress>
-      <functionlabels />
-      <soundlabels />
-      <attributepairs>
-        <keyvaluepair>
-          <key>LastOperated</key>
-          <value>2019-01-19T15:53:47Z</value>
-        </keyvaluepair>
-        <keyvaluepair>
-          <key>OperatingDuration</key>
-          <value>2129</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -515,6 +494,17 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
+    <locomotive id="GP35 UP 749" fileName="GP35_UP_749.xml" roadNumber="749" roadName="Union Pacific" mfg="Atlas" owner="Mike Dean" model="40 000 763" dccAddress="749" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2020-12-23T17:10:05.756+0000</dateUpdated>
+      <decoder model="N12A2-ATL by NCE" family="Atlas N-Scale" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="749" longaddress="yes" />
+        <number>749</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
     <locomotive id="GP7 Diesel" fileName="GP7_Diesel.xml" roadNumber="5102" roadName="Rio Grande" mfg="Bachmann" owner="Mike Dean" model="62458" dccAddress="5102" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2016-06-10T22:41:00.000+0000</dateUpdated>
       <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" />
@@ -698,35 +688,45 @@
       </functionlabels>
       <soundlabels />
     </locomotive>
-    <locomotive id="WP GP 40-2 3546" fileName="WP_GP_40_2_3546.xml" roadNumber="3546" roadName="Western Pacific" mfg="Atlas" owner="Mike Dean" model="" dccAddress="3" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2016-08-12T23:45:34.000+0000</dateUpdated>
+    <locomotive id="WP GP 40-2 3546" fileName="WP_GP_40_2_3546.xml" roadNumber="3546" roadName="Western Pacific" mfg="Atlas" owner="Mike Dean" model="" dccAddress="3546" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2020-12-23T17:44:17.002+0000</dateUpdated>
       <decoder model="AN12A0 by NCE (Part #518299)" family="Atlas N-Scale" comment="" />
       <locoaddress>
-        <dcclocoaddress number="3" longaddress="no" />
-        <number>3</number>
-        <protocol>dcc_short</protocol>
+        <dcclocoaddress number="3546" longaddress="yes" />
+        <number>3546</number>
+        <protocol>dcc_long</protocol>
       </locoaddress>
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="WP GP 40-2 3548" fileName="WP_GP_40_2_3548.xml" roadNumber="3548" roadName="Western Pacific" mfg="Atlas" owner="Mike Dean" model="" dccAddress="3" comment="Purchased $65&#x9;&#x9;&#x9;" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2016-08-13T00:59:16.000+0000</dateUpdated>
-      <decoder model="N12A1-ATL by NCE" family="Atlas N-Scale" comment="Actually is AN12A0 by NCE, not N12A1" />
+    <locomotive id="WP GP40-2  3548" fileName="WP_GP40_2__3548.xml" roadNumber="3548" roadName="Western Pacific" mfg="Atlas" owner="Mike Dean" model="" dccAddress="3548" comment="$65" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2020-12-23T17:35:27.789+0000</dateUpdated>
+      <decoder model="AN12A0 by NCE (Part #518299)" family="Atlas N-Scale" comment="" />
       <locoaddress>
-        <dcclocoaddress number="3" longaddress="no" />
-        <number>3</number>
-        <protocol>dcc_short</protocol>
+        <dcclocoaddress number="3548" longaddress="yes" />
+        <number>3548</number>
+        <protocol>dcc_long</protocol>
       </locoaddress>
       <functionlabels />
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2020-12-23T17:09:50.332+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>24</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
-    <locomotive id="WP GP 40-2 3549" fileName="WP_GP_40_2_3549.xml" roadNumber="3549" roadName="Western Pacific" mfg="Atlas" owner="Mike Dean" model="" dccAddress="3" comment="Purchased $45&#x9;&#x9;&#x9;" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2016-08-13T00:35:48.000+0000</dateUpdated>
-      <decoder model="N12A1-ATL by NCE" family="Atlas N-Scale" comment="Unsure of model" />
+    <locomotive id="WP GP40-2 3549" fileName="WP_GP40_2_3549.xml" roadNumber="3549" roadName="Western Pacific" mfg="Atlas" owner="Mike Dean" model="" dccAddress="3549" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2020-12-23T19:52:53.385+0000</dateUpdated>
+      <decoder model="AN12A0 by NCE (Part #518299)" family="Atlas N-Scale" comment="" />
       <locoaddress>
-        <dcclocoaddress number="3" longaddress="no" />
-        <number>3</number>
-        <protocol>dcc_short</protocol>
+        <dcclocoaddress number="3549" longaddress="yes" />
+        <number>3549</number>
+        <protocol>dcc_long</protocol>
       </locoaddress>
       <functionlabels />
       <soundlabels />

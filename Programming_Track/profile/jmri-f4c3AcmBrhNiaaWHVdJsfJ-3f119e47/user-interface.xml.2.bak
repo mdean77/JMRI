@@ -27,8 +27,6 @@
         </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
-        <window xmlns="" class="Create New Loco" height="555.0" locX="47.0" locY="23.0" width="392.0"/>
-        <window xmlns="" class="apps.gui3.TabbedPreferencesFrame:Preferences" height="464.0" locX="381.0" locY="236.0" width="937.0"/>
         <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="600.0" locX="155.0" locY="72.0" width="1024.0">
             <properties>
                 <property>
@@ -37,11 +35,11 @@
                 </property>
             </properties>
         </window>
-        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
-        <window xmlns="" class="PanelPro" height="231.0" locX="436.0" locY="334.0" width="568.0"/>
-        <window xmlns="" class="Local JMRI throttles" height="222.0" locX="47.0" locY="23.0" width="320.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GP 35 UP 749" height="688.0" locX="47.0" locY="23.0" width="1052.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GP7 UP 116" height="711.0" locX="65.0" locY="24.0" width="1060.0"/>
         <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow:2" height="484.0" locX="69.0" locY="24.0" width="554.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:SP 8584 SD45" height="854.0" locX="46.0" locY="23.0" width="1052.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:RG 5327 SD45" height="854.0" locX="46.0" locY="23.0" width="1052.0"/>
         <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="484.0" locX="134.0" locY="110.0" width="554.0"/>
         <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow:1" height="484.0" locX="47.0" locY="23.0" width="554.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="43.0" locY="23.0" width="1024.0">
@@ -52,5 +50,10 @@
                 </property>
             </properties>
         </window>
+        <window xmlns="" class="Create New Loco" height="555.0" locX="47.0" locY="23.0" width="392.0"/>
+        <window xmlns="" class="apps.gui3.TabbedPreferencesFrame:Preferences" height="464.0" locX="381.0" locY="236.0" width="937.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="PanelPro" height="231.0" locX="436.0" locY="334.0" width="568.0"/>
+        <window xmlns="" class="Local JMRI throttles" height="222.0" locX="47.0" locY="23.0" width="320.0"/>
     </windowDetails>
 </auxiliary-configuration>

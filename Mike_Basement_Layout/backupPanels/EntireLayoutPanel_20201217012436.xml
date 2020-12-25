@@ -129,7 +129,7 @@
       <userName>South Zone 5</userName>
     </sensor>
     <sensor inverted="false">
-      <systemName>NS135</systemName>
+      <systemName>NS133</systemName>
       <userName>South Zone 6</userName>
     </sensor>
   </sensors>
@@ -357,7 +357,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="1:24 PM">
+    <memory value="4:31 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -508,13 +508,13 @@
       <userName>SZ5</userName>
       <permissive>no</permissive>
       <occupancysensor>South Zone 5</occupancysensor>
-      <path todir="80" fromdir="160" block="IB:AUTO:0002" />
-      <path todir="128" fromdir="64" block="IB:AUTO:0008">
+      <path todir="96" fromdir="144" block="IB:AUTO:0002" />
+      <path todir="16" fromdir="32" block="IB:AUTO:0008">
         <beansetting setting="2">
           <turnout systemName="South Turnout 117" />
         </beansetting>
       </path>
-      <path todir="128" fromdir="64" block="IB:AUTO:0022">
+      <path todir="16" fromdir="32" block="IB:AUTO:0022">
         <beansetting setting="4">
           <turnout systemName="South Turnout 117" />
         </beansetting>
@@ -525,13 +525,13 @@
       <userName>EZ1</userName>
       <permissive>no</permissive>
       <occupancysensor>East Zone 1</occupancysensor>
-      <path todir="160" fromdir="80" block="IB:AUTO:0001" />
-      <path todir="16" fromdir="32" block="IB:AUTO:0032">
+      <path todir="144" fromdir="96" block="IB:AUTO:0001" />
+      <path todir="64" fromdir="128" block="IB:AUTO:0032">
         <beansetting setting="2">
           <turnout systemName="East Turnout 201" />
         </beansetting>
       </path>
-      <path todir="16" fromdir="32" block="IB:AUTO:0034">
+      <path todir="64" fromdir="128" block="IB:AUTO:0034">
         <beansetting setting="4">
           <turnout systemName="East Turnout 201" />
         </beansetting>
@@ -542,12 +542,12 @@
       <userName>NZ6</userName>
       <permissive>no</permissive>
       <occupancysensor>North Zone 6</occupancysensor>
-      <path todir="128" fromdir="64" block="IB:AUTO:0004">
+      <path todir="16" fromdir="32" block="IB:AUTO:0004">
         <beansetting setting="2">
           <turnout systemName="North Turnout 308" />
         </beansetting>
       </path>
-      <path todir="16" fromdir="32" block="IB:AUTO:0005">
+      <path todir="64" fromdir="128" block="IB:AUTO:0005">
         <beansetting setting="4">
           <turnout systemName="North Turnout 303" />
         </beansetting>
@@ -558,17 +558,17 @@
       <userName>NZ8</userName>
       <permissive>no</permissive>
       <occupancysensor>North Zone 8</occupancysensor>
-      <path todir="64" fromdir="128" block="IB:AUTO:0003">
+      <path todir="32" fromdir="16" block="IB:AUTO:0003">
         <beansetting setting="2">
           <turnout systemName="North Turnout 308" />
         </beansetting>
       </path>
-      <path todir="128" fromdir="64" block="IB:AUTO:0013">
+      <path todir="16" fromdir="32" block="IB:AUTO:0013">
         <beansetting setting="2">
           <turnout systemName="North Turnout 309" />
         </beansetting>
       </path>
-      <path todir="80" fromdir="160" block="IB:AUTO:0019">
+      <path todir="96" fromdir="144" block="IB:AUTO:0019">
         <beansetting setting="4">
           <turnout systemName="North Turnout 308" />
         </beansetting>
@@ -579,17 +579,17 @@
       <userName>NZ3</userName>
       <permissive>no</permissive>
       <occupancysensor>North Zone 3</occupancysensor>
-      <path todir="32" fromdir="16" block="IB:AUTO:0003">
+      <path todir="128" fromdir="64" block="IB:AUTO:0003">
         <beansetting setting="4">
           <turnout systemName="North Turnout 303" />
         </beansetting>
       </path>
-      <path todir="128" fromdir="64" block="IB:AUTO:0006">
+      <path todir="16" fromdir="32" block="IB:AUTO:0006">
         <beansetting setting="2">
           <turnout systemName="North Turnout 301" />
         </beansetting>
       </path>
-      <path todir="160" fromdir="80" block="IB:AUTO:0017">
+      <path todir="144" fromdir="96" block="IB:AUTO:0017">
         <beansetting setting="4">
           <turnout systemName="North Turnout 304" />
         </beansetting>
@@ -603,13 +603,13 @@
       <userName>NZ2</userName>
       <permissive>no</permissive>
       <occupancysensor>North Zone 2</occupancysensor>
-      <path todir="64" fromdir="128" block="IB:AUTO:0005">
+      <path todir="32" fromdir="16" block="IB:AUTO:0005">
         <beansetting setting="2">
           <turnout systemName="North Turnout 301" />
         </beansetting>
       </path>
-      <path todir="144" fromdir="96" block="IB:AUTO:0015" />
-      <path todir="96" fromdir="144" block="IB:AUTO:0016">
+      <path todir="80" fromdir="160" block="IB:AUTO:0015" />
+      <path todir="160" fromdir="80" block="IB:AUTO:0016">
         <beansetting setting="2">
           <turnout systemName="North Turnout 302" />
         </beansetting>
@@ -623,54 +623,54 @@
       <userName>MNT</userName>
       <permissive>no</permissive>
       <occupancysensor>Mountain</occupancysensor>
-      <path todir="64" fromdir="128" block="IB:AUTO:0023">
+      <path todir="32" fromdir="16" block="IB:AUTO:0023">
         <beansetting setting="2">
           <turnout systemName="South Turnout 106" />
         </beansetting>
       </path>
-      <path todir="32" fromdir="16" block="IB:AUTO:0031" />
+      <path todir="128" fromdir="64" block="IB:AUTO:0031" />
     </block>
     <block systemName="IB:AUTO:0008" length="0.0" curve="0">
       <systemName>IB:AUTO:0008</systemName>
       <userName>SZ4</userName>
       <permissive>no</permissive>
       <occupancysensor>South Zone 4</occupancysensor>
-      <path todir="64" fromdir="128" block="IB:AUTO:0001">
+      <path todir="32" fromdir="16" block="IB:AUTO:0001">
         <beansetting setting="2">
           <turnout systemName="South Turnout 117" />
         </beansetting>
       </path>
-      <path todir="128" fromdir="64" block="IB:AUTO:0021" />
+      <path todir="16" fromdir="32" block="IB:AUTO:0021" />
     </block>
     <block systemName="IB:AUTO:0013" length="0.0" curve="0">
       <systemName>IB:AUTO:0013</systemName>
       <userName>NZ9</userName>
       <permissive>no</permissive>
       <occupancysensor>North Zone 9</occupancysensor>
-      <path todir="64" fromdir="128" block="IB:AUTO:0004">
+      <path todir="32" fromdir="16" block="IB:AUTO:0004">
         <beansetting setting="2">
           <turnout systemName="North Turnout 309" />
         </beansetting>
       </path>
-      <path todir="64" fromdir="128" block="IB:AUTO:0018">
+      <path todir="32" fromdir="16" block="IB:AUTO:0018">
         <beansetting setting="4">
           <turnout systemName="North Turnout 309" />
         </beansetting>
       </path>
-      <path todir="128" fromdir="64" block="IB:AUTO:0020" />
+      <path todir="16" fromdir="32" block="IB:AUTO:0020" />
     </block>
     <block systemName="IB:AUTO:0014" length="0.0" curve="0">
       <systemName>IB:AUTO:0014</systemName>
       <userName>EZ13</userName>
       <permissive>no</permissive>
       <occupancysensor>East Zone 13</occupancysensor>
-      <path todir="144" fromdir="96" block="IB:AUTO:0015" />
-      <path todir="32" fromdir="16" block="IB:AUTO:0032">
+      <path todir="80" fromdir="160" block="IB:AUTO:0015" />
+      <path todir="128" fromdir="64" block="IB:AUTO:0032">
         <beansetting setting="2">
           <turnout systemName="East Turnout 209" />
         </beansetting>
       </path>
-      <path todir="32" fromdir="16" block="IB:AUTO:0038">
+      <path todir="128" fromdir="64" block="IB:AUTO:0038">
         <beansetting setting="4">
           <turnout systemName="East Turnout 209" />
         </beansetting>
@@ -681,20 +681,20 @@
       <userName>NZ1</userName>
       <permissive>no</permissive>
       <occupancysensor>North Zone 1</occupancysensor>
-      <path todir="96" fromdir="144" block="IB:AUTO:0006" />
-      <path todir="96" fromdir="144" block="IB:AUTO:0014" />
+      <path todir="160" fromdir="80" block="IB:AUTO:0006" />
+      <path todir="160" fromdir="80" block="IB:AUTO:0014" />
     </block>
     <block systemName="IB:AUTO:0016" length="0.0" curve="0">
       <systemName>IB:AUTO:0016</systemName>
       <userName>NZ4</userName>
       <permissive>no</permissive>
       <occupancysensor>North Zone 4</occupancysensor>
-      <path todir="144" fromdir="96" block="IB:AUTO:0006">
+      <path todir="80" fromdir="160" block="IB:AUTO:0006">
         <beansetting setting="2">
           <turnout systemName="North Turnout 302" />
         </beansetting>
       </path>
-      <path todir="160" fromdir="80" block="IB:AUTO:0019">
+      <path todir="144" fromdir="96" block="IB:AUTO:0019">
         <beansetting setting="2">
           <turnout systemName="North Turnout 305" />
         </beansetting>
@@ -705,12 +705,12 @@
       <userName>NZ7</userName>
       <permissive>no</permissive>
       <occupancysensor>North Zone 7</occupancysensor>
-      <path todir="80" fromdir="160" block="IB:AUTO:0005">
+      <path todir="96" fromdir="144" block="IB:AUTO:0005">
         <beansetting setting="4">
           <turnout systemName="North Turnout 304" />
         </beansetting>
       </path>
-      <path todir="160" fromdir="80" block="IB:AUTO:0018">
+      <path todir="144" fromdir="96" block="IB:AUTO:0018">
         <beansetting setting="4">
           <turnout systemName="North Turnout 306" />
         </beansetting>
@@ -721,7 +721,7 @@
       <userName>NZ10</userName>
       <permissive>no</permissive>
       <occupancysensor>North Zone 10</occupancysensor>
-      <path todir="128" fromdir="64" block="IB:AUTO:0013">
+      <path todir="16" fromdir="32" block="IB:AUTO:0013">
         <beansetting setting="4">
           <turnout systemName="North Turnout 309" />
         </beansetting>
@@ -729,7 +729,7 @@
           <turnout systemName="North Turnout 307" />
         </beansetting>
       </path>
-      <path todir="80" fromdir="160" block="IB:AUTO:0017">
+      <path todir="96" fromdir="144" block="IB:AUTO:0017">
         <beansetting setting="4">
           <turnout systemName="North Turnout 306" />
         </beansetting>
@@ -740,12 +740,12 @@
       <userName>NZ5</userName>
       <permissive>no</permissive>
       <occupancysensor>North Zone 5</occupancysensor>
-      <path todir="160" fromdir="80" block="IB:AUTO:0004">
+      <path todir="144" fromdir="96" block="IB:AUTO:0004">
         <beansetting setting="4">
           <turnout systemName="North Turnout 308" />
         </beansetting>
       </path>
-      <path todir="80" fromdir="160" block="IB:AUTO:0016">
+      <path todir="96" fromdir="144" block="IB:AUTO:0016">
         <beansetting setting="2">
           <turnout systemName="North Turnout 305" />
         </beansetting>
@@ -756,7 +756,7 @@
       <userName>WEST</userName>
       <permissive>no</permissive>
       <occupancysensor>West / Staging</occupancysensor>
-      <path todir="64" fromdir="128" block="IB:AUTO:0013">
+      <path todir="32" fromdir="16" block="IB:AUTO:0013">
         <beansetting setting="2">
           <turnout systemName="Staging NW Turnout 403" />
         </beansetting>
@@ -764,8 +764,25 @@
           <turnout systemName="Staging NW Turnout 400" />
         </beansetting>
       </path>
-      <path todir="96" fromdir="144" block="IB:AUTO:0021" />
-      <path todir="16" fromdir="32" block="IB:AUTO:0026">
+      <path todir="160" fromdir="80" block="IB:AUTO:0021" />
+      <path todir="64" fromdir="128" block="IB:AUTO:0026" />
+      <path todir="64" fromdir="128" block="IB:AUTO:0026" />
+      <path todir="64" fromdir="128" block="IB:AUTO:0026">
+        <beansetting setting="2">
+          <turnout systemName="Staging SW Turnout 501" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB:AUTO:0026">
+        <beansetting setting="4">
+          <turnout systemName="Staging SW Turnout 502" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB:AUTO:0026">
+        <beansetting setting="4">
+          <turnout systemName="Staging SW Turnout 503" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB:AUTO:0026">
         <beansetting setting="4">
           <turnout systemName="Staging NW Turnout 403" />
         </beansetting>
@@ -773,14 +790,19 @@
           <turnout systemName="Staging NW Turnout 400" />
         </beansetting>
       </path>
-      <path todir="32" fromdir="16" block="IB:AUTO:0026">
+      <path todir="80" fromdir="160" block="IB:AUTO:0026">
+        <beansetting setting="4">
+          <turnout systemName="Staging NW Turnout 400" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB:AUTO:0026">
         <beansetting setting="4">
           <turnout systemName="Staging SW Turnout 500" />
         </beansetting>
       </path>
-      <path todir="144" fromdir="96" block="IB:AUTO:0026">
-        <beansetting setting="4">
-          <turnout systemName="Staging NW Turnout 400" />
+      <path todir="128" fromdir="64" block="IB:AUTO:0026">
+        <beansetting setting="2">
+          <turnout systemName="Staging SW Turnout 504" />
         </beansetting>
       </path>
     </block>
@@ -789,9 +811,9 @@
       <userName>SZ1</userName>
       <permissive>no</permissive>
       <occupancysensor>South Zone 1</occupancysensor>
-      <path todir="64" fromdir="128" block="IB:AUTO:0008" />
-      <path todir="144" fromdir="96" block="IB:AUTO:0020" />
-      <path todir="64" fromdir="128" block="IB:AUTO:0022">
+      <path todir="32" fromdir="16" block="IB:AUTO:0008" />
+      <path todir="80" fromdir="160" block="IB:AUTO:0020" />
+      <path todir="32" fromdir="16" block="IB:AUTO:0022">
         <beansetting setting="4">
           <turnout systemName="South Turnout 101" />
         </beansetting>
@@ -802,18 +824,18 @@
       <userName>SZ3</userName>
       <permissive>no</permissive>
       <occupancysensor>South Zone 3</occupancysensor>
-      <path todir="64" fromdir="128" block="IB:AUTO:0001">
+      <path todir="32" fromdir="16" block="IB:AUTO:0001">
         <beansetting setting="4">
           <turnout systemName="South Turnout 117" />
         </beansetting>
       </path>
-      <path todir="128" fromdir="64" block="IB:AUTO:0021" />
+      <path todir="16" fromdir="32" block="IB:AUTO:0021" />
       <path todir="16" fromdir="32" block="IB:AUTO:0023">
         <beansetting setting="4">
           <turnout systemName="South Turnout 105" />
         </beansetting>
       </path>
-      <path todir="144" fromdir="96" block="IB:AUTO:0023">
+      <path todir="80" fromdir="160" block="IB:AUTO:0023">
         <beansetting setting="4">
           <turnout systemName="South Turnout 116" />
         </beansetting>
@@ -824,7 +846,7 @@
       <userName>SZ2</userName>
       <permissive>no</permissive>
       <occupancysensor>South Zone 2</occupancysensor>
-      <path todir="128" fromdir="64" block="IB:AUTO:0007">
+      <path todir="16" fromdir="32" block="IB:AUTO:0007">
         <beansetting setting="2">
           <turnout systemName="South Turnout 106" />
         </beansetting>
@@ -837,7 +859,7 @@
           <turnout systemName="South Turnout 106" />
         </beansetting>
       </path>
-      <path todir="96" fromdir="144" block="IB:AUTO:0022">
+      <path todir="160" fromdir="80" block="IB:AUTO:0022">
         <beansetting setting="4">
           <turnout systemName="South Turnout 116" />
         </beansetting>
@@ -848,7 +870,7 @@
           <turnout systemName="South Turnout 107" />
         </beansetting>
       </path>
-      <path todir="64" fromdir="128" block="IB:AUTO:0024">
+      <path todir="32" fromdir="16" block="IB:AUTO:0024">
         <beansetting setting="2">
           <turnout systemName="South Turnout 114" />
         </beansetting>
@@ -859,7 +881,7 @@
           <turnout systemName="South Turnout 107" />
         </beansetting>
       </path>
-      <path todir="64" fromdir="128" block="IB:AUTO:0026">
+      <path todir="32" fromdir="16" block="IB:AUTO:0026">
         <beansetting setting="4">
           <turnout systemName="South Turnout 107" />
         </beansetting>
@@ -870,29 +892,29 @@
       <userName>SZ6</userName>
       <permissive>no</permissive>
       <occupancysensor>South Zone 6</occupancysensor>
-      <path todir="128" fromdir="64" block="IB:AUTO:0023">
+      <path todir="16" fromdir="32" block="IB:AUTO:0023">
         <beansetting setting="2">
           <turnout systemName="South Turnout 114" />
         </beansetting>
       </path>
-      <path todir="128" fromdir="64" block="IB:AUTO:0026">
+      <path todir="16" fromdir="32" block="IB:AUTO:0026">
         <beansetting setting="4">
           <turnout systemName="South Turnout 114" />
         </beansetting>
       </path>
-      <path todir="80" fromdir="160" block="IB:AUTO:0033" />
+      <path todir="96" fromdir="144" block="IB:AUTO:0033" />
     </block>
     <block systemName="IB:AUTO:0026" length="0.0" curve="0">
       <systemName>IB:AUTO:0026</systemName>
       <userName>UNBLOCKED YARD</userName>
       <permissive>no</permissive>
       <occupancysensor>YARD</occupancysensor>
-      <path todir="16" fromdir="32" block="IB:AUTO:0020">
+      <path todir="64" fromdir="128" block="IB:AUTO:0020">
         <beansetting setting="4">
           <turnout systemName="Staging SW Turnout 500" />
         </beansetting>
       </path>
-      <path todir="32" fromdir="16" block="IB:AUTO:0020">
+      <path todir="128" fromdir="64" block="IB:AUTO:0020">
         <beansetting setting="4">
           <turnout systemName="Staging NW Turnout 403" />
         </beansetting>
@@ -900,12 +922,12 @@
           <turnout systemName="Staging NW Turnout 407" />
         </beansetting>
       </path>
-      <path todir="96" fromdir="144" block="IB:AUTO:0020">
+      <path todir="160" fromdir="80" block="IB:AUTO:0020">
         <beansetting setting="4">
           <turnout systemName="Staging NW Turnout 400" />
         </beansetting>
       </path>
-      <path todir="128" fromdir="64" block="IB:AUTO:0023">
+      <path todir="16" fromdir="32" block="IB:AUTO:0023">
         <beansetting setting="4">
           <turnout systemName="South Turnout 107" />
         </beansetting>
@@ -913,14 +935,14 @@
           <turnout systemName="South Turnout 108" />
         </beansetting>
       </path>
-      <path todir="64" fromdir="128" block="IB:AUTO:0024" />
+      <path todir="32" fromdir="16" block="IB:AUTO:0024" />
     </block>
     <block systemName="IB:AUTO:0030" length="0.0" curve="0">
       <systemName>IB:AUTO:0030</systemName>
       <userName>EZ12</userName>
       <permissive>no</permissive>
       <occupancysensor>East Zone 12</occupancysensor>
-      <path todir="32" fromdir="16" block="IB:AUTO:0037">
+      <path todir="128" fromdir="64" block="IB:AUTO:0037">
         <beansetting setting="4">
           <turnout systemName="East Turnout 206" />
         </beansetting>
@@ -931,8 +953,8 @@
       <userName>EZ9</userName>
       <permissive>no</permissive>
       <occupancysensor>East Zone 9</occupancysensor>
-      <path todir="16" fromdir="32" block="IB:AUTO:0007" />
-      <path todir="32" fromdir="16" block="IB:AUTO:0037">
+      <path todir="64" fromdir="128" block="IB:AUTO:0007" />
+      <path todir="128" fromdir="64" block="IB:AUTO:0037">
         <beansetting setting="2">
           <turnout systemName="East Turnout 206" />
         </beansetting>
@@ -940,7 +962,7 @@
           <turnout systemName="East Turnout 211" />
         </beansetting>
       </path>
-      <path todir="32" fromdir="16" block="IB:AUTO:0040">
+      <path todir="128" fromdir="64" block="IB:AUTO:0040">
         <beansetting setting="4">
           <turnout systemName="East Turnout 211" />
         </beansetting>
@@ -951,12 +973,12 @@
       <userName>EZ7</userName>
       <permissive>no</permissive>
       <occupancysensor>East Zone 7</occupancysensor>
-      <path todir="32" fromdir="16" block="IB:AUTO:0002">
+      <path todir="128" fromdir="64" block="IB:AUTO:0002">
         <beansetting setting="2">
           <turnout systemName="East Turnout 201" />
         </beansetting>
       </path>
-      <path todir="16" fromdir="32" block="IB:AUTO:0014">
+      <path todir="64" fromdir="128" block="IB:AUTO:0014">
         <beansetting setting="2">
           <turnout systemName="East Turnout 209" />
         </beansetting>
@@ -967,13 +989,13 @@
       <userName>EZ2</userName>
       <permissive>no</permissive>
       <occupancysensor>East Zone 2</occupancysensor>
-      <path todir="160" fromdir="80" block="IB:AUTO:0024" />
-      <path todir="16" fromdir="32" block="IB:AUTO:0036">
+      <path todir="144" fromdir="96" block="IB:AUTO:0024" />
+      <path todir="64" fromdir="128" block="IB:AUTO:0036">
         <beansetting setting="2">
           <turnout systemName="East Turnout 202" />
         </beansetting>
       </path>
-      <path todir="16" fromdir="32" block="IB:AUTO:0037">
+      <path todir="64" fromdir="128" block="IB:AUTO:0037">
         <beansetting setting="4">
           <turnout systemName="East Turnout 202" />
         </beansetting>
@@ -984,17 +1006,17 @@
       <userName>EZ6</userName>
       <permissive>no</permissive>
       <occupancysensor>East Zone 6</occupancysensor>
-      <path todir="32" fromdir="16" block="IB:AUTO:0002">
+      <path todir="128" fromdir="64" block="IB:AUTO:0002">
         <beansetting setting="4">
           <turnout systemName="East Turnout 201" />
         </beansetting>
       </path>
-      <path todir="144" fromdir="96" block="IB:AUTO:0035">
+      <path todir="80" fromdir="160" block="IB:AUTO:0035">
         <beansetting setting="4">
           <turnout systemName="East Turnout 203" />
         </beansetting>
       </path>
-      <path todir="16" fromdir="32" block="IB:AUTO:0038">
+      <path todir="64" fromdir="128" block="IB:AUTO:0038">
         <beansetting setting="2">
           <turnout systemName="East Turnout 208" />
         </beansetting>
@@ -1008,7 +1030,7 @@
       <userName>EZ5</userName>
       <permissive>no</permissive>
       <occupancysensor>East Zone 5</occupancysensor>
-      <path todir="96" fromdir="144" block="IB:AUTO:0034">
+      <path todir="160" fromdir="80" block="IB:AUTO:0034">
         <beansetting setting="4">
           <turnout systemName="East Turnout 203" />
         </beansetting>
@@ -1016,7 +1038,7 @@
           <turnout systemName="East Turnout 204" />
         </beansetting>
       </path>
-      <path todir="16" fromdir="32" block="IB:AUTO:0039">
+      <path todir="64" fromdir="128" block="IB:AUTO:0039">
         <beansetting setting="2">
           <turnout systemName="East Turnout 207" />
         </beansetting>
@@ -1027,12 +1049,12 @@
       <userName>EZ4</userName>
       <permissive>no</permissive>
       <occupancysensor>East Zone 4</occupancysensor>
-      <path todir="32" fromdir="16" block="IB:AUTO:0033">
+      <path todir="128" fromdir="64" block="IB:AUTO:0033">
         <beansetting setting="2">
           <turnout systemName="East Turnout 202" />
         </beansetting>
       </path>
-      <path todir="16" fromdir="32" block="IB:AUTO:0039">
+      <path todir="64" fromdir="128" block="IB:AUTO:0039">
         <beansetting setting="4">
           <turnout systemName="East Turnout 207" />
         </beansetting>
@@ -1043,7 +1065,7 @@
       <userName>EZ3</userName>
       <permissive>no</permissive>
       <occupancysensor>East Zone 3</occupancysensor>
-      <path todir="16" fromdir="32" block="IB:AUTO:0030">
+      <path todir="64" fromdir="128" block="IB:AUTO:0030">
         <beansetting setting="4">
           <turnout systemName="East Turnout 206" />
         </beansetting>
@@ -1051,7 +1073,7 @@
           <turnout systemName="East Turnout 205" />
         </beansetting>
       </path>
-      <path todir="16" fromdir="32" block="IB:AUTO:0031">
+      <path todir="64" fromdir="128" block="IB:AUTO:0031">
         <beansetting setting="2">
           <turnout systemName="East Turnout 206" />
         </beansetting>
@@ -1059,12 +1081,12 @@
           <turnout systemName="East Turnout 205" />
         </beansetting>
       </path>
-      <path todir="32" fromdir="16" block="IB:AUTO:0033">
+      <path todir="128" fromdir="64" block="IB:AUTO:0033">
         <beansetting setting="4">
           <turnout systemName="East Turnout 202" />
         </beansetting>
       </path>
-      <path todir="16" fromdir="32" block="IB:AUTO:0038">
+      <path todir="64" fromdir="128" block="IB:AUTO:0038">
         <beansetting setting="4">
           <turnout systemName="East Turnout 205" />
         </beansetting>
@@ -1075,17 +1097,17 @@
       <userName>EZ8</userName>
       <permissive>no</permissive>
       <occupancysensor>East Zone 8</occupancysensor>
-      <path todir="16" fromdir="32" block="IB:AUTO:0014">
+      <path todir="64" fromdir="128" block="IB:AUTO:0014">
         <beansetting setting="4">
           <turnout systemName="East Turnout 209" />
         </beansetting>
       </path>
-      <path todir="32" fromdir="16" block="IB:AUTO:0034">
+      <path todir="128" fromdir="64" block="IB:AUTO:0034">
         <beansetting setting="2">
           <turnout systemName="East Turnout 208" />
         </beansetting>
       </path>
-      <path todir="32" fromdir="16" block="IB:AUTO:0037">
+      <path todir="128" fromdir="64" block="IB:AUTO:0037">
         <beansetting setting="4">
           <turnout systemName="East Turnout 205" />
         </beansetting>
@@ -1099,17 +1121,17 @@
       <userName>EZ11</userName>
       <permissive>no</permissive>
       <occupancysensor>East Zone 11</occupancysensor>
-      <path todir="32" fromdir="16" block="IB:AUTO:0035">
+      <path todir="128" fromdir="64" block="IB:AUTO:0035">
         <beansetting setting="2">
           <turnout systemName="East Turnout 207" />
         </beansetting>
       </path>
-      <path todir="32" fromdir="16" block="IB:AUTO:0036">
+      <path todir="128" fromdir="64" block="IB:AUTO:0036">
         <beansetting setting="4">
           <turnout systemName="East Turnout 207" />
         </beansetting>
       </path>
-      <path todir="16" fromdir="32" block="IB:AUTO:0040">
+      <path todir="64" fromdir="128" block="IB:AUTO:0040">
         <beansetting setting="4">
           <turnout systemName="East Turnout 210" />
         </beansetting>
@@ -1120,12 +1142,12 @@
       <userName>EZ10</userName>
       <permissive>no</permissive>
       <occupancysensor>East Zone 10</occupancysensor>
-      <path todir="16" fromdir="32" block="IB:AUTO:0031">
+      <path todir="64" fromdir="128" block="IB:AUTO:0031">
         <beansetting setting="4">
           <turnout systemName="East Turnout 211" />
         </beansetting>
       </path>
-      <path todir="32" fromdir="16" block="IB:AUTO:0039">
+      <path todir="128" fromdir="64" block="IB:AUTO:0039">
         <beansetting setting="4">
           <turnout systemName="East Turnout 210" />
         </beansetting>
@@ -1266,7 +1288,7 @@
     <logicDelay>500</logicDelay>
   </signalmastlogics>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Nov 29 11:15:51 MST 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="485" y="610" windowheight="877" windowwidth="1389" panelheight="1740" panelwidth="1231" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="145" y="23" windowheight="877" windowwidth="1389" panelheight="1740" panelwidth="1231" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Mike Dean's Basement Layout" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -1344,9 +1366,9 @@
     <positionablelabel x="739" y="1273" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT115" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="839" y="1272" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT116" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1004" y="1303" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT117" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <layoutturnout ident="TO1" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="302.32244873046875" ycen="1306.5797119140625" xa="272.310791015625" ya="1306.5936279296875" xb="332.3341064453125" yb="1306.5657958984375" xc="332.33038330078125" yc="1298.66357421875" xd="272.310791015625" yd="1306.5936279296875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 101" blockname="SZ1" connectaname="T13" connectbname="T7" connectcname="T114" />
-    <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1005.2344360351562" ycen="1302.2562255859375" xa="1035.24609375" ya="1301.2421875" xb="975.2227783203125" yb="1303.270263671875" xc="975.2191162109375" yc="1292.3680419921875" xd="1035.24609375" yd="1301.2421875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 117" blockname="SZ5" connectaname="T9" connectbname="T8" connectcname="T113" />
-    <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="739.2760009765625" ycen="1103.26123046875" xa="709.2643432617188" ya="1103.2752685546875" xb="769.2876586914062" yb="1103.2471923828125" xc="768.283935546875" yc="1093.344970703125" xd="709.2643432617188" yd="1103.2752685546875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="North Turnout 308" blockname="NZ8" connectaname="T106" connectbname="T19" connectcname="T103" />
+    <layoutturnout ident="TO1" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="302.3224487304688" ycen="1306.5797119140625" xa="272.31079101562506" ya="1306.5936279296875" xb="332.33410644531256" yb="1306.5657958984375" xc="332.3303833007813" yc="1298.66357421875" xd="272.31079101562506" yd="1306.5936279296875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 101" blockname="SZ1" connectaname="T13" connectbname="T7" connectcname="T114" />
+    <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1005.2344360351564" ycen="1302.2562255859375" xa="1035.24609375" ya="1301.2421875" xb="975.2227783203126" yb="1303.270263671875" xc="975.2191162109376" yc="1292.3680419921875" xd="1035.24609375" yd="1301.2421875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 117" blockname="SZ5" connectaname="T9" connectbname="T8" connectcname="T113" />
+    <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="739.2760009765626" ycen="1103.26123046875" xa="709.2643432617189" ya="1103.2752685546875" xb="769.2876586914064" yb="1103.2471923828125" xc="768.2839355468751" yc="1093.344970703125" xd="709.2643432617189" yd="1103.2752685546875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="North Turnout 308" blockname="NZ8" connectaname="T106" connectbname="T19" connectcname="T103" />
     <layoutturnout ident="TO4" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1003.3977661132812" ycen="867.2036743164062" xa="1003.3837890625" ya="837.1920166015625" xb="1003.4117431640625" yb="897.21533203125" xc="995.509521484375" yc="897.218994140625" xd="1003.3837890625" yd="837.1920166015625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="North Turnout 303" blockname="NZ3" connectaname="T23" connectbname="T236" connectcname="T22" />
     <layoutturnout ident="TO5" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="740.75146484375" ycen="606.7591552734375" xa="710.7398681640625" ya="606.7730712890625" xb="770.7630615234375" yb="606.7452392578125" xc="770.7667236328125" yc="614.6473388671875" xd="710.7398681640625" yd="606.7730712890625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="North Turnout 301" blockname="NZ2" connectaname="T29" connectbname="T28" connectcname="T237" />
     <layoutturnout ident="TO6" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1161.3302001953125" ycen="624.1552734375" xa="1161.316162109375" ya="594.1436767578125" xb="1161.34423828125" yb="654.1668701171875" xc="1153.4420166015625" yc="654.1705322265625" xd="1161.316162109375" yd="594.1436767578125" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="East Turnout 209" blockname="EZ13" connectaname="T43" connectbname="T49" connectcname="T56" />
@@ -1361,40 +1383,40 @@
     <layoutturnout ident="TO15" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1128.2724609375" ycen="746.3279418945312" xa="1128.286376953125" ya="776.3395385742188" xb="1128.258544921875" yb="716.3163452148438" xc="1120.3563232421875" yc="716.3200073242188" xd="1128.286376953125" yd="776.3395385742188" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="East Turnout 210" secondturnoutname="East Turnout 211" blockname="EZ11" connectaname="T240" connectbname="T69" connectcname="T161" />
     <layoutturnout ident="TO16" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1099.0" ycen="639.0975341796875" xa="1098.986083984375" ya="606.0859375" xb="1099.013916015625" yb="672.109130859375" xc="1106.9161376953125" yc="669.10546875" xd="1098.986083984375" yd="606.0859375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="East Turnout 211" secondturnoutname="East Turnout 210" blockname="EZ9" connectaname="T164" connectbname="T160" connectcname="T161" />
     <layoutturnout ident="TO17" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1004.4256591796875" ycen="928.2269287109375" xa="1004.4116821289062" ya="898.21533203125" xb="1004.4396362304688" yb="958.238525390625" xc="996.5374145507812" yc="958.2421875" xd="1004.4116821289062" yd="898.21533203125" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="North Turnout 304" blockname="NZ3" connectaname="T236" connectbname="T77" connectcname="T79" />
-    <layoutturnout ident="TO18" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="810.76708984375" ycen="1129.0728759765625" xa="778.7554321289062" ya="1131.0867919921875" xb="842.7787475585938" yb="1127.0589599609375" xc="840.7750854492188" yc="1121.15673828125" xd="778.7554321289062" yd="1131.0867919921875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="North Turnout 306" blockname="NZ10" connectaname="T108" connectbname="T83" connectcname="T82" />
+    <layoutturnout ident="TO18" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="810.7670898437501" ycen="1129.0728759765625" xa="778.7554321289064" ya="1131.0867919921875" xb="842.7787475585939" yb="1127.0589599609375" xc="840.7750854492189" yc="1121.15673828125" xd="778.7554321289064" yd="1131.0867919921875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="North Turnout 306" blockname="NZ10" connectaname="T108" connectbname="T83" connectcname="T82" />
     <layoutturnout ident="TO19" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="799.7593383789062" ycen="621.4014892578125" xa="770.7667236328125" ya="613.6473388671875" xb="828.751953125" yb="629.1556396484375" xc="826.7102661132812" yc="636.78955078125" xd="770.7667236328125" yd="613.6473388671875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="North Turnout 302" blockname="NZ2" connectaname="T237" connectbname="T90" connectcname="T89" />
-    <layoutturnout ident="TO20" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="880.353759765625" ycen="1013.3215942382812" xa="857.1422119140625" ya="1033.5528564453125" xb="903.5653076171875" yb="993.09033203125" xc="895.9749755859375" yc="986.5051879882812" xd="857.1422119140625" yd="1033.5528564453125" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="North Turnout 305" blockname="NZ5" connectaname="T103" connectbname="T98" connectcname="T99" />
-    <layoutturnout ident="TO21" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="579.754638671875" ycen="1103.326171875" xa="553.7430419921875" ya="1103.340087890625" xb="605.7662353515625" yb="1103.312255859375" xc="615.7698974609375" yc="1113.2144775390625" xd="553.7430419921875" yd="1103.340087890625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="North Turnout 309" secondturnoutname="North Turnout 307" blockname="NZ9" connectaname="T156" connectbname="T106" connectcname="T18" />
-    <layoutturnout ident="TO22" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="708.7206420898438" ycen="1132.128662109375" xa="736.7322387695312" ya="1131.11474609375" xb="680.7090454101562" yb="1133.142578125" xc="669.7053833007812" yc="1124.2403564453125" xd="736.7322387695312" yd="1131.11474609375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="North Turnout 307" secondturnoutname="North Turnout 309" blockname="NZ10" connectaname="T108" connectbname="T105" connectcname="T18" />
-    <layoutturnout ident="TO23" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="961.9036254882812" ycen="1275.3582763671875" xa="991.915283203125" ya="1275.3443603515625" xb="931.8919677734375" yb="1275.3721923828125" xc="930.8883056640625" yc="1263.469970703125" xd="991.915283203125" yd="1275.3443603515625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 114" blockname="SZ6" connectaname="T64" connectbname="T5" connectcname="T6" />
-    <layoutturnout ident="TO24" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="832.324462890625" ycen="1292.146240234375" xa="865.3360595703125" ya="1292.13232421875" xb="799.3128662109375" yb="1292.16015625" xc="802.3092041015625" yc="1284.258056640625" xd="865.3360595703125" yd="1292.13232421875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 116" secondturnoutname="South Turnout 115" blockname="SZ3" connectaname="T113" connectbname="T3" connectcname="T242" />
-    <layoutturnout ident="TO25" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="770.2939453125" ycen="1275.3697509765625" xa="737.2823486328125" ya="1275.3837890625" xb="803.3055419921875" yb="1275.355712890625" xc="800.3092041015625" yc="1283.258056640625" xd="737.2823486328125" yd="1275.3837890625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="South Turnout 115" secondturnoutname="South Turnout 116" blockname="SZ2" connectaname="T4" connectbname="T5" connectcname="T242" />
-    <layoutturnout ident="TO26" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="506.5863037109375" ycen="1293.2935791015625" xa="474.57470703125" ya="1293.3074951171875" xb="538.597900390625" yb="1293.2796630859375" xc="536.59423828125" yc="1285.37744140625" xd="474.57470703125" yd="1293.3074951171875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 105" secondturnoutname="South Turnout 106" blockname="SZ3" connectaname="T117" connectbname="T3" connectcname="T243" />
-    <layoutturnout ident="TO27" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="566.6021728515625" ycen="1277.4613037109375" xa="585.61376953125" ya="1277.447265625" xb="547.590576171875" yb="1277.475341796875" xc="536.59423828125" yc="1285.37744140625" xd="585.61376953125" yd="1277.447265625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 106" secondturnoutname="South Turnout 105" blockname="SZ2" connectaname="T244" connectbname="T225" connectcname="T243" />
-    <layoutturnout ident="TO28" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="626.6254272460938" ycen="1277.4334716796875" xa="600.6138305664062" ya="1277.447509765625" xb="652.6370239257812" yb="1277.41943359375" xc="649.6333618164062" yc="1273.517333984375" xd="600.6138305664062" yd="1277.447509765625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 107" secondturnoutname="South Turnout 108" blockname="SZ2" connectaname="T244" connectbname="T4" connectcname="T245" />
-    <layoutturnout ident="TO29" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="687.6412963867188" ycen="1263.6011962890625" xa="704.6528930664062" ya="1263.5872802734375" xb="670.6296997070312" yb="1263.6151123046875" xc="657.6333618164062" yc="1271.517333984375" xd="704.6528930664062" yd="1263.5872802734375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 108" secondturnoutname="South Turnout 107" blockname="UNBLOCKED YARD" connectaname="T246" connectbname="T130" connectcname="T245" />
-    <layoutturnout ident="TO30" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="506.566650390625" ycen="1251.0355224609375" xa="476.55499267578125" ya="1251.0494384765625" xb="536.5783081054688" yb="1251.0216064453125" xc="536.5746459960938" yc="1243.119384765625" xd="476.55499267578125" yd="1251.0494384765625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 109" blockname="UNBLOCKED YARD" connectaname="T124" connectbname="T122" connectcname="T247" />
-    <layoutturnout ident="TO31" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="426.5357666015625" ycen="1251.07275390625" xa="396.524169921875" ya="1251.0867919921875" xb="456.54736328125" yb="1251.0587158203125" xc="456.543701171875" yc="1243.156494140625" xd="396.524169921875" yd="1251.0867919921875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 104" blockname="UNBLOCKED YARD" connectaname="T248" connectbname="T124" connectcname="T125" />
-    <layoutturnout ident="TO32" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="366.51251220703125" ycen="1251.1005859375" xa="396.52410888671875" ya="1251.086669921875" xb="336.50091552734375" yb="1251.114501953125" xc="336.4971923828125" yc="1243.2122802734375" xd="396.52410888671875" yd="1251.086669921875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 103" blockname="UNBLOCKED YARD" connectaname="T248" connectbname="T249" connectcname="T134" />
-    <layoutturnout ident="TO33" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="306.4892578125" ycen="1251.12841796875" xa="336.5008544921875" ya="1251.114501953125" xb="276.4776611328125" yb="1251.142333984375" xc="276.4739990234375" yc="1243.240234375" xd="336.5008544921875" yd="1251.114501953125" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 102" blockname="UNBLOCKED YARD" connectaname="T249" connectbname="T131" connectcname="T133" />
-    <layoutturnout ident="TO34" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="281.72174072265625" ycen="1217.7271728515625" xa="299.0536062000955" ya="1227.7230230253147" xb="261.7578999044966" yb="1212.2949207462457" xc="267.0218505859375" yc="1203.167724609375" xd="301.6855815408159" yd="1223.1594249568793" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="South Turnout 100" blockname="UNBLOCKED YARD" connectaname="T134" connectbname="T135" connectcname="T136" />
-    <layoutturnout ident="TO35" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="566.56005859375" ycen="1235.33837890625" xa="537.57470703125" ya="1243.1195068359375" xb="595.54541015625" yb="1227.5572509765625" xc="597.5941772460938" yc="1235.1893310546875" xd="537.57470703125" yd="1243.1195068359375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="South Turnout 110" blockname="UNBLOCKED YARD" connectaname="T247" connectbname="T250" connectcname="T143" />
-    <layoutturnout ident="TO36" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="623.53076171875" ycen="1218.7762451171875" xa="594.5453491210938" ya="1226.5572509765625" xb="652.5161743164062" yb="1210.9952392578125" xc="654.56494140625" yc="1218.627197265625" xd="594.5453491210938" yd="1226.5572509765625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="South Turnout 111" blockname="UNBLOCKED YARD" connectaname="T250" connectbname="T251" connectcname="T147" />
-    <layoutturnout ident="TO37" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="682.5241088867188" ycen="1204.0791015625" xa="712.5357055664062" ya="1204.065185546875" xb="652.5125122070312" yb="1204.093017578125" xc="652.5161743164062" yc="1211.9952392578125" xd="712.5357055664062" yd="1204.065185546875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 112" blockname="UNBLOCKED YARD" connectaname="T150" connectbname="T125" connectcname="T251" />
-    <layoutturnout ident="TO38" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="4" xcen="93.9935302734375" ycen="920.20654296875" xa="94.0074462890625" ya="950.2181396484375" xb="93.9796142578125" yb="890.1949462890625" xc="101.8818359375" yc="890.1912841796875" xd="94.0074462890625" yd="950.2181396484375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging NW Turnout 400" blockname="WEST" connectaname="T17" connectbname="T252" connectcname="T253" />
-    <layoutturnout ident="TO39" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="93.541015625" ycen="859.6181640625" xa="93.541015625" ya="889.6297607421875" xb="93.541015625" yb="829.6065673828125" xc="101.4432373046875" yc="829.6065673828125" xd="93.541015625" yd="889.6297607421875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging NW Turnout 401" blockname="UNBLOCKED YARD" connectaname="T252" connectbname="T168" connectcname="T254" />
-    <layoutturnout ident="TO40" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="109.2108154296875" ycen="800.6175537109375" xa="101.4432373046875" ya="829.6065063476562" xb="116.9783935546875" yb="771.6286010742188" xc="109.345458984375" yc="769.5833129882812" xd="101.4432373046875" yd="829.6065063476562" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Staging NW Turnout 402" blockname="UNBLOCKED YARD" connectaname="T254" connectbname="T255" connectcname="T177" />
-    <layoutturnout ident="TO41" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="124.7459716796875" ycen="742.6395874023438" xa="116.9783935546875" ya="771.6285400390625" xb="132.5135498046875" yb="713.650634765625" xc="124.880615234375" yc="711.6053466796875" xd="116.9783935546875" yd="771.6285400390625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Staging NW Turnout 404" blockname="UNBLOCKED YARD" connectaname="T255" connectbname="T256" connectcname="T185" />
-    <layoutturnout ident="TO42" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="140.2811279296875" ycen="684.66162109375" xa="132.5135498046875" ya="713.650634765625" xb="148.0487060546875" yb="655.672607421875" xc="140.415771484375" yc="653.6273193359375" xd="132.5135498046875" yd="713.650634765625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Staging NW Turnout 405" blockname="UNBLOCKED YARD" connectaname="T256" connectbname="T257" connectcname="T192" />
-    <layoutturnout ident="TO43" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="154.8162841796875" ycen="626.68359375" xa="147.048828125" ya="655.672607421875" xb="162.583740234375" yb="597.694580078125" xc="154.9508056640625" yc="595.6494140625" xd="147.048828125" yd="655.672607421875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Staging NW Turnout 406" blockname="UNBLOCKED YARD" connectaname="T257" connectbname="T258" connectcname="T198" />
-    <layoutturnout ident="TO44" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="171.486083984375" ycen="567.6829833984375" xa="171.486083984375" ya="538.67138671875" xb="171.486083984375" yb="596.694580078125" xc="163.583740234375" yc="597.694580078125" xd="171.486083984375" yd="538.67138671875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging NW Turnout 407" blockname="UNBLOCKED YARD" connectaname="T204" connectbname="T232" connectcname="T258" />
-    <layoutturnout ident="TO45" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="93.095703125" ycen="1140.291748046875" xa="93.081787109375" ya="1110.2802734375" xb="93.109619140625" yb="1170.30322265625" xc="85.20751953125" yc="1170.306884765625" xd="93.081787109375" yd="1110.2802734375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging SW Turnout 500" blockname="WEST" connectaname="T16" connectbname="T15" connectcname="T205" />
-    <layoutturnout ident="TO46" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="78.876953125" ycen="1277.197509765625" xa="78.863037109375" ya="1247.1859130859375" xb="78.890869140625" yb="1307.2091064453125" xc="86.7930908203125" yc="1307.2054443359375" xd="78.863037109375" yd="1247.1859130859375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Staging SW Turnout 501" blockname="UNBLOCKED YARD" connectaname="T221" connectbname="T217" connectcname="T259" />
-    <layoutturnout ident="TO47" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="95.57421875" ycen="1336.19091796875" xa="87.793212890625" ya="1307.20556640625" xb="103.355224609375" yb="1365.17626953125" xc="95.7232666015625" yc="1367.2249755859375" xd="87.793212890625" yd="1307.20556640625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging SW Turnout 502" blockname="UNBLOCKED YARD" connectaname="T259" connectbname="T260" connectcname="T216" />
-    <layoutturnout ident="TO48" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="111.13623046875" ycen="1394.16162109375" xa="103.355224609375" ya="1365.17626953125" xb="118.917236328125" yb="1423.14697265625" xc="111.2852783203125" yc="1425.19580078125" xd="103.355224609375" yd="1365.17626953125" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging SW Turnout 503" blockname="UNBLOCKED YARD" connectaname="T260" connectbname="T261" connectcname="T215" />
-    <layoutturnout ident="TO49" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="126.83349609375" ycen="1453.1549072265625" xa="126.8475341796875" ya="1483.16650390625" xb="126.8194580078125" yb="1423.143310546875" xc="118.917236328125" yc="1423.14697265625" xd="126.8475341796875" yd="1483.16650390625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Staging SW Turnout 504" blockname="UNBLOCKED YARD" connectaname="T220" connectbname="T233" connectcname="T261" />
-    <layoutturnout ident="TO50" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="4" xcen="111.6358642578125" ycen="853.1986694335938" xa="104.8817138671875" ya="876.1912841796875" xb="118.3900146484375" yb="830.2060546875" xc="127.02392578125" yc="826.2477416992188" xd="104.8817138671875" yd="876.1912841796875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging NW Turnout 403" blockname="WEST" connectaname="T253" connectbname="T232" connectcname="T44" />
-    <layoutturnout ident="TO51" type="DOUBLE_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="785.0" ycen="1257.0" xa="741.261474609375" ya="1250.8807373046875" xb="828.7226831385881" yb="1250.7685508552815" xc="828.738525390625" yc="1263.1192626953125" xd="741.2773168614119" yd="1263.2314491447185" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutDoubleXOverXml" turnoutname="South Turnout 113" blockname="UNBLOCKED YARD" connectaname="T122" connectbname="T119" connectcname="T12" connectdname="T246" />
+    <layoutturnout ident="TO20" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="880.3537597656251" ycen="1013.3215942382812" xa="857.1422119140626" ya="1033.5528564453125" xb="903.5653076171876" yb="993.09033203125" xc="895.9749755859376" yc="986.5051879882812" xd="857.1422119140626" yd="1033.5528564453125" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="North Turnout 305" blockname="NZ5" connectaname="T103" connectbname="T98" connectcname="T99" />
+    <layoutturnout ident="TO21" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="579.7546386718751" ycen="1103.326171875" xa="553.7430419921876" ya="1103.340087890625" xb="605.7662353515626" yb="1103.312255859375" xc="615.7698974609376" yc="1113.2144775390625" xd="553.7430419921876" yd="1103.340087890625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="North Turnout 309" secondturnoutname="North Turnout 307" blockname="NZ9" connectaname="T156" connectbname="T106" connectcname="T18" />
+    <layoutturnout ident="TO22" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="708.7206420898439" ycen="1132.128662109375" xa="736.7322387695314" ya="1131.11474609375" xb="680.7090454101564" yb="1133.142578125" xc="669.7053833007814" yc="1124.2403564453125" xd="736.7322387695314" yd="1131.11474609375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="North Turnout 307" secondturnoutname="North Turnout 309" blockname="NZ10" connectaname="T108" connectbname="T105" connectcname="T18" />
+    <layoutturnout ident="TO23" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="961.9036254882814" ycen="1275.3582763671875" xa="991.9152832031251" ya="1275.3443603515625" xb="931.8919677734376" yb="1275.3721923828125" xc="930.8883056640626" yc="1263.469970703125" xd="991.9152832031251" yd="1275.3443603515625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 114" blockname="SZ6" connectaname="T64" connectbname="T5" connectcname="T6" />
+    <layoutturnout ident="TO24" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="832.3244628906251" ycen="1292.146240234375" xa="865.3360595703126" ya="1292.13232421875" xb="799.3128662109376" yb="1292.16015625" xc="802.3092041015626" yc="1284.258056640625" xd="865.3360595703126" yd="1292.13232421875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 116" secondturnoutname="South Turnout 115" blockname="SZ3" connectaname="T113" connectbname="T3" connectcname="T242" />
+    <layoutturnout ident="TO25" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="770.2939453125001" ycen="1275.3697509765625" xa="737.2823486328126" ya="1275.3837890625" xb="803.3055419921876" yb="1275.355712890625" xc="800.3092041015626" yc="1283.258056640625" xd="737.2823486328126" yd="1275.3837890625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="South Turnout 115" secondturnoutname="South Turnout 116" blockname="SZ2" connectaname="T4" connectbname="T5" connectcname="T242" />
+    <layoutturnout ident="TO26" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="506.58630371093756" ycen="1293.2935791015625" xa="474.57470703125006" ya="1293.3074951171875" xb="538.597900390625" yb="1293.2796630859375" xc="536.59423828125" yc="1285.37744140625" xd="474.57470703125006" yd="1293.3074951171875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 105" secondturnoutname="South Turnout 106" blockname="SZ3" connectaname="T117" connectbname="T3" connectcname="T243" />
+    <layoutturnout ident="TO27" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="566.6021728515626" ycen="1277.4613037109375" xa="585.6137695312501" ya="1277.447265625" xb="547.5905761718751" yb="1277.475341796875" xc="536.5942382812501" yc="1285.37744140625" xd="585.6137695312501" yd="1277.447265625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 106" secondturnoutname="South Turnout 105" blockname="SZ2" connectaname="T244" connectbname="T225" connectcname="T243" />
+    <layoutturnout ident="TO28" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="626.6254272460939" ycen="1277.4334716796875" xa="600.6138305664064" ya="1277.447509765625" xb="652.6370239257814" yb="1277.41943359375" xc="649.6333618164064" yc="1273.517333984375" xd="600.6138305664064" yd="1277.447509765625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 107" secondturnoutname="South Turnout 108" blockname="SZ2" connectaname="T244" connectbname="T4" connectcname="T245" />
+    <layoutturnout ident="TO29" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="687.6412963867189" ycen="1263.6011962890625" xa="704.6528930664064" ya="1263.5872802734375" xb="670.6296997070314" yb="1263.6151123046875" xc="657.6333618164064" yc="1271.517333984375" xd="704.6528930664064" yd="1263.5872802734375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 108" secondturnoutname="South Turnout 107" blockname="UNBLOCKED YARD" connectaname="T246" connectbname="T130" connectcname="T245" />
+    <layoutturnout ident="TO30" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="506.56665039062506" ycen="1251.0355224609375" xa="476.5549926757813" ya="1251.0494384765625" xb="536.5783081054688" yb="1251.0216064453125" xc="536.5746459960938" yc="1243.119384765625" xd="476.5549926757813" yd="1251.0494384765625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 109" blockname="UNBLOCKED YARD" connectaname="T124" connectbname="T122" connectcname="T247" />
+    <layoutturnout ident="TO31" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="426.53576660156256" ycen="1251.07275390625" xa="396.52416992187506" ya="1251.0867919921875" xb="456.54736328125006" yb="1251.0587158203125" xc="456.54370117187506" yc="1243.156494140625" xd="396.52416992187506" yd="1251.0867919921875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 104" blockname="UNBLOCKED YARD" connectaname="T248" connectbname="T124" connectcname="T125" />
+    <layoutturnout ident="TO32" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="366.5125122070313" ycen="1251.1005859375" xa="396.5241088867188" ya="1251.086669921875" xb="336.5009155273438" yb="1251.114501953125" xc="336.49719238281256" yc="1243.2122802734375" xd="396.5241088867188" yd="1251.086669921875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 103" blockname="UNBLOCKED YARD" connectaname="T248" connectbname="T249" connectcname="T134" />
+    <layoutturnout ident="TO33" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="306.48925781250006" ycen="1251.12841796875" xa="336.50085449218756" ya="1251.114501953125" xb="276.47766113281256" yb="1251.142333984375" xc="276.47399902343756" yc="1243.240234375" xd="336.50085449218756" yd="1251.114501953125" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 102" blockname="UNBLOCKED YARD" connectaname="T249" connectbname="T131" connectcname="T133" />
+    <layoutturnout ident="TO34" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="281.7217407226563" ycen="1217.7271728515625" xa="299.0536062000955" ya="1227.7230230253147" xb="261.75789990449664" yb="1212.2949207462457" xc="267.02185058593756" yc="1203.167724609375" xd="301.685581540816" yd="1223.1594249568793" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="South Turnout 100" blockname="UNBLOCKED YARD" connectaname="T134" connectbname="T135" connectcname="T136" />
+    <layoutturnout ident="TO35" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="566.5600585937501" ycen="1235.33837890625" xa="537.5747070312501" ya="1243.1195068359375" xb="595.5454101562501" yb="1227.5572509765625" xc="597.5941772460939" yc="1235.1893310546875" xd="537.5747070312501" yd="1243.1195068359375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="South Turnout 110" blockname="UNBLOCKED YARD" connectaname="T247" connectbname="T250" connectcname="T143" />
+    <layoutturnout ident="TO36" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="623.5307617187501" ycen="1218.7762451171875" xa="594.5453491210939" ya="1226.5572509765625" xb="652.5161743164064" yb="1210.9952392578125" xc="654.5649414062501" yc="1218.627197265625" xd="594.5453491210939" yd="1226.5572509765625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="South Turnout 111" blockname="UNBLOCKED YARD" connectaname="T250" connectbname="T251" connectcname="T147" />
+    <layoutturnout ident="TO37" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="682.5241088867189" ycen="1204.0791015625" xa="712.5357055664064" ya="1204.065185546875" xb="652.5125122070314" yb="1204.093017578125" xc="652.5161743164064" yc="1211.9952392578125" xd="712.5357055664064" yd="1204.065185546875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 112" blockname="UNBLOCKED YARD" connectaname="T150" connectbname="T125" connectcname="T251" />
+    <layoutturnout ident="TO38" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="4" xcen="93.99353027343756" ycen="920.20654296875" xa="94.00744628906256" ya="950.2181396484375" xb="93.97961425781256" yb="890.1949462890625" xc="101.88183593750006" yc="890.1912841796875" xd="94.00744628906256" yd="950.2181396484375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging NW Turnout 400" blockname="WEST" connectaname="T17" connectbname="T252" connectcname="T253" />
+    <layoutturnout ident="TO39" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="93.54101562500006" ycen="859.6181640625" xa="93.54101562500006" ya="889.6297607421875" xb="93.54101562500006" yb="829.6065673828125" xc="101.44323730468756" yc="829.6065673828125" xd="93.54101562500006" yd="889.6297607421875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging NW Turnout 401" blockname="UNBLOCKED YARD" connectaname="T252" connectbname="T168" connectcname="T254" />
+    <layoutturnout ident="TO40" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="109.21081542968754" ycen="800.6175537109375" xa="101.44323730468754" ya="829.6065063476562" xb="116.97839355468754" yb="771.6286010742188" xc="109.34545898437504" yc="769.5833129882812" xd="101.44323730468754" yd="829.6065063476562" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Staging NW Turnout 402" blockname="UNBLOCKED YARD" connectaname="T254" connectbname="T255" connectcname="T177" />
+    <layoutturnout ident="TO41" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="124.74597167968754" ycen="742.6395874023438" xa="116.97839355468754" ya="771.6285400390625" xb="132.51354980468753" yb="713.650634765625" xc="124.88061523437504" yc="711.6053466796875" xd="116.97839355468754" yd="771.6285400390625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Staging NW Turnout 404" blockname="UNBLOCKED YARD" connectaname="T255" connectbname="T256" connectcname="T185" />
+    <layoutturnout ident="TO42" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="140.28112792968753" ycen="684.66162109375" xa="132.51354980468753" ya="713.650634765625" xb="148.04870605468753" yb="655.672607421875" xc="140.41577148437503" yc="653.6273193359375" xd="132.51354980468753" yd="713.650634765625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Staging NW Turnout 405" blockname="UNBLOCKED YARD" connectaname="T256" connectbname="T257" connectcname="T192" />
+    <layoutturnout ident="TO43" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="154.81628417968753" ycen="626.68359375" xa="147.04882812500003" ya="655.672607421875" xb="162.58374023437503" yb="597.694580078125" xc="154.95080566406253" yc="595.6494140625" xd="147.04882812500003" yd="655.672607421875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Staging NW Turnout 406" blockname="UNBLOCKED YARD" connectaname="T257" connectbname="T258" connectcname="T198" />
+    <layoutturnout ident="TO44" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="171.48608398437503" ycen="567.6829833984375" xa="171.48608398437503" ya="538.67138671875" xb="171.48608398437503" yb="596.694580078125" xc="163.58374023437503" yc="597.694580078125" xd="171.48608398437503" yd="538.67138671875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging NW Turnout 407" blockname="UNBLOCKED YARD" connectaname="T204" connectbname="T232" connectcname="T258" />
+    <layoutturnout ident="TO45" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="93.09570312500007" ycen="1140.291748046875" xa="93.08178710937507" ya="1110.2802734375" xb="93.10961914062507" yb="1170.30322265625" xc="85.20751953125007" yc="1170.306884765625" xd="93.08178710937507" yd="1110.2802734375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging SW Turnout 500" blockname="WEST" connectaname="T16" connectbname="T15" connectcname="T205" />
+    <layoutturnout ident="TO46" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="78.87695312500009" ycen="1277.197509765625" xa="78.86303710937509" ya="1247.1859130859375" xb="78.89086914062509" yb="1307.2091064453125" xc="86.79309082031259" yc="1307.2054443359375" xd="78.86303710937509" yd="1247.1859130859375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Staging SW Turnout 501" blockname="UNBLOCKED YARD" connectaname="T221" connectbname="T217" connectcname="T259" />
+    <layoutturnout ident="TO47" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="95.57421875000009" ycen="1336.19091796875" xa="87.79321289062509" ya="1307.20556640625" xb="103.35522460937509" yb="1365.17626953125" xc="95.72326660156259" yc="1367.2249755859375" xd="87.79321289062509" yd="1307.20556640625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging SW Turnout 502" blockname="UNBLOCKED YARD" connectaname="T259" connectbname="T260" connectcname="T216" />
+    <layoutturnout ident="TO48" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="111.13623046875009" ycen="1394.16162109375" xa="103.35522460937509" ya="1365.17626953125" xb="118.91723632812509" yb="1423.14697265625" xc="111.28527832031259" yc="1425.19580078125" xd="103.35522460937509" yd="1365.17626953125" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging SW Turnout 503" blockname="UNBLOCKED YARD" connectaname="T260" connectbname="T261" connectcname="T215" />
+    <layoutturnout ident="TO49" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="126.83349609375009" ycen="1453.1549072265625" xa="126.84753417968759" ya="1483.16650390625" xb="126.81945800781259" yb="1423.143310546875" xc="118.91723632812509" yc="1423.14697265625" xd="126.84753417968759" yd="1483.16650390625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Staging SW Turnout 504" blockname="UNBLOCKED YARD" connectaname="T220" connectbname="T233" connectcname="T261" />
+    <layoutturnout ident="TO50" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="4" xcen="111.63586425781256" ycen="853.1986694335938" xa="104.88171386718756" ya="876.1912841796875" xb="118.39001464843756" yb="830.2060546875" xc="127.02392578125006" yc="826.2477416992188" xd="104.88171386718756" yd="876.1912841796875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging NW Turnout 403" blockname="WEST" connectaname="T253" connectbname="T232" connectcname="T44" />
+    <layoutturnout ident="TO51" type="DOUBLE_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="785.0000000000001" ycen="1257.0" xa="741.2614746093751" ya="1250.8807373046875" xb="828.7226831385883" yb="1250.7685508552815" xc="828.7385253906251" yc="1263.1192626953125" xd="741.2773168614119" yd="1263.2314491447185" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutDoubleXOverXml" turnoutname="South Turnout 113" blockname="UNBLOCKED YARD" connectaname="T122" connectbname="T119" connectcname="T12" connectdname="T246" />
     <tracksegment ident="T8" blockname="SZ4" connect1name="TO2" type1="TURNOUT_B" connect2name="A3" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T9" blockname="SZ5" connect1name="A8" type1="POS_POINT" connect2name="TO2" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="30.0" hideConLines="yes" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T10" blockname="EZ1" connect1name="A9" type1="POS_POINT" connect2name="A8" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="30.0" hideConLines="yes" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -1782,11 +1804,11 @@
     <tracksegment ident="T45" blockname="MNT" connect1name="A5" type1="POS_POINT" connect2name="A140" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <positionablepoint ident="A8" type="ANCHOR" x="1097.156494140625" y="1285.1171875" connect1name="T10" connect2name="T9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A9" type="ANCHOR" x="1142.164794921875" y="1240.0579833984375" connect1name="T11" connect2name="T10" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A11" type="ANCHOR" x="144.634521484375" y="1272.7532958984375" connect1name="T14" connect2name="T13" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A12" type="ANCHOR" x="110.6104736328125" y="1231.77099609375" connect1name="T15" connect2name="T14" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A13" type="ANCHOR" x="94.044677734375" y="1030.2490234375" connect1name="T17" connect2name="T16" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A15" type="ANCHOR" x="809.4594116210938" y="1097.939453125" connect1name="T20" connect2name="T19" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A16" type="ANCHOR" x="972.7066040039062" y="953.3591918945312" connect1name="T22" connect2name="T21" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A11" type="ANCHOR" x="144.63452148437509" y="1272.7532958984375" connect1name="T14" connect2name="T13" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A12" type="ANCHOR" x="110.61047363281257" y="1231.77099609375" connect1name="T15" connect2name="T14" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A13" type="ANCHOR" x="94.04467773437506" y="1030.2490234375" connect1name="T17" connect2name="T16" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A15" type="ANCHOR" x="809.4594116210939" y="1097.939453125" connect1name="T20" connect2name="T19" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A16" type="ANCHOR" x="972.7066040039064" y="953.3591918945312" connect1name="T22" connect2name="T21" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A17" type="ANCHOR" x="995.4609375" y="777.2266845703125" connect1name="T24" connect2name="T23" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A18" type="ANCHOR" x="972.2877807617188" y="721.355224609375" connect1name="T25" connect2name="T24" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A19" type="ANCHOR" x="935.4436645507812" y="673.3851318359375" connect1name="T26" connect2name="T25" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -1817,12 +1839,12 @@
     <positionablepoint ident="A56" type="ANCHOR" x="1082.719970703125" y="627.028564453125" connect1name="T75" connect2name="T74" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB12" type="END_BUMPER" x="1025.17138671875" y="496.2706298828125" connect1name="T76" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A58" type="ANCHOR" x="1066.2191162109375" y="565.5609130859375" connect1name="T76" connect2name="T75" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A59" type="ANCHOR" x="1003.476806640625" y="1037.26953125" connect1name="T78" connect2name="T77" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB13" type="END_BUMPER" x="1003.5139770507812" y="1117.300537109375" connect1name="T78" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A61" type="ANCHOR" x="972.4161987304688" y="1013.1351928710938" connect1name="T80" connect2name="T79" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A62" type="ANCHOR" x="935.6166381835938" y="1061.139404296875" connect1name="T81" connect2name="T80" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A63" type="ANCHOR" x="887.6465454101562" y="1097.983642578125" connect1name="T82" connect2name="T81" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB14" type="END_BUMPER" x="918.8096923828125" y="1124.021728515625" connect1name="T83" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A59" type="ANCHOR" x="1003.4768066406251" y="1037.26953125" connect1name="T78" connect2name="T77" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB13" type="END_BUMPER" x="1003.5139770507814" y="1117.300537109375" connect1name="T78" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A61" type="ANCHOR" x="972.4161987304689" y="1013.1351928710938" connect1name="T80" connect2name="T79" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A62" type="ANCHOR" x="935.6166381835939" y="1061.139404296875" connect1name="T81" connect2name="T80" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A63" type="ANCHOR" x="887.6465454101564" y="1097.983642578125" connect1name="T82" connect2name="T81" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB14" type="END_BUMPER" x="918.8096923828126" y="1124.021728515625" connect1name="T83" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB19" type="END_BUMPER" x="871.0635986328125" y="926.02685546875" connect1name="T89" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A71" type="ANCHOR" x="884.6448974609375" y="653.27685546875" connect1name="T91" connect2name="T90" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A72" type="ANCHOR" x="932.6492309570312" y="690.076416015625" connect1name="T92" connect2name="T91" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -1831,52 +1853,52 @@
     <positionablepoint ident="A75" type="ANCHOR" x="992.9403076171875" y="835.4411010742188" connect1name="T95" connect2name="T94" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A76" type="ANCHOR" x="992.9496459960938" y="855.4487915039062" connect1name="T96" connect2name="T95" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A77" type="ANCHOR" x="976.5059204101562" y="916.931884765625" connect1name="T97" connect2name="T96" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A78" type="ANCHOR" x="939.7063598632812" y="964.9361572265625" connect1name="T98" connect2name="T97" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A78" type="ANCHOR" x="939.7063598632814" y="964.9361572265625" connect1name="T98" connect2name="T97" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A79" type="ANCHOR" x="930.0962524414062" y="912.6121826171875" connect1name="T100" connect2name="T99" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A80" type="ANCHOR" x="937.9634399414062" y="854.6395263671875" connect1name="T101" connect2name="T100" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB20" type="END_BUMPER" x="925.90771484375" y="730.5930786132812" connect1name="T102" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A82" type="ANCHOR" x="933.92626953125" y="774.6085205078125" connect1name="T102" connect2name="T101" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB27" type="END_BUMPER" x="429.6239013671875" y="1136.244873046875" connect1name="T2" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A88" type="ANCHOR" x="846.888671875" y="1082.41552734375" connect1name="T109" connect2name="T20" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A89" type="ANCHOR" x="936.74267578125" y="1002.3764038085938" connect1name="T110" connect2name="T21" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A90" type="ANCHOR" x="894.3195190429688" y="1044.8388671875" connect1name="T110" connect2name="T109" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A93" type="ANCHOR" x="372.502197265625" y="1293.35595703125" connect1name="T117" connect2name="T114" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB18" type="END_BUMPER" x="1001.7485961914062" y="1249.817138671875" connect1name="T119" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB21" type="END_BUMPER" x="276.48260498046875" y="1262.791748046875" connect1name="T130" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB22" type="END_BUMPER" x="215.4544677734375" y="1251.1702880859375" connect1name="T131" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB25" type="END_BUMPER" x="160.503662109375" y="1212.2237548828125" connect1name="T133" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB24" type="END_BUMPER" x="154.98681640625" y="1156.822265625" connect1name="T137" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A110" type="ANCHOR" x="224.3143310546875" y="1196.8056640625" connect1name="T137" connect2name="T135" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB23" type="END_BUMPER" x="165.5355224609375" y="1138.5318603515625" connect1name="T138" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A112" type="ANCHOR" x="234.86297607421875" y="1178.51513671875" connect1name="T138" connect2name="T136" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB17" type="END_BUMPER" x="1006.7335205078125" y="1234.02197265625" connect1name="T143" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB16" type="END_BUMPER" x="982.6810913085938" y="1219.48779296875" connect1name="T147" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB15" type="END_BUMPER" x="1008.620849609375" y="1204.962890625" connect1name="T150" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A125" type="ANCHOR" x="193.1689453125" y="778.9423828125" connect1name="T152" connect2name="T44" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A126" type="ANCHOR" x="278.390625" y="793.1217651367188" connect1name="T153" connect2name="T152" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A127" type="ANCHOR" x="318.74652099609375" y="844.2877197265625" connect1name="T154" connect2name="T153" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A128" type="ANCHOR" x="341.1212158203125" y="899.9348754882812" connect1name="T155" connect2name="T154" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A130" type="ANCHOR" x="433.3367919921875" y="1072.3609619140625" connect1name="T157" connect2name="T107" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A131" type="ANCHOR" x="401.177978515625" y="1047.7083740234375" connect1name="T159" connect2name="T157" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A133" type="ANCHOR" x="360.97137451171875" y="978.1431884765625" connect1name="T159" connect2name="T155" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB27" type="END_BUMPER" x="429.62390136718756" y="1136.244873046875" connect1name="T2" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A88" type="ANCHOR" x="846.8886718750001" y="1082.41552734375" connect1name="T109" connect2name="T20" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A89" type="ANCHOR" x="936.7426757812501" y="1002.3764038085938" connect1name="T110" connect2name="T21" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A90" type="ANCHOR" x="894.3195190429689" y="1044.8388671875" connect1name="T110" connect2name="T109" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A93" type="ANCHOR" x="372.50219726562506" y="1293.35595703125" connect1name="T117" connect2name="T114" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB18" type="END_BUMPER" x="1001.7485961914064" y="1249.817138671875" connect1name="T119" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB21" type="END_BUMPER" x="276.4826049804688" y="1262.791748046875" connect1name="T130" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB22" type="END_BUMPER" x="215.45446777343759" y="1251.1702880859375" connect1name="T131" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB25" type="END_BUMPER" x="160.50366210937509" y="1212.2237548828125" connect1name="T133" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB24" type="END_BUMPER" x="154.98681640625006" y="1156.822265625" connect1name="T137" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A110" type="ANCHOR" x="224.31433105468759" y="1196.8056640625" connect1name="T137" connect2name="T135" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB23" type="END_BUMPER" x="165.53552246093756" y="1138.5318603515625" connect1name="T138" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A112" type="ANCHOR" x="234.86297607421884" y="1178.51513671875" connect1name="T138" connect2name="T136" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB17" type="END_BUMPER" x="1006.7335205078126" y="1234.02197265625" connect1name="T143" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB16" type="END_BUMPER" x="982.6810913085939" y="1219.48779296875" connect1name="T147" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB15" type="END_BUMPER" x="1008.6208496093751" y="1204.962890625" connect1name="T150" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A125" type="ANCHOR" x="193.16894531250006" y="778.9423828125" connect1name="T152" connect2name="T44" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A126" type="ANCHOR" x="278.39062500000006" y="793.1217651367188" connect1name="T153" connect2name="T152" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A127" type="ANCHOR" x="318.7465209960938" y="844.2877197265625" connect1name="T154" connect2name="T153" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A128" type="ANCHOR" x="341.12121582031256" y="899.9348754882812" connect1name="T155" connect2name="T154" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A130" type="ANCHOR" x="433.33679199218756" y="1072.3609619140625" connect1name="T157" connect2name="T107" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A131" type="ANCHOR" x="401.17797851562506" y="1047.7083740234375" connect1name="T159" connect2name="T157" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A133" type="ANCHOR" x="360.9713745117188" y="978.1431884765625" connect1name="T159" connect2name="T155" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB5" type="END_BUMPER" x="91.541015625" y="51.3277587890625" connect1name="T168" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB6" type="END_BUMPER" x="109.345458984375" y="51.3045654296875" connect1name="T177" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB7" type="END_BUMPER" x="124.880615234375" y="50.3575439453125" connect1name="T185" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB8" type="END_BUMPER" x="141.415771484375" y="50.4105224609375" connect1name="T192" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB9" type="END_BUMPER" x="155.9508056640625" y="50.4635009765625" connect1name="T198" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB10" type="END_BUMPER" x="171.486083984375" y="50.4854736328125" connect1name="T204" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB3" type="END_BUMPER" x="111.3968505859375" y="1690.2886962890625" connect1name="T215" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB1" type="END_BUMPER" x="95.0" y="1690.0" connect1name="T216" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB2" type="END_BUMPER" x="80.0675048828125" y="1689.356201171875" connect1name="T217" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB4" type="END_BUMPER" x="126.9403076171875" y="1690.243896484375" connect1name="T220" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A194" type="ANCHOR" x="80.1639404296875" y="1211.72509765625" connect1name="T221" connect2name="T205" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A64" type="ANCHOR" x="540.9384765625" y="1173.9896240234375" connect1name="T223" connect2name="T112" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB3" type="END_BUMPER" x="111.3968505859376" y="1690.2886962890625" connect1name="T215" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB1" type="END_BUMPER" x="95.0000000000001" y="1690.0" connect1name="T216" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB2" type="END_BUMPER" x="80.0675048828126" y="1689.356201171875" connect1name="T217" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB4" type="END_BUMPER" x="126.9403076171876" y="1690.243896484375" connect1name="T220" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A194" type="ANCHOR" x="80.16394042968757" y="1211.72509765625" connect1name="T221" connect2name="T205" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A64" type="ANCHOR" x="540.9384765625001" y="1173.9896240234375" connect1name="T223" connect2name="T112" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A198" type="ANCHOR" x="1044.953369140625" y="1012.8867797851562" connect1name="T224" connect2name="T174" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A199" type="ANCHOR" x="1044.8692626953125" y="831.654541015625" connect1name="T224" connect2name="T173" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A204" type="ANCHOR" x="1019.2581787109375" y="424.381103515625" connect1name="T163" connect2name="T172" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A206" type="ANCHOR" x="813.6544799804688" y="547.1707763671875" connect1name="T170" connect2name="T169" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A210" type="ANCHOR" x="118.8966064453125" y="1363.177978515625" connect1name="T235" connect2name="T233" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB28" type="END_BUMPER" x="87.7724609375" y="1247.2364501953125" connect1name="T235" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A210" type="ANCHOR" x="118.89660644531259" y="1363.177978515625" connect1name="T235" connect2name="T233" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB28" type="END_BUMPER" x="87.77246093750007" y="1247.2364501953125" connect1name="T235" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A134" type="ANCHOR" x="1043.0" y="727.0" connect1name="T166" connect2name="T173" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A135" type="ANCHOR" x="1005.0" y="615.0" connect1name="T166" connect2name="T167" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A136" type="ANCHOR" x="915.0" y="565.0" connect1name="T167" connect2name="T169" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -1884,117 +1906,117 @@
     <positionablepoint ident="A138" type="ANCHOR" x="843.0" y="413.0" connect1name="T171" connect2name="T162" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A139" type="ANCHOR" x="941.0" y="416.0" connect1name="T162" connect2name="T172" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A140" type="ANCHOR" x="1076.0" y="491.0" connect1name="T163" connect2name="T45" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A83" type="ANCHOR" x="995.0" y="1163.0" connect1name="T223" connect2name="T174" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A60" type="ANCHOR" x="502.0" y="1094.0" connect1name="T107" connect2name="T156" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A100" type="ANCHOR" x="227.0" y="943.0" connect1name="T1" connect2name="T112" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A1" type="ANCHOR" x="298.2393798828125" y="1278.0333251953125" connect1name="T225" connect2name="T1" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A2" type="ANCHOR" x="595.16650390625" y="1143.6937255859375" connect1name="T105" connect2name="T2" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A3" type="ANCHOR" x="400.91015625" y="1306.376953125" connect1name="T8" connect2name="T7" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A4" type="ANCHOR" x="879.8134155273438" y="1263.294677734375" connect1name="T6" connect2name="T12" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A83" type="ANCHOR" x="995.0000000000001" y="1163.0" connect1name="T223" connect2name="T174" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A60" type="ANCHOR" x="502.00000000000006" y="1094.0" connect1name="T107" connect2name="T156" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A100" type="ANCHOR" x="227.00000000000006" y="943.0" connect1name="T1" connect2name="T112" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A1" type="ANCHOR" x="298.23937988281256" y="1278.0333251953125" connect1name="T225" connect2name="T1" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A2" type="ANCHOR" x="595.1665039062501" y="1143.6937255859375" connect1name="T105" connect2name="T2" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A3" type="ANCHOR" x="400.91015625000006" y="1306.376953125" connect1name="T8" connect2name="T7" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A4" type="ANCHOR" x="879.8134155273439" y="1263.2946166992188" connect1name="T6" connect2name="T12" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A5" type="ANCHOR" x="1093.810791015625" y="534.7982177734375" connect1name="T164" connect2name="T45" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <levelxing ident="X1" blocknameac="EZ8" blocknamebd="EZ11" connectaname="T239" connectbname="T240" connectcname="T67" connectdname="T241" xcen="1128.3004150390625" ycen="806.3511962890625" xa="1136.1885986328125" ya="777.3358764648438" xb="1128.286376953125" yb="776.339599609375" class="jmri.jmrit.display.layoutEditor.configurexml.LevelXingXml" />
   </LayoutEditor>
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Thu Dec 17 13:22:51 MST 2020</date>
+      <date>Sun Dec 06 16:03:16 MST 2020</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Thu Dec 17 13:22:58 MST 2020</date>
+      <date>Sun Dec 06 16:03:23 MST 2020</date>
       <filename>/Users/mdean/JMRI/Mike_Basement_Layout/EntireLayoutPanel.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Sun Dec 06 16:03:16 MST 2020</date>
+          <date>Sun Dec 06 11:31:47 MST 2020</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Sun Dec 06 16:03:23 MST 2020</date>
+          <date>Sun Dec 06 11:31:54 MST 2020</date>
           <filename>/Users/mdean/JMRI/Mike_Basement_Layout/EntireLayoutPanel.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Sun Dec 06 11:31:47 MST 2020</date>
+              <date>Sun Dec 06 11:12:57 MST 2020</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Sun Dec 06 11:31:54 MST 2020</date>
+              <date>Sun Dec 06 11:13:05 MST 2020</date>
               <filename>/Users/mdean/JMRI/Mike_Basement_Layout/EntireLayoutPanel.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Sun Dec 06 11:12:57 MST 2020</date>
+                  <date>Sat Dec 05 11:45:23 MST 2020</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Sun Dec 06 11:13:05 MST 2020</date>
+                  <date>Sat Dec 05 11:45:38 MST 2020</date>
                   <filename>/Users/mdean/JMRI/Mike_Basement_Layout/EntireLayoutPanel.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Sat Dec 05 11:45:23 MST 2020</date>
+                      <date>Thu Dec 03 12:12:23 MST 2020</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Sat Dec 05 11:45:38 MST 2020</date>
+                      <date>Thu Dec 03 12:12:46 MST 2020</date>
                       <filename>/Users/mdean/JMRI/Mike_Basement_Layout/EntireLayoutPanel.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Thu Dec 03 12:12:23 MST 2020</date>
+                          <date>Tue Dec 01 15:56:29 MST 2020</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Thu Dec 03 12:12:46 MST 2020</date>
+                          <date>Tue Dec 01 15:56:57 MST 2020</date>
                           <filename>/Users/mdean/JMRI/Mike_Basement_Layout/EntireLayoutPanel.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Fri Dec 04 08:45:10 MST 2020</date>
+                          <date>Wed Dec 02 09:25:49 MST 2020</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Sun Dec 06 11:11:07 MST 2020</date>
+                      <date>Fri Dec 04 08:45:10 MST 2020</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Sun Dec 06 11:28:21 MST 2020</date>
+                  <date>Sun Dec 06 11:11:07 MST 2020</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Sun Dec 06 14:04:29 MST 2020</date>
+              <date>Sun Dec 06 11:28:21 MST 2020</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Sun Dec 06 16:31:16 MST 2020</date>
+          <date>Sun Dec 06 14:04:29 MST 2020</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Thu Dec 17 13:24:37 MST 2020</date>
+      <date>Sun Dec 06 16:31:16 MST 2020</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Thu Dec 17 13:24:37 MST 2020-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Sun Dec 06 16:31:16 MST 2020-->
 </layout-config>
