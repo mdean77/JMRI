@@ -229,11 +229,11 @@
         </window>
         <window xmlns="" class="jmri.jmrix.nce.usbinterface.UsbInterfacePanel" height="123.0" locX="183.0" locY="62.0" width="400.0"/>
         <window xmlns="" class="jmri.jmrit.display.switchboardEditor.SwitchboardEditor:Switchboard" locX="860.0" locY="38.0"/>
-        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Mike Dean's Basement Layout" height="877.0" locX="82.0" locY="144.0" width="1389.0">
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Mike Dean's Basement Layout" height="877.0" locX="172.0" locY="258.0" width="1389.0">
             <properties>
                 <property>
                     <key>zoom</key>
-                    <value class="java.lang.Double">0.6209213230591574</value>
+                    <value class="java.lang.Double">1.6105100000000072</value>
                 </property>
             </properties>
         </window>
