@@ -357,7 +357,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="3:56 PM">
+    <memory value="3:42 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -823,6 +823,146 @@
       <userName>sz6-ez2</userName>
       <unlit allowed="no" />
     </signalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0001)</systemName>
+      <userName>eb11Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0002)</systemName>
+      <userName>eb12Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0003)</systemName>
+      <userName>eb26Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0004)</systemName>
+      <userName>eb19Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0005)</systemName>
+      <userName>eb20Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0006)</systemName>
+      <userName>eb13Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0007)</systemName>
+      <userName>eb14Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0008)</systemName>
+      <userName>eb27Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0009)</systemName>
+      <userName>eb1Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0010)</systemName>
+      <userName>eb2Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0011)</systemName>
+      <userName>eb3Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0012)</systemName>
+      <userName>eb4Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0013)</systemName>
+      <userName>eb5Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0014)</systemName>
+      <userName>eb6Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0015)</systemName>
+      <userName>eb7Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0016)</systemName>
+      <userName>eb8Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0017)</systemName>
+      <userName>eb9Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0018)</systemName>
+      <userName>eb10Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0019)</systemName>
+      <userName>eb28Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0020)</systemName>
+      <userName>eb15Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0021)</systemName>
+      <userName>eb16Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0022)</systemName>
+      <userName>eb17Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0023)</systemName>
+      <userName>eb18Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0024)</systemName>
+      <userName>eb21Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0025)</systemName>
+      <userName>eb22Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0026)</systemName>
+      <userName>eb23Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0027)</systemName>
+      <userName>eb24Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0028)</systemName>
+      <userName>eb25Virtual</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
     <dccsignalmast class="jmri.implementation.configurexml.DccSignalMastXml">
       <systemName>NF$dsm:basic:one-searchlight(11)</systemName>
       <userName>ez13-nz1</userName>
@@ -2997,6 +3137,16 @@
         <associatedSection>sz6-ez2:mnt-ez9</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
+      <destinationMast destination="eb12Virtual">
+        <destinationSignalMast>eb12Virtual</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
       <destinationMast destination="ez8-ez13">
         <destinationSignalMast>ez8-ez13</destinationSignalMast>
         <comment />
@@ -3488,16 +3638,6 @@
     </signalmastlogic>
     <signalmastlogic source="nz6-nz8">
       <sourceSignalMast>nz6-nz8</sourceSignalMast>
-      <destinationMast destination="nz9-west">
-        <destinationSignalMast>nz9-west</destinationSignalMast>
-        <comment />
-        <enabled>yes</enabled>
-        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
-        <useLayoutEditor>yes</useLayoutEditor>
-        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
-        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <lockTurnouts>no</lockTurnouts>
-      </destinationMast>
       <destinationMast destination="nz8-nz9">
         <destinationSignalMast>nz8-nz9</destinationSignalMast>
         <comment />
@@ -3512,16 +3652,6 @@
     </signalmastlogic>
     <signalmastlogic source="nz5-nz8">
       <sourceSignalMast>nz5-nz8</sourceSignalMast>
-      <destinationMast destination="nz9-west">
-        <destinationSignalMast>nz9-west</destinationSignalMast>
-        <comment />
-        <enabled>yes</enabled>
-        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
-        <useLayoutEditor>yes</useLayoutEditor>
-        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
-        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <lockTurnouts>no</lockTurnouts>
-      </destinationMast>
       <destinationMast destination="nz8-nz9">
         <destinationSignalMast>nz8-nz9</destinationSignalMast>
         <comment />
@@ -3600,16 +3730,6 @@
     </signalmastlogic>
     <signalmastlogic source="nz7-nz10">
       <sourceSignalMast>nz7-nz10</sourceSignalMast>
-      <destinationMast destination="nz9-west">
-        <destinationSignalMast>nz9-west</destinationSignalMast>
-        <comment />
-        <enabled>yes</enabled>
-        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
-        <useLayoutEditor>yes</useLayoutEditor>
-        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
-        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <lockTurnouts>no</lockTurnouts>
-      </destinationMast>
       <destinationMast destination="nz10-nz9">
         <destinationSignalMast>nz10-nz9</destinationSignalMast>
         <comment />
@@ -3819,7 +3939,7 @@
     </signalmastlogic>
   </signalmastlogics>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Nov 29 11:15:51 MST 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="123" y="23" windowheight="877" windowwidth="1389" panelheight="1279" panelwidth="1740" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="105" y="702" windowheight="877" windowwidth="1389" panelheight="1279" panelwidth="1740" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Mike Dean's Basement Layout" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -3846,106 +3966,108 @@
       <sideTieLength>0</sideTieLength>
       <sideTieWidth>0</sideTieWidth>
     </layoutTrackDrawingOptions>
-    <positionablelabel x="798" y="64" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT400" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="870" y="63" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT401" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="944" y="86" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT402" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="866" y="121" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT403" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1000" y="101" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT404" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1060" y="117" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT405" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1125" y="132" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT406" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1151" y="172" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT407" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="600" y="64" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT500" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="262" y="127" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT504" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="300" y="88" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT503" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="369" y="71" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT502" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="431" y="50" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT501" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1140" y="743" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" text="NT301" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1061" y="799" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" text="NT302" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="853" y="1016" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" text="NT303" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="785" y="1017" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" text="NT304" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="724" y="861" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" text="NT305" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="578" y="785" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" text="NT306" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="575" y="681" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" text="NT307" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="650" y="736" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" text="NT308" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="649" y="576" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" text="NT309" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="570" y="1160" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT201" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="587" y="1085" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT202" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="693" y="1137" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT203" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="777" y="1123" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT204" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="796" y="1071" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT205" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="883" y="1071" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT206" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="872" y="1123" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT207" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="980" y="1139" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT208" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1098" y="1162" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT209" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="970" y="1102" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT210" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1086" y="1095" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT211" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="534" y="281" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT100" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="414" y="283" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT101" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="488" y="262" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="110" text="NT102" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="502" y="340" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT103" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="500" y="407" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT104" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="452" y="466" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT105" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="468" y="531" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT106" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="451" y="606" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT107" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="480" y="653" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT108" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="497" y="485" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT109" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="512" y="531" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT110" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="525" y="595" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT111" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="543" y="664" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT112" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="494" y="768" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT113" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="475" y="949" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT114" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="451" y="741" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT115" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="452" y="841" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT116" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="421" y="1006" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT117" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <signalmasticon signalmast="ez7-ez13" x="1060" y="1138" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="91" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez8-ez13" x="1061" y="1127" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="99" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez6-ez8" x="950" y="1122" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="91" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez5-ez6" x="747" y="1118" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="207" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez7-ez1" x="626" y="1167" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez6-ez1" x="627" y="1153" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="264" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez8-ez3" x="853" y="1115" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="284" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez9-ez3" x="937" y="1107" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez12-ez3" x="938" y="1092" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="263" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez10-ez9" x="1023" y="1093" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="74" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez4-ez2" x="647" y="1123" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez3-ez2" x="647" y="1111" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="267" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez10-ez11" x="1029" y="1114" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="255" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez5-ez11" x="839" y="1072" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="93" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez4-ez11" x="829" y="1056" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="99" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="nz6-nz3" x="822" y="963" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="113" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="nz7-nz3" x="761" y="962" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="114" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="nz4-nz5" x="735" y="912" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="322" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="nz6-nz8" x="620" y="776" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="352" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="nz5-nz8" x="634" y="777" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="326" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="snw400-west" x="827" y="113" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="snw403-west" x="895" y="143" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="282" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ssw500-west" x="546" y="60" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="97" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="sz4-sz5" x="448" y="931" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="179" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="sz3-sz5" x="465" y="955" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="sz2-sz6" x="477" y="887" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="179" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="yard-sz2" x="451" y="657" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="346" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez13-nz1" x="1213" y="1120" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="69" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="nz1-ez13" x="1268" y="1111" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="232" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez9-mnt" x="1146" y="1082" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="85" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="mnt-ez9" x="1131" y="908" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="248" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="sz5-ez1" x="403" y="1017" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="166" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez1-sz5" x="598" y="1177" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="314" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="sz6-ez2" x="485" y="1027" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="171" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez2-sz6" x="600" y="1068" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="314" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="nz2-nz1" x="1085" y="732" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="44" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="nz1-nz2" x="1219" y="1207" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="255" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="west-nz9" x="953" y="146" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="145" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="nz9-west" x="656" y="538" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="9" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="nz7-nz10" x="605" y="849" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="333" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="west-sz1" x="474" y="122" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="231" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="sz1-west" x="439" y="126" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="14" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="sz1-sz3" x="450" y="326" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="172" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="sz1-sz4" x="445" y="358" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="sz4-sz1" x="416" y="407" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" clickmode="0" litmode="false" degrees="0" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="mnt-sz2" x="725" y="283" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="sz2-mnt" x="445" y="430" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" clickmode="0" litmode="false" degrees="0" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="nz3-nz2" x="1066" y="740" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="6" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="mnt-sz2" x="468" y="381" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <positionablelabel x="798" y="64" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT400" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="870" y="63" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT401" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="944" y="86" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT402" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="866" y="121" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT403" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1000" y="101" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT404" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1060" y="117" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT405" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1125" y="132" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT406" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1151" y="172" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT407" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="600" y="64" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT500" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="262" y="127" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT504" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="300" y="88" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT503" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="369" y="71" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT502" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="431" y="50" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT501" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1140" y="743" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" text="NT301" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1061" y="799" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" text="NT302" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="853" y="1016" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" text="NT303" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="785" y="1017" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" text="NT304" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="724" y="861" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" text="NT305" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="578" y="785" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" text="NT306" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="575" y="681" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" text="NT307" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="650" y="736" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" text="NT308" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="649" y="576" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" text="NT309" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="570" y="1160" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT201" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="587" y="1085" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT202" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="693" y="1137" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT203" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="777" y="1123" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT204" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="796" y="1071" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT205" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="883" y="1071" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT206" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="872" y="1123" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT207" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="980" y="1139" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT208" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1098" y="1162" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT209" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="970" y="1102" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT210" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1086" y="1095" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT211" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="534" y="281" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT100" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="414" y="283" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT101" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="488" y="262" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="110" text="NT102" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="502" y="340" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT103" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="500" y="407" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT104" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="452" y="466" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT105" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="468" y="531" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT106" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="451" y="606" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT107" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="480" y="653" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT108" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="497" y="485" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT109" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="512" y="531" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT110" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="525" y="595" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT111" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="543" y="664" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT112" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="494" y="768" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT113" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="475" y="949" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT114" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="451" y="741" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT115" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="452" y="841" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT116" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="421" y="1006" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT117" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <signalmasticon signalmast="ez7-ez13" x="1060" y="1138" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="91" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez8-ez13" x="1061" y="1127" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="99" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez6-ez8" x="950" y="1122" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="91" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez5-ez6" x="747" y="1118" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="207" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez7-ez1" x="626" y="1167" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez6-ez1" x="627" y="1153" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="264" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez8-ez3" x="853" y="1115" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="284" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez9-ez3" x="937" y="1107" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez12-ez3" x="938" y="1092" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="263" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez10-ez9" x="1023" y="1093" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="74" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez4-ez2" x="647" y="1123" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez3-ez2" x="647" y="1111" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="267" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez10-ez11" x="1029" y="1114" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="255" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez5-ez11" x="839" y="1072" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="93" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez4-ez11" x="829" y="1056" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="99" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="nz6-nz3" x="822" y="963" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="113" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="nz7-nz3" x="761" y="962" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="114" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="nz4-nz5" x="735" y="912" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="322" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="nz6-nz8" x="620" y="776" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="352" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="nz5-nz8" x="634" y="777" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="326" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="nz8-nz9" x="618" y="613" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" clickmode="0" litmode="false" degrees="0" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="nz10-nz9" x="600" y="598" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="11" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="snw400-west" x="827" y="113" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="snw403-west" x="895" y="143" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="282" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ssw500-west" x="546" y="60" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="97" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="sz4-sz5" x="448" y="931" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="179" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="sz3-sz5" x="465" y="955" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="sz2-sz6" x="477" y="887" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="179" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="yard-sz2" x="451" y="657" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="346" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez13-nz1" x="1213" y="1120" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="69" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="nz1-ez13" x="1268" y="1111" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="232" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez9-mnt" x="1146" y="1082" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="85" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="mnt-ez9" x="1131" y="908" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="248" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="sz5-ez1" x="403" y="1017" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="166" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez1-sz5" x="598" y="1177" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="314" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="sz6-ez2" x="485" y="1027" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="171" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez2-sz6" x="600" y="1068" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="314" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="nz2-nz1" x="1085" y="732" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="44" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="nz1-nz2" x="1219" y="1207" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="255" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="west-nz9" x="953" y="146" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="145" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="nz9-west" x="656" y="538" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="9" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="nz7-nz10" x="605" y="849" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="333" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="west-sz1" x="474" y="122" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="231" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="sz1-west" x="439" y="126" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="14" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="sz1-sz3" x="450" y="326" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="172" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="sz1-sz4" x="445" y="358" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="sz4-sz1" x="416" y="407" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" clickmode="0" litmode="false" degrees="0" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="mnt-sz2" x="725" y="283" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="sz2-mnt" x="445" y="430" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="0" litmode="false" degrees="0" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="nz3-nz2" x="1066" y="740" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="6" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="mnt-sz2" x="468" y="381" level="9" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="true" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <layoutturnout ident="TO1" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="433.4202880859375" ycen="304.32244873046875" xa="433.4063720703125" ya="273.310791015625" xb="433.4342041015625" yb="335.3341064453125" xc="441.33642578125" yc="334.33038330078125" xd="433.4063720703125" yd="273.310791015625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 101" blockname="SZ1" connectaname="T13" connectbname="T7" connectcname="T114" />
     <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="437.7437744140625" ycen="1007.2344360351562" xa="438.7578125" ya="1037.24609375" xb="436.729736328125" yb="977.2227783203125" xc="447.6319580078125" yc="977.2191162109375" xd="438.7578125" yd="1037.24609375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 117" blockname="SZ5" connectaname="T9" connectbname="T8" connectcname="T113">
       <signalBMast>sz4-sz5</signalBMast>
@@ -4009,7 +4131,10 @@
     <layoutturnout ident="TO20" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="726.6784057617188" ycen="882.353759765625" xa="706.4471435546875" ya="859.1422119140625" xb="746.90966796875" yb="905.5653076171875" xc="753.4948120117188" yc="897.9749755859375" xd="706.4471435546875" yd="859.1422119140625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="North Turnout 305" blockname="NZ5" connectaname="T103" connectbname="T98" connectcname="T99">
       <signalBMast>nz4-nz5</signalBMast>
     </layoutturnout>
-    <layoutturnout ident="TO21" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="636.673828125" ycen="581.754638671875" xa="636.659912109375" ya="556.7430419921875" xb="636.687744140625" yb="606.7662353515625" xc="626.7855224609375" yc="617.7698974609375" xd="636.659912109375" yd="556.7430419921875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="North Turnout 309" secondturnoutname="North Turnout 307" blockname="NZ9" connectaname="T156" connectbname="T106" connectcname="T18" />
+    <layoutturnout ident="TO21" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="636.673828125" ycen="581.754638671875" xa="636.659912109375" ya="556.7430419921875" xb="636.687744140625" yb="606.7662353515625" xc="626.7855224609375" yc="617.7698974609375" xd="636.659912109375" yd="556.7430419921875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="North Turnout 309" secondturnoutname="North Turnout 307" blockname="NZ9" connectaname="T156" connectbname="T106" connectcname="T18">
+      <signalBMast>nz8-nz9</signalBMast>
+      <signalCMast>nz10-nz9</signalCMast>
+    </layoutturnout>
     <layoutturnout ident="TO22" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="607.871337890625" ycen="710.7206420898438" xa="608.88525390625" ya="738.7322387695312" xb="606.857421875" yb="682.7090454101562" xc="615.7596435546875" yc="671.7053833007812" xd="608.88525390625" yd="738.7322387695312" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="North Turnout 307" secondturnoutname="North Turnout 309" blockname="NZ10" connectaname="T108" connectbname="T105" connectcname="T18" />
     <layoutturnout ident="TO23" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="462.6417236328125" ycen="966.9036254882812" xa="462.6556396484375" ya="996.915283203125" xb="462.6278076171875" yb="936.8919677734375" xc="474.530029296875" yc="935.8883056640625" xd="462.6556396484375" yd="996.915283203125" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 114" blockname="SZ6" connectaname="T64" connectbname="T5" connectcname="T6">
       <signalBMast>sz2-sz6</signalBMast>
@@ -4462,24 +4587,24 @@
     <positionablepoint ident="A33" type="ANCHOR" x="1310.853759765625" y="1096.2188720703125" connect1name="T41" connect2name="T40" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A34" type="ANCHOR" x="1261.73095703125" y="1134.9542236328125" connect1name="T42" connect2name="T41" eastboundsignalmast="ez13-nz1" westboundsignalmast="nz1-ez13" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A35" type="ANCHOR" x="1206.386962890625" y="1155.792724609375" connect1name="T43" connect2name="T42" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB26" type="END_BUMPER" x="501.582763671875" y="1129.2161865234375" connect1name="T53" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB26" type="END_BUMPER" x="501.582763671875" y="1129.2161865234375" connect1name="T53" westboundsignalmast="eb26Virtual" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A46" type="ANCHOR" x="802.7487182617188" y="1116.7066650390625" connect1name="T60" connect2name="T59" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A47" type="ANCHOR" x="722.7177734375" y="1116.743896484375" connect1name="T61" connect2name="T60" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A48" type="ANCHOR" x="521.1805419921875" y="1100.365234375" connect1name="T63" connect2name="T62" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A49" type="ANCHOR" x="476.156494140625" y="1055.383056640625" connect1name="T64" connect2name="T63" eastboundsignalmast="sz6-ez2" westboundsignalmast="ez2-sz6" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A51" type="ANCHOR" x="1084.714599609375" y="1119.221435546875" connect1name="T71" connect2name="T69" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB11" type="END_BUMPER" x="1252.768798828125" y="1111.1563720703125" connect1name="T71" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB11" type="END_BUMPER" x="1252.768798828125" y="1111.1563720703125" connect1name="T71" eastboundsignalmast="eb11Virtual" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A54" type="ANCHOR" x="992.9249267578125" y="1084.775634765625" connect1name="T74" connect2name="T72" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A56" type="ANCHOR" x="1112.971435546875" y="1084.719970703125" connect1name="T75" connect2name="T74" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB12" type="END_BUMPER" x="1243.7293701171875" y="1027.17138671875" connect1name="T76" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB12" type="END_BUMPER" x="1243.7293701171875" y="1027.17138671875" connect1name="T76" eastboundsignalmast="eb12Virtual" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A58" type="ANCHOR" x="1174.4390869140625" y="1068.2191162109375" connect1name="T76" connect2name="T75" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A59" type="ANCHOR" x="702.73046875" y="1005.476806640625" connect1name="T78" connect2name="T77" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB13" type="END_BUMPER" x="622.699462890625" y="1005.5139770507812" connect1name="T78" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB13" type="END_BUMPER" x="622.699462890625" y="1005.5139770507812" connect1name="T78" westboundsignalmast="eb13Virtual" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A61" type="ANCHOR" x="726.8648071289062" y="974.4161987304688" connect1name="T80" connect2name="T79" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A62" type="ANCHOR" x="678.860595703125" y="937.6166381835938" connect1name="T81" connect2name="T80" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A63" type="ANCHOR" x="642.016357421875" y="889.6465454101562" connect1name="T82" connect2name="T81" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB14" type="END_BUMPER" x="615.978271484375" y="920.8096923828125" connect1name="T83" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB19" type="END_BUMPER" x="813.97314453125" y="873.0635986328125" connect1name="T89" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB14" type="END_BUMPER" x="615.978271484375" y="920.8096923828125" connect1name="T83" eastboundsignalmast="eb14Virtual" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB19" type="END_BUMPER" x="813.97314453125" y="873.0635986328125" connect1name="T89" westboundsignalmast="eb19Virtual" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A71" type="ANCHOR" x="1086.72314453125" y="886.6448974609375" connect1name="T91" connect2name="T90" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A72" type="ANCHOR" x="1049.923583984375" y="934.6492309570312" connect1name="T92" connect2name="T91" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A73" type="ANCHOR" x="1001.9535522460938" y="971.4933471679688" connect1name="T93" connect2name="T92" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -4490,7 +4615,7 @@
     <positionablepoint ident="A78" type="ANCHOR" x="775.0638427734375" y="941.7063598632812" connect1name="T98" connect2name="T97" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A79" type="ANCHOR" x="827.3878173828125" y="932.0962524414062" connect1name="T100" connect2name="T99" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A80" type="ANCHOR" x="885.3604736328125" y="939.9634399414062" connect1name="T101" connect2name="T100" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB20" type="END_BUMPER" x="1009.4069213867188" y="927.90771484375" connect1name="T102" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB20" type="END_BUMPER" x="1009.4069213867188" y="927.90771484375" connect1name="T102" eastboundsignalmast="eb20Virtual" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A82" type="ANCHOR" x="965.3914794921875" y="935.92626953125" connect1name="T102" connect2name="T101" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB27" type="END_BUMPER" x="603.755126953125" y="431.6239013671875" connect1name="T2" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A88" type="ANCHOR" x="657.58447265625" y="848.888671875" connect1name="T109" connect2name="T20" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -4522,7 +4647,7 @@
     <positionablepoint ident="EB9" type="END_BUMPER" x="1688.5364990234375" y="157.9508056640625" connect1name="T198" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB10" type="END_BUMPER" x="1689.5145263671875" y="173.486083984375" connect1name="T204" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB3" type="END_BUMPER" x="49.7113037109375" y="113.3968505859375" connect1name="T215" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB1" type="END_BUMPER" x="51.0" y="99.0" connect1name="T216" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB1" type="END_BUMPER" x="50.0" y="98.0" connect1name="T216" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB2" type="END_BUMPER" x="50.643798828125" y="82.0675048828125" connect1name="T217" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB4" type="END_BUMPER" x="49.756103515625" y="128.9403076171875" connect1name="T220" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A194" type="ANCHOR" x="528.27490234375" y="82.1639404296875" connect1name="T221" connect2name="T205" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -4652,9 +4777,9 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Mon Dec 28 15:56:06 MST 2020</date>
+      <date>Mon Dec 28 15:42:18 MST 2020</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Mon Dec 28 15:56:06 MST 2020-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Mon Dec 28 15:42:18 MST 2020-->
 </layout-config>
