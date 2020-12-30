@@ -1,0 +1,1503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-4-19-2.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-4-19-2.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>21</minor>
+    <test>3</test>
+    <modifier />
+  </jmriversion>
+  <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
+    <defaultInitialState>unknown</defaultInitialState>
+    <sensor inverted="false">
+      <systemName>ISCLOCKRUNNING</systemName>
+    </sensor>
+  </sensors>
+  <turnouts class="jmri.jmrix.nce.configurexml.NceTurnoutManagerXml">
+    <operations automate="false">
+      <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Raw" class="jmri.configurexml.turnoutoperations.RawTurnoutOperationXml" interval="300" maxtries="1" />
+      <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
+    </operations>
+    <defaultclosedspeed>Normal</defaultclosedspeed>
+    <defaultthrownspeed>Restricted</defaultthrownspeed>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT100</systemName>
+      <userName>South Turnout 100</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT101</systemName>
+      <userName>South Turnout 101</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT102</systemName>
+      <userName>South Turnout 102</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT103</systemName>
+      <userName>South Turnout 103</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT104</systemName>
+      <userName>South Turnout 104</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT105</systemName>
+      <userName>South Turnout 105</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT106</systemName>
+      <userName>South Turnout 106</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT107</systemName>
+      <userName>South Turnout 107</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT108</systemName>
+      <userName>South Turnout 108</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT109</systemName>
+      <userName>South Turnout 109</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT110</systemName>
+      <userName>South Turnout 110</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT111</systemName>
+      <userName>South Turnout 111</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT112</systemName>
+      <userName>South Turnout 112</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT113</systemName>
+      <userName>South Turnout 113</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT114</systemName>
+      <userName>South Turnout 114</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT115</systemName>
+      <userName>South Turnout 115</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT116</systemName>
+      <userName>South Turnout 116</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT117</systemName>
+      <userName>South Turnout 117</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT201</systemName>
+      <userName>East Turnout 201</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT202</systemName>
+      <userName>East Turnout 202</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT203</systemName>
+      <userName>East Turnout 203</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT204</systemName>
+      <userName>East Turnout 204</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT205</systemName>
+      <userName>East Turnout 205</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT206</systemName>
+      <userName>East Turnout 206</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT207</systemName>
+      <userName>East Turnout 207</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT208</systemName>
+      <userName>East Turnout 208</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT209</systemName>
+      <userName>East Turnout 209</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT210</systemName>
+      <userName>East Turnout 210</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT211</systemName>
+      <userName>East Turnout 211</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT301</systemName>
+      <userName>North Turnout 301</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT302</systemName>
+      <userName>North Turnout 302</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT303</systemName>
+      <userName>North Turnout 303</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT304</systemName>
+      <userName>North Turnout 304</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT305</systemName>
+      <userName>North Turnout 305</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT306</systemName>
+      <userName>North Turnout 306</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT307</systemName>
+      <userName>North Turnout 307</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT308</systemName>
+      <userName>North Turnout 308</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT309</systemName>
+      <userName>North Turnout 309</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT400</systemName>
+      <userName>Staging NW Turnout 400</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT401</systemName>
+      <userName>Staging NW Turnout 401</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT402</systemName>
+      <userName>Staging NW Turnout 402</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT403</systemName>
+      <userName>Staging NW Turnout 403</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT404</systemName>
+      <userName>Staging NW Turnout 404</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT405</systemName>
+      <userName>Staging NW Turnout 405</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT406</systemName>
+      <userName>Staging NW Turnout 406</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT407</systemName>
+      <userName>Staging NW Turnout 407</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT500</systemName>
+      <userName>Staging SW Turnout 500</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT501</systemName>
+      <userName>Staging SW Turnout 501</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT502</systemName>
+      <userName>Staging SW Turnout 502</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT503</systemName>
+      <userName>Staging SW Turnout 503</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>NT504</systemName>
+      <userName>Staging SW Turnout 504</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </turnout>
+  </turnouts>
+  <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
+    <memory value="11:53 AM">
+      <systemName>IMCURRENTTIME</systemName>
+    </memory>
+    <memory value="1.0">
+      <systemName>IMRATEFACTOR</systemName>
+    </memory>
+  </memories>
+  <blocks class="jmri.configurexml.BlockManagerXml">
+    <defaultspeed>Normal</defaultspeed>
+    <block systemName="IB1">
+      <systemName>IB1</systemName>
+      <userName>SZ5</userName>
+    </block>
+    <block systemName="IB2">
+      <systemName>IB2</systemName>
+      <userName>EZ1</userName>
+    </block>
+    <block systemName="IB3">
+      <systemName>IB3</systemName>
+      <userName>SZ1</userName>
+    </block>
+    <block systemName="IB4">
+      <systemName>IB4</systemName>
+      <userName>NZ6</userName>
+    </block>
+    <block systemName="IB5">
+      <systemName>IB5</systemName>
+      <userName>SZ3</userName>
+    </block>
+    <block systemName="IB6">
+      <systemName>IB6</systemName>
+      <userName>NZ8</userName>
+    </block>
+    <block systemName="IB7">
+      <systemName>IB7</systemName>
+      <userName>NZ3</userName>
+    </block>
+    <block systemName="IB8">
+      <systemName>IB8</systemName>
+      <userName>NZ2</userName>
+    </block>
+    <block systemName="IB9">
+      <systemName>IB9</systemName>
+      <userName>MNT</userName>
+    </block>
+    <block systemName="IB10">
+      <systemName>IB10</systemName>
+      <userName>SZ4</userName>
+    </block>
+    <block systemName="IB11">
+      <systemName>IB11</systemName>
+      <userName>NZ9</userName>
+    </block>
+    <block systemName="IB12">
+      <systemName>IB12</systemName>
+      <userName>EZ13</userName>
+    </block>
+    <block systemName="IB13">
+      <systemName>IB13</systemName>
+      <userName>NZ1</userName>
+    </block>
+    <block systemName="IB14">
+      <systemName>IB14</systemName>
+      <userName>NZ4</userName>
+    </block>
+    <block systemName="IB15">
+      <systemName>IB15</systemName>
+      <userName>NZ7</userName>
+    </block>
+    <block systemName="IB16">
+      <systemName>IB16</systemName>
+      <userName>NZ10</userName>
+    </block>
+    <block systemName="IB17">
+      <systemName>IB17</systemName>
+      <userName>NZ5</userName>
+    </block>
+    <block systemName="IB18">
+      <systemName>IB18</systemName>
+      <userName>WEST</userName>
+    </block>
+    <block systemName="IB19">
+      <systemName>IB19</systemName>
+      <userName>SZ2</userName>
+    </block>
+    <block systemName="IB20">
+      <systemName>IB20</systemName>
+      <userName>SZ6</userName>
+    </block>
+    <block systemName="IB21">
+      <systemName>IB21</systemName>
+      <userName>UNBLOCKED YARD</userName>
+    </block>
+    <block systemName="IB22">
+      <systemName>IB22</systemName>
+      <userName>EZ12</userName>
+    </block>
+    <block systemName="IB23">
+      <systemName>IB23</systemName>
+      <userName>EZ9</userName>
+    </block>
+    <block systemName="IB24">
+      <systemName>IB24</systemName>
+      <userName>EZ7</userName>
+    </block>
+    <block systemName="IB25">
+      <systemName>IB25</systemName>
+      <userName>EZ2</userName>
+    </block>
+    <block systemName="IB26">
+      <systemName>IB26</systemName>
+      <userName>EZ6</userName>
+    </block>
+    <block systemName="IB27">
+      <systemName>IB27</systemName>
+      <userName>EZ5</userName>
+    </block>
+    <block systemName="IB28">
+      <systemName>IB28</systemName>
+      <userName>EZ4</userName>
+    </block>
+    <block systemName="IB29">
+      <systemName>IB29</systemName>
+      <userName>EZ3</userName>
+    </block>
+    <block systemName="IB30">
+      <systemName>IB30</systemName>
+      <userName>EZ8</userName>
+    </block>
+    <block systemName="IB31">
+      <systemName>IB31</systemName>
+      <userName>EZ11</userName>
+    </block>
+    <block systemName="IB32">
+      <systemName>IB32</systemName>
+      <userName>EZ10</userName>
+    </block>
+    <block systemName="IB1" length="0.0" curve="0">
+      <systemName>IB1</systemName>
+      <userName>SZ5</userName>
+      <permissive>no</permissive>
+      <path todir="96" fromdir="144" block="IB2" />
+      <path todir="16" fromdir="32" block="IB5">
+        <beansetting setting="4">
+          <turnout systemName="South Turnout 117" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB10">
+        <beansetting setting="2">
+          <turnout systemName="South Turnout 117" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB2" length="0.0" curve="0">
+      <systemName>IB2</systemName>
+      <userName>EZ1</userName>
+      <permissive>no</permissive>
+      <path todir="144" fromdir="96" block="IB1" />
+      <path todir="64" fromdir="128" block="IB24">
+        <beansetting setting="2">
+          <turnout systemName="East Turnout 201" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB26">
+        <beansetting setting="4">
+          <turnout systemName="East Turnout 201" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB3" length="0.0" curve="0">
+      <systemName>IB3</systemName>
+      <userName>SZ1</userName>
+      <permissive>no</permissive>
+      <path todir="32" fromdir="16" block="IB5">
+        <beansetting setting="4">
+          <turnout systemName="South Turnout 101" />
+        </beansetting>
+      </path>
+      <path todir="32" fromdir="16" block="IB10" />
+      <path todir="80" fromdir="160" block="IB18" />
+    </block>
+    <block systemName="IB4" length="0.0" curve="0">
+      <systemName>IB4</systemName>
+      <userName>NZ6</userName>
+      <permissive>no</permissive>
+      <path todir="16" fromdir="32" block="IB6">
+        <beansetting setting="2">
+          <turnout systemName="North Turnout 308" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB7">
+        <beansetting setting="4">
+          <turnout systemName="North Turnout 303" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB5" length="0.0" curve="0">
+      <systemName>IB5</systemName>
+      <userName>SZ3</userName>
+      <permissive>no</permissive>
+      <path todir="32" fromdir="16" block="IB1">
+        <beansetting setting="4">
+          <turnout systemName="South Turnout 117" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB3" />
+      <path todir="16" fromdir="32" block="IB19">
+        <beansetting setting="4">
+          <turnout systemName="South Turnout 105" />
+        </beansetting>
+      </path>
+      <path todir="80" fromdir="160" block="IB19">
+        <beansetting setting="4">
+          <turnout systemName="South Turnout 116" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB6" length="0.0" curve="0">
+      <systemName>IB6</systemName>
+      <userName>NZ8</userName>
+      <permissive>no</permissive>
+      <path todir="32" fromdir="16" block="IB4">
+        <beansetting setting="2">
+          <turnout systemName="North Turnout 308" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB11">
+        <beansetting setting="2">
+          <turnout systemName="North Turnout 309" />
+        </beansetting>
+      </path>
+      <path todir="96" fromdir="144" block="IB17">
+        <beansetting setting="4">
+          <turnout systemName="North Turnout 308" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB7" length="0.0" curve="0">
+      <systemName>IB7</systemName>
+      <userName>NZ3</userName>
+      <permissive>no</permissive>
+      <path todir="128" fromdir="64" block="IB4">
+        <beansetting setting="4">
+          <turnout systemName="North Turnout 303" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB8">
+        <beansetting setting="2">
+          <turnout systemName="North Turnout 301" />
+        </beansetting>
+      </path>
+      <path todir="144" fromdir="96" block="IB15">
+        <beansetting setting="4">
+          <turnout systemName="North Turnout 304" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="North Turnout 303" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB8" length="0.0" curve="0">
+      <systemName>IB8</systemName>
+      <userName>NZ2</userName>
+      <permissive>no</permissive>
+      <path todir="32" fromdir="16" block="IB7">
+        <beansetting setting="2">
+          <turnout systemName="North Turnout 301" />
+        </beansetting>
+      </path>
+      <path todir="80" fromdir="160" block="IB13" />
+      <path todir="160" fromdir="80" block="IB14">
+        <beansetting setting="2">
+          <turnout systemName="North Turnout 302" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="North Turnout 301" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB9" length="0.0" curve="0">
+      <systemName>IB9</systemName>
+      <userName>MNT</userName>
+      <permissive>no</permissive>
+      <path todir="32" fromdir="16" block="IB19" />
+      <path todir="128" fromdir="64" block="IB23" />
+    </block>
+    <block systemName="IB10" length="0.0" curve="0">
+      <systemName>IB10</systemName>
+      <userName>SZ4</userName>
+      <permissive>no</permissive>
+      <path todir="32" fromdir="16" block="IB1">
+        <beansetting setting="2">
+          <turnout systemName="South Turnout 117" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB3" />
+    </block>
+    <block systemName="IB11" length="0.0" curve="0">
+      <systemName>IB11</systemName>
+      <userName>NZ9</userName>
+      <permissive>no</permissive>
+      <path todir="32" fromdir="16" block="IB6">
+        <beansetting setting="2">
+          <turnout systemName="North Turnout 309" />
+        </beansetting>
+      </path>
+      <path todir="32" fromdir="16" block="IB16">
+        <beansetting setting="4">
+          <turnout systemName="North Turnout 309" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB18" />
+    </block>
+    <block systemName="IB12" length="0.0" curve="0">
+      <systemName>IB12</systemName>
+      <userName>EZ13</userName>
+      <permissive>no</permissive>
+      <path todir="80" fromdir="160" block="IB13" />
+      <path todir="128" fromdir="64" block="IB24">
+        <beansetting setting="2">
+          <turnout systemName="East Turnout 209" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB30">
+        <beansetting setting="4">
+          <turnout systemName="East Turnout 209" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB13" length="0.0" curve="0">
+      <systemName>IB13</systemName>
+      <userName>NZ1</userName>
+      <permissive>no</permissive>
+      <path todir="160" fromdir="80" block="IB8" />
+      <path todir="160" fromdir="80" block="IB12" />
+    </block>
+    <block systemName="IB14" length="0.0" curve="0">
+      <systemName>IB14</systemName>
+      <userName>NZ4</userName>
+      <permissive>no</permissive>
+      <path todir="80" fromdir="160" block="IB8">
+        <beansetting setting="2">
+          <turnout systemName="North Turnout 302" />
+        </beansetting>
+      </path>
+      <path todir="144" fromdir="96" block="IB17">
+        <beansetting setting="2">
+          <turnout systemName="North Turnout 305" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB15" length="0.0" curve="0">
+      <systemName>IB15</systemName>
+      <userName>NZ7</userName>
+      <permissive>no</permissive>
+      <path todir="96" fromdir="144" block="IB7">
+        <beansetting setting="4">
+          <turnout systemName="North Turnout 304" />
+        </beansetting>
+      </path>
+      <path todir="144" fromdir="96" block="IB16">
+        <beansetting setting="4">
+          <turnout systemName="North Turnout 306" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB16" length="0.0" curve="0">
+      <systemName>IB16</systemName>
+      <userName>NZ10</userName>
+      <permissive>no</permissive>
+      <path todir="16" fromdir="32" block="IB11">
+        <beansetting setting="4">
+          <turnout systemName="North Turnout 309" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="North Turnout 307" />
+        </beansetting>
+      </path>
+      <path todir="96" fromdir="144" block="IB15">
+        <beansetting setting="4">
+          <turnout systemName="North Turnout 306" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB17" length="0.0" curve="0">
+      <systemName>IB17</systemName>
+      <userName>NZ5</userName>
+      <permissive>no</permissive>
+      <path todir="144" fromdir="96" block="IB6">
+        <beansetting setting="4">
+          <turnout systemName="North Turnout 308" />
+        </beansetting>
+      </path>
+      <path todir="96" fromdir="144" block="IB14">
+        <beansetting setting="2">
+          <turnout systemName="North Turnout 305" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB18" length="0.0" curve="0">
+      <systemName>IB18</systemName>
+      <userName>WEST</userName>
+      <permissive>no</permissive>
+      <path todir="160" fromdir="80" block="IB3" />
+      <path todir="32" fromdir="16" block="IB11">
+        <beansetting setting="4">
+          <turnout systemName="Staging NW Turnout 403" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="Staging NW Turnout 400" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB21">
+        <beansetting setting="2">
+          <turnout systemName="Staging NW Turnout 403" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="Staging NW Turnout 400" />
+        </beansetting>
+      </path>
+      <path todir="80" fromdir="160" block="IB21">
+        <beansetting setting="2">
+          <turnout systemName="Staging NW Turnout 400" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB21">
+        <beansetting setting="4">
+          <turnout systemName="Staging SW Turnout 500" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB19" length="0.0" curve="0">
+      <systemName>IB19</systemName>
+      <userName>SZ2</userName>
+      <permissive>no</permissive>
+      <path todir="32" fromdir="16" block="IB5">
+        <beansetting setting="4">
+          <turnout systemName="South Turnout 105" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="South Turnout 106" />
+        </beansetting>
+      </path>
+      <path todir="160" fromdir="80" block="IB5">
+        <beansetting setting="4">
+          <turnout systemName="South Turnout 116" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="South Turnout 115" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="South Turnout 107" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB9">
+        <beansetting setting="2">
+          <turnout systemName="South Turnout 106" />
+        </beansetting>
+      </path>
+      <path todir="32" fromdir="16" block="IB20">
+        <beansetting setting="2">
+          <turnout systemName="South Turnout 114" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="South Turnout 115" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="South Turnout 107" />
+        </beansetting>
+      </path>
+      <path todir="32" fromdir="16" block="IB21">
+        <beansetting setting="4">
+          <turnout systemName="South Turnout 107" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB20" length="0.0" curve="0">
+      <systemName>IB20</systemName>
+      <userName>SZ6</userName>
+      <permissive>no</permissive>
+      <path todir="16" fromdir="32" block="IB19">
+        <beansetting setting="2">
+          <turnout systemName="South Turnout 114" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB21">
+        <beansetting setting="4">
+          <turnout systemName="South Turnout 114" />
+        </beansetting>
+      </path>
+      <path todir="96" fromdir="144" block="IB25" />
+    </block>
+    <block systemName="IB21" length="0.0" curve="0">
+      <systemName>IB21</systemName>
+      <userName>UNBLOCKED YARD</userName>
+      <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB18">
+        <beansetting setting="4">
+          <turnout systemName="Staging SW Turnout 500" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB18">
+        <beansetting setting="2">
+          <turnout systemName="Staging NW Turnout 403" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="Staging NW Turnout 407" />
+        </beansetting>
+      </path>
+      <path todir="160" fromdir="80" block="IB18">
+        <beansetting setting="2">
+          <turnout systemName="Staging NW Turnout 400" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB19">
+        <beansetting setting="4">
+          <turnout systemName="South Turnout 107" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="South Turnout 108" />
+        </beansetting>
+      </path>
+      <path todir="32" fromdir="16" block="IB20" />
+    </block>
+    <block systemName="IB22" length="0.0" curve="0">
+      <systemName>IB22</systemName>
+      <userName>EZ12</userName>
+      <permissive>no</permissive>
+      <path todir="128" fromdir="64" block="IB29">
+        <beansetting setting="4">
+          <turnout systemName="East Turnout 206" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB23" length="0.0" curve="0">
+      <systemName>IB23</systemName>
+      <userName>EZ9</userName>
+      <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB9" />
+      <path todir="128" fromdir="64" block="IB29">
+        <beansetting setting="2">
+          <turnout systemName="East Turnout 206" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="East Turnout 211" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB32">
+        <beansetting setting="4">
+          <turnout systemName="East Turnout 211" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB24" length="0.0" curve="0">
+      <systemName>IB24</systemName>
+      <userName>EZ7</userName>
+      <permissive>no</permissive>
+      <path todir="128" fromdir="64" block="IB2">
+        <beansetting setting="2">
+          <turnout systemName="East Turnout 201" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB12">
+        <beansetting setting="2">
+          <turnout systemName="East Turnout 209" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB25" length="0.0" curve="0">
+      <systemName>IB25</systemName>
+      <userName>EZ2</userName>
+      <permissive>no</permissive>
+      <path todir="144" fromdir="96" block="IB20" />
+      <path todir="64" fromdir="128" block="IB28">
+        <beansetting setting="2">
+          <turnout systemName="East Turnout 202" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB29">
+        <beansetting setting="4">
+          <turnout systemName="East Turnout 202" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB26" length="0.0" curve="0">
+      <systemName>IB26</systemName>
+      <userName>EZ6</userName>
+      <permissive>no</permissive>
+      <path todir="128" fromdir="64" block="IB2">
+        <beansetting setting="4">
+          <turnout systemName="East Turnout 201" />
+        </beansetting>
+      </path>
+      <path todir="80" fromdir="160" block="IB27">
+        <beansetting setting="4">
+          <turnout systemName="East Turnout 203" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB30">
+        <beansetting setting="2">
+          <turnout systemName="East Turnout 208" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="East Turnout 203" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB27" length="0.0" curve="0">
+      <systemName>IB27</systemName>
+      <userName>EZ5</userName>
+      <permissive>no</permissive>
+      <path todir="160" fromdir="80" block="IB26">
+        <beansetting setting="4">
+          <turnout systemName="East Turnout 203" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="East Turnout 204" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB31">
+        <beansetting setting="2">
+          <turnout systemName="East Turnout 207" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB28" length="0.0" curve="0">
+      <systemName>IB28</systemName>
+      <userName>EZ4</userName>
+      <permissive>no</permissive>
+      <path todir="128" fromdir="64" block="IB25">
+        <beansetting setting="2">
+          <turnout systemName="East Turnout 202" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB31">
+        <beansetting setting="4">
+          <turnout systemName="East Turnout 207" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB29" length="0.0" curve="0">
+      <systemName>IB29</systemName>
+      <userName>EZ3</userName>
+      <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB22">
+        <beansetting setting="4">
+          <turnout systemName="East Turnout 206" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="East Turnout 205" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB23">
+        <beansetting setting="2">
+          <turnout systemName="East Turnout 206" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="East Turnout 205" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB25">
+        <beansetting setting="4">
+          <turnout systemName="East Turnout 202" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB30">
+        <beansetting setting="4">
+          <turnout systemName="East Turnout 205" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB30" length="0.0" curve="0">
+      <systemName>IB30</systemName>
+      <userName>EZ8</userName>
+      <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB12">
+        <beansetting setting="4">
+          <turnout systemName="East Turnout 209" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB26">
+        <beansetting setting="2">
+          <turnout systemName="East Turnout 208" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB29">
+        <beansetting setting="4">
+          <turnout systemName="East Turnout 205" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="East Turnout 208" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB31" length="0.0" curve="0">
+      <systemName>IB31</systemName>
+      <userName>EZ11</userName>
+      <permissive>no</permissive>
+      <path todir="128" fromdir="64" block="IB27">
+        <beansetting setting="2">
+          <turnout systemName="East Turnout 207" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB28">
+        <beansetting setting="4">
+          <turnout systemName="East Turnout 207" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB32">
+        <beansetting setting="4">
+          <turnout systemName="East Turnout 210" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB32" length="0.0" curve="0">
+      <systemName>IB32</systemName>
+      <userName>EZ10</userName>
+      <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB23">
+        <beansetting setting="4">
+          <turnout systemName="East Turnout 211" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB31">
+        <beansetting setting="4">
+          <turnout systemName="East Turnout 210" />
+        </beansetting>
+      </path>
+    </block>
+  </blocks>
+  <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml" blockrouting="yes">
+    <layoutblock systemName="ILB1" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB1</systemName>
+      <userName>SZ5</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB2" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB2</systemName>
+      <userName>EZ1</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB3" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB3</systemName>
+      <userName>SZ1</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB5" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB5</systemName>
+      <userName>NZ6</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB7" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB7</systemName>
+      <userName>SZ3</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB8" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB8</systemName>
+      <userName>NZ8</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB11" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB11</systemName>
+      <userName>NZ3</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB17" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB17</systemName>
+      <userName>NZ2</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB19" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB19</systemName>
+      <userName>MNT</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB20" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB20</systemName>
+      <userName>SZ4</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB21" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB21</systemName>
+      <userName>NZ9</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB22" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB22</systemName>
+      <userName>EZ13</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB23" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB23</systemName>
+      <userName>NZ1</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB24" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB24</systemName>
+      <userName>NZ4</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB26" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB26</systemName>
+      <userName>NZ7</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB27" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB27</systemName>
+      <userName>NZ10</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB28" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB28</systemName>
+      <userName>NZ5</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB30" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB30</systemName>
+      <userName>WEST</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB31" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB31</systemName>
+      <userName>SZ2</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB32" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB32</systemName>
+      <userName>SZ6</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB34" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB34</systemName>
+      <userName>UNBLOCKED YARD</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB35" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB35</systemName>
+      <userName>EZ12</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB36" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB36</systemName>
+      <userName>EZ9</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB37" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB37</systemName>
+      <userName>EZ7</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB38" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB38</systemName>
+      <userName>EZ2</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB39" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB39</systemName>
+      <userName>EZ6</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB40" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB40</systemName>
+      <userName>EZ5</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB41" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB41</systemName>
+      <userName>EZ4</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB42" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB42</systemName>
+      <userName>EZ3</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB43" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB43</systemName>
+      <userName>EZ8</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB44" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB44</systemName>
+      <userName>EZ11</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB45" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB45</systemName>
+      <userName>EZ10</userName>
+    </layoutblock>
+  </layoutblocks>
+  <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
+    <logicDelay>500</logicDelay>
+  </signalmastlogics>
+  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Nov 29 11:15:51 MST 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
+  <filehistory>
+    <operation>
+      <type>app</type>
+      <date>Wed Dec 30 11:51:11 MST 2020</date>
+      <filename>JMRI program</filename>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Wed Dec 30 11:51:19 MST 2020</date>
+      <filename>/Users/mdean/JMRI/Mike_Basement_Layout/Turnouts.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Wed Dec 30 11:33:19 MST 2020</date>
+          <filename>JMRI program</filename>
+        </operation>
+        <operation>
+          <type>Load with errors</type>
+          <date>Wed Dec 30 11:33:28 MST 2020</date>
+          <filename>/Users/mdean/JMRI/Mike_Basement_Layout/LayoutPanelWithAssignedSignals.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Wed Dec 30 10:36:38 MST 2020</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load with errors</type>
+              <date>Wed Dec 30 10:36:50 MST 2020</date>
+              <filename>/Users/mdean/JMRI/Mike_Basement_Layout/EntireLayoutPanelWithAssignedSignals.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Tue Dec 29 16:29:06 MST 2020</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Tue Dec 29 16:29:13 MST 2020</date>
+                  <filename>/Users/mdean/JMRI/Mike_Basement_Layout/EntireLayoutPanelWithAssignedSignals.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Tue Dec 29 15:13:18 MST 2020</date>
+                      <filename>JMRI program</filename>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Tue Dec 29 15:13:25 MST 2020</date>
+                      <filename>/Users/mdean/JMRI/Mike_Basement_Layout/EntireLayoutPanelWithAssignedSignals.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Tue Dec 29 15:04:11 MST 2020</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Tue Dec 29 15:04:19 MST 2020</date>
+                          <filename>/Users/mdean/JMRI/Mike_Basement_Layout/EntireLayoutPanelWithAssignedSignals.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Tue Dec 29 15:09:43 MST 2020</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Tue Dec 29 16:28:27 MST 2020</date>
+                      <filename />
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Tue Dec 29 16:33:34 MST 2020</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Wed Dec 30 10:40:28 MST 2020</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Wed Dec 30 11:47:02 MST 2020</date>
+          <filename />
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
+      <type>Store</type>
+      <date>Wed Dec 30 11:53:05 MST 2020</date>
+      <filename />
+    </operation>
+  </filehistory>
+  <!--Written by JMRI version 4.21.3+R63094d48b on Wed Dec 30 11:53:05 MST 2020-->
+</layout-config>

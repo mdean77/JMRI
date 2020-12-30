@@ -1,5 +1,5 @@
-#JMRI Preferences version 4.20+Rc7ba8249b
-#Tue Dec 29 16:27:45 MST 2020
+#JMRI Preferences version 4.21.3+R63094d48b
+#Wed Dec 30 12:34:47 MST 2020
 apps-gui.fontSize=0
 apps-gui.graphicTableState=false
 apps-gui.locale=en-US
@@ -45,6 +45,7 @@ jmri-util-gui.graphicTableState=false
 jmri-util-gui.locale=en-US
 jmri-util-gui.lookAndFeel=com.apple.laf.AquaLookAndFeel
 jmri-util-gui.nonstandardMouseEvent=false
+jmri-util-gui.oblockEditTabbed=false
 jmri-util-gui.showToolTipDismissDelay=4000
 jmri-web-server.allowRemoteConfig=false
 jmri-web-server.clickDelay=1
