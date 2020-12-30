@@ -18,12 +18,12 @@ class setStartup(jmri.jmrit.automat.AbstractAutomaton) :
   def init(self):
     return
   def handle(self):
-    for x in turnouts.getNamedBeanSet():
-       turnouts.provideTurnout(x.getDisplayName()).setState(CLOSED)
-       self.waitMsec(500)
+    for x in turnouts.getSystemNameList().toArray() :
+       turnouts.provideTurnout(x).setState(CLOSED)
+       #self.waitMsec(500)
     for x in ['NT400','NT403', 'NT303', 'NT202', 'NT102'] :
        turnouts.provideTurnout(x).setState(THROWN)
-       self.waitMsec(500)
+       #self.waitMsec(500)
     return False              # all done, don't repeat again
 
 setStartup().start()          # create one of these, and start it running

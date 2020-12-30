@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
+        <connection xmlns="" class="jmri.jmrix.nce.simulator.configurexml.ConnectionConfigXml" disabled="no" manufacturer="NCE" port="" speed="" systemPrefix="N" userName="NCE">
+            <options/>
+        </connection>
+    </connections>
+    <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
+        <perform xmlns="" class="apps.configurexml.PerformFileModelXml" name="home:JMRI/Mike_Basement_Layout/EntireLayoutPanelWithAssignedSignals.xml" type="XmlFile"/>
+        <perform xmlns="" class="apps.configurexml.PerformScriptModelXml" name="scripts:MikeInitializeAllTurnouts.py" type="ScriptFile"/>
+    </startup>
+</auxiliary-configuration>
