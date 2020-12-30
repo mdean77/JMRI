@@ -1,5 +1,15 @@
 *.bak
 *.xml.?.bak
 .DS_Store
+profile.properties.1.bak
+profile.properties.2.bak
+profile.properties.3.bak
+profile.properties.4.bak
+profile.xml.1.bak
+profile.xml.2.bak
+profile.xml.3.bak
+profile.xml.4.bak
+
+Mike_Basement_Layout/backupPanels/*.xml
 
 
