@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
     <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
-        <connection xmlns="" class="jmri.jmrix.nce.usbdriver.configurexml.ConnectionConfigXml" disabled="no" manufacturer="NCE" port="cu.SLAB_USBtoUART" speed="19200" systemPrefix="N" userName="NCE">
+        <connection xmlns="" class="jmri.jmrix.nce.usbdriver.configurexml.ConnectionConfigXml" disabled="no" manufacturer="NCE" port="cu.SLAB_USBtoUART" reconnectMaxAttempts="100" reconnectMaxInterval="120" speed="19200" systemPrefix="N" turnoutInterval="250" userName="NCE">
             <options>
                 <option>
                     <name>System</name>
@@ -15,12 +15,12 @@
         </connection>
     </connections>
     <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
-        <perform xmlns="" class="apps.configurexml.PerformFileModelXml" name="preference:EntireLayoutPanelWithAssignedSignals.xml" type="XmlFile"/>
-        <perform xmlns="" class="apps.configurexml.PerformScriptModelXml" name="scripts:MikeInitializeAllTurnouts.py" type="ScriptFile"/>
-        <perform xmlns="" class="apps.configurexml.PerformActionModelXml" name="jmri.jmrit.withrottle.WiThrottleCreationAction" type="Action">
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformFileModelXml" name="preference:LayoutPanelWithAssignedSignals.xml" type="XmlFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" name="scripts:MikeInitializeAllTurnouts.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" name="jmri.jmrit.withrottle.WiThrottleCreationAction" type="Action">
             <property name="systemPrefix" value=""/>
         </perform>
-        <perform xmlns="" class="apps.configurexml.PerformActionModelXml" name="jmri.web.server.WebServerAction" type="Action">
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" name="jmri.web.server.WebServerAction" type="Action">
             <property name="systemPrefix" value=""/>
         </perform>
     </startup>
