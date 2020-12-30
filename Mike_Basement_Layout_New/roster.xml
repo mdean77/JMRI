@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
-<roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.21.2+R4558b1c10 on Thu Nov 26 13:12:35 MST 2020-->
-  <roster />
-</roster-config>
