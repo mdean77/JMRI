@@ -154,210 +154,516 @@
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT100</systemName>
       <userName>South Turnout 100</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT101</systemName>
       <userName>South Turnout 101</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT102</systemName>
       <userName>South Turnout 102</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT103</systemName>
       <userName>South Turnout 103</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT104</systemName>
       <userName>South Turnout 104</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT105</systemName>
       <userName>South Turnout 105</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT106</systemName>
       <userName>South Turnout 106</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT107</systemName>
       <userName>South Turnout 107</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT108</systemName>
       <userName>South Turnout 108</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT109</systemName>
       <userName>South Turnout 109</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT110</systemName>
       <userName>South Turnout 110</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT111</systemName>
       <userName>South Turnout 111</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT112</systemName>
       <userName>South Turnout 112</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT113</systemName>
       <userName>South Turnout 113</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT114</systemName>
       <userName>South Turnout 114</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT115</systemName>
       <userName>South Turnout 115</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT116</systemName>
       <userName>South Turnout 116</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT117</systemName>
       <userName>South Turnout 117</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT201</systemName>
       <userName>East Turnout 201</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT202</systemName>
       <userName>East Turnout 202</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT203</systemName>
       <userName>East Turnout 203</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT204</systemName>
       <userName>East Turnout 204</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT205</systemName>
       <userName>East Turnout 205</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT206</systemName>
       <userName>East Turnout 206</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT207</systemName>
       <userName>East Turnout 207</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT208</systemName>
       <userName>East Turnout 208</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT209</systemName>
       <userName>East Turnout 209</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT210</systemName>
       <userName>East Turnout 210</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT211</systemName>
       <userName>East Turnout 211</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT301</systemName>
       <userName>North Turnout 301</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT302</systemName>
       <userName>North Turnout 302</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT303</systemName>
       <userName>North Turnout 303</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT304</systemName>
       <userName>North Turnout 304</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT305</systemName>
       <userName>North Turnout 305</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT306</systemName>
       <userName>North Turnout 306</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT307</systemName>
       <userName>North Turnout 307</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT308</systemName>
       <userName>North Turnout 308</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT309</systemName>
       <userName>North Turnout 309</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT400</systemName>
       <userName>Staging NW Turnout 400</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT401</systemName>
       <userName>Staging NW Turnout 401</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT402</systemName>
       <userName>Staging NW Turnout 402</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT403</systemName>
       <userName>Staging NW Turnout 403</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT404</systemName>
       <userName>Staging NW Turnout 404</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT405</systemName>
       <userName>Staging NW Turnout 405</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT406</systemName>
       <userName>Staging NW Turnout 406</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT407</systemName>
       <userName>Staging NW Turnout 407</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT500</systemName>
       <userName>Staging SW Turnout 500</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT501</systemName>
       <userName>Staging SW Turnout 501</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT502</systemName>
       <userName>Staging SW Turnout 502</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT503</systemName>
       <userName>Staging SW Turnout 503</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>NT504</systemName>
       <userName>Staging SW Turnout 504</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="10:44 AM">
+    <memory value="4:33 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -768,6 +1074,139 @@
       <userName>ez1-sz5</userName>
       <unlit allowed="no" />
     </signalmast>
+    <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
+      <systemName>IF$shsm:basic:one-searchlight(ez2-sz6)</systemName>
+      <userName>ez2-sz6</userName>
+      <unlit allowed="no" />
+    </signalmast>
+    <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
+      <systemName>IF$shsm:basic:one-searchlight(ez9-mnt)</systemName>
+      <userName>ez9-mnt</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+    </signalmast>
+    <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
+      <systemName>IF$shsm:basic:one-searchlight(ez13-nz1)</systemName>
+      <userName>ez13-nz1</userName>
+      <unlit allowed="no" />
+    </signalmast>
+    <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
+      <systemName>IF$shsm:basic:one-searchlight(mnt-ez9)</systemName>
+      <userName>mnt-ez9</userName>
+      <unlit allowed="no" />
+    </signalmast>
+    <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
+      <systemName>IF$shsm:basic:one-searchlight(mnt-sz2)</systemName>
+      <userName>mnt-sz2</userName>
+      <unlit allowed="no" />
+    </signalmast>
+    <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
+      <systemName>IF$shsm:basic:one-searchlight(nz3-nz2)</systemName>
+      <userName>nz3-nz2</userName>
+      <unlit allowed="no" />
+    </signalmast>
+    <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
+      <systemName>IF$shsm:basic:one-searchlight(nz9-west)</systemName>
+      <userName>nz9-west</userName>
+      <unlit allowed="no" />
+    </signalmast>
+    <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
+      <systemName>IF$shsm:basic:one-searchlight(sz1-west)</systemName>
+      <userName>sz1-west</userName>
+      <unlit allowed="no" />
+    </signalmast>
+    <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
+      <systemName>IF$shsm:basic:one-searchlight(sz2-mnt)</systemName>
+      <userName>sz2-mnt</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+    </signalmast>
+    <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
+      <systemName>IF$shsm:basic:one-searchlight(sz5-ez1)</systemName>
+      <userName>sz5-ez1</userName>
+      <unlit allowed="no" />
+    </signalmast>
+    <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
+      <systemName>IF$shsm:basic:one-searchlight(sz6-ez2)</systemName>
+      <userName>sz6-ez2</userName>
+      <unlit allowed="no" />
+    </signalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-searchlight($0001)</systemName>
+      <userName>Virtual ez9-mnt</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-searchlight($0002)</systemName>
+      <userName>Virtual ez1-sz5</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-searchlight($0003)</systemName>
+      <userName>Virtual ez2-sz6</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-searchlight($0005)</systemName>
+      <userName>Virtual ez13-nz1</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-searchlight($0006)</systemName>
+      <userName>Virtual nz9-west</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-searchlight($0007)</systemName>
+      <userName>Virtual2 nz9-west</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <signalmastrepeater>
+      <masterMast>ez9-mnt</masterMast>
+      <slaveMast>Virtual ez9-mnt</slaveMast>
+      <enabled>true</enabled>
+      <update>MasterToSlave</update>
+    </signalmastrepeater>
+    <signalmastrepeater>
+      <masterMast>ez1-sz5</masterMast>
+      <slaveMast>Virtual ez1-sz5</slaveMast>
+      <enabled>true</enabled>
+      <update>MasterToSlave</update>
+    </signalmastrepeater>
+    <signalmastrepeater>
+      <masterMast>ez2-sz6</masterMast>
+      <slaveMast>Virtual ez2-sz6</slaveMast>
+      <enabled>true</enabled>
+      <update>MasterToSlave</update>
+    </signalmastrepeater>
+    <signalmastrepeater>
+      <masterMast>ez13-nz1</masterMast>
+      <slaveMast>Virtual ez13-nz1</slaveMast>
+      <enabled>true</enabled>
+      <update>MasterToSlave</update>
+    </signalmastrepeater>
+    <signalmastrepeater>
+      <masterMast>nz9-west</masterMast>
+      <slaveMast>Virtual nz9-west</slaveMast>
+      <enabled>true</enabled>
+      <update>MasterToSlave</update>
+    </signalmastrepeater>
+    <signalmastrepeater>
+      <masterMast>nz9-west</masterMast>
+      <slaveMast>Virtual2 nz9-west</slaveMast>
+      <enabled>true</enabled>
+      <update>MasterToSlave</update>
+    </signalmastrepeater>
   </signalmasts>
   <blocks class="jmri.configurexml.BlockManagerXml">
     <defaultspeed>Normal</defaultspeed>
@@ -1671,17 +2110,667 @@
     <signalelement signal="sz5-ez1" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false" />
     <signalelement signal="ez1-sz5" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false" />
     <signalelement signal="ez2-sz6" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false" />
-    <signalelement signal="nz1-nz2" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false" />
-    <signalelement signal="mnt-ez9" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false" />
-    <signalelement signal="ez9-mnt" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false" />
-    <signalelement signal="nz1-ez13" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false" />
-    <signalelement signal="nz9-west" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false" />
   </signalelements>
+  <routes class="jmri.managers.configurexml.DefaultRouteManagerXml">
+    <route userName="NW Track 1">
+      <systemName>IO:AUTO:0001</systemName>
+      <userName>NW Track 1</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <routeOutputTurnout systemName="Staging NW Turnout 400" state="CLOSED" />
+      <routeOutputTurnout systemName="Staging NW Turnout 401" state="CLOSED" />
+      <routeOutputSensor systemName="West / Staging" state="ACTIVE" />
+    </route>
+    <route userName="Close NW Staging">
+      <systemName>IO:AUTO:0002</systemName>
+      <userName>Close NW Staging</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <routeOutputTurnout systemName="Staging NW Turnout 400" state="THROWN" />
+      <routeOutputTurnout systemName="Staging NW Turnout 403" state="THROWN" />
+    </route>
+    <route userName="NW Track 2">
+      <systemName>IO:AUTO:0003</systemName>
+      <userName>NW Track 2</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <routeOutputTurnout systemName="Staging NW Turnout 400" state="CLOSED" />
+      <routeOutputTurnout systemName="Staging NW Turnout 401" state="THROWN" />
+      <routeOutputTurnout systemName="Staging NW Turnout 402" state="THROWN" />
+    </route>
+    <route userName="NW Track 3">
+      <systemName>IO:AUTO:0004</systemName>
+      <userName>NW Track 3</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <routeOutputTurnout systemName="Staging NW Turnout 400" state="CLOSED" />
+      <routeOutputTurnout systemName="Staging NW Turnout 401" state="THROWN" />
+      <routeOutputTurnout systemName="Staging NW Turnout 402" state="CLOSED" />
+      <routeOutputTurnout systemName="Staging NW Turnout 404" state="THROWN" />
+    </route>
+    <route userName="NW Track 4">
+      <systemName>IO:AUTO:0005</systemName>
+      <userName>NW Track 4</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <routeOutputTurnout systemName="Staging NW Turnout 400" state="CLOSED" />
+      <routeOutputTurnout systemName="Staging NW Turnout 401" state="THROWN" />
+      <routeOutputTurnout systemName="Staging NW Turnout 402" state="CLOSED" />
+      <routeOutputTurnout systemName="Staging NW Turnout 404" state="CLOSED" />
+      <routeOutputTurnout systemName="Staging NW Turnout 405" state="THROWN" />
+    </route>
+    <route userName="NW Track 5">
+      <systemName>IO:AUTO:0006</systemName>
+      <userName>NW Track 5</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <routeOutputTurnout systemName="Staging NW Turnout 400" state="CLOSED" />
+      <routeOutputTurnout systemName="Staging NW Turnout 401" state="THROWN" />
+      <routeOutputTurnout systemName="Staging NW Turnout 402" state="CLOSED" />
+      <routeOutputTurnout systemName="Staging NW Turnout 404" state="CLOSED" />
+      <routeOutputTurnout systemName="Staging NW Turnout 405" state="CLOSED" />
+      <routeOutputTurnout systemName="Staging NW Turnout 406" state="THROWN" />
+    </route>
+    <route userName="NW Track 6">
+      <systemName>IO:AUTO:0007</systemName>
+      <userName>NW Track 6</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <routeOutputTurnout systemName="Staging NW Turnout 400" state="CLOSED" />
+      <routeOutputTurnout systemName="Staging NW Turnout 401" state="THROWN" />
+      <routeOutputTurnout systemName="Staging NW Turnout 402" state="CLOSED" />
+      <routeOutputTurnout systemName="Staging NW Turnout 404" state="CLOSED" />
+      <routeOutputTurnout systemName="Staging NW Turnout 405" state="CLOSED" />
+      <routeOutputTurnout systemName="Staging NW Turnout 406" state="CLOSED" />
+      <routeOutputTurnout systemName="Staging NW Turnout 407" state="THROWN" />
+    </route>
+    <route userName="NW Bypass">
+      <systemName>IO:AUTO:0008</systemName>
+      <userName>NW Bypass</userName>
+      <properties>
+        <property>
+          <key>WifiControllable</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <routeOutputTurnout systemName="Staging NW Turnout 400" state="THROWN" />
+      <routeOutputTurnout systemName="Staging NW Turnout 403" state="CLOSED" />
+      <routeOutputTurnout systemName="Staging NW Turnout 407" state="CLOSED" />
+    </route>
+  </routes>
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
+    <signalmastlogic source="ez1-sz5">
+      <sourceSignalMast>ez1-sz5</sourceSignalMast>
+      <destinationMast destination="sz1-west">
+        <destinationSignalMast>sz1-west</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="sz2-mnt">
+        <destinationSignalMast>sz2-mnt</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="ez2-sz6">
+      <sourceSignalMast>ez2-sz6</sourceSignalMast>
+      <destinationMast destination="ez1-sz5">
+        <destinationSignalMast>ez1-sz5</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="nz3-nz2">
+        <destinationSignalMast>nz3-nz2</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="sz2-mnt">
+        <destinationSignalMast>sz2-mnt</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="ez9-mnt">
+      <sourceSignalMast>ez9-mnt</sourceSignalMast>
+      <destinationMast destination="mnt-sz2">
+        <destinationSignalMast>mnt-sz2</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="ez13-nz1">
+      <sourceSignalMast>ez13-nz1</sourceSignalMast>
+      <destinationMast destination="nz9-west">
+        <destinationSignalMast>nz9-west</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="Virtual nz9-west">
+        <destinationSignalMast>Virtual nz9-west</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+        <blocks>
+          <block>
+            <blockName>NZ8</blockName>
+            <blockState>unoccupied</blockState>
+          </block>
+          <block>
+            <blockName>NZ2</blockName>
+            <blockState>unoccupied</blockState>
+          </block>
+          <block>
+            <blockName>NZ9</blockName>
+            <blockState>unoccupied</blockState>
+          </block>
+          <block>
+            <blockName>NZ1</blockName>
+            <blockState>unoccupied</blockState>
+          </block>
+          <block>
+            <blockName>NZ4</blockName>
+            <blockState>unoccupied</blockState>
+          </block>
+          <block>
+            <blockName>NZ5</blockName>
+            <blockState>unoccupied</blockState>
+          </block>
+        </blocks>
+        <turnouts>
+          <turnout>
+            <turnoutName>North Turnout 301</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+          <turnout>
+            <turnoutName>North Turnout 302</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+          <turnout>
+            <turnoutName>North Turnout 305</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+          <turnout>
+            <turnoutName>North Turnout 308</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+          <turnout>
+            <turnoutName>North Turnout 309</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+        </turnouts>
+      </destinationMast>
+      <destinationMast destination="Virtual2 nz9-west">
+        <destinationSignalMast>Virtual2 nz9-west</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+        <blocks>
+          <block>
+            <blockName>NZ3</blockName>
+            <blockState>unoccupied</blockState>
+          </block>
+          <block>
+            <blockName>NZ2</blockName>
+            <blockState>unoccupied</blockState>
+          </block>
+          <block>
+            <blockName>NZ9</blockName>
+            <blockState>unoccupied</blockState>
+          </block>
+          <block>
+            <blockName>NZ1</blockName>
+            <blockState>unoccupied</blockState>
+          </block>
+          <block>
+            <blockName>NZ7</blockName>
+            <blockState>unoccupied</blockState>
+          </block>
+          <block>
+            <blockName>NZ10</blockName>
+            <blockState>unoccupied</blockState>
+          </block>
+        </blocks>
+        <turnouts>
+          <turnout>
+            <turnoutName>North Turnout 301</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+          <turnout>
+            <turnoutName>North Turnout 303</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+          <turnout>
+            <turnoutName>North Turnout 304</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+          <turnout>
+            <turnoutName>North Turnout 306</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+          <turnout>
+            <turnoutName>North Turnout 307</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+          <turnout>
+            <turnoutName>North Turnout 309</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+        </turnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="mnt-ez9">
+      <sourceSignalMast>mnt-ez9</sourceSignalMast>
+      <destinationMast destination="ez1-sz5">
+        <destinationSignalMast>ez1-sz5</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="ez2-sz6">
+        <destinationSignalMast>ez2-sz6</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="mnt-sz2">
+      <sourceSignalMast>mnt-sz2</sourceSignalMast>
+      <destinationMast destination="ez2-sz6">
+        <destinationSignalMast>ez2-sz6</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="ez13-nz1">
+        <destinationSignalMast>ez13-nz1</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="nz3-nz2">
+        <destinationSignalMast>nz3-nz2</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="sz5-ez1">
+        <destinationSignalMast>sz5-ez1</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="sz6-ez2">
+        <destinationSignalMast>sz6-ez2</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="nz3-nz2">
+      <sourceSignalMast>nz3-nz2</sourceSignalMast>
+      <destinationMast destination="ez1-sz5">
+        <destinationSignalMast>ez1-sz5</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="ez2-sz6">
+        <destinationSignalMast>ez2-sz6</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="Virtual ez1-sz5">
+        <destinationSignalMast>Virtual ez1-sz5</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+        <blocks>
+          <block>
+            <blockName>EZ6</blockName>
+            <blockState>unoccupied</blockState>
+          </block>
+          <block>
+            <blockName>EZ8</blockName>
+            <blockState>unoccupied</blockState>
+          </block>
+        </blocks>
+        <turnouts>
+          <turnout>
+            <turnoutName>East Turnout 201</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+          <turnout>
+            <turnoutName>East Turnout 203</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+          <turnout>
+            <turnoutName>East Turnout 208</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+          <turnout>
+            <turnoutName>East Turnout 209</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+        </turnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="nz9-west">
+      <sourceSignalMast>nz9-west</sourceSignalMast>
+      <destinationMast destination="sz2-mnt">
+        <destinationSignalMast>sz2-mnt</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="sz5-ez1">
+        <destinationSignalMast>sz5-ez1</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="sz6-ez2">
+        <destinationSignalMast>sz6-ez2</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="sz1-west">
+      <sourceSignalMast>sz1-west</sourceSignalMast>
+      <destinationMast destination="ez1-sz5">
+        <destinationSignalMast>ez1-sz5</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="ez2-sz6">
+        <destinationSignalMast>ez2-sz6</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="nz3-nz2">
+        <destinationSignalMast>nz3-nz2</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="sz2-mnt">
+      <sourceSignalMast>sz2-mnt</sourceSignalMast>
+      <destinationMast destination="mnt-ez9">
+        <destinationSignalMast>mnt-ez9</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="sz5-ez1">
+      <sourceSignalMast>sz5-ez1</sourceSignalMast>
+      <destinationMast destination="ez9-mnt">
+        <destinationSignalMast>ez9-mnt</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="ez13-nz1">
+        <destinationSignalMast>ez13-nz1</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="Virtual ez13-nz1">
+        <destinationSignalMast>Virtual ez13-nz1</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+        <blocks>
+          <block>
+            <blockName>EZ6</blockName>
+            <blockState>unoccupied</blockState>
+          </block>
+          <block>
+            <blockName>EZ8</blockName>
+            <blockState>unoccupied</blockState>
+          </block>
+        </blocks>
+        <turnouts>
+          <turnout>
+            <turnoutName>East Turnout 201</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+          <turnout>
+            <turnoutName>East Turnout 203</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+          <turnout>
+            <turnoutName>East Turnout 208</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+          <turnout>
+            <turnoutName>East Turnout 209</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+        </turnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="sz6-ez2">
+      <sourceSignalMast>sz6-ez2</sourceSignalMast>
+      <destinationMast destination="ez9-mnt">
+        <destinationSignalMast>ez9-mnt</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="ez13-nz1">
+        <destinationSignalMast>ez13-nz1</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="Virtual ez9-mnt">
+        <destinationSignalMast>Virtual ez9-mnt</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+        <blocks>
+          <block>
+            <blockName>EZ9</blockName>
+            <blockState>unoccupied</blockState>
+          </block>
+          <block>
+            <blockName>EZ3</blockName>
+            <blockState>unoccupied</blockState>
+          </block>
+        </blocks>
+        <turnouts>
+          <turnout>
+            <turnoutName>East Turnout 202</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+          <turnout>
+            <turnoutName>East Turnout 207</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+          <turnout>
+            <turnoutName>East Turnout 210</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+          <turnout>
+            <turnoutName>East Turnout 211</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+        </turnouts>
+      </destinationMast>
+    </signalmastlogic>
   </signalmastlogics>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Nov 29 11:15:51 MST 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="64" y="79" windowheight="877" windowwidth="1389" panelheight="1279" panelwidth="1740" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="48" y="23" windowheight="877" windowwidth="1389" panelheight="1230" panelwidth="1740" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Mike Dean's Basement Layout" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -1759,16 +2848,30 @@
     <positionablelabel x="451" y="741" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT115" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="452" y="841" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT116" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="421" y="1006" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT117" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <signalmasticon signalmast="sz1-west" x="399" y="231" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="14" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="sz5-ez1" x="448" y="1051" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="166" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez1-sz5" x="445" y="1106" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="314" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="sz6-ez2" x="470" y="1007" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="167" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez2-sz6" x="467" y="1062" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="314" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez13-nz1" x="1213" y="1120" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="69" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez9-mnt" x="1159" y="1073" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="85" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="mnt-ez9" x="1152" y="927" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="248" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="nz3-nz2" x="1106" y="754" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="6" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="mnt-sz2" x="813" y="203" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="sz2-mnt" x="438" y="429" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="0" litmode="false" degrees="0" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="nz9-west" x="669" y="505" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="9" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <layoutturnout ident="TO1" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="433.4202880859375" ycen="304.32244873046875" xa="433.4063720703125" ya="273.310791015625" xb="433.4342041015625" yb="335.3341064453125" xc="441.33642578125" yc="334.33038330078125" xd="433.4063720703125" yd="273.310791015625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 101" blockname="SZ1" connectaname="T13" connectbname="T7" connectcname="T114" />
     <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="437.7437744140625" ycen="1007.2344360351562" xa="438.7578125" ya="1037.24609375" xb="436.729736328125" yb="977.2227783203125" xc="447.6319580078125" yc="977.2191162109375" xd="438.7578125" yd="1037.24609375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 117" blockname="SZ5" connectaname="T9" connectbname="T8" connectcname="T113" />
     <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="636.73876953125" ycen="741.2760009765625" xa="636.7247314453125" ya="711.2643432617188" xb="636.7528076171875" yb="771.2876586914062" xc="646.655029296875" yc="770.283935546875" xd="636.7247314453125" yd="711.2643432617188" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="North Turnout 308" blockname="NZ8" connectaname="T106" connectbname="T19" connectcname="T103" />
     <layoutturnout ident="TO4" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="872.7963256835938" ycen="1005.3977661132812" xa="902.8079833984375" ya="1005.3837890625" xb="842.78466796875" yb="1005.4117431640625" xc="842.781005859375" yc="997.509521484375" xd="902.8079833984375" yd="1005.3837890625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="North Turnout 303" blockname="NZ3" connectaname="T23" connectbname="T236" connectcname="T22" />
-    <layoutturnout ident="TO5" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1133.2408447265625" ycen="742.75146484375" xa="1133.2269287109375" ya="712.7398681640625" xb="1133.2547607421875" yb="772.7630615234375" xc="1125.3526611328125" yc="772.7667236328125" xd="1133.2269287109375" yd="712.7398681640625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="North Turnout 301" blockname="NZ2" connectaname="T29" connectbname="T28" connectcname="T237" />
+    <layoutturnout ident="TO5" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1133.2408447265625" ycen="742.75146484375" xa="1133.2269287109375" ya="712.7398681640625" xb="1133.2547607421875" yb="772.7630615234375" xc="1125.3526611328125" yc="772.7667236328125" xd="1133.2269287109375" yd="712.7398681640625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="North Turnout 301" blockname="NZ2" connectaname="T29" connectbname="T28" connectcname="T237">
+      <signalBMast>nz3-nz2</signalBMast>
+    </layoutturnout>
     <layoutturnout ident="TO6" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1114.8447265625" ycen="1163.3302001953125" xa="1144.8563232421875" ya="1163.316162109375" xb="1084.8331298828125" yb="1163.34423828125" xc="1084.8294677734375" yc="1155.4420166015625" xd="1144.8563232421875" yd="1163.316162109375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="East Turnout 209" blockname="EZ13" connectaname="T43" connectbname="T49" connectcname="T56" />
     <layoutturnout ident="TO7" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="591.6865234375" ycen="1160.7760009765625" xa="561.675048828125" ya="1160.7899169921875" xb="621.697998046875" yb="1160.7620849609375" xc="621.6943359375" yc="1152.85986328125" xd="561.675048828125" yd="1160.7899169921875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="East Turnout 201" blockname="EZ1" connectaname="T11" connectbname="T49" connectcname="T50" />
     <layoutturnout ident="TO8" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="710.67138671875" ycen="1145.9229736328125" xa="680.6597900390625" ya="1145.9368896484375" xb="740.6829833984375" yb="1145.9090576171875" xc="740.6793212890625" yc="1138.0068359375" xd="680.6597900390625" yd="1145.9368896484375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="East Turnout 203" secondturnoutname="East Turnout 204" blockname="EZ6" connectaname="T50" connectbname="T57" connectcname="T238" />
     <layoutturnout ident="TO9" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="771.687255859375" ycen="1128.0906982421875" xa="801.6988525390625" ya="1128.0767822265625" xb="741.6756591796875" yb="1128.1046142578125" xc="741.6793212890625" yc="1136.0068359375" xd="801.6988525390625" yd="1128.0767822265625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="East Turnout 204" secondturnoutname="East Turnout 203" blockname="EZ5" connectaname="T58" connectbname="T53" connectcname="T238" />
-    <layoutturnout ident="TO10" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1004.4292602539062" ycen="1147.583740234375" xa="1034.4408569335938" ya="1147.56982421875" xb="974.4176635742188" yb="1147.59765625" xc="985.4140014648438" yc="1143.6954345703125" xd="1034.4408569335938" yd="1147.56982421875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="East Turnout 208" blockname="EZ8" connectaname="T56" connectbname="T57" connectcname="T239" />
+    <layoutturnout ident="TO10" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1004.4292602539062" ycen="1146.583740234375" xa="1034.4408569335938" ya="1146.56982421875" xb="974.4176635742188" yb="1146.59765625" xc="985.4140014648438" yc="1142.6954345703125" xd="1034.4408569335938" yd="1146.56982421875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="East Turnout 208" blockname="EZ8" connectaname="T56" connectbname="T57" connectcname="T239" />
     <layoutturnout ident="TO11" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="872.9407348632812" ycen="1130.8653564453125" xa="889.9523315429688" ya="1130.8514404296875" xb="855.9291381835938" yb="1130.8792724609375" xc="842.9254150390625" yc="1122.97705078125" xd="889.9523315429688" yd="1130.8514404296875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="East Turnout 207" blockname="EZ11" connectaname="T241" connectbname="T58" connectcname="T59" />
     <layoutturnout ident="TO12" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="612.6751708984375" ycen="1116.794921875" xa="582.66357421875" ya="1116.808837890625" xb="642.686767578125" yb="1116.781005859375" xc="642.68310546875" yc="1108.8787841796875" xd="582.66357421875" yd="1116.808837890625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="East Turnout 202" blockname="EZ2" connectaname="T62" connectbname="T61" connectcname="T66" />
     <layoutturnout ident="TO13" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="823.2752685546875" ycen="1101.6522216796875" xa="792.263671875" ya="1103.6661376953125" xb="854.286865234375" yb="1099.6383056640625" xc="855.29052734375" yc="1115.54052734375" xd="792.263671875" yd="1103.6661376953125" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="East Turnout 205" blockname="EZ3" connectaname="T66" connectbname="T68" connectcname="T67" />
@@ -2196,9 +3299,9 @@
     <tracksegment ident="T12" blockname="UNBLOCKED YARD" connect1name="A4" type1="POS_POINT" connect2name="TO51" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T45" blockname="MNT" connect1name="A5" type1="POS_POINT" connect2name="A140" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T46" blockname="MNT" connect1name="A6" type1="POS_POINT" connect2name="A1" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <positionablepoint ident="A8" type="ANCHOR" x="454.8828125" y="1099.156494140625" connect1name="T10" connect2name="T9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A8" type="ANCHOR" x="454.8828125" y="1099.156494140625" connect1name="T10" connect2name="T9" eastboundsignalmast="sz5-ez1" westboundsignalmast="ez1-sz5" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A9" type="ANCHOR" x="499.9420166015625" y="1144.164794921875" connect1name="T11" connect2name="T10" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A11" type="ANCHOR" x="467.2467041015625" y="146.634521484375" connect1name="T14" connect2name="T13" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A11" type="ANCHOR" x="467.2467041015625" y="145.634521484375" connect1name="T14" connect2name="T13" westboundsignalmast="sz1-west" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A12" type="ANCHOR" x="508.22900390625" y="112.6104736328125" connect1name="T15" connect2name="T14" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A13" type="ANCHOR" x="709.7509765625" y="96.044677734375" connect1name="T17" connect2name="T16" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A15" type="ANCHOR" x="642.060546875" y="811.4594116210938" connect1name="T20" connect2name="T19" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -2220,13 +3323,13 @@
     <positionablepoint ident="A31" type="ANCHOR" x="1371.01513671875" y="992.49072265625" connect1name="T39" connect2name="T38" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A32" type="ANCHOR" x="1347.8939208984375" y="1048.3837890625" connect1name="T40" connect2name="T39" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A33" type="ANCHOR" x="1310.853759765625" y="1096.2188720703125" connect1name="T41" connect2name="T40" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A34" type="ANCHOR" x="1261.73095703125" y="1134.9542236328125" connect1name="T42" connect2name="T41" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A34" type="ANCHOR" x="1261.73095703125" y="1134.9542236328125" connect1name="T42" connect2name="T41" eastboundsignalmast="ez13-nz1" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A35" type="ANCHOR" x="1206.386962890625" y="1155.792724609375" connect1name="T43" connect2name="T42" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB26" type="END_BUMPER" x="501.582763671875" y="1129.2161865234375" connect1name="T53" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A46" type="ANCHOR" x="802.7487182617188" y="1116.7066650390625" connect1name="T60" connect2name="T59" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A47" type="ANCHOR" x="722.7177734375" y="1116.743896484375" connect1name="T61" connect2name="T60" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A48" type="ANCHOR" x="521.1805419921875" y="1100.365234375" connect1name="T63" connect2name="T62" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A49" type="ANCHOR" x="476.156494140625" y="1055.383056640625" connect1name="T64" connect2name="T63" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A49" type="ANCHOR" x="476.156494140625" y="1055.383056640625" connect1name="T64" connect2name="T63" eastboundsignalmast="sz6-ez2" westboundsignalmast="ez2-sz6" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A51" type="ANCHOR" x="1084.714599609375" y="1119.221435546875" connect1name="T71" connect2name="T69" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB11" type="END_BUMPER" x="1252.768798828125" y="1111.1563720703125" connect1name="T71" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A54" type="ANCHOR" x="992.9249267578125" y="1084.775634765625" connect1name="T74" connect2name="T72" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -2268,7 +3371,7 @@
     <positionablepoint ident="EB17" type="END_BUMPER" x="505.97802734375" y="1008.7335205078125" connect1name="T143" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB16" type="END_BUMPER" x="520.51220703125" y="984.6810913085938" connect1name="T147" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB15" type="END_BUMPER" x="535.037109375" y="1010.620849609375" connect1name="T150" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A125" type="ANCHOR" x="961.0576171875" y="195.1689453125" connect1name="T152" connect2name="T44" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A125" type="ANCHOR" x="961.0576171875" y="195.1689453125" connect1name="T152" connect2name="T44" westboundsignalmast="nz9-west" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A126" type="ANCHOR" x="946.8782348632812" y="280.390625" connect1name="T153" connect2name="T152" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A127" type="ANCHOR" x="895.7122802734375" y="320.74652099609375" connect1name="T154" connect2name="T153" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A128" type="ANCHOR" x="840.0651245117188" y="343.1212158203125" connect1name="T155" connect2name="T154" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -2307,111 +3410,111 @@
     <positionablepoint ident="A2" type="ANCHOR" x="596.3062744140625" y="597.16650390625" connect1name="T105" connect2name="T2" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A3" type="ANCHOR" x="433.623046875" y="402.91015625" connect1name="T8" connect2name="T7" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A4" type="ANCHOR" x="476.705322265625" y="881.8134155273438" connect1name="T6" connect2name="T12" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A5" type="ANCHOR" x="1206.2017822265625" y="1095.810791015625" connect1name="T164" connect2name="T45" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A6" type="ANCHOR" x="462.74560546875" y="425.91497802734375" connect1name="T225" connect2name="T46" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A5" type="ANCHOR" x="1206.2017822265625" y="1095.810791015625" connect1name="T164" connect2name="T45" eastboundsignalmast="ez9-mnt" westboundsignalmast="mnt-ez9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A6" type="ANCHOR" x="462.74560546875" y="424.91497802734375" connect1name="T225" connect2name="T46" eastboundsignalmast="mnt-sz2" westboundsignalmast="sz2-mnt" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <levelxing ident="X1" blocknameac="EZ8" blocknamebd="EZ11" connectaname="T239" connectbname="T240" connectcname="T67" connectdname="T241" xcen="933.6488037109375" ycen="1130.3004150390625" xa="962.6641235351562" ya="1138.1885986328125" xb="963.660400390625" yb="1130.286376953125" class="jmri.jmrit.display.layoutEditor.configurexml.LevelXingXml" />
   </LayoutEditor>
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Tue Dec 29 10:03:55 MST 2020</date>
+      <date>Tue Dec 29 16:29:06 MST 2020</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Tue Dec 29 10:04:03 MST 2020</date>
-      <filename>/Users/mdean/JMRI/Mike_Basement_Layout/EntireLayoutPanelWithSignals.xml</filename>
+      <date>Tue Dec 29 16:29:13 MST 2020</date>
+      <filename>/Users/mdean/JMRI/Mike_Basement_Layout/EntireLayoutPanelWithAssignedSignals.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Mon Dec 28 16:52:09 MST 2020</date>
+          <date>Tue Dec 29 15:13:18 MST 2020</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Mon Dec 28 16:52:17 MST 2020</date>
-          <filename>/Users/mdean/JMRI/Mike_Basement_Layout/EntireLayoutPanelWithSignals.xml</filename>
+          <date>Tue Dec 29 15:13:25 MST 2020</date>
+          <filename>/Users/mdean/JMRI/Mike_Basement_Layout/EntireLayoutPanelWithAssignedSignals.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Mon Dec 28 15:28:19 MST 2020</date>
+              <date>Tue Dec 29 15:04:11 MST 2020</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Mon Dec 28 15:28:28 MST 2020</date>
-              <filename>/Users/mdean/JMRI/Mike_Basement_Layout/EntireLayoutPanelWithSignals.xml</filename>
+              <date>Tue Dec 29 15:04:19 MST 2020</date>
+              <filename>/Users/mdean/JMRI/Mike_Basement_Layout/EntireLayoutPanelWithAssignedSignals.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Mon Dec 28 15:22:59 MST 2020</date>
+                  <date>Tue Dec 29 14:31:37 MST 2020</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Mon Dec 28 15:23:07 MST 2020</date>
-                  <filename>/Users/mdean/JMRI/Mike_Basement_Layout/EntireLayoutPanelWithSignals.xml</filename>
+                  <date>Tue Dec 29 14:31:44 MST 2020</date>
+                  <filename>/Users/mdean/JMRI/Mike_Basement_Layout/EntireLayoutPanelWithAssignedSignals.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Mon Dec 28 15:14:51 MST 2020</date>
+                      <date>Tue Dec 29 14:13:11 MST 2020</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Mon Dec 28 15:14:59 MST 2020</date>
-                      <filename>/Users/mdean/JMRI/Mike_Basement_Layout/EntireLayoutPanelWithSignals.xml</filename>
+                      <date>Tue Dec 29 14:13:19 MST 2020</date>
+                      <filename>/Users/mdean/JMRI/Mike_Basement_Layout/EntireLayoutPanelWithAssignedSignals.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Mon Dec 28 13:52:58 MST 2020</date>
+                          <date>Tue Dec 29 13:22:39 MST 2020</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Mon Dec 28 13:53:16 MST 2020</date>
-                          <filename>/Users/mdean/JMRI/Mike_Basement_Layout/EntireLayoutPanelWithSignals.xml</filename>
+                          <date>Tue Dec 29 13:22:46 MST 2020</date>
+                          <filename>/Users/mdean/JMRI/Mike_Basement_Layout/EntireLayoutPanelWithAssignedSignals.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Mon Dec 28 15:07:11 MST 2020</date>
+                          <date>Tue Dec 29 14:12:08 MST 2020</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Mon Dec 28 15:22:08 MST 2020</date>
+                      <date>Tue Dec 29 14:26:59 MST 2020</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Mon Dec 28 15:27:49 MST 2020</date>
+                  <date>Tue Dec 29 14:46:49 MST 2020</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Mon Dec 28 15:56:06 MST 2020</date>
+              <date>Tue Dec 29 15:09:43 MST 2020</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Mon Dec 28 17:04:57 MST 2020</date>
+          <date>Tue Dec 29 16:28:27 MST 2020</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue Dec 29 10:44:22 MST 2020</date>
+      <date>Tue Dec 29 16:33:34 MST 2020</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Dec 29 10:44:22 MST 2020-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Dec 29 16:33:34 MST 2020-->
 </layout-config>

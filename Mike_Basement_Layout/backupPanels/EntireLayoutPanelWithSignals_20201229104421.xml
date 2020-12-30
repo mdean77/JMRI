@@ -357,7 +357,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="10:44 AM">
+    <memory value="10:41 AM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -762,13 +762,6 @@
       </aspect>
     </signalhead>
   </signalheads>
-  <signalmasts class="jmri.managers.configurexml.DefaultSignalMastManagerXml">
-    <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
-      <systemName>IF$shsm:basic:one-searchlight(ez1-sz5)</systemName>
-      <userName>ez1-sz5</userName>
-      <unlit allowed="no" />
-    </signalmast>
-  </signalmasts>
   <blocks class="jmri.configurexml.BlockManagerXml">
     <defaultspeed>Normal</defaultspeed>
     <block systemName="IB1">
@@ -2409,9 +2402,9 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue Dec 29 10:44:22 MST 2020</date>
+      <date>Tue Dec 29 10:41:54 MST 2020</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Dec 29 10:44:22 MST 2020-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Dec 29 10:41:54 MST 2020-->
 </layout-config>
