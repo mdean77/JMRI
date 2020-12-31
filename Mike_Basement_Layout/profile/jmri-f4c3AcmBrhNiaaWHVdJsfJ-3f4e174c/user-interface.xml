@@ -100,6 +100,12 @@
         <table xmlns="" name="jmri.jmrit.beantable.LogixTableAction:Logix">
             <columns/>
         </table>
+        <table xmlns="" name="jmri.jmrit.dispatcher.DispatcherFrame:activeTrainsTableModel">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.dispatcher.DispatcherFrame:allocationRequestTable">
+            <columns/>
+        </table>
         <table xmlns="" name="jmri.jmrit.beantable.SignalGroupTableAction:Signal Groups">
             <columns/>
         </table>
@@ -196,6 +202,9 @@
         <table xmlns="" name="jmri.jmrit.beantable.RouteTableDataModel:Routes">
             <columns/>
         </table>
+        <table xmlns="" name="jmri.jmrit.dispatcher.DispatcherFrame:allocatedSectionTable">
+            <columns/>
+        </table>
         <table xmlns="" name="jmri.jmrit.beantable.SectionTableAction:Sections">
             <columns/>
         </table>
@@ -260,7 +269,7 @@
         <window xmlns="" class="jmri.jmrit.beantable.routetable.RouteEditFrame:Edit Route" locX="100.0" locY="23.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Lights" height="854.0" locX="51.0" locY="23.0" width="1338.0"/>
         <window xmlns="" class="jmri.jmrit.display.switchboardEditor.SwitchboardEditor:Switchboard" locX="860.0" locY="38.0"/>
-        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Mike Dean's Basement Layout" height="877.0" locX="113.0" locY="23.0" width="1127.0">
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Mike Dean's Basement Layout" height="836.0" locX="92.0" locY="185.0" width="1389.0">
             <properties>
                 <property>
                     <key>zoom</key>
@@ -297,11 +306,11 @@
         <window xmlns="" class="jmri.jmrit.signalling.SignallingSourceFrame:4" locX="71.0" locY="24.0"/>
         <window xmlns="" class="jmri.jmrit.signalling.SignallingSourceFrame:5" locX="71.0" locY="24.0"/>
         <window xmlns="" class="jmri.jmrit.signalling.SignallingSourceFrame:2" locX="73.0" locY="24.0"/>
-        <window xmlns="" class="jmri.jmrit.signalling.SignallingSourceFrame:3" locX="71.0" locY="24.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Masts" height="670.0" locX="350.0" locY="96.0" width="1338.0"/>
+        <window xmlns="" class="jmri.jmrit.signalling.SignallingSourceFrame:3" locX="73.0" locY="24.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Masts" height="670.0" locX="122.0" locY="578.0" width="1338.0"/>
         <window xmlns="" class="jmri.jmrit.signalling.SignallingSourceFrame:1" locX="73.0" locY="24.0"/>
         <window xmlns="" class="apps.jmrit.log.LogFrame" height="87.0" locX="51.0" locY="23.0" width="563.0"/>
-        <window xmlns="" class="PanelPro" height="231.0" locX="953.0" locY="428.0" width="487.0"/>
+        <window xmlns="" class="PanelPro" height="231.0" locX="119.0" locY="338.0" width="487.0"/>
         <window xmlns="" class="jmri.jmrit.automat.monitor.AutomatTableFrame" height="191.0" locX="825.0" locY="628.0" width="564.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Sections:1" height="854.0" locX="51.0" locY="23.0" width="1338.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Sections" height="831.0" locX="51.0" locY="46.0" width="1338.0"/>
@@ -312,12 +321,13 @@
         <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="464.0" locX="111.0" locY="76.0" width="1212.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.oblock.TableFrames:OBlock Table" height="622.0" locX="51.0" locY="23.0" width="1100.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Sensors" height="831.0" locX="51.0" locY="23.0" width="1338.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Mast Logic" height="670.0" locX="348.0" locY="102.0" width="1338.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Mast Logic" height="831.0" locX="122.0" locY="578.0" width="1338.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$4:ALCO 2-6-0 Steam" height="669.0" locX="66.0" locY="24.0" width="981.0"/>
         <window xmlns="" class="apps.gui3.TabbedPreferencesFrame:Preferences" height="464.0" locX="143.0" locY="203.0" width="937.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Blocks" height="566.0" locX="53.0" locY="67.0" width="1338.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Heads" height="566.0" locX="53.0" locY="67.0" width="1338.0"/>
-        <window xmlns="" class="jmri.jmrit.signalling.SignallingFrame:1" locX="123.0" locY="102.0"/>
+        <window xmlns="" class="jmri.jmrit.signalling.SignallingFrame:2" locX="51.0" locY="23.0"/>
+        <window xmlns="" class="jmri.jmrit.signalling.SignallingFrame:1" locX="51.0" locY="23.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Audio" height="854.0" locX="51.0" locY="23.0" width="1338.0"/>
         <window xmlns="" class="Edit Track Segment:1" locX="50.0" locY="23.0"/>
         <window xmlns="" class="Edit Track Segment:2" locX="50.0" locY="23.0"/>
@@ -339,9 +349,9 @@
         <window xmlns="" class="jmri.jmrit.display.switchboardEditor.SwitchboardEditor:Switchboard:1" locX="83.0" locY="343.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:LRoutes" height="854.0" locX="134.0" locY="40.0" width="1338.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:LRoutes:1" height="854.0" locX="51.0" locY="23.0" width="1338.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="831.0" locX="51.0" locY="37.0" width="1338.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="831.0" locX="213.0" locY="334.0" width="1338.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:LRoutes:2" height="854.0" locX="51.0" locY="23.0" width="1338.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.signalmast.AddSignalMastJFrame:Add/Edit Signal Mast" locX="58.0" locY="26.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.signalmast.AddSignalMastJFrame:Add/Edit Signal Mast" locX="51.0" locY="23.0"/>
         <window xmlns="" class="JMRI System Console" height="802.0" locX="162.0" locY="98.0" width="1214.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:Program GE ES44AC &quot;Thunder&quot; in Operations Mode (Main Track)" height="865.0" locX="69.0" locY="23.0" width="1273.0"/>
         <window xmlns="" class="jmri.util.usb.UsbBrowserFrame:USB Devices" height="520.0" locX="51.0" locY="23.0" width="781.0"/>
@@ -351,7 +361,7 @@
         <window xmlns="" class="Script Entry" height="675.0" locX="107.0" locY="142.0" width="794.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Memory Variables" height="831.0" locX="51.0" locY="27.0" width="1338.0"/>
         <window xmlns="" class="jmri.jmrit.withrottle.ControllerFilterFrame:Filter Controls" height="373.0" locX="51.0" locY="23.0" width="706.0"/>
-        <window xmlns="" class="jmri.jmrit.signalling.SignallingFrame" locX="290.0" locY="23.0"/>
+        <window xmlns="" class="jmri.jmrit.signalling.SignallingFrame" locX="73.0" locY="24.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Blocks:1" height="831.0" locX="187.0" locY="36.0" width="1338.0"/>
         <window xmlns="" class="jmri.jmrit.cabsignals.CabSignalPane" height="275.0" locX="51.0" locY="23.0" width="659.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:Program GE ES44AC &quot;Thunder&quot; in Operations Mode (Main Track):1" height="865.0" locX="69.0" locY="23.0" width="1273.0"/>
@@ -397,7 +407,7 @@
             </properties>
         </window>
         <window xmlns="" class="Edit Signal Head" locX="73.0" locY="24.0"/>
-        <window xmlns="" class="jmri.jmrit.signalling.SignallingSourceFrame" locX="73.0" locY="24.0"/>
+        <window xmlns="" class="jmri.jmrit.signalling.SignallingSourceFrame" locX="51.0" locY="23.0"/>
         <window xmlns="" class="jmri.jmrit.dispatcher.DispatcherFrame" height="705.0" locX="113.0" locY="23.0" width="954.0"/>
         <window xmlns="" class="Set Signal Masts at Block Boundary" locX="70.0" locY="23.0"/>
     </windowDetails>
