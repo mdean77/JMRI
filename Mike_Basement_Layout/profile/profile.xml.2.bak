@@ -15,6 +15,6 @@
         </connection>
     </connections>
     <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformFileModelXml" name="preference:Turnouts.xml" type="XmlFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformFileModelXml" name="preference:EntireLayoutPanel_20201228004605.xml" type="XmlFile"/>
     </startup>
 </auxiliary-configuration>

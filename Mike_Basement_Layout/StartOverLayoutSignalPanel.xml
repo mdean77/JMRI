@@ -365,7 +365,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="4:33 PM">
+    <memory value="5:03 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -795,12 +795,6 @@
     <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
       <systemName>IF$shsm:basic:one-searchlight(ez13-nz1)</systemName>
       <userName>ez13-nz1</userName>
-      <properties>
-        <property>
-          <key>intermediateSignal</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-      </properties>
       <unlit allowed="no" />
     </signalmast>
     <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
@@ -899,6 +893,47 @@
       <userName>Virtual2 nz9-west</userName>
       <unlit allowed="no" />
     </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-searchlight($0011)</systemName>
+      <userName>Virtual ez1-sz5</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <signalmastrepeater>
+      <masterMast>ez1-sz5</masterMast>
+      <slaveMast>Virtual ez1-sz5</slaveMast>
+      <enabled>true</enabled>
+      <update>MasterToSlave</update>
+    </signalmastrepeater>
+    <signalmastrepeater>
+      <masterMast>nz9-west</masterMast>
+      <slaveMast>Virtual2 nz9-west</slaveMast>
+      <enabled>true</enabled>
+      <update>MasterToSlave</update>
+    </signalmastrepeater>
+    <signalmastrepeater>
+      <masterMast>nz9-west</masterMast>
+      <slaveMast>Virtual nz9-west</slaveMast>
+      <enabled>true</enabled>
+      <update>MasterToSlave</update>
+    </signalmastrepeater>
+    <signalmastrepeater>
+      <masterMast>ez9-mnt</masterMast>
+      <slaveMast>Virtual ez9-mnt</slaveMast>
+      <enabled>true</enabled>
+      <update>MasterToSlave</update>
+    </signalmastrepeater>
+    <signalmastrepeater>
+      <masterMast>ez13-nz1</masterMast>
+      <slaveMast>Virtual ez13-nz1</slaveMast>
+      <enabled>true</enabled>
+      <update>MasterToSlave</update>
+    </signalmastrepeater>
+    <signalmastrepeater>
+      <masterMast>sz6-ez2</masterMast>
+      <slaveMast>Virtual sz6-ez2</slaveMast>
+      <enabled>true</enabled>
+      <update>MasterToSlave</update>
+    </signalmastrepeater>
   </signalmasts>
   <blocks class="jmri.configurexml.BlockManagerXml">
     <defaultspeed>Normal</defaultspeed>
@@ -1350,12 +1385,12 @@
       <path todir="16" fromdir="32" block="IB:AUTO:0021" />
       <path todir="16" fromdir="32" block="IB:AUTO:0023">
         <beansetting setting="4">
-          <turnout systemName="South Turnout 105" />
+          <turnout systemName="South Turnout 116" />
         </beansetting>
       </path>
-      <path todir="16" fromdir="32" block="IB:AUTO:0023">
+      <path todir="32" fromdir="16" block="IB:AUTO:0023">
         <beansetting setting="4">
-          <turnout systemName="South Turnout 116" />
+          <turnout systemName="South Turnout 105" />
         </beansetting>
       </path>
     </block>
@@ -1369,7 +1404,7 @@
           <turnout systemName="South Turnout 106" />
         </beansetting>
       </path>
-      <path todir="32" fromdir="16" block="IB:AUTO:0022">
+      <path todir="16" fromdir="32" block="IB:AUTO:0022">
         <beansetting setting="4">
           <turnout systemName="South Turnout 105" />
         </beansetting>
@@ -1940,6 +1975,17 @@
       <entrypoint fromblock="IB:AUTO:0033" toblock="IB:AUTO:0024" direction="4" fixed="no" fromblockdirection="Northwest" />
       <entrypoint fromblock="IB:AUTO:0006" toblock="IB:AUTO:0005" direction="8" fixed="no" fromblockdirection="South" />
     </section>
+    <section systemName="IY:AUTO:0003" userName="nz3-nz2:ez1-sz5" creationtype="userdefined">
+      <systemName>IY:AUTO:0003</systemName>
+      <userName>nz3-nz2:ez1-sz5</userName>
+      <blockentry sName="IB:AUTO:0006" order="0" />
+      <blockentry sName="IB:AUTO:0015" order="1" />
+      <blockentry sName="IB:AUTO:0014" order="2" />
+      <blockentry sName="IB:AUTO:0032" order="3" />
+      <blockentry sName="IB:AUTO:0002" order="4" />
+      <entrypoint fromblock="IB:AUTO:0005" toblock="IB:AUTO:0006" direction="4" fixed="no" fromblockdirection="North" />
+      <entrypoint fromblock="IB:AUTO:0001" toblock="IB:AUTO:0002" direction="8" fixed="no" fromblockdirection="Southeast" />
+    </section>
   </sections>
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
@@ -2070,6 +2116,16 @@
       <sourceSignalMast>ez2-sz6</sourceSignalMast>
       <destinationMast destination="ez1-sz5">
         <destinationSignalMast>ez1-sz5</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="nz3-nz2">
+        <destinationSignalMast>nz3-nz2</destinationSignalMast>
         <comment />
         <enabled>yes</enabled>
         <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
@@ -2371,7 +2427,14 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>nz3-nz2:ez1-sz5</associatedSection>
         <lockTurnouts>no</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>North Turnout 301</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+        </turnouts>
       </destinationMast>
       <destinationMast destination="ez2-sz6">
         <destinationSignalMast>ez2-sz6</destinationSignalMast>
@@ -2383,8 +2446,8 @@
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
-      <destinationMast destination="Virtual sz5-ez1">
-        <destinationSignalMast>Virtual sz5-ez1</destinationSignalMast>
+      <destinationMast destination="Virtual ez1-sz5">
+        <destinationSignalMast>Virtual ez1-sz5</destinationSignalMast>
         <comment />
         <enabled>yes</enabled>
         <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
@@ -2654,7 +2717,7 @@
     </signalmastlogic>
   </signalmastlogics>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Nov 29 11:15:51 MST 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="307" y="130" windowheight="1367" windowwidth="1929" panelheight="1430" panelwidth="1740" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="90" y="23" windowheight="877" windowwidth="1127" panelheight="1430" panelwidth="1740" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Mike Dean's Basement Layout" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -3303,104 +3366,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Wed Dec 30 16:07:01 MST 2020</date>
+      <date>Wed Dec 30 16:54:04 MST 2020</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Wed Dec 30 16:07:04 MST 2020</date>
+      <date>Wed Dec 30 16:54:11 MST 2020</date>
       <filename>/Users/mdean/JMRI/Mike_Basement_Layout/StartOverLayoutSignalPanel.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Wed Dec 30 15:33:46 MST 2020</date>
+          <date>Wed Dec 30 16:38:30 MST 2020</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Wed Dec 30 15:33:49 MST 2020</date>
+          <date>Wed Dec 30 16:38:39 MST 2020</date>
           <filename>/Users/mdean/JMRI/Mike_Basement_Layout/StartOverLayoutSignalPanel.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Wed Dec 30 15:24:46 MST 2020</date>
+              <date>Wed Dec 30 16:07:01 MST 2020</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Wed Dec 30 15:24:48 MST 2020</date>
+              <date>Wed Dec 30 16:07:04 MST 2020</date>
               <filename>/Users/mdean/JMRI/Mike_Basement_Layout/StartOverLayoutSignalPanel.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Wed Dec 30 14:55:26 MST 2020</date>
+                  <date>Wed Dec 30 15:33:46 MST 2020</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Wed Dec 30 14:55:29 MST 2020</date>
+                  <date>Wed Dec 30 15:33:49 MST 2020</date>
                   <filename>/Users/mdean/JMRI/Mike_Basement_Layout/StartOverLayoutSignalPanel.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Wed Dec 30 14:10:04 MST 2020</date>
+                      <date>Wed Dec 30 15:24:46 MST 2020</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Wed Dec 30 14:10:06 MST 2020</date>
+                      <date>Wed Dec 30 15:24:48 MST 2020</date>
                       <filename>/Users/mdean/JMRI/Mike_Basement_Layout/StartOverLayoutSignalPanel.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Wed Dec 30 14:04:14 MST 2020</date>
+                          <date>Wed Dec 30 14:55:26 MST 2020</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Wed Dec 30 14:04:16 MST 2020</date>
+                          <date>Wed Dec 30 14:55:29 MST 2020</date>
                           <filename>/Users/mdean/JMRI/Mike_Basement_Layout/StartOverLayoutSignalPanel.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Wed Dec 30 14:09:55 MST 2020</date>
+                          <date>Wed Dec 30 15:24:27 MST 2020</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Wed Dec 30 14:20:58 MST 2020</date>
+                      <date>Wed Dec 30 15:33:33 MST 2020</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Wed Dec 30 15:24:27 MST 2020</date>
+                  <date>Wed Dec 30 16:06:48 MST 2020</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Wed Dec 30 15:33:33 MST 2020</date>
+              <date>Wed Dec 30 16:33:57 MST 2020</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Wed Dec 30 16:06:48 MST 2020</date>
+          <date>Wed Dec 30 16:47:35 MST 2020</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Wed Dec 30 16:33:57 MST 2020</date>
+      <date>Wed Dec 30 17:03:55 MST 2020</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.21.3+R63094d48b on Wed Dec 30 16:33:57 MST 2020-->
+  <!--Written by JMRI version 4.21.3+R63094d48b on Wed Dec 30 17:03:55 MST 2020-->
 </layout-config>
