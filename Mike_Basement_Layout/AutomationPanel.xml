@@ -152,6 +152,214 @@
       <userName>Reset</userName>
     </sensor>
     <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0009:forward</systemName>
+      <userName>IY:AUTO:0009:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0009:reverse</systemName>
+      <userName>IY:AUTO:0009:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0010:forward</systemName>
+      <userName>IY:AUTO:0010:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0010:reverse</systemName>
+      <userName>IY:AUTO:0010:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0011:forward</systemName>
+      <userName>IY:AUTO:0011:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0011:reverse</systemName>
+      <userName>IY:AUTO:0011:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0012:forward</systemName>
+      <userName>IY:AUTO:0012:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0012:reverse</systemName>
+      <userName>IY:AUTO:0012:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0013:forward</systemName>
+      <userName>IY:AUTO:0013:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0013:reverse</systemName>
+      <userName>IY:AUTO:0013:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0014:forward</systemName>
+      <userName>IY:AUTO:0014:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0014:reverse</systemName>
+      <userName>IY:AUTO:0014:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0015:forward</systemName>
+      <userName>IY:AUTO:0015:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0015:reverse</systemName>
+      <userName>IY:AUTO:0015:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0016:forward</systemName>
+      <userName>IY:AUTO:0016:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0016:reverse</systemName>
+      <userName>IY:AUTO:0016:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0017:forward</systemName>
+      <userName>IY:AUTO:0017:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0017:reverse</systemName>
+      <userName>IY:AUTO:0017:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0018:forward</systemName>
+      <userName>IY:AUTO:0018:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0018:reverse</systemName>
+      <userName>IY:AUTO:0018:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0019:forward</systemName>
+      <userName>IY:AUTO:0019:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0019:reverse</systemName>
+      <userName>IY:AUTO:0019:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0020:forward</systemName>
+      <userName>IY:AUTO:0020:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0020:reverse</systemName>
+      <userName>IY:AUTO:0020:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0021:forward</systemName>
+      <userName>IY:AUTO:0021:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0021:reverse</systemName>
+      <userName>IY:AUTO:0021:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0022:forward</systemName>
+      <userName>IY:AUTO:0022:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0022:reverse</systemName>
+      <userName>IY:AUTO:0022:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0023:forward</systemName>
+      <userName>IY:AUTO:0023:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0023:reverse</systemName>
+      <userName>IY:AUTO:0023:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0024:forward</systemName>
+      <userName>IY:AUTO:0024:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0024:reverse</systemName>
+      <userName>IY:AUTO:0024:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0025:forward</systemName>
+      <userName>IY:AUTO:0025:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0025:reverse</systemName>
+      <userName>IY:AUTO:0025:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0026:forward</systemName>
+      <userName>IY:AUTO:0026:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0026:reverse</systemName>
+      <userName>IY:AUTO:0026:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0027:forward</systemName>
+      <userName>IY:AUTO:0027:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0027:reverse</systemName>
+      <userName>IY:AUTO:0027:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0028:forward</systemName>
+      <userName>IY:AUTO:0028:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0028:reverse</systemName>
+      <userName>IY:AUTO:0028:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0029:forward</systemName>
+      <userName>IY:AUTO:0029:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0029:reverse</systemName>
+      <userName>IY:AUTO:0029:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0030:forward</systemName>
+      <userName>IY:AUTO:0030:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0030:reverse</systemName>
+      <userName>IY:AUTO:0030:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0031:forward</systemName>
+      <userName>IY:AUTO:0031:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0031:reverse</systemName>
+      <userName>IY:AUTO:0031:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0032:forward</systemName>
+      <userName>IY:AUTO:0032:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0032:reverse</systemName>
+      <userName>IY:AUTO:0032:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0033:forward</systemName>
+      <userName>IY:AUTO:0033:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0033:reverse</systemName>
+      <userName>IY:AUTO:0033:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0034:forward</systemName>
+      <userName>IY:AUTO:0034:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0034:reverse</systemName>
+      <userName>IY:AUTO:0034:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
       <systemName>ISCLOCKRUNNING</systemName>
     </sensor>
   </sensors>
@@ -369,7 +577,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="12:10 PM">
+    <memory value="1:29 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -1100,6 +1308,7 @@
     <block systemName="IB:AUTO:0001" length="0.0" curve="0">
       <systemName>IB:AUTO:0001</systemName>
       <userName>SZ5</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>South Zone 5</occupancysensor>
       <path todir="96" fromdir="144" block="IB:AUTO:0002" />
@@ -1117,6 +1326,7 @@
     <block systemName="IB:AUTO:0002" length="0.0" curve="0">
       <systemName>IB:AUTO:0002</systemName>
       <userName>EZ1</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>East Zone 1</occupancysensor>
       <path todir="144" fromdir="96" block="IB:AUTO:0001" />
@@ -1134,6 +1344,7 @@
     <block systemName="IB:AUTO:0003" length="0.0" curve="0">
       <systemName>IB:AUTO:0003</systemName>
       <userName>NZ6</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>North Zone 6</occupancysensor>
       <path todir="16" fromdir="32" block="IB:AUTO:0004">
@@ -1150,6 +1361,7 @@
     <block systemName="IB:AUTO:0004" length="0.0" curve="0">
       <systemName>IB:AUTO:0004</systemName>
       <userName>NZ8</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>North Zone 8</occupancysensor>
       <path todir="32" fromdir="16" block="IB:AUTO:0003">
@@ -1171,6 +1383,7 @@
     <block systemName="IB:AUTO:0005" length="0.0" curve="0">
       <systemName>IB:AUTO:0005</systemName>
       <userName>NZ3</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>North Zone 3</occupancysensor>
       <path todir="128" fromdir="64" block="IB:AUTO:0003">
@@ -1195,6 +1408,7 @@
     <block systemName="IB:AUTO:0006" length="0.0" curve="0">
       <systemName>IB:AUTO:0006</systemName>
       <userName>NZ2</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>North Zone 2</occupancysensor>
       <path todir="32" fromdir="16" block="IB:AUTO:0005">
@@ -1215,6 +1429,7 @@
     <block systemName="IB:AUTO:0007" length="0.0" curve="0">
       <systemName>IB:AUTO:0007</systemName>
       <userName>MNT</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>Mountain</occupancysensor>
       <path todir="32" fromdir="16" block="IB:AUTO:0023" />
@@ -1223,6 +1438,7 @@
     <block systemName="IB:AUTO:0008" length="0.0" curve="0">
       <systemName>IB:AUTO:0008</systemName>
       <userName>SZ4</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>South Zone 4</occupancysensor>
       <path todir="32" fromdir="16" block="IB:AUTO:0001">
@@ -1235,6 +1451,7 @@
     <block systemName="IB:AUTO:0013" length="0.0" curve="0">
       <systemName>IB:AUTO:0013</systemName>
       <userName>NZ9</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>North Zone 9</occupancysensor>
       <path todir="32" fromdir="16" block="IB:AUTO:0004">
@@ -1252,6 +1469,7 @@
     <block systemName="IB:AUTO:0014" length="0.0" curve="0">
       <systemName>IB:AUTO:0014</systemName>
       <userName>EZ13</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>East Zone 13</occupancysensor>
       <path todir="80" fromdir="160" block="IB:AUTO:0015" />
@@ -1269,6 +1487,7 @@
     <block systemName="IB:AUTO:0015" length="0.0" curve="0">
       <systemName>IB:AUTO:0015</systemName>
       <userName>NZ1</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>North Zone 1</occupancysensor>
       <path todir="160" fromdir="80" block="IB:AUTO:0006" />
@@ -1277,6 +1496,7 @@
     <block systemName="IB:AUTO:0016" length="0.0" curve="0">
       <systemName>IB:AUTO:0016</systemName>
       <userName>NZ4</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>North Zone 4</occupancysensor>
       <path todir="80" fromdir="160" block="IB:AUTO:0006">
@@ -1293,6 +1513,7 @@
     <block systemName="IB:AUTO:0017" length="0.0" curve="0">
       <systemName>IB:AUTO:0017</systemName>
       <userName>NZ7</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>North Zone 7</occupancysensor>
       <path todir="96" fromdir="144" block="IB:AUTO:0005">
@@ -1309,6 +1530,7 @@
     <block systemName="IB:AUTO:0018" length="0.0" curve="0">
       <systemName>IB:AUTO:0018</systemName>
       <userName>NZ10</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>North Zone 10</occupancysensor>
       <path todir="16" fromdir="32" block="IB:AUTO:0013">
@@ -1328,6 +1550,7 @@
     <block systemName="IB:AUTO:0019" length="0.0" curve="0">
       <systemName>IB:AUTO:0019</systemName>
       <userName>NZ5</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>North Zone 5</occupancysensor>
       <path todir="144" fromdir="96" block="IB:AUTO:0004">
@@ -1344,6 +1567,7 @@
     <block systemName="IB:AUTO:0020" length="0.0" curve="0">
       <systemName>IB:AUTO:0020</systemName>
       <userName>WEST</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>West / Staging</occupancysensor>
       <path todir="32" fromdir="16" block="IB:AUTO:0013">
@@ -1377,6 +1601,7 @@
     <block systemName="IB:AUTO:0021" length="0.0" curve="0">
       <systemName>IB:AUTO:0021</systemName>
       <userName>SZ1</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>South Zone 1</occupancysensor>
       <path todir="32" fromdir="16" block="IB:AUTO:0008" />
@@ -1390,6 +1615,7 @@
     <block systemName="IB:AUTO:0022" length="0.0" curve="0">
       <systemName>IB:AUTO:0022</systemName>
       <userName>SZ3</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>South Zone 3</occupancysensor>
       <path todir="32" fromdir="16" block="IB:AUTO:0001">
@@ -1412,6 +1638,7 @@
     <block systemName="IB:AUTO:0023" length="0.0" curve="0">
       <systemName>IB:AUTO:0023</systemName>
       <userName>SZ2</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>South Zone 2</occupancysensor>
       <path todir="16" fromdir="32" block="IB:AUTO:0007">
@@ -1458,6 +1685,7 @@
     <block systemName="IB:AUTO:0024" length="0.0" curve="0">
       <systemName>IB:AUTO:0024</systemName>
       <userName>SZ6</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>South Zone 6</occupancysensor>
       <path todir="16" fromdir="32" block="IB:AUTO:0023">
@@ -1475,6 +1703,7 @@
     <block systemName="IB:AUTO:0026" length="0.0" curve="0">
       <systemName>IB:AUTO:0026</systemName>
       <userName>UNBLOCKED YARD</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>YARD</occupancysensor>
       <path todir="32" fromdir="16" block="IB:AUTO:0020">
@@ -1552,6 +1781,7 @@
     <block systemName="IB:AUTO:0030" length="0.0" curve="0">
       <systemName>IB:AUTO:0030</systemName>
       <userName>EZ12</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>East Zone 12</occupancysensor>
       <path todir="128" fromdir="64" block="IB:AUTO:0037">
@@ -1563,6 +1793,7 @@
     <block systemName="IB:AUTO:0031" length="0.0" curve="0">
       <systemName>IB:AUTO:0031</systemName>
       <userName>EZ9</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>East Zone 9</occupancysensor>
       <path todir="64" fromdir="128" block="IB:AUTO:0007" />
@@ -1583,6 +1814,7 @@
     <block systemName="IB:AUTO:0032" length="0.0" curve="0">
       <systemName>IB:AUTO:0032</systemName>
       <userName>EZ7</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>East Zone 7</occupancysensor>
       <path todir="128" fromdir="64" block="IB:AUTO:0002">
@@ -1599,6 +1831,7 @@
     <block systemName="IB:AUTO:0033" length="0.0" curve="0">
       <systemName>IB:AUTO:0033</systemName>
       <userName>EZ2</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>East Zone 2</occupancysensor>
       <path todir="144" fromdir="96" block="IB:AUTO:0024" />
@@ -1616,6 +1849,7 @@
     <block systemName="IB:AUTO:0034" length="0.0" curve="0">
       <systemName>IB:AUTO:0034</systemName>
       <userName>EZ6</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>East Zone 6</occupancysensor>
       <path todir="128" fromdir="64" block="IB:AUTO:0002">
@@ -1640,6 +1874,7 @@
     <block systemName="IB:AUTO:0035" length="0.0" curve="0">
       <systemName>IB:AUTO:0035</systemName>
       <userName>EZ5</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>East Zone 5</occupancysensor>
       <path todir="160" fromdir="80" block="IB:AUTO:0034">
@@ -1659,6 +1894,7 @@
     <block systemName="IB:AUTO:0036" length="0.0" curve="0">
       <systemName>IB:AUTO:0036</systemName>
       <userName>EZ4</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>East Zone 4</occupancysensor>
       <path todir="128" fromdir="64" block="IB:AUTO:0033">
@@ -1675,6 +1911,7 @@
     <block systemName="IB:AUTO:0037" length="0.0" curve="0">
       <systemName>IB:AUTO:0037</systemName>
       <userName>EZ3</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>East Zone 3</occupancysensor>
       <path todir="64" fromdir="128" block="IB:AUTO:0030">
@@ -1707,6 +1944,7 @@
     <block systemName="IB:AUTO:0038" length="0.0" curve="0">
       <systemName>IB:AUTO:0038</systemName>
       <userName>EZ8</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>East Zone 8</occupancysensor>
       <path todir="64" fromdir="128" block="IB:AUTO:0014">
@@ -1731,6 +1969,7 @@
     <block systemName="IB:AUTO:0039" length="0.0" curve="0">
       <systemName>IB:AUTO:0039</systemName>
       <userName>EZ11</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>East Zone 11</occupancysensor>
       <path todir="128" fromdir="64" block="IB:AUTO:0035">
@@ -1752,6 +1991,7 @@
     <block systemName="IB:AUTO:0040" length="0.0" curve="0">
       <systemName>IB:AUTO:0040</systemName>
       <userName>EZ10</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>East Zone 10</occupancysensor>
       <path todir="64" fromdir="128" block="IB:AUTO:0031">
@@ -1769,6 +2009,7 @@
       <systemName>IB:AUTO:0041</systemName>
       <userName>Northwest Staging</userName>
       <comment>No physical sensor</comment>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>Staging Northwest</occupancysensor>
       <path todir="128" fromdir="64" block="IB:AUTO:0020">
@@ -1818,6 +2059,7 @@
     <block systemName="IB:AUTO:0042" length="0.0" curve="0">
       <systemName>IB:AUTO:0042</systemName>
       <userName>Southwest Staging</userName>
+      <speed>Fifty</speed>
       <permissive>no</permissive>
       <occupancysensor>Staging Southwest</occupancysensor>
       <path todir="64" fromdir="128" block="IB:AUTO:0020">
@@ -1987,6 +2229,395 @@
       <userName>EZ10</userName>
     </layoutblock>
   </layoutblocks>
+  <sections class="jmri.configurexml.SectionManagerXml">
+    <section systemName="IY:AUTO:0009" userName="ez1-sz5:sz1-west" creationtype="signalmastlogic" fsensorname="IY:AUTO:0009:forward" rsensorname="IY:AUTO:0009:reverse">
+      <systemName>IY:AUTO:0009</systemName>
+      <userName>ez1-sz5:sz1-west</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">sz1-west</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0010" userName="ez1-sz5:sz2-mnt" creationtype="signalmastlogic" fsensorname="IY:AUTO:0010:forward" rsensorname="IY:AUTO:0010:reverse">
+      <systemName>IY:AUTO:0010</systemName>
+      <userName>ez1-sz5:sz2-mnt</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">sz2-mnt</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0011" userName="ez2-sz6:west-nz9" creationtype="signalmastlogic" fsensorname="IY:AUTO:0011:forward" rsensorname="IY:AUTO:0011:reverse">
+      <systemName>IY:AUTO:0011</systemName>
+      <userName>ez2-sz6:west-nz9</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">west-nz9</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0012" userName="ez2-sz6:sz5-ez1" creationtype="signalmastlogic" fsensorname="IY:AUTO:0012:forward" rsensorname="IY:AUTO:0012:reverse">
+      <systemName>IY:AUTO:0012</systemName>
+      <userName>ez2-sz6:sz5-ez1</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">sz5-ez1</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0013" userName="ez2-sz6:sz2-mnt" creationtype="signalmastlogic" fsensorname="IY:AUTO:0013:forward" rsensorname="IY:AUTO:0013:reverse">
+      <systemName>IY:AUTO:0013</systemName>
+      <userName>ez2-sz6:sz2-mnt</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">sz2-mnt</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0014" userName="ez9-mnt:mnt-sz2" creationtype="signalmastlogic" fsensorname="IY:AUTO:0014:forward" rsensorname="IY:AUTO:0014:reverse">
+      <systemName>IY:AUTO:0014</systemName>
+      <userName>ez9-mnt:mnt-sz2</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">mnt-sz2</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0015" userName="ez13-nz1:nz9-west" creationtype="signalmastlogic" fsensorname="IY:AUTO:0015:forward" rsensorname="IY:AUTO:0015:reverse">
+      <systemName>IY:AUTO:0015</systemName>
+      <userName>ez13-nz1:nz9-west</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">nz9-west</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0016" userName="mnt-ez9:ez2-sz6" creationtype="signalmastlogic" fsensorname="IY:AUTO:0016:forward" rsensorname="IY:AUTO:0016:reverse">
+      <systemName>IY:AUTO:0016</systemName>
+      <userName>mnt-ez9:ez2-sz6</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">ez2-sz6</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0017" userName="mnt-ez9:ez1-sz5" creationtype="signalmastlogic" fsensorname="IY:AUTO:0017:forward" rsensorname="IY:AUTO:0017:reverse">
+      <systemName>IY:AUTO:0017</systemName>
+      <userName>mnt-ez9:ez1-sz5</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">ez1-sz5</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0018" userName="mnt-sz2:west-nz9" creationtype="signalmastlogic" fsensorname="IY:AUTO:0018:forward" rsensorname="IY:AUTO:0018:reverse">
+      <systemName>IY:AUTO:0018</systemName>
+      <userName>mnt-sz2:west-nz9</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">west-nz9</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0019" userName="mnt-sz2:sz5-ez1" creationtype="signalmastlogic" fsensorname="IY:AUTO:0019:forward" rsensorname="IY:AUTO:0019:reverse">
+      <systemName>IY:AUTO:0019</systemName>
+      <userName>mnt-sz2:sz5-ez1</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">sz5-ez1</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0020" userName="mnt-sz2:sz6-ez2" creationtype="signalmastlogic" fsensorname="IY:AUTO:0020:forward" rsensorname="IY:AUTO:0020:reverse">
+      <systemName>IY:AUTO:0020</systemName>
+      <userName>mnt-sz2:sz6-ez2</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">sz6-ez2</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0021" userName="nz3-nz2:ez2-sz6" creationtype="signalmastlogic" fsensorname="IY:AUTO:0021:forward" rsensorname="IY:AUTO:0021:reverse">
+      <systemName>IY:AUTO:0021</systemName>
+      <userName>nz3-nz2:ez2-sz6</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">ez2-sz6</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0022" userName="nz3-nz2:ez1-sz5" creationtype="signalmastlogic" fsensorname="IY:AUTO:0022:forward" rsensorname="IY:AUTO:0022:reverse">
+      <systemName>IY:AUTO:0022</systemName>
+      <userName>nz3-nz2:ez1-sz5</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">ez1-sz5</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0023" userName="nz9-west:sz5-ez1" creationtype="signalmastlogic" fsensorname="IY:AUTO:0023:forward" rsensorname="IY:AUTO:0023:reverse">
+      <systemName>IY:AUTO:0023</systemName>
+      <userName>nz9-west:sz5-ez1</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">sz5-ez1</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0024" userName="nz9-west:sz6-ez2" creationtype="signalmastlogic" fsensorname="IY:AUTO:0024:forward" rsensorname="IY:AUTO:0024:reverse">
+      <systemName>IY:AUTO:0024</systemName>
+      <userName>nz9-west:sz6-ez2</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">sz6-ez2</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0025" userName="nz9-west:sz2-mnt" creationtype="signalmastlogic" fsensorname="IY:AUTO:0025:forward" rsensorname="IY:AUTO:0025:reverse">
+      <systemName>IY:AUTO:0025</systemName>
+      <userName>nz9-west:sz2-mnt</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">sz2-mnt</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0026" userName="sz1-west:west-nz9" creationtype="signalmastlogic" fsensorname="IY:AUTO:0026:forward" rsensorname="IY:AUTO:0026:reverse">
+      <systemName>IY:AUTO:0026</systemName>
+      <userName>sz1-west:west-nz9</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">west-nz9</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0027" userName="sz1-west:sz6-ez2" creationtype="signalmastlogic" fsensorname="IY:AUTO:0027:forward" rsensorname="IY:AUTO:0027:reverse">
+      <systemName>IY:AUTO:0027</systemName>
+      <userName>sz1-west:sz6-ez2</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">sz6-ez2</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0028" userName="sz1-west:sz2-mnt" creationtype="signalmastlogic" fsensorname="IY:AUTO:0028:forward" rsensorname="IY:AUTO:0028:reverse">
+      <systemName>IY:AUTO:0028</systemName>
+      <userName>sz1-west:sz2-mnt</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">sz2-mnt</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0029" userName="sz2-mnt:mnt-ez9" creationtype="signalmastlogic" fsensorname="IY:AUTO:0029:forward" rsensorname="IY:AUTO:0029:reverse">
+      <systemName>IY:AUTO:0029</systemName>
+      <userName>sz2-mnt:mnt-ez9</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">mnt-ez9</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0030" userName="sz5-ez1:ez13-nz1" creationtype="signalmastlogic" fsensorname="IY:AUTO:0030:forward" rsensorname="IY:AUTO:0030:reverse">
+      <systemName>IY:AUTO:0030</systemName>
+      <userName>sz5-ez1:ez13-nz1</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">ez13-nz1</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0031" userName="sz5-ez1:ez9-mnt" creationtype="signalmastlogic" fsensorname="IY:AUTO:0031:forward" rsensorname="IY:AUTO:0031:reverse">
+      <systemName>IY:AUTO:0031</systemName>
+      <userName>sz5-ez1:ez9-mnt</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">ez9-mnt</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0032" userName="sz6-ez2:ez13-nz1" creationtype="signalmastlogic" fsensorname="IY:AUTO:0032:forward" rsensorname="IY:AUTO:0032:reverse">
+      <systemName>IY:AUTO:0032</systemName>
+      <userName>sz6-ez2:ez13-nz1</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">ez13-nz1</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0033" userName="sz6-ez2:ez9-mnt" creationtype="signalmastlogic" fsensorname="IY:AUTO:0033:forward" rsensorname="IY:AUTO:0033:reverse">
+      <systemName>IY:AUTO:0033</systemName>
+      <userName>sz6-ez2:ez9-mnt</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">ez9-mnt</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0034" userName="west-nz9:nz3-nz2" creationtype="signalmastlogic" fsensorname="IY:AUTO:0034:forward" rsensorname="IY:AUTO:0034:reverse">
+      <systemName>IY:AUTO:0034</systemName>
+      <userName>west-nz9:nz3-nz2</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">nz3-nz2</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+  </sections>
+  <transits class="jmri.configurexml.TransitManagerXml">
+    <transit systemName="IZ:AUTO:0001" userName="Going West from West">
+      <systemName>IZ:AUTO:0001</systemName>
+      <userName>Going West from West</userName>
+      <transitsection sectionname="IY:AUTO:0034" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0021" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0027" sequence="3" direction="8" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0009" sequence="4" direction="8" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0017" sequence="5" direction="8" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0014" sequence="6" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+    </transit>
+    <transit systemName="IZ:AUTO:0002" userName="Start South S4">
+      <systemName>IZ:AUTO:0002</systemName>
+      <userName>Start South S4</userName>
+      <transitsection sectionname="IY:AUTO:0009" sequence="1" direction="8" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0022" sequence="2" direction="8" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0034" sequence="3" direction="8" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0023" sequence="4" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0017" sequence="5" direction="8" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0014" sequence="6" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0010" sequence="7" direction="8" alternate="no" safe="no" stopallocatingsensor="" />
+    </transit>
+  </transits>
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
     <signalmastlogic source="ez1-sz5">
@@ -1999,6 +2630,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>ez1-sz5:sz1-west</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="sz2-mnt">
@@ -2009,6 +2641,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>ez1-sz5:sz2-mnt</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="Virtual sz1-west">
@@ -2122,6 +2755,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>ez2-sz6:sz2-mnt</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="sz5-ez1">
@@ -2132,6 +2766,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>ez2-sz6:sz5-ez1</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="west-nz9">
@@ -2142,6 +2777,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>ez2-sz6:west-nz9</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2155,6 +2791,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>ez9-mnt:mnt-sz2</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2168,6 +2805,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>ez13-nz1:nz9-west</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="Virtual nz9-west">
@@ -2301,6 +2939,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>mnt-ez9:ez1-sz5</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="ez2-sz6">
@@ -2311,6 +2950,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>mnt-ez9:ez2-sz6</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="Virtual sz6-ez2">
@@ -2374,6 +3014,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>mnt-sz2:sz5-ez1</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="sz6-ez2">
@@ -2384,6 +3025,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>mnt-sz2:sz6-ez2</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="west-nz9">
@@ -2394,6 +3036,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>mnt-sz2:west-nz9</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2407,6 +3050,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>nz3-nz2:ez1-sz5</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="ez2-sz6">
@@ -2417,6 +3061,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>nz3-nz2:ez2-sz6</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2430,6 +3075,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>nz9-west:sz2-mnt</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="sz5-ez1">
@@ -2440,6 +3086,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>nz9-west:sz5-ez1</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="sz6-ez2">
@@ -2450,6 +3097,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>nz9-west:sz6-ez2</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2463,6 +3111,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>sz1-west:sz2-mnt</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="sz6-ez2">
@@ -2473,6 +3122,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>sz1-west:sz6-ez2</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="west-nz9">
@@ -2483,6 +3133,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>sz1-west:west-nz9</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2496,6 +3147,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>sz2-mnt:mnt-ez9</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2509,6 +3161,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>sz5-ez1:ez9-mnt</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="ez13-nz1">
@@ -2519,6 +3172,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>sz5-ez1:ez13-nz1</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="Virtual ez13-nz1">
@@ -2578,6 +3232,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>sz6-ez2:ez9-mnt</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="ez13-nz1">
@@ -2588,6 +3243,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>sz6-ez2:ez13-nz1</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="Virtual ez9-mnt">
@@ -2643,6 +3299,7 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>west-nz9:nz3-nz2</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2774,7 +3431,7 @@
     </conditional>
   </conditionals>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Nov 29 11:15:51 MST 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="392" y="472" windowheight="836" windowwidth="1389" panelheight="1430" panelwidth="1740" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="91" y="47" windowheight="836" windowwidth="1389" panelheight="1430" panelwidth="1740" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="no" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Mike Dean's Basement Layout" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -2801,71 +3458,71 @@
       <sideTieLength>0</sideTieLength>
       <sideTieWidth>0</sideTieWidth>
     </layoutTrackDrawingOptions>
-    <positionablelabel x="798" y="73" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT400" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="870" y="72" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT401" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="944" y="95" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT402" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="866" y="130" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT403" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1000" y="110" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT404" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1060" y="126" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT405" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1125" y="141" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT406" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1151" y="181" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT407" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="600" y="73" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT500" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="262" y="136" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT504" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="300" y="97" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT503" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="369" y="80" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT502" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="431" y="59" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT501" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1140" y="750" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" text="NT301" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1061" y="806" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" text="NT302" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="853" y="1023" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" text="NT303" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="785" y="1024" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" text="NT304" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="724" y="868" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" text="NT305" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="579" y="793" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" text="NT306" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="576" y="689" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" text="NT307" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="650" y="743" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" text="NT308" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="649" y="583" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" text="NT309" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="570" y="1169" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT201" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="587" y="1094" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT202" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="693" y="1146" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT203" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="777" y="1132" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT204" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="796" y="1080" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT205" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="883" y="1080" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT206" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="872" y="1132" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT207" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="980" y="1148" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT208" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1098" y="1171" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT209" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="970" y="1111" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT210" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1086" y="1104" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT211" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="533" y="289" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT100" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="413" y="291" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT101" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="488" y="270" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="110" text="NT102" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="501" y="348" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT103" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="499" y="415" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT104" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="451" y="474" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT105" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="467" y="539" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT106" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="450" y="614" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT107" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="479" y="661" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT108" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="496" y="493" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT109" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="511" y="539" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT110" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="524" y="603" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT111" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="542" y="672" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT112" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="493" y="776" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT113" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="474" y="957" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT114" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="450" y="749" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT115" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="447" y="849" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT116" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="420" y="1014" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT117" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <signalmasticon signalmast="sz1-west" x="438" y="134" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="14" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="sz5-ez1" x="448" y="1059" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="166" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez1-sz5" x="446" y="1115" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="314" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="sz6-ez2" x="473" y="1015" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="170" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez2-sz6" x="466" y="1071" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="314" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez13-nz1" x="1099" y="1184" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="69" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez9-mnt" x="1157" y="1081" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="86" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="mnt-ez9" x="1133" y="935" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="248" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <positionablelabel x="1130" y="64" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="Northwest Staging" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="197" y="50" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="Southwest Staging" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <signalmasticon signalmast="west-nz9" x="898" y="235" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="145" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="nz9-west" x="655" y="602" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="9" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="nz3-nz2" x="1091" y="725" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="44" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <sensoricon sensor="Reset" x="1070" y="272" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="true" icon="no" text="Reset Turnouts" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" borderSize="3" redBorder="255" greenBorder="255" blueBorder="255" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <positionablelabel x="798" y="73" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT400" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="870" y="72" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT401" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="944" y="95" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT402" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="866" y="130" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT403" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1000" y="110" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT404" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1060" y="126" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT405" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1125" y="141" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT406" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1151" y="181" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT407" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="600" y="73" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT500" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="262" y="136" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT504" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="300" y="97" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT503" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="369" y="80" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT502" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="431" y="59" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT501" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1140" y="750" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" text="NT301" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1061" y="806" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" text="NT302" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="853" y="1023" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" text="NT303" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="785" y="1024" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" text="NT304" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="724" y="868" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" text="NT305" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="579" y="793" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" text="NT306" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="576" y="689" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" text="NT307" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="650" y="743" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" text="NT308" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="649" y="583" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" text="NT309" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="570" y="1169" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT201" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="587" y="1094" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT202" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="693" y="1146" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT203" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="777" y="1132" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT204" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="796" y="1080" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT205" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="883" y="1080" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT206" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="872" y="1132" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT207" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="980" y="1148" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT208" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1098" y="1171" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT209" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="970" y="1111" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT210" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1086" y="1104" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT211" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="533" y="289" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT100" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="413" y="291" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT101" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="488" y="270" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="110" text="NT102" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="501" y="348" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT103" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="499" y="415" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT104" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="451" y="474" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT105" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="467" y="539" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT106" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="450" y="614" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT107" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="479" y="661" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT108" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="496" y="493" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT109" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="511" y="539" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT110" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="524" y="603" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT111" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="542" y="672" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT112" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="493" y="776" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT113" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="474" y="957" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT114" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="450" y="749" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT115" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="447" y="849" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT116" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="420" y="1014" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT117" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <signalmasticon signalmast="sz1-west" x="438" y="134" level="9" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="14" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="sz5-ez1" x="448" y="1059" level="9" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="166" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez1-sz5" x="445" y="1115" level="9" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="314" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="sz6-ez2" x="473" y="1015" level="9" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="170" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez2-sz6" x="466" y="1071" level="9" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="314" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez13-nz1" x="1099" y="1184" level="9" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="69" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez9-mnt" x="1157" y="1081" level="9" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="86" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="mnt-ez9" x="1133" y="935" level="9" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="248" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <positionablelabel x="1130" y="64" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="Northwest Staging" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="197" y="50" level="4" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="Southwest Staging" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <signalmasticon signalmast="west-nz9" x="898" y="235" level="9" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="145" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="nz9-west" x="655" y="602" level="9" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="9" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="nz3-nz2" x="1091" y="725" level="9" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="44" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <sensoricon sensor="Reset" x="1070" y="272" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="Reset Turnouts" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" borderSize="3" redBorder="255" greenBorder="255" blueBorder="255" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2884,8 +3541,8 @@
       <unknownText text="Reset Turnouts" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="Reset Turnouts" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <signalmasticon signalmast="mnt-sz2" x="467" y="375" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="sz2-mnt" x="444" y="425" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="359" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="mnt-sz2" x="467" y="375" level="9" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="sz2-mnt" x="444" y="425" level="9" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="359" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <layoutturnout ident="TO1" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="433.4202880859375" ycen="312.32244873046875" xa="433.4063720703125" ya="282.310791015625" xb="433.4342041015625" yb="342.3341064453125" xc="441.33642578125" yc="342.33038330078125" xd="433.4063720703125" yd="282.310791015625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 101" blockname="SZ1" connectaname="T13" connectbname="T7" connectcname="T114" />
     <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="437.7437744140625" ycen="1015.2344360351562" xa="438.7578125" ya="1045.24609375" xb="436.729736328125" yb="985.2227783203125" xc="447.6319580078125" yc="985.2191162109375" xd="438.7578125" yd="1045.24609375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 117" blockname="SZ5" connectaname="T9" connectbname="T8" connectcname="T113" />
     <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="636.73876953125" ycen="749.2760009765625" xa="636.7247314453125" ya="719.2643432617188" xb="636.7528076171875" yb="779.2876586914062" xc="646.655029296875" yc="778.283935546875" xd="636.7247314453125" yd="719.2643432617188" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="North Turnout 308" blockname="NZ8" connectaname="T106" connectbname="T19" connectcname="T103" />
@@ -3536,9 +4193,9 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Jan 01 12:10:36 MST 2021</date>
+      <date>Fri Jan 01 13:29:30 MST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.21.3+R63094d48b on Fri Jan 01 12:10:36 MST 2021-->
+  <!--Written by JMRI version 4.21.3+R63094d48b on Fri Jan 01 13:29:30 MST 2021-->
 </layout-config>

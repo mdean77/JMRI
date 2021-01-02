@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/dispatcheroptions.xsl" type="text/xsl"?>
+<!DOCTYPE dispatcheroptions SYSTEM "/xml/DTD/dispatcher-options.dtd">
+<dispatcheroptions>
+  <!--Written by JMRI version 4.21.3+R63094d48b on Fri Jan 01 16:40:26 MST 2021-->
+  <options lename="Mike Dean's Basement Layout" useconnectivity="yes" trainsfromroster="yes" trainsfromtrains="no" trainsfromuser="no" autoallocate="yes" autoturnouts="yes" trustknownturnouts="no" minthrottleinterval="100" fullramptime="9995" hasoccupancydetection="yes" sslcheckdirectionsensors="no" shortactivetrainnames="no" shortnameinblock="yes" extracolorforallocated="yes" nameinallocatedblock="no" supportvsdecoder="no" layoutscale="N" usescalemeters="no" userosterentryinblock="no" stoppingspeedname="Normal" usesignaltype="signalmast" />
+</dispatcheroptions>
