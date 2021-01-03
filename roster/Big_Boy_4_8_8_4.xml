@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.0-r29647 on Sat Aug 15 16:47:43 MDT 2015 $Id: XmlFile.java 28771 2015-02-22 16:58:13Z rhwood $-->
-  <locomotive id="Big Boy 4-8-8-4" fileName="Big_Boy_4_8_8_4.xml" roadNumber="4023" roadName="Union Pacific" mfg="Athearn" owner="Mike Dean" model="22904" dccAddress="4023" comment="$418&#xA;Had to return to Athearn for repairs" maxSpeed="100" imageFilePath="preference:roster/BigBoySide.jpeg" iconFilePath="preference:roster/BigBoyHead.jpeg" URL="" IsShuntingOn="">
-    <dateUpdated>Aug 15, 2015 4:47:43 PM</dateUpdated>
-    <decoder model="Bigboy 4-8-8-4" family="Tsunami Steam Genesis OEM" comment="" />
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<locomotive-config>
+  <!--Written by JMRI version 4.21.3+R63094d48b on Sat Jan 02 12:43:05 MST 2021-->
+  <locomotive id="Big Boy 4023" fileName="Big_Boy_4_8_8_4.xml" roadNumber="4023" roadName="Union Pacific" mfg="Athearn" owner="Mike Dean" model="22904" dccAddress="4023" comment="$418&#xA;Had to return to Athearn for repairs" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2021-01-02T19:43:05.387+0000</dateUpdated>
+    <decoder model="Bigboy 4-8-8-4" family="Tsunami Steam Genesis OEM" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="4023" longaddress="yes" />
       <number>4023</number>
@@ -25,6 +26,7 @@
       <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Injectors</functionlabel>
       <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Water Stop</functionlabel>
     </functionlabels>
+    <soundlabels />
     <values>
       <decoderDef>
         <varValue item="Start Voltage (0-255)" value="0" />

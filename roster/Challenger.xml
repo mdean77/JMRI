@@ -2,30 +2,31 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.0-r29647 on Sat Aug 15 08:59:33 MDT 2015 $Id: XmlFile.java 28771 2015-02-22 16:58:13Z rhwood $-->
-  <locomotive id="Challenger" fileName="Challenger.xml" roadNumber="3985" roadName="Union Pacific" mfg="Athearn" owner="Mike Dean" model="" dccAddress="3985" comment="$411" maxSpeed="100" imageFilePath="preference:roster/challenger.png" iconFilePath="preference:roster/challenger.png" URL="" IsShuntingOn="">
-    <dateUpdated>Aug 15, 2015 8:59:33 AM</dateUpdated>
-    <decoder model="Challenger 4-6-6-4" family="Tsunami Steam Genesis OEM" comment="" />
+  <!--Written by JMRI version 4.21.3+R63094d48b on Sat Jan 02 12:42:56 MST 2021-->
+  <locomotive id="Challenger 3985" fileName="Challenger.xml" roadNumber="3985" roadName="Union Pacific" mfg="Athearn" owner="Mike Dean" model="" dccAddress="3985" comment="$411" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2021-01-02T19:42:56.589+0000</dateUpdated>
+    <decoder model="Challenger 4-6-6-4" family="Tsunami Steam Genesis OEM" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="3985" longaddress="yes" />
       <number>3985</number>
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true">Headlight</functionlabel>
-      <functionlabel num="1" lockable="true">Bell</functionlabel>
-      <functionlabel num="2" lockable="false">Whistle</functionlabel>
-      <functionlabel num="3" lockable="true">Short Whistle</functionlabel>
-      <functionlabel num="4" lockable="true">Steam Release</functionlabel>
-      <functionlabel num="5" lockable="true">FX5 Light</functionlabel>
-      <functionlabel num="6" lockable="true">FX6/# Board Light</functionlabel>
-      <functionlabel num="7" lockable="true">Dimmer</functionlabel>
-      <functionlabel num="8" lockable="true">Mute</functionlabel>
-      <functionlabel num="9" lockable="true">Brake Squeal</functionlabel>
-      <functionlabel num="10" lockable="true">Coupler</functionlabel>
-      <functionlabel num="11" lockable="true">Injectors</functionlabel>
-      <functionlabel num="12" lockable="true">Water Stop</functionlabel>
+      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Whistle</functionlabel>
+      <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Short Whistle</functionlabel>
+      <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Steam Release</functionlabel>
+      <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">FX5 Light</functionlabel>
+      <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">FX6/# Board Light</functionlabel>
+      <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
+      <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+      <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+      <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+      <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Injectors</functionlabel>
+      <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Water Stop</functionlabel>
     </functionlabels>
+    <soundlabels />
     <values>
       <decoderDef>
         <varValue item="Start Voltage (0-255)" value="0" />

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.3.4-Reb510be on Fri Jun 10 16:24:35 MDT 2016 $Id$-->
+  <!--Written by JMRI version 4.3.4-Reb510be on Fri Jun 10 16:25:52 MDT 2016 $Id$-->
   <locomotive id="ALCO RS3 " fileName="ALCO_RS3_.xml" roadNumber="5200" roadName="Rio Grande" mfg="Bachmann" owner="Mike Dean" model="" dccAddress="5200" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>Jun 10, 2016 4:24:35 PM</dateUpdated>
+    <dateUpdated>Jun 10, 2016 4:25:52 PM</dateUpdated>
     <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" />
     <locoaddress>
       <dcclocoaddress number="5200" longaddress="yes" />
@@ -23,33 +23,33 @@
         <varValue item="Output A is single strobe" value="0" />
         <varValue item="Output A is double strobe" value="0" />
         <varValue item="Output A dim intensity" value="64" />
-        <varValue item="Output B dimming control" value="0" />
-        <varValue item="Output B dimming" value="0" />
-        <varValue item="Output B is Gyrolight" value="0" />
-        <varValue item="Output B is Mars light" value="0" />
-        <varValue item="Output B is single strobe" value="0" />
-        <varValue item="Output B is double strobe" value="0" />
-        <varValue item="Output B dim intensity" value="64" />
-        <varValue item="Output C, D blink rate" value="15" />
-        <varValue item="Output C blinks" value="0" />
-        <varValue item="Output D blinks" value="0" />
-        <varValue item="Output C, D are ditch lights" value="0" />
+        <varValue item="Output B dimming control" value="1" />
+        <varValue item="Output B dimming" value="1" />
+        <varValue item="Output B is Gyrolight" value="1" />
+        <varValue item="Output B is Mars light" value="1" />
+        <varValue item="Output B is single strobe" value="1" />
+        <varValue item="Output B is double strobe" value="1" />
+        <varValue item="Output B dim intensity" value="255" />
+        <varValue item="Output C, D blink rate" value="255" />
+        <varValue item="Output C blinks" value="1" />
+        <varValue item="Output D blinks" value="1" />
+        <varValue item="Output C, D are ditch lights" value="1" />
         <varValue item="F1 controls output C" value="1" />
-        <varValue item="F2 controls output C" value="0" />
-        <varValue item="F3 controls output C" value="0" />
-        <varValue item="F4 controls output C" value="0" />
-        <varValue item="F5 controls output C" value="0" />
-        <varValue item="F6 controls output C" value="0" />
-        <varValue item="F7 controls output C" value="0" />
-        <varValue item="F8 controls output C" value="0" />
-        <varValue item="F1 controls output D" value="0" />
+        <varValue item="F2 controls output C" value="1" />
+        <varValue item="F3 controls output C" value="1" />
+        <varValue item="F4 controls output C" value="1" />
+        <varValue item="F5 controls output C" value="1" />
+        <varValue item="F6 controls output C" value="1" />
+        <varValue item="F7 controls output C" value="1" />
+        <varValue item="F8 controls output C" value="1" />
+        <varValue item="F1 controls output D" value="1" />
         <varValue item="F2 controls output D" value="1" />
-        <varValue item="F3 controls output D" value="0" />
-        <varValue item="F4 controls output D" value="0" />
-        <varValue item="F5 controls output D" value="0" />
-        <varValue item="F6 controls output D" value="0" />
-        <varValue item="F7 controls output D" value="0" />
-        <varValue item="F8 controls output D" value="0" />
+        <varValue item="F3 controls output D" value="1" />
+        <varValue item="F4 controls output D" value="1" />
+        <varValue item="F5 controls output D" value="1" />
+        <varValue item="F6 controls output D" value="1" />
+        <varValue item="F7 controls output D" value="1" />
+        <varValue item="F8 controls output D" value="1" />
         <varValue item="Speed Table" value="255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255" />
         <varValue item="FL(f) controls output 1" value="1" />
         <varValue item="FL(r) controls output 2" value="1" />
@@ -65,7 +65,7 @@
         <varValue item="Power Source Conversion" value="0" />
         <varValue item="Use Speed Table" value="0" />
         <varValue item="Brake Momentum on DC" value="1" />
-        <varValue item="Directional Headlights" value="0" />
+        <varValue item="Directional Headlights" value="1" />
         <varValue item="User ID #1 (0-255)" value="255" />
         <varValue item="User ID #2 (0-255)" value="255" />
       </decoderDef>
@@ -73,14 +73,14 @@
       <CVvalue name="3" value="1" />
       <CVvalue name="4" value="1" />
       <CVvalue name="50" value="4" />
-      <CVvalue name="51" value="0" />
+      <CVvalue name="51" value="1" />
       <CVvalue name="52" value="64" />
-      <CVvalue name="57" value="0" />
-      <CVvalue name="58" value="64" />
-      <CVvalue name="56" value="15" />
-      <CVvalue name="53" value="0" />
-      <CVvalue name="54" value="1" />
-      <CVvalue name="55" value="2" />
+      <CVvalue name="57" value="255" />
+      <CVvalue name="58" value="255" />
+      <CVvalue name="56" value="255" />
+      <CVvalue name="53" value="255" />
+      <CVvalue name="54" value="255" />
+      <CVvalue name="55" value="255" />
       <CVvalue name="67" value="255" />
       <CVvalue name="68" value="255" />
       <CVvalue name="69" value="255" />

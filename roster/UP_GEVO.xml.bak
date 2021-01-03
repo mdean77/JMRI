@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sat Jan 19 18:05:28 MST 2019-->
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<locomotive-config>
+  <!--Written by JMRI version 4.21.3+R63094d48b on Fri Jan 01 16:34:26 MST 2021-->
   <locomotive id="GE ES44AC &quot;GEVO&quot;" fileName="UP_GEVO.xml" roadNumber="5542" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="" dccAddress="5542" comment="Most reliable engine" maxSpeed="49" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2019-01-20T01:05:28Z</dateUpdated>
-    <decoder model="DN163K1C" family="Series 3 with FX3, silent, readback" comment="" />
+    <dateUpdated>2019-01-20T01:05:28.000+0000</dateUpdated>
+    <decoder model="DN163K1C" family="Series 3 with FX3, silent, readback" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="5542" longaddress="yes" />
       <number>5542</number>
@@ -13,7 +14,12 @@
     <functionlabels>
       <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
     </functionlabels>
+    <soundlabels />
     <attributepairs>
+      <keyvaluepair>
+        <key>DispatcherTrainType</key>
+        <value>EXPRESS_PASSENGER</value>
+      </keyvaluepair>
       <keyvaluepair>
         <key>LastOperated</key>
         <value>2018-07-21T18:12:52Z</value>

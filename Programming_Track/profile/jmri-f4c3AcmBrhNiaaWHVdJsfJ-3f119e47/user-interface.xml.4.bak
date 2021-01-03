@@ -23,11 +23,30 @@
     <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd"/>
     <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
         <table xmlns="" name="apps.gui3.dp3.DecoderPro3Window:DecoderPro:roster">
-            <columns/>
+            <columns>
+                <column hidden="true" name="Last Operated" order="12" width="219"/>
+                <column hidden="false" name="Owner" order="8" width="71"/>
+                <column hidden="true" name="Operating Duration" order="13" width="141"/>
+                <column hidden="false" name="Road Number" order="5" width="105"/>
+                <column hidden="false" name="Date Modified" order="9" width="108"/>
+                <column hidden="false" name="DCC Address" order="1" width="103"/>
+                <column hidden="true" name="Dispatcher Train Type" order="11" width="158"/>
+                <column hidden="false" name="Manufacturer" order="6" width="132"/>
+                <column hidden="false" name="Model" order="7" width="186"/>
+                <column hidden="false" name="ID" order="0" width="139"/>
+                <column hidden="false" name="Icon" order="2" width="47"/>
+                <column hidden="false" name="Decoder Model" order="3" width="292"/>
+                <column hidden="true" name="Protocol" order="10" width="72"/>
+                <column hidden="false" name="Road Name" order="4" width="143"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="6" sortOrder="ASCENDING"/>
+            </sortOrder>
         </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
-        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="600.0" locX="155.0" locY="72.0" width="1024.0">
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program WP GP40-2  3548 in Service Mode (Programming Track)" height="712.0" locX="150.0" locY="23.0" width="1052.0"/>
+        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="600.0" locX="346.0" locY="67.0" width="1024.0">
             <properties>
                 <property>
                     <key>selectedProgrammer</key>
@@ -35,8 +54,11 @@
                 </property>
             </properties>
         </window>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:WP GP 40-2 3546" height="712.0" locX="178.0" locY="98.0" width="1052.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GP 35 UP 749" height="688.0" locX="47.0" locY="23.0" width="1052.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GP35 UP 749" height="688.0" locX="122.0" locY="51.0" width="1085.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GP7 UP 116" height="711.0" locX="65.0" locY="24.0" width="1060.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:WP GP 40-2 3548" height="688.0" locX="51.0" locY="23.0" width="1052.0"/>
         <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow:2" height="484.0" locX="69.0" locY="24.0" width="554.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:SP 8584 SD45" height="854.0" locX="46.0" locY="23.0" width="1052.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:RG 5327 SD45" height="854.0" locX="46.0" locY="23.0" width="1052.0"/>
@@ -50,10 +72,10 @@
                 </property>
             </properties>
         </window>
-        <window xmlns="" class="Create New Loco" height="555.0" locX="47.0" locY="23.0" width="392.0"/>
+        <window xmlns="" class="Create New Loco" height="555.0" locX="536.0" locY="279.0" width="392.0"/>
         <window xmlns="" class="apps.gui3.TabbedPreferencesFrame:Preferences" height="464.0" locX="381.0" locY="236.0" width="937.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
         <window xmlns="" class="PanelPro" height="231.0" locX="436.0" locY="334.0" width="568.0"/>
-        <window xmlns="" class="Local JMRI throttles" height="222.0" locX="47.0" locY="23.0" width="320.0"/>
+        <window xmlns="" class="Local JMRI throttles" height="222.0" locX="51.0" locY="23.0" width="320.0"/>
     </windowDetails>
 </auxiliary-configuration>

@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.3.4-Reb510be on Fri Jun 10 16:41:00 MDT 2016 $Id$-->
-  <locomotive id="GP7 Diesel" fileName="GP7_Diesel.xml" roadNumber="5102" roadName="Rio Grande" mfg="Bachmann" owner="Mike Dean" model="62458" dccAddress="5102" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>Jun 10, 2016 4:41:00 PM</dateUpdated>
-    <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" />
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<locomotive-config>
+  <!--Written by JMRI version 4.21.3+R63094d48b on Sat Jan 02 12:43:13 MST 2021-->
+  <locomotive id="GP7 Diesel 5102" fileName="GP7_Diesel.xml" roadNumber="5102" roadName="Rio Grande" mfg="Bachmann" owner="Mike Dean" model="62458" dccAddress="5102" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2021-01-02T19:43:13.678+0000</dateUpdated>
+    <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="5102" longaddress="yes" />
       <number>5102</number>
       <protocol>dcc_long</protocol>
     </locoaddress>
+    <functionlabels />
+    <soundlabels />
     <values>
       <decoderDef>
         <varValue item="Start Volts" value="10" />

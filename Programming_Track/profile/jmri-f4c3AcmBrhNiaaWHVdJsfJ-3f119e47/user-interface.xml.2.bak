@@ -20,7 +20,9 @@
         <comboBox xmlns="" lastSelected="NCE USB" name="NCE"/>
         <comboBox xmlns="" lastSelected="19,200 baud" name="jmri.jmrix.nce.usbdriver.UsbDriverAdapter.baud"/>
     </comboBoxLastValue>
-    <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd"/>
+    <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd">
+        <setting xmlns="">apps.gui3.dp3.DecoderPro3Window.hideGroups</setting>
+    </settings>
     <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
         <table xmlns="" name="apps.gui3.dp3.DecoderPro3Window:DecoderPro:roster">
             <columns>
@@ -74,8 +76,8 @@
         </window>
         <window xmlns="" class="Create New Loco" height="555.0" locX="536.0" locY="279.0" width="392.0"/>
         <window xmlns="" class="apps.gui3.TabbedPreferencesFrame:Preferences" height="464.0" locX="381.0" locY="236.0" width="937.0"/>
-        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program WP GP40-2 3549 in Service Mode (Programming Track)" height="712.0" locX="106.0" locY="92.0" width="1052.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
         <window xmlns="" class="PanelPro" height="231.0" locX="436.0" locY="334.0" width="568.0"/>
         <window xmlns="" class="Local JMRI throttles" height="222.0" locX="51.0" locY="23.0" width="320.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:WP GP40-2  3548" height="712.0" locX="51.0" locY="23.0" width="1052.0"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.11.8+R0997631 on Sun Jul 08 10:07:54 MDT 2018-->
-  <locomotive id="GE ES44AC &quot;Thunder&quot;" fileName="GE_ES44AC_Diesel.xml" roadNumber="8096" roadName="Union Pacific" mfg="Broadway Limited" owner="Mike Dean" model="" dccAddress="8096" comment="While this has a Rolling Thunder decoder, if I select that decoder then I cannot edit the motor settings." maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-07-08T16:07:54Z</dateUpdated>
+  <!--Written by JMRI version 4.11.8+R0997631 on Sun Jul 08 10:10:39 MDT 2018-->
+  <locomotive id="GE ES44AC &quot;Thunder&quot;" fileName="GE_ES44AC_Diesel.xml" roadNumber="8096" roadName="Union Pacific" mfg="Broadway Limited" owner="Mike Dean" model="" dccAddress="8096" comment="While this has a Rolling Thunder decoder, if I select that decoder then I cannot edit the motor settings." maxSpeed="100" imageFilePath="preference:roster/UP8096A_David H. Anderson_2013_07_29.jpg" iconFilePath="preference:roster/UP8096A_David H. Anderson_2013_07_29.jpg" URL="http://www.rrpicturearchives.net/showPicture.aspx?id=3608369" IsShuntingOn="">
+    <dateUpdated>2018-07-08T16:10:39Z</dateUpdated>
     <decoder model="Diesel" family="Paragon 3" comment="" />
     <locoaddress>
       <dcclocoaddress number="8096" longaddress="yes" />

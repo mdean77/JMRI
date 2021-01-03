@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.0-r29647 on Sat Aug 15 08:48:04 MDT 2015 $Id: XmlFile.java 28771 2015-02-22 16:58:13Z rhwood $-->
+  <!--Written by JMRI version 4.0-r29647 on Sat Aug 15 08:48:22 MDT 2015 $Id: XmlFile.java 28771 2015-02-22 16:58:13Z rhwood $-->
   <locomotive id="Baldwin 4-6-0 Steam" fileName="Baldwin_4_6_0_Steam.xml" roadNumber="1590" roadName="Union Pacific" mfg="Bachmann" owner="Mike Dean" model="51454" dccAddress="1590" comment="" maxSpeed="100" imageFilePath="preference:roster/Baldwin 1590.png" iconFilePath="preference:roster/Baldwin 1590 Flipped.png" URL="" IsShuntingOn="">
-    <dateUpdated>Aug 15, 2015 8:48:04 AM</dateUpdated>
+    <dateUpdated>Aug 15, 2015 8:48:22 AM</dateUpdated>
     <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" />
     <locoaddress>
       <dcclocoaddress number="1590" longaddress="yes" />
       <number>1590</number>
       <protocol>dcc_long</protocol>
     </locoaddress>
+    <functionlabels>
+      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlights</functionlabel>
+      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Dim Lights</functionlabel>
+    </functionlabels>
     <values>
       <decoderDef>
         <varValue item="Start Volts" value="1" />

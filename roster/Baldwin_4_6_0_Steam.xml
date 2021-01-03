@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.0-r29647 on Sat Aug 15 08:48:22 MDT 2015 $Id: XmlFile.java 28771 2015-02-22 16:58:13Z rhwood $-->
-  <locomotive id="Baldwin 4-6-0 Steam" fileName="Baldwin_4_6_0_Steam.xml" roadNumber="1590" roadName="Union Pacific" mfg="Bachmann" owner="Mike Dean" model="51454" dccAddress="1590" comment="" maxSpeed="100" imageFilePath="preference:roster/Baldwin 1590.png" iconFilePath="preference:roster/Baldwin 1590 Flipped.png" URL="" IsShuntingOn="">
-    <dateUpdated>Aug 15, 2015 8:48:22 AM</dateUpdated>
-    <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" />
+  <!--Written by JMRI version 4.21.3+R63094d48b on Sat Jan 02 12:42:15 MST 2021-->
+  <locomotive id="1590 4-6-0 Steam" fileName="Baldwin_4_6_0_Steam.xml" roadNumber="1590" roadName="Union Pacific" mfg="Bachmann" owner="Mike Dean" model="51454" dccAddress="1590" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2021-01-02T19:42:15.668+0000</dateUpdated>
+    <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="1590" longaddress="yes" />
       <number>1590</number>
@@ -14,6 +14,7 @@
       <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlights</functionlabel>
       <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Dim Lights</functionlabel>
     </functionlabels>
+    <soundlabels />
     <values>
       <decoderDef>
         <varValue item="Start Volts" value="1" />
@@ -54,7 +55,6 @@
         <varValue item="F6 controls output D" value="0" />
         <varValue item="F7 controls output D" value="0" />
         <varValue item="F8 controls output D" value="0" />
-        <varValue item="Speed Table" value="0,9,18,28,37,47,56,66,75,85,94,103,113,122,132,141,151,160,170,179,188,198,207,217,226,236,245,255" />
         <varValue item="FL(f) controls output 1" value="1" />
         <varValue item="FL(r) controls output 2" value="1" />
         <varValue item="Primary Address" value="90" />
@@ -62,8 +62,8 @@
         <varValue item="Address Format" value="1" />
         <varValue item="Manufacturer Version No: " value="0" />
         <varValue item="Manufacturer ID: " value="0" />
-        <varValue item="Advanced Consist Address" value="0" />
         <varValue item="Locomotive Direction In Consist" value="0" />
+        <varValue item="Advanced Consist Address" value="0" />
         <varValue item="Locomotive Direction" value="0" />
         <varValue item="Speed Steps" value="1" />
         <varValue item="Power Source Conversion" value="0" />
@@ -72,6 +72,7 @@
         <varValue item="Directional Headlights" value="0" />
         <varValue item="User ID #1 (0-255)" value="0" />
         <varValue item="User ID #2 (0-255)" value="0" />
+        <varValue item="Speed Table" value="0,9,18,28,37,47,56,66,75,85,94,103,113,122,132,141,151,160,170,179,188,198,207,217,226,236,245,255" />
       </decoderDef>
       <CVvalue name="2" value="1" />
       <CVvalue name="3" value="1" />
@@ -85,6 +86,15 @@
       <CVvalue name="53" value="0" />
       <CVvalue name="54" value="1" />
       <CVvalue name="55" value="2" />
+      <CVvalue name="1" value="90" />
+      <CVvalue name="17" value="198" />
+      <CVvalue name="18" value="54" />
+      <CVvalue name="29" value="34" />
+      <CVvalue name="7" value="0" />
+      <CVvalue name="8" value="0" />
+      <CVvalue name="19" value="0" />
+      <CVvalue name="105" value="0" />
+      <CVvalue name="106" value="0" />
       <CVvalue name="67" value="0" />
       <CVvalue name="68" value="9" />
       <CVvalue name="69" value="18" />
@@ -113,15 +123,6 @@
       <CVvalue name="92" value="236" />
       <CVvalue name="93" value="245" />
       <CVvalue name="94" value="255" />
-      <CVvalue name="1" value="90" />
-      <CVvalue name="17" value="198" />
-      <CVvalue name="18" value="54" />
-      <CVvalue name="29" value="34" />
-      <CVvalue name="7" value="0" />
-      <CVvalue name="8" value="0" />
-      <CVvalue name="19" value="0" />
-      <CVvalue name="105" value="0" />
-      <CVvalue name="106" value="0" />
     </values>
   </locomotive>
 </locomotive-config>

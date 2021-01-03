@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.21.3+R63094d48b on Fri Jan 01 16:23:33 MST 2021-->
+  <!--Written by JMRI version 4.21.3+R63094d48b on Sat Jan 02 12:46:19 MST 2021-->
   <roster>
     <locomotive id="1029 NW2 Switcher" fileName="1029_NW2_Switcher.xml" roadNumber="1029" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="176-4374" dccAddress="1029" comment="$92 plus decoder" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T14:58:45.000+0000</dateUpdated>
@@ -19,6 +19,20 @@
           <value>LOCAL_FREIGHT</value>
         </keyvaluepair>
       </attributepairs>
+    </locomotive>
+    <locomotive id="1590 4-6-0 Steam" fileName="Baldwin_4_6_0_Steam.xml" roadNumber="1590" roadName="Union Pacific" mfg="Bachmann" owner="Mike Dean" model="51454" dccAddress="1590" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2021-01-02T19:42:15.668+0000</dateUpdated>
+      <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="1590" longaddress="yes" />
+        <number>1590</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlights</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Dim Lights</functionlabel>
+      </functionlabels>
+      <soundlabels />
     </locomotive>
     <locomotive id="6001 EMD E7A" fileName="6001_EMD_E7A.xml" roadNumber="6001" roadName="Southern Pacific" mfg="Broadway Limited" owner="Mike Dean" model="3043" dccAddress="6001" comment="$159" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T15:48:53.000+0000</dateUpdated>
@@ -195,8 +209,8 @@
       </functionlabels>
       <soundlabels />
     </locomotive>
-    <locomotive id="ALCO RS3 " fileName="ALCO_RS3_.xml" roadNumber="5200" roadName="Rio Grande" mfg="Bachmann" owner="Mike Dean" model="" dccAddress="5200" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2016-06-10T22:25:52.000+0000</dateUpdated>
+    <locomotive id="ALCO RS3 5200" fileName="ALCO_RS3_.xml" roadNumber="5200" roadName="Rio Grande" mfg="Bachmann" owner="Mike Dean" model="" dccAddress="5200" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2021-01-02T19:43:24.806+0000</dateUpdated>
       <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5200" longaddress="yes" />
@@ -206,22 +220,8 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="Baldwin 4-6-0 Steam" fileName="Baldwin_4_6_0_Steam.xml" roadNumber="1590" roadName="Union Pacific" mfg="Bachmann" owner="Mike Dean" model="51454" dccAddress="1590" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2015-08-15T14:48:22.000+0000</dateUpdated>
-      <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" maxFnNum="28" />
-      <locoaddress>
-        <dcclocoaddress number="1590" longaddress="yes" />
-        <number>1590</number>
-        <protocol>dcc_long</protocol>
-      </locoaddress>
-      <functionlabels>
-        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlights</functionlabel>
-        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Dim Lights</functionlabel>
-      </functionlabels>
-      <soundlabels />
-    </locomotive>
-    <locomotive id="Big Boy 4-8-8-4" fileName="Big_Boy_4_8_8_4.xml" roadNumber="4023" roadName="Union Pacific" mfg="Athearn" owner="Mike Dean" model="22904" dccAddress="4023" comment="$418&lt;?p?&gt;Had to return to Athearn for repairs" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2015-08-15T22:47:43.000+0000</dateUpdated>
+    <locomotive id="Big Boy 4023" fileName="Big_Boy_4_8_8_4.xml" roadNumber="4023" roadName="Union Pacific" mfg="Athearn" owner="Mike Dean" model="22904" dccAddress="4023" comment="$418&lt;?p?&gt;Had to return to Athearn for repairs" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2021-01-02T19:43:05.387+0000</dateUpdated>
       <decoder model="Bigboy 4-8-8-4" family="Tsunami Steam Genesis OEM" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4023" longaddress="yes" />
@@ -245,8 +245,8 @@
       </functionlabels>
       <soundlabels />
     </locomotive>
-    <locomotive id="Challenger" fileName="Challenger.xml" roadNumber="3985" roadName="Union Pacific" mfg="Athearn" owner="Mike Dean" model="" dccAddress="3985" comment="$411" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2015-08-15T14:59:33.000+0000</dateUpdated>
+    <locomotive id="Challenger 3985" fileName="Challenger.xml" roadNumber="3985" roadName="Union Pacific" mfg="Athearn" owner="Mike Dean" model="" dccAddress="3985" comment="$411" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2021-01-02T19:42:56.589+0000</dateUpdated>
       <decoder model="Challenger 4-6-6-4" family="Tsunami Steam Genesis OEM" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="3985" longaddress="yes" />
@@ -399,8 +399,8 @@
       </functionlabels>
       <soundlabels />
     </locomotive>
-    <locomotive id="GE ES44AC &quot;GEVO&quot;" fileName="UP_GEVO.xml" roadNumber="5542" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="" dccAddress="5542" comment="Most reliable engine" maxSpeed="49" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-20T01:05:28.000+0000</dateUpdated>
+    <locomotive id="GE ES44AC 5542" fileName="UP_GEVO.xml" roadNumber="5542" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="" dccAddress="5542" comment="Most reliable engine" maxSpeed="49" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2021-01-02T19:43:38.943+0000</dateUpdated>
       <decoder model="DN163K1C" family="Series 3 with FX3, silent, readback" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5542" longaddress="yes" />
@@ -413,6 +413,10 @@
       <soundlabels />
       <attributepairs>
         <keyvaluepair>
+          <key>DispatcherTrainType</key>
+          <value>EXPRESS_PASSENGER</value>
+        </keyvaluepair>
+        <keyvaluepair>
           <key>LastOperated</key>
           <value>2018-07-21T18:12:52Z</value>
         </keyvaluepair>
@@ -422,8 +426,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="GE ES44AC &quot;Thunder&quot;" fileName="GE_ES44AC_Diesel.xml" roadNumber="8096" roadName="Union Pacific" mfg="Broadway Limited" owner="Mike Dean" model="" dccAddress="8096" comment="While this has a Rolling Thunder decoder, if I select that decoder then I cannot edit the motor settings." maxSpeed="100" imageFilePath="" iconFilePath="" URL="http://www.rrpicturearchives.net/showPicture.aspx?id=3608369" IsShuntingOn="">
-      <dateUpdated>2018-07-08T16:10:39.000+0000</dateUpdated>
+    <locomotive id="GE ES44AC 8096" fileName="GE_ES44AC_Diesel.xml" roadNumber="8096" roadName="Union Pacific" mfg="Broadway Limited" owner="Mike Dean" model="" dccAddress="8096" comment="While this has a Rolling Thunder decoder, if I select that decoder then I cannot edit the motor settings." maxSpeed="100" imageFilePath="" iconFilePath="" URL="http://www.rrpicturearchives.net/showPicture.aspx?id=3608369" IsShuntingOn="">
+      <dateUpdated>2021-01-02T19:43:55.840+0000</dateUpdated>
       <decoder model="Diesel" family="Paragon 3" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="8096" longaddress="yes" />
@@ -505,8 +509,8 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="GP7 Diesel" fileName="GP7_Diesel.xml" roadNumber="5102" roadName="Rio Grande" mfg="Bachmann" owner="Mike Dean" model="62458" dccAddress="5102" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2016-06-10T22:41:00.000+0000</dateUpdated>
+    <locomotive id="GP7 Diesel 5102" fileName="GP7_Diesel.xml" roadNumber="5102" roadName="Rio Grande" mfg="Bachmann" owner="Mike Dean" model="62458" dccAddress="5102" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2021-01-02T19:43:13.678+0000</dateUpdated>
       <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5102" longaddress="yes" />
@@ -526,27 +530,6 @@
       </locoaddress>
       <functionlabels />
       <soundlabels />
-    </locomotive>
-    <locomotive id="GP7 UP 116" fileName="GP7_UP_116.xml" roadNumber="" roadName="" mfg="" owner="Mike Dean" model="" dccAddress="116" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2020-02-09T23:52:40.449+0000</dateUpdated>
-      <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" maxFnNum="28" />
-      <locoaddress>
-        <dcclocoaddress number="116" longaddress="yes" />
-        <number>116</number>
-        <protocol>dcc_long</protocol>
-      </locoaddress>
-      <functionlabels />
-      <soundlabels />
-      <attributepairs>
-        <keyvaluepair>
-          <key>LastOperated</key>
-          <value>2020-02-09T23:52:17.840+0000</value>
-        </keyvaluepair>
-        <keyvaluepair>
-          <key>OperatingDuration</key>
-          <value>483</value>
-        </keyvaluepair>
-      </attributepairs>
     </locomotive>
     <locomotive id="Great Northern 147" fileName="Great_Northern_147.xml" roadNumber="147" roadName="Great Northern" mfg="Bachmann" owner="Mike Dean" model="" dccAddress="147" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2016-03-27T18:02:55.000+0000</dateUpdated>
