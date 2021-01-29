@@ -357,11 +357,11 @@
         <window xmlns="" class="Add New Section" height="705.0" locX="597.0" locY="39.0" width="712.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.signalmast.AddSignalMastJFrame:Add/Edit Signal Mast:10" locX="73.0" locY="24.0"/>
         <window xmlns="" class="jmri.jmrit.display.switchboardEditor.SwitchboardEditor:Switchboard" locX="860.0" locY="38.0"/>
-        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Mike Dean's Basement Layout" height="735.0" locX="49.0" locY="23.0" width="881.0">
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Mike Dean's Basement Layout" height="873.0" locX="49.0" locY="23.0" width="1316.0">
             <properties>
                 <property>
                     <key>zoom</key>
-                    <value class="java.lang.Double">1.081044567448319</value>
+                    <value class="java.lang.Double">0.7383679854165146</value>
                 </property>
             </properties>
         </window>
@@ -423,12 +423,12 @@
         <window xmlns="" class="jmri.jmrit.beantable.signalmast.SignalMastRepeaterJFrame:Signal Mast Repeaters" locX="51.0" locY="23.0"/>
         <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="464.0" locX="111.0" locY="76.0" width="1212.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.oblock.TableFrames:OBlock Table" height="622.0" locX="51.0" locY="23.0" width="1100.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Sensors" height="831.0" locX="38.0" locY="441.0" width="1338.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Sensors" height="831.0" locX="937.0" locY="828.0" width="1457.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Mast Logic" height="831.0" locX="53.0" locY="46.0" width="1338.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$4:ALCO 2-6-0 Steam" height="669.0" locX="66.0" locY="24.0" width="981.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:Baldwin 4-6-0 Steam" height="779.0" locX="51.0" locY="23.0" width="1060.0"/>
         <window xmlns="" class="apps.gui3.TabbedPreferencesFrame:Preferences" height="464.0" locX="143.0" locY="203.0" width="937.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Blocks" height="831.0" locX="51.0" locY="45.0" width="1338.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Blocks" height="831.0" locX="662.0" locY="59.0" width="1457.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Heads" height="854.0" locX="165.0" locY="23.0" width="1147.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:GE 44 Ton Yellow" height="779.0" locX="519.0" locY="496.0" width="1060.0"/>
         <window xmlns="" class="jmri.jmrit.signalling.SignallingFrame:2" locX="145.0" locY="130.0"/>
@@ -487,7 +487,7 @@
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:Program GE ES44AC &quot;Thunder&quot; in Operations Mode (Main Track):1" height="865.0" locX="69.0" locY="23.0" width="1273.0"/>
         <window xmlns="" class="Script Output" height="231.0" locX="836.0" locY="141.0" width="545.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Mast Logic:2" height="854.0" locX="115.0" locY="62.0" width="1338.0"/>
-        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="456.0" locX="344.0" locY="222.0" width="532.0"/>
+        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="456.0" locX="924.0" locY="401.0" width="532.0"/>
         <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow:1" height="404.0" locX="1150.0" locY="75.0" width="350.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Mast Logic:1" height="831.0" locX="165.0" locY="27.0" width="1338.0"/>
         <window xmlns="" class="Edit Turnout" locX="109.0" locY="414.0"/>
