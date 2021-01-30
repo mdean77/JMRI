@@ -18,6 +18,6 @@
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" name="apps.SystemConsoleAction" type="Action">
             <property name="systemPrefix" value=""/>
         </perform>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformFileModelXml" name="preference:NewStartOverLayoutSignalPanel.xml" type="XmlFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformFileModelXml" name="preference:JanuaryPanelNewSectioning.xml" type="XmlFile"/>
     </startup>
 </auxiliary-configuration>

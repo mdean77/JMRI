@@ -1001,7 +1001,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="10:24 AM">
+    <memory value="11:14 AM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -2597,6 +2597,39 @@
       <transitsection sectionname="IY:AUTO:0117" sequence="13" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
       <transitsection sectionname="IY:AUTO:0105" sequence="14" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
     </transit>
+    <transit systemName="IZ:AUTO:0006" userName="WestToNZ9Reverse">
+      <systemName>IZ:AUTO:0006</systemName>
+      <userName>WestToNZ9Reverse</userName>
+      <transitsection sectionname="IY:AUTO:0105" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0106" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0107" sequence="3" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0108" sequence="4" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0109" sequence="5" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0110" sequence="6" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0111" sequence="7" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0112" sequence="8" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0113" sequence="9" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0114" sequence="10" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0115" sequence="11" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0116" sequence="12" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0117" sequence="13" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+    </transit>
+    <transit systemName="IZ:AUTO:0007" userName="WestToNZ8Reverse">
+      <systemName>IZ:AUTO:0007</systemName>
+      <userName>WestToNZ8Reverse</userName>
+      <transitsection sectionname="IY:AUTO:0105" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0106" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0107" sequence="3" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0108" sequence="4" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0109" sequence="5" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0110" sequence="6" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0111" sequence="7" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0112" sequence="8" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0113" sequence="9" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0114" sequence="10" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0115" sequence="11" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0116" sequence="12" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+    </transit>
   </transits>
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
@@ -2610,7 +2643,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>ez1-sz5:sz1-west</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="sz2-mnt">
@@ -2621,7 +2653,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>ez1-sz5:sz2-mnt</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="Virtual sz1-sz4">
@@ -2632,7 +2663,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>ez1-sz5:Virtual sz1-sz4</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="Virtual sz4-sz1">
@@ -2643,7 +2673,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>ez1-sz5:Virtual sz4-sz1</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2657,7 +2686,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>ez2-sz6:sz2-mnt</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2671,7 +2699,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>ez9-mnt:mnt-sz2</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2685,7 +2712,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>ez13-nz1:nz1-nz2</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2699,7 +2725,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>mnt-ez9:ez1-sz5</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="ez2-sz6">
@@ -2710,7 +2735,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>mnt-ez9:ez2-sz6</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2724,7 +2748,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>mnt-sz2:sz5-ez1</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="sz6-ez2">
@@ -2735,7 +2758,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>mnt-sz2:sz6-ez2</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2749,7 +2771,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>nz2-nz1:nz1-ez13</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2763,7 +2784,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>nz9-west:west-sz1</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2777,7 +2797,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>sz1-west:west-nz9</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2791,7 +2810,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>sz2-mnt:mnt-ez9</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2805,7 +2823,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>sz5-ez1:ez9-mnt</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="ez13-nz1">
@@ -2816,7 +2833,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>sz5-ez1:ez13-nz1</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="Virtual ez7-ez13">
@@ -2827,7 +2843,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>sz5-ez1:Virtual ez7-ez13</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2841,7 +2856,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>sz6-ez2:ez9-mnt</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="ez13-nz1">
@@ -2852,7 +2866,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>sz6-ez2:ez13-nz1</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2866,7 +2879,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>Virtual sz1-sz4:Virtual sz4-sz5</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2880,7 +2892,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>Virtual sz4-sz1:sz1-west</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2894,7 +2905,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>Virtual sz4-sz5:sz5-ez1</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2908,7 +2918,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>Virtual ez1-ez7:ez1-sz5</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2922,7 +2931,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>Virtual ez7-ez13:ez13-nz1</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2936,7 +2944,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>Virtual nz2-nz3:nz2-nz1</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2950,7 +2957,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>Virtual nz3-nz6:Virtual nz2-nz3</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2964,7 +2970,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>Virtual nz6-nz8:Virtual nz8-nz9</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2978,7 +2983,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>Virtual nz8-nz9:nz9-west</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -2992,7 +2996,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>west-nz9:nz2-nz1</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="Virtual nz2-nz3">
@@ -3003,7 +3006,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>west-nz9:Virtual nz2-nz3</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="Virtual nz3-nz6">
@@ -3014,7 +3016,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>west-nz9:Virtual nz3-nz6</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -3028,7 +3029,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>nz1-ez13:ez1-sz5</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="ez2-sz6">
@@ -3039,7 +3039,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>nz1-ez13:ez2-sz6</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="Virtual ez1-ez7">
@@ -3050,7 +3049,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>nz1-ez13:Virtual ez1-ez7</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -3064,7 +3062,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>nz1-nz2:nz9-west</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="Virtual nz6-nz8">
@@ -3075,7 +3072,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>nz1-nz2:Virtual nz6-nz8</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="Virtual nz8-nz9">
@@ -3086,7 +3082,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>nz1-nz2:Virtual nz8-nz9</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -3100,7 +3095,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>west-sz1:sz5-ez1</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
       <destinationMast destination="Virtual sz1-sz4">
@@ -3111,7 +3105,6 @@
         <useLayoutEditor>yes</useLayoutEditor>
         <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <associatedSection>west-sz1:Virtual sz1-sz4</associatedSection>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
@@ -3355,7 +3348,7 @@
     </conditional>
   </conditionals>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Nov 29 11:15:51 MST 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="552" y="91" windowheight="1395" windowwidth="2126" panelheight="1431" panelwidth="1740" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="79" y="23" windowheight="873" windowwidth="1316" panelheight="1431" panelwidth="1740" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Mike Dean's Basement Layout" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -3546,7 +3539,7 @@
       <unknownText text="NW Staging Track 4" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="NW Staging Track 4" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <sensoricon sensor="NW Staging Track 5" x="1252" y="343" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="NW Staging Track 5" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NW Staging Track 5" x="1252" y="343" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="NW Staging Track 5" size="20" style="0" red="0" green="255" blue="0" hasBackground="yes" redBack="0" greenBack="0" blueBack="0" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -3584,7 +3577,7 @@
       <unknownText text="NW Staging Track 6" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="NW Staging Track 6" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <sensoricon sensor="NW Bypass Track" x="1486" y="285" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="NW Bypass Track" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NW Bypass Track" x="1486" y="285" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="NW Bypass Track" size="20" style="0" red="0" green="255" blue="0" hasBackground="yes" redBack="0" greenBack="0" blueBack="0" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -3603,7 +3596,7 @@
       <unknownText text="NW Bypass Track" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="NW Bypass Track" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <sensoricon sensor="NW Staging Close" x="1484" y="320" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="NW Staging Close" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NW Staging Close" x="1484" y="319" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="NW Staging Close" size="20" style="0" red="0" green="255" blue="0" hasBackground="yes" redBack="0" greenBack="0" blueBack="0" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -3694,7 +3687,7 @@
     <layoutturnout ident="TO47" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="403.80908203125" ycen="106.57421875" xa="430.79443359375" ya="97.793212890625" xb="376.82373046875" yb="115.355224609375" xc="372.7750244140625" yc="106.7232666015625" xd="430.79443359375" yd="97.793212890625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging SW Turnout 502" connectaname="T259" connectbname="T260" connectcname="T216" />
     <layoutturnout ident="TO48" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="345.83837890625" ycen="122.13623046875" xa="374.82373046875" ya="114.355224609375" xb="316.85302734375" yb="129.917236328125" xc="314.80419921875" yc="122.2852783203125" xd="374.82373046875" yd="114.355224609375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging SW Turnout 503" connectaname="T260" connectbname="T261" connectcname="T215" />
     <layoutturnout ident="TO49" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="286.8450927734375" ycen="137.83349609375" xa="256.83349609375" ya="137.8475341796875" xb="316.856689453125" yb="137.8194580078125" xc="316.85302734375" yc="129.917236328125" xd="256.83349609375" yd="137.8475341796875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Staging SW Turnout 504" connectaname="T220" connectbname="T233" connectcname="T261" />
-    <layoutturnout ident="TO50" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="4" xcen="886.8013305664062" ycen="122.6358642578125" xa="863.8087158203125" ya="115.8817138671875" xb="909.7939453125" yb="129.3900146484375" xc="913.7522583007812" yc="138.02392578125" xd="863.8087158203125" yd="115.8817138671875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging NW Turnout 403" blockname="WEST" connectaname="T253" connectbname="T232" connectcname="T44" />
+    <layoutturnout ident="TO50" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="4" xcen="886.8013305664062" ycen="121.6358642578125" xa="863.8087158203125" ya="116.8817138671875" xb="909.7939453125" yb="126.3900146484375" xc="913.7522583007812" yc="137.02392578125" xd="863.8087158203125" yd="116.8817138671875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging NW Turnout 403" blockname="WEST" connectaname="T253" connectbname="T232" connectcname="T44" />
     <layoutturnout ident="TO51" type="DOUBLE_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="483.0" ycen="796.0" xa="489.1192626953125" ya="752.261474609375" xb="489.2314491447184" yb="839.7226831385881" xc="476.8807373046875" yc="839.738525390625" xd="476.7685508552816" yd="752.2773168614119" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutDoubleXOverXml" turnoutname="South Turnout 113" blockname="SZ7" connectaname="T122" connectbname="T119" connectcname="T12" connectdname="T246" />
     <tracksegment ident="T8" blockname="SZ4" connect1name="TO2" type1="TURNOUT_B" connect2name="A3" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T9" blockname="SZ5" connect1name="A8" type1="POS_POINT" connect2name="TO2" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="30.0" hideConLines="yes" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -4202,104 +4195,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sat Jan 30 09:53:29 MST 2021</date>
+      <date>Sat Jan 30 10:44:04 MST 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sat Jan 30 09:54:03 MST 2021</date>
+      <date>Sat Jan 30 10:44:13 MST 2021</date>
       <filename>/Users/mdean/JMRI/Mike_Basement_Layout/JanuaryPanelNewSectioning.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Fri Jan 29 16:12:30 MST 2021</date>
+          <date>Sat Jan 30 10:33:32 MST 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Fri Jan 29 16:12:45 MST 2021</date>
+          <date>Sat Jan 30 10:33:41 MST 2021</date>
           <filename>/Users/mdean/JMRI/Mike_Basement_Layout/JanuaryPanelNewSectioning.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Fri Jan 29 15:45:53 MST 2021</date>
+              <date>Sat Jan 30 09:53:29 MST 2021</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Fri Jan 29 15:46:11 MST 2021</date>
-              <filename>/Users/mdean/JMRI/Mike_Basement_Layout/NewStartOverLayoutSignalPanel.xml</filename>
+              <date>Sat Jan 30 09:54:03 MST 2021</date>
+              <filename>/Users/mdean/JMRI/Mike_Basement_Layout/JanuaryPanelNewSectioning.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Fri Jan 29 13:33:35 MST 2021</date>
+                  <date>Fri Jan 29 16:12:30 MST 2021</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Fri Jan 29 13:33:44 MST 2021</date>
-                  <filename>/Users/mdean/JMRI/Mike_Basement_Layout/NewStartOverLayoutSignalPanel.xml</filename>
+                  <date>Fri Jan 29 16:12:45 MST 2021</date>
+                  <filename>/Users/mdean/JMRI/Mike_Basement_Layout/JanuaryPanelNewSectioning.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Sun Jan 17 12:03:52 MST 2021</date>
+                      <date>Fri Jan 29 15:45:53 MST 2021</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Sun Jan 17 12:04:08 MST 2021</date>
+                      <date>Fri Jan 29 15:46:11 MST 2021</date>
                       <filename>/Users/mdean/JMRI/Mike_Basement_Layout/NewStartOverLayoutSignalPanel.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Mon Jan 04 13:25:42 MST 2021</date>
+                          <date>Fri Jan 29 13:33:35 MST 2021</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
-                          <type>Load with errors</type>
-                          <date>Mon Jan 04 13:25:52 MST 2021</date>
+                          <type>Load OK</type>
+                          <date>Fri Jan 29 13:33:44 MST 2021</date>
                           <filename>/Users/mdean/JMRI/Mike_Basement_Layout/NewStartOverLayoutSignalPanel.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Mon Jan 04 17:30:11 MST 2021</date>
+                          <date>Fri Jan 29 13:37:10 MST 2021</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Sun Jan 17 13:21:11 MST 2021</date>
+                      <date>Fri Jan 29 16:12:21 MST 2021</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Fri Jan 29 13:37:10 MST 2021</date>
+                  <date>Fri Jan 29 16:46:20 MST 2021</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Fri Jan 29 16:12:21 MST 2021</date>
+              <date>Sat Jan 30 10:24:39 MST 2021</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Fri Jan 29 16:46:20 MST 2021</date>
+          <date>Sat Jan 30 10:43:47 MST 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sat Jan 30 10:24:39 MST 2021</date>
+      <date>Sat Jan 30 11:14:07 MST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.21.3+R63094d48b on Sat Jan 30 10:24:39 MST 2021-->
+  <!--Written by JMRI version 4.21.3+R63094d48b on Sat Jan 30 11:14:07 MST 2021-->
 </layout-config>
