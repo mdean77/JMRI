@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/blockValues.xsl" type="text/xsl"?>
+<!DOCTYPE block_values SYSTEM "/xml/DTD/block-values.dtd">
+<block_values>
+  <!--Written by JMRI version 4.21.3+R63094d48b on Sat Jan 30 10:26:04 MST 2021-->
+  <blockvalues>
+    <block systemname="IB:AUTO:0020" value="1029 NW2 Switcher" />
+  </blockvalues>
+</block_values>

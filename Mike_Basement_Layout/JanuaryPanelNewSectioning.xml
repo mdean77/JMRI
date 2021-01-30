@@ -1001,7 +1001,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="4:46 PM">
+    <memory value="10:24 AM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -2477,581 +2477,125 @@
     </layoutblock>
   </layoutblocks>
   <sections class="jmri.configurexml.SectionManagerXml">
-    <section systemName="IY:AUTO:0034" userName="sz1-west:west-nz9" creationtype="signalmastlogic" fsensorname="IY:AUTO:0034:forward" rsensorname="IY:AUTO:0034:reverse">
-      <systemName>IY:AUTO:0034</systemName>
-      <userName>sz1-west:west-nz9</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">west-nz9</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
+    <section systemName="IY:AUTO:0105" userName="West" creationtype="userdefined">
+      <systemName>IY:AUTO:0105</systemName>
+      <userName>West</userName>
+      <blockentry sName="IB:AUTO:0020" order="0" />
+      <entrypoint fromblock="IB1" toblock="IB:AUTO:0020" direction="4" fixed="no" fromblockdirection="West" />
+      <entrypoint fromblock="IB:AUTO:0013" toblock="IB:AUTO:0020" direction="4" fixed="no" fromblockdirection="North" />
+      <entrypoint fromblock="IB:AUTO:0021" toblock="IB:AUTO:0020" direction="8" fixed="no" fromblockdirection="Northeast" />
     </section>
-    <section systemName="IY:AUTO:0035" userName="sz2-mnt:mnt-ez9" creationtype="signalmastlogic" fsensorname="IY:AUTO:0035:forward" rsensorname="IY:AUTO:0035:reverse">
-      <systemName>IY:AUTO:0035</systemName>
-      <userName>sz2-mnt:mnt-ez9</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">mnt-ez9</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-      </properties>
+    <section systemName="IY:AUTO:0106" userName="SZ1" creationtype="userdefined">
+      <systemName>IY:AUTO:0106</systemName>
+      <userName>SZ1</userName>
+      <blockentry sName="IB:AUTO:0021" order="0" />
+      <entrypoint fromblock="IB:AUTO:0020" toblock="IB:AUTO:0021" direction="4" fixed="no" fromblockdirection="Southwest" />
+      <entrypoint fromblock="IB:AUTO:0008" toblock="IB:AUTO:0021" direction="8" fixed="no" fromblockdirection="North" />
+      <entrypoint fromblock="IB:AUTO:0022" toblock="IB:AUTO:0021" direction="8" fixed="no" fromblockdirection="North" />
     </section>
-    <section systemName="IY:AUTO:0036" userName="sz5-ez1:ez13-nz1" creationtype="signalmastlogic" fsensorname="IY:AUTO:0036:forward" rsensorname="IY:AUTO:0036:reverse">
-      <systemName>IY:AUTO:0036</systemName>
-      <userName>sz5-ez1:ez13-nz1</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">ez13-nz1</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-      </properties>
+    <section systemName="IY:AUTO:0107" userName="SZ4" creationtype="userdefined">
+      <systemName>IY:AUTO:0107</systemName>
+      <userName>SZ4</userName>
+      <blockentry sName="IB:AUTO:0008" order="0" />
+      <entrypoint fromblock="IB:AUTO:0021" toblock="IB:AUTO:0008" direction="4" fixed="no" fromblockdirection="South" />
+      <entrypoint fromblock="IB:AUTO:0001" toblock="IB:AUTO:0008" direction="8" fixed="no" fromblockdirection="North" />
     </section>
-    <section systemName="IY:AUTO:0037" userName="sz5-ez1:ez9-mnt" creationtype="signalmastlogic" fsensorname="IY:AUTO:0037:forward" rsensorname="IY:AUTO:0037:reverse">
-      <systemName>IY:AUTO:0037</systemName>
-      <userName>sz5-ez1:ez9-mnt</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">ez9-mnt</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-      </properties>
+    <section systemName="IY:AUTO:0108" userName="sz5" creationtype="userdefined">
+      <systemName>IY:AUTO:0108</systemName>
+      <userName>sz5</userName>
+      <blockentry sName="IB:AUTO:0001" order="0" />
+      <entrypoint fromblock="IB:AUTO:0008" toblock="IB:AUTO:0001" direction="4" fixed="no" fromblockdirection="South" />
+      <entrypoint fromblock="IB:AUTO:0022" toblock="IB:AUTO:0001" direction="4" fixed="no" fromblockdirection="South" />
+      <entrypoint fromblock="IB:AUTO:0002" toblock="IB:AUTO:0001" direction="8" fixed="no" fromblockdirection="Northwest" />
     </section>
-    <section systemName="IY:AUTO:0038" userName="sz6-ez2:ez13-nz1" creationtype="signalmastlogic" fsensorname="IY:AUTO:0038:forward" rsensorname="IY:AUTO:0038:reverse">
-      <systemName>IY:AUTO:0038</systemName>
-      <userName>sz6-ez2:ez13-nz1</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">ez13-nz1</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-      </properties>
+    <section systemName="IY:AUTO:0109" userName="EZ1" creationtype="userdefined">
+      <systemName>IY:AUTO:0109</systemName>
+      <userName>EZ1</userName>
+      <blockentry sName="IB:AUTO:0002" order="0" />
+      <entrypoint fromblock="IB:AUTO:0001" toblock="IB:AUTO:0002" direction="4" fixed="no" fromblockdirection="Southeast" />
+      <entrypoint fromblock="IB:AUTO:0032" toblock="IB:AUTO:0002" direction="8" fixed="no" fromblockdirection="West" />
+      <entrypoint fromblock="IB:AUTO:0034" toblock="IB:AUTO:0002" direction="8" fixed="no" fromblockdirection="West" />
     </section>
-    <section systemName="IY:AUTO:0039" userName="sz6-ez2:ez9-mnt" creationtype="signalmastlogic" fsensorname="IY:AUTO:0039:forward" rsensorname="IY:AUTO:0039:reverse">
-      <systemName>IY:AUTO:0039</systemName>
-      <userName>sz6-ez2:ez9-mnt</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">ez9-mnt</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-      </properties>
+    <section systemName="IY:AUTO:0110" userName="EZ7" creationtype="userdefined">
+      <systemName>IY:AUTO:0110</systemName>
+      <userName>EZ7</userName>
+      <blockentry sName="IB:AUTO:0032" order="0" />
+      <entrypoint fromblock="IB:AUTO:0002" toblock="IB:AUTO:0032" direction="4" fixed="no" fromblockdirection="East" />
+      <entrypoint fromblock="IB:AUTO:0014" toblock="IB:AUTO:0032" direction="8" fixed="no" fromblockdirection="West" />
     </section>
-    <section systemName="IY:AUTO:0040" userName="west-nz9:nz2-nz1" creationtype="signalmastlogic" fsensorname="IY:AUTO:0040:forward" rsensorname="IY:AUTO:0040:reverse">
-      <systemName>IY:AUTO:0040</systemName>
-      <userName>west-nz9:nz2-nz1</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">nz2-nz1</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-      </properties>
+    <section systemName="IY:AUTO:0111" userName="EZ13" creationtype="userdefined">
+      <systemName>IY:AUTO:0111</systemName>
+      <userName>EZ13</userName>
+      <blockentry sName="IB:AUTO:0014" order="0" />
+      <entrypoint fromblock="IB:AUTO:0032" toblock="IB:AUTO:0014" direction="4" fixed="no" fromblockdirection="East" />
+      <entrypoint fromblock="IB:AUTO:0038" toblock="IB:AUTO:0014" direction="4" fixed="no" fromblockdirection="East" />
+      <entrypoint fromblock="IB:AUTO:0015" toblock="IB:AUTO:0014" direction="8" fixed="no" fromblockdirection="Southwest" />
     </section>
-    <section systemName="IY:AUTO:0044" userName="west-sz1:sz5-ez1" creationtype="signalmastlogic" fsensorname="IY:AUTO:0044:forward" rsensorname="IY:AUTO:0044:reverse">
-      <systemName>IY:AUTO:0044</systemName>
-      <userName>west-sz1:sz5-ez1</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">sz5-ez1</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
+    <section systemName="IY:AUTO:0112" userName="NZ1" creationtype="userdefined">
+      <systemName>IY:AUTO:0112</systemName>
+      <userName>NZ1</userName>
+      <blockentry sName="IB:AUTO:0015" order="0" />
+      <entrypoint fromblock="IB:AUTO:0014" toblock="IB:AUTO:0015" direction="4" fixed="no" fromblockdirection="Northeast" />
+      <entrypoint fromblock="IB:AUTO:0006" toblock="IB:AUTO:0015" direction="8" fixed="no" fromblockdirection="Northeast" />
     </section>
-    <section systemName="IY:AUTO:0045" userName="ez1-sz5:sz1-west" creationtype="signalmastlogic" fsensorname="IY:AUTO:0045:forward" rsensorname="IY:AUTO:0045:reverse">
-      <systemName>IY:AUTO:0045</systemName>
-      <userName>ez1-sz5:sz1-west</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">sz1-west</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
+    <section systemName="IY:AUTO:0113" userName="NZ2" creationtype="userdefined">
+      <systemName>IY:AUTO:0113</systemName>
+      <userName>NZ2</userName>
+      <blockentry sName="IB:AUTO:0006" order="0" />
+      <entrypoint fromblock="IB:AUTO:0015" toblock="IB:AUTO:0006" direction="4" fixed="no" fromblockdirection="Southwest" />
+      <entrypoint fromblock="IB:AUTO:0005" toblock="IB:AUTO:0006" direction="8" fixed="no" fromblockdirection="North" />
+      <entrypoint fromblock="IB:AUTO:0016" toblock="IB:AUTO:0006" direction="8" fixed="no" fromblockdirection="Northeast" />
     </section>
-    <section systemName="IY:AUTO:0046" userName="ez1-sz5:sz2-mnt" creationtype="signalmastlogic" fsensorname="IY:AUTO:0046:forward" rsensorname="IY:AUTO:0046:reverse">
-      <systemName>IY:AUTO:0046</systemName>
-      <userName>ez1-sz5:sz2-mnt</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">sz2-mnt</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-      </properties>
+    <section systemName="IY:AUTO:0114" userName="NZ3" creationtype="userdefined">
+      <systemName>IY:AUTO:0114</systemName>
+      <userName>NZ3</userName>
+      <blockentry sName="IB:AUTO:0005" order="0" />
+      <entrypoint fromblock="IB:AUTO:0006" toblock="IB:AUTO:0005" direction="4" fixed="no" fromblockdirection="South" />
+      <entrypoint fromblock="IB:AUTO:0003" toblock="IB:AUTO:0005" direction="8" fixed="no" fromblockdirection="East" />
+      <entrypoint fromblock="IB:AUTO:0017" toblock="IB:AUTO:0005" direction="8" fixed="no" fromblockdirection="Southeast" />
     </section>
-    <section systemName="IY:AUTO:0047" userName="ez2-sz6:sz2-mnt" creationtype="signalmastlogic" fsensorname="IY:AUTO:0047:forward" rsensorname="IY:AUTO:0047:reverse">
-      <systemName>IY:AUTO:0047</systemName>
-      <userName>ez2-sz6:sz2-mnt</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">sz2-mnt</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-      </properties>
+    <section systemName="IY:AUTO:0115" userName="NZ6" creationtype="userdefined">
+      <systemName>IY:AUTO:0115</systemName>
+      <userName>NZ6</userName>
+      <blockentry sName="IB:AUTO:0003" order="0" />
+      <entrypoint fromblock="IB:AUTO:0005" toblock="IB:AUTO:0003" direction="4" fixed="no" fromblockdirection="West" />
+      <entrypoint fromblock="IB:AUTO:0004" toblock="IB:AUTO:0003" direction="8" fixed="no" fromblockdirection="South" />
     </section>
-    <section systemName="IY:AUTO:0048" userName="ez9-mnt:mnt-sz2" creationtype="signalmastlogic" fsensorname="IY:AUTO:0048:forward" rsensorname="IY:AUTO:0048:reverse">
-      <systemName>IY:AUTO:0048</systemName>
-      <userName>ez9-mnt:mnt-sz2</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">mnt-sz2</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-      </properties>
+    <section systemName="IY:AUTO:0116" userName="NZ8" creationtype="userdefined">
+      <systemName>IY:AUTO:0116</systemName>
+      <userName>NZ8</userName>
+      <blockentry sName="IB:AUTO:0004" order="0" />
+      <entrypoint fromblock="IB:AUTO:0003" toblock="IB:AUTO:0004" direction="4" fixed="no" fromblockdirection="North" />
+      <entrypoint fromblock="IB:AUTO:0019" toblock="IB:AUTO:0004" direction="4" fixed="no" fromblockdirection="Northwest" />
+      <entrypoint fromblock="IB:AUTO:0013" toblock="IB:AUTO:0004" direction="8" fixed="no" fromblockdirection="South" />
     </section>
-    <section systemName="IY:AUTO:0049" userName="ez13-nz1:nz1-nz2" creationtype="signalmastlogic" fsensorname="IY:AUTO:0049:forward" rsensorname="IY:AUTO:0049:reverse">
-      <systemName>IY:AUTO:0049</systemName>
-      <userName>ez13-nz1:nz1-nz2</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">nz1-nz2</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0050" userName="mnt-ez9:ez2-sz6" creationtype="signalmastlogic" fsensorname="IY:AUTO:0050:forward" rsensorname="IY:AUTO:0050:reverse">
-      <systemName>IY:AUTO:0050</systemName>
-      <userName>mnt-ez9:ez2-sz6</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">ez2-sz6</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0051" userName="mnt-ez9:ez1-sz5" creationtype="signalmastlogic" fsensorname="IY:AUTO:0051:forward" rsensorname="IY:AUTO:0051:reverse">
-      <systemName>IY:AUTO:0051</systemName>
-      <userName>mnt-ez9:ez1-sz5</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">ez1-sz5</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0052" userName="mnt-sz2:sz5-ez1" creationtype="signalmastlogic" fsensorname="IY:AUTO:0052:forward" rsensorname="IY:AUTO:0052:reverse">
-      <systemName>IY:AUTO:0052</systemName>
-      <userName>mnt-sz2:sz5-ez1</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">sz5-ez1</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0053" userName="mnt-sz2:sz6-ez2" creationtype="signalmastlogic" fsensorname="IY:AUTO:0053:forward" rsensorname="IY:AUTO:0053:reverse">
-      <systemName>IY:AUTO:0053</systemName>
-      <userName>mnt-sz2:sz6-ez2</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">sz6-ez2</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0054" userName="nz2-nz1:nz1-ez13" creationtype="signalmastlogic" fsensorname="IY:AUTO:0054:forward" rsensorname="IY:AUTO:0054:reverse">
-      <systemName>IY:AUTO:0054</systemName>
-      <userName>nz2-nz1:nz1-ez13</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">nz1-ez13</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0055" userName="nz9-west:west-sz1" creationtype="signalmastlogic" fsensorname="IY:AUTO:0055:forward" rsensorname="IY:AUTO:0055:reverse">
-      <systemName>IY:AUTO:0055</systemName>
-      <userName>nz9-west:west-sz1</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">west-sz1</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0063" userName="nz1-ez13:ez2-sz6" creationtype="signalmastlogic" fsensorname="IY:AUTO:0063:forward" rsensorname="IY:AUTO:0063:reverse">
-      <systemName>IY:AUTO:0063</systemName>
-      <userName>nz1-ez13:ez2-sz6</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">ez2-sz6</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0064" userName="nz1-ez13:ez1-sz5" creationtype="signalmastlogic" fsensorname="IY:AUTO:0064:forward" rsensorname="IY:AUTO:0064:reverse">
-      <systemName>IY:AUTO:0064</systemName>
-      <userName>nz1-ez13:ez1-sz5</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">ez1-sz5</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0065" userName="nz1-nz2:nz9-west" creationtype="signalmastlogic" fsensorname="IY:AUTO:0065:forward" rsensorname="IY:AUTO:0065:reverse">
-      <systemName>IY:AUTO:0065</systemName>
-      <userName>nz1-nz2:nz9-west</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">nz9-west</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0066" userName="ez1-sz5:Virtual sz4-sz1" creationtype="signalmastlogic" fsensorname="IY:AUTO:0066:forward" rsensorname="IY:AUTO:0066:reverse">
-      <systemName>IY:AUTO:0066</systemName>
-      <userName>ez1-sz5:Virtual sz4-sz1</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">Virtual sz4-sz1</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0067" userName="ez1-sz5:Virtual sz1-sz4" creationtype="signalmastlogic" fsensorname="IY:AUTO:0067:forward" rsensorname="IY:AUTO:0067:reverse">
-      <systemName>IY:AUTO:0067</systemName>
-      <userName>ez1-sz5:Virtual sz1-sz4</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">Virtual sz1-sz4</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0083" userName="sz5-ez1:Virtual ez7-ez13" creationtype="signalmastlogic" fsensorname="IY:AUTO:0083:forward" rsensorname="IY:AUTO:0083:reverse">
-      <systemName>IY:AUTO:0083</systemName>
-      <userName>sz5-ez1:Virtual ez7-ez13</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">Virtual ez7-ez13</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0086" userName="Virtual sz1-sz4:Virtual sz4-sz5" creationtype="signalmastlogic" fsensorname="IY:AUTO:0086:forward" rsensorname="IY:AUTO:0086:reverse">
-      <systemName>IY:AUTO:0086</systemName>
-      <userName>Virtual sz1-sz4:Virtual sz4-sz5</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">Virtual sz4-sz5</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0087" userName="Virtual sz4-sz1:sz1-west" creationtype="signalmastlogic" fsensorname="IY:AUTO:0087:forward" rsensorname="IY:AUTO:0087:reverse">
-      <systemName>IY:AUTO:0087</systemName>
-      <userName>Virtual sz4-sz1:sz1-west</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">sz1-west</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0088" userName="Virtual sz4-sz5:sz5-ez1" creationtype="signalmastlogic" fsensorname="IY:AUTO:0088:forward" rsensorname="IY:AUTO:0088:reverse">
-      <systemName>IY:AUTO:0088</systemName>
-      <userName>Virtual sz4-sz5:sz5-ez1</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">sz5-ez1</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0089" userName="Virtual ez1-ez7:ez1-sz5" creationtype="signalmastlogic" fsensorname="IY:AUTO:0089:forward" rsensorname="IY:AUTO:0089:reverse">
-      <systemName>IY:AUTO:0089</systemName>
-      <userName>Virtual ez1-ez7:ez1-sz5</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">ez1-sz5</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0090" userName="Virtual ez7-ez13:ez13-nz1" creationtype="signalmastlogic" fsensorname="IY:AUTO:0090:forward" rsensorname="IY:AUTO:0090:reverse">
-      <systemName>IY:AUTO:0090</systemName>
-      <userName>Virtual ez7-ez13:ez13-nz1</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">ez13-nz1</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0091" userName="Virtual nz2-nz3:nz2-nz1" creationtype="signalmastlogic" fsensorname="IY:AUTO:0091:forward" rsensorname="IY:AUTO:0091:reverse">
-      <systemName>IY:AUTO:0091</systemName>
-      <userName>Virtual nz2-nz3:nz2-nz1</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">nz2-nz1</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0092" userName="Virtual nz3-nz6:Virtual nz2-nz3" creationtype="signalmastlogic" fsensorname="IY:AUTO:0092:forward" rsensorname="IY:AUTO:0092:reverse">
-      <systemName>IY:AUTO:0092</systemName>
-      <userName>Virtual nz3-nz6:Virtual nz2-nz3</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">Virtual nz2-nz3</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0093" userName="Virtual nz6-nz8:Virtual nz8-nz9" creationtype="signalmastlogic" fsensorname="IY:AUTO:0093:forward" rsensorname="IY:AUTO:0093:reverse">
-      <systemName>IY:AUTO:0093</systemName>
-      <userName>Virtual nz6-nz8:Virtual nz8-nz9</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">Virtual nz8-nz9</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0094" userName="Virtual nz8-nz9:nz9-west" creationtype="signalmastlogic" fsensorname="IY:AUTO:0094:forward" rsensorname="IY:AUTO:0094:reverse">
-      <systemName>IY:AUTO:0094</systemName>
-      <userName>Virtual nz8-nz9:nz9-west</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">nz9-west</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0095" userName="west-nz9:Virtual nz2-nz3" creationtype="signalmastlogic" fsensorname="IY:AUTO:0095:forward" rsensorname="IY:AUTO:0095:reverse">
-      <systemName>IY:AUTO:0095</systemName>
-      <userName>west-nz9:Virtual nz2-nz3</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">Virtual nz2-nz3</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0096" userName="west-nz9:Virtual nz3-nz6" creationtype="signalmastlogic" fsensorname="IY:AUTO:0096:forward" rsensorname="IY:AUTO:0096:reverse">
-      <systemName>IY:AUTO:0096</systemName>
-      <userName>west-nz9:Virtual nz3-nz6</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">Virtual nz3-nz6</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0099" userName="nz1-ez13:Virtual ez1-ez7" creationtype="signalmastlogic" fsensorname="IY:AUTO:0099:forward" rsensorname="IY:AUTO:0099:reverse">
-      <systemName>IY:AUTO:0099</systemName>
-      <userName>nz1-ez13:Virtual ez1-ez7</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">Virtual ez1-ez7</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0101" userName="nz1-nz2:Virtual nz6-nz8" creationtype="signalmastlogic" fsensorname="IY:AUTO:0101:forward" rsensorname="IY:AUTO:0101:reverse">
-      <systemName>IY:AUTO:0101</systemName>
-      <userName>nz1-nz2:Virtual nz6-nz8</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">Virtual nz6-nz8</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0102" userName="nz1-nz2:Virtual nz8-nz9" creationtype="signalmastlogic" fsensorname="IY:AUTO:0102:forward" rsensorname="IY:AUTO:0102:reverse">
-      <systemName>IY:AUTO:0102</systemName>
-      <userName>nz1-nz2:Virtual nz8-nz9</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">Virtual nz8-nz9</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </section>
-    <section systemName="IY:AUTO:0104" userName="west-sz1:Virtual sz1-sz4" creationtype="signalmastlogic" fsensorname="IY:AUTO:0104:forward" rsensorname="IY:AUTO:0104:reverse">
-      <systemName>IY:AUTO:0104</systemName>
-      <userName>west-sz1:Virtual sz1-sz4</userName>
-      <properties>
-        <property>
-          <key>forwardMast</key>
-          <value class="java.lang.String">Virtual sz1-sz4</value>
-        </property>
-        <property>
-          <key>intermediateSection</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-      </properties>
+    <section systemName="IY:AUTO:0117" userName="nz9" creationtype="userdefined">
+      <systemName>IY:AUTO:0117</systemName>
+      <userName>nz9</userName>
+      <blockentry sName="IB:AUTO:0013" order="0" />
+      <entrypoint fromblock="IB:AUTO:0004" toblock="IB:AUTO:0013" direction="4" fixed="no" fromblockdirection="North" />
+      <entrypoint fromblock="IB:AUTO:0018" toblock="IB:AUTO:0013" direction="4" fixed="no" fromblockdirection="North" />
+      <entrypoint fromblock="IB:AUTO:0020" toblock="IB:AUTO:0013" direction="8" fixed="no" fromblockdirection="South" />
     </section>
   </sections>
   <transits class="jmri.configurexml.TransitManagerXml">
-    <transit systemName="IZ:AUTO:0004" userName="Round the Circuit">
-      <systemName>IZ:AUTO:0004</systemName>
-      <userName>Round the Circuit</userName>
-      <transitsection sectionname="IY:AUTO:0055" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0104" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0086" sequence="3" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0088" sequence="4" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0036" sequence="5" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0049" sequence="6" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0091" sequence="7" direction="8" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0092" sequence="8" direction="8" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0096" sequence="9" direction="8" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0034" sequence="10" direction="8" alternate="no" safe="no" stopallocatingsensor="" />
+    <transit systemName="IZ:AUTO:0005" userName="WestToWest">
+      <systemName>IZ:AUTO:0005</systemName>
+      <userName>WestToWest</userName>
+      <transitsection sectionname="IY:AUTO:0105" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0106" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0107" sequence="3" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0108" sequence="4" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0109" sequence="5" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0110" sequence="6" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0111" sequence="7" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0112" sequence="8" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0113" sequence="9" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0114" sequence="10" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0115" sequence="11" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0116" sequence="12" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0117" sequence="13" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0105" sequence="14" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
     </transit>
   </transits>
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
@@ -3811,7 +3355,7 @@
     </conditional>
   </conditionals>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Nov 29 11:15:51 MST 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="93" y="45" windowheight="1395" windowwidth="2126" panelheight="1431" panelwidth="1740" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="552" y="91" windowheight="1395" windowwidth="2126" panelheight="1431" panelwidth="1740" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Mike Dean's Basement Layout" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -4094,7 +3638,7 @@
     <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="636.73876953125" ycen="750.2760009765625" xa="636.7247314453125" ya="720.2643432617188" xb="636.7528076171875" yb="780.2876586914062" xc="646.655029296875" yc="779.283935546875" xd="636.7247314453125" yd="720.2643432617188" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="North Turnout 308" blockname="NZ8" connectaname="T106" connectbname="T19" connectcname="T103">
       <signalBMast>Virtual nz6-nz8</signalBMast>
     </layoutturnout>
-    <layoutturnout ident="TO4" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="872.7963256835938" ycen="1014.3977661132812" xa="902.8079833984375" ya="1014.3837890625" xb="842.78466796875" yb="1014.4117431640625" xc="842.781005859375" yc="1006.509521484375" xd="902.8079833984375" yd="1014.3837890625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="North Turnout 303" blockname="NZ3" connectaname="T23" connectbname="T236" connectcname="T22">
+    <layoutturnout ident="TO4" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="873.7963256835938" ycen="1014.3977661132812" xa="903.8079833984375" ya="1014.3837890625" xb="843.78466796875" yb="1014.4117431640625" xc="843.781005859375" yc="1006.509521484375" xd="903.8079833984375" yd="1014.3837890625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="North Turnout 303" blockname="NZ3" connectaname="T23" connectbname="T236" connectcname="T22">
       <signalCMast>Virtual nz3-nz6</signalCMast>
     </layoutturnout>
     <layoutturnout ident="TO5" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1133.2408447265625" ycen="749.75146484375" xa="1132.2269287109375" ya="718.7398681640625" xb="1134.2547607421875" yb="780.7630615234375" xc="1125.3526611328125" yc="779.7667236328125" xd="1132.2269287109375" yd="718.7398681640625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="North Turnout 301" blockname="NZ2" connectaname="T29" connectbname="T28" connectcname="T237">
@@ -4658,104 +4202,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Fri Jan 29 16:12:30 MST 2021</date>
+      <date>Sat Jan 30 09:53:29 MST 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Fri Jan 29 16:12:45 MST 2021</date>
+      <date>Sat Jan 30 09:54:03 MST 2021</date>
       <filename>/Users/mdean/JMRI/Mike_Basement_Layout/JanuaryPanelNewSectioning.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Fri Jan 29 15:45:53 MST 2021</date>
+          <date>Fri Jan 29 16:12:30 MST 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Fri Jan 29 15:46:11 MST 2021</date>
-          <filename>/Users/mdean/JMRI/Mike_Basement_Layout/NewStartOverLayoutSignalPanel.xml</filename>
+          <date>Fri Jan 29 16:12:45 MST 2021</date>
+          <filename>/Users/mdean/JMRI/Mike_Basement_Layout/JanuaryPanelNewSectioning.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Fri Jan 29 13:33:35 MST 2021</date>
+              <date>Fri Jan 29 15:45:53 MST 2021</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Fri Jan 29 13:33:44 MST 2021</date>
+              <date>Fri Jan 29 15:46:11 MST 2021</date>
               <filename>/Users/mdean/JMRI/Mike_Basement_Layout/NewStartOverLayoutSignalPanel.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Sun Jan 17 12:03:52 MST 2021</date>
+                  <date>Fri Jan 29 13:33:35 MST 2021</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Sun Jan 17 12:04:08 MST 2021</date>
+                  <date>Fri Jan 29 13:33:44 MST 2021</date>
                   <filename>/Users/mdean/JMRI/Mike_Basement_Layout/NewStartOverLayoutSignalPanel.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Mon Jan 04 13:25:42 MST 2021</date>
+                      <date>Sun Jan 17 12:03:52 MST 2021</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
-                      <type>Load with errors</type>
-                      <date>Mon Jan 04 13:25:52 MST 2021</date>
+                      <type>Load OK</type>
+                      <date>Sun Jan 17 12:04:08 MST 2021</date>
                       <filename>/Users/mdean/JMRI/Mike_Basement_Layout/NewStartOverLayoutSignalPanel.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Mon Jan 04 09:13:09 MST 2021</date>
+                          <date>Mon Jan 04 13:25:42 MST 2021</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load with errors</type>
-                          <date>Mon Jan 04 09:13:18 MST 2021</date>
+                          <date>Mon Jan 04 13:25:52 MST 2021</date>
                           <filename>/Users/mdean/JMRI/Mike_Basement_Layout/NewStartOverLayoutSignalPanel.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Mon Jan 04 09:25:12 MST 2021</date>
+                          <date>Mon Jan 04 17:30:11 MST 2021</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Mon Jan 04 17:30:11 MST 2021</date>
+                      <date>Sun Jan 17 13:21:11 MST 2021</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Sun Jan 17 13:21:11 MST 2021</date>
+                  <date>Fri Jan 29 13:37:10 MST 2021</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Fri Jan 29 13:37:10 MST 2021</date>
+              <date>Fri Jan 29 16:12:21 MST 2021</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Fri Jan 29 16:12:21 MST 2021</date>
+          <date>Fri Jan 29 16:46:20 MST 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Jan 29 16:46:20 MST 2021</date>
+      <date>Sat Jan 30 10:24:39 MST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.21.3+R63094d48b on Fri Jan 29 16:46:20 MST 2021-->
+  <!--Written by JMRI version 4.21.3+R63094d48b on Sat Jan 30 10:24:39 MST 2021-->
 </layout-config>
