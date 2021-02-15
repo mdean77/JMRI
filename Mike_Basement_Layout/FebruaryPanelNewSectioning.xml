@@ -1025,7 +1025,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="4:46 PM">
+    <memory value="3:25 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -1035,7 +1035,7 @@
   <signalheads class="jmri.managers.configurexml.AbstractSignalHeadManagerXml">
     <signalhead class="jmri.implementation.configurexml.DccSignalHeadXml">
       <systemName>NH$1101</systemName>
-      <userName>sz1-west</userName>
+      <userName>sz1-west-SW</userName>
       <useAddressOffSet>yes</useAddressOffSet>
       <packetsendcount>3</packetsendcount>
       <aspect defines="SignalHeadStateDark">
@@ -1398,7 +1398,7 @@
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DccSignalHeadXml">
       <systemName>NH$1309</systemName>
-      <userName>nz9-west</userName>
+      <userName>nz9-west-NW</userName>
       <useAddressOffSet>yes</useAddressOffSet>
       <packetsendcount>3</packetsendcount>
       <aspect defines="SignalHeadStateDark">
@@ -1485,13 +1485,13 @@
       <unlit allowed="no" />
     </signalmast>
     <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
-      <systemName>IF$shsm:basic:one-searchlight(nz9-west)</systemName>
-      <userName>nz9-west</userName>
+      <systemName>IF$shsm:basic:one-searchlight(nz9-west-NW)</systemName>
+      <userName>WestNW-NZ9</userName>
       <unlit allowed="no" />
     </signalmast>
     <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
-      <systemName>IF$shsm:basic:one-searchlight(sz1-west)</systemName>
-      <userName>sz1-west</userName>
+      <systemName>IF$shsm:basic:one-searchlight(sz1-west-SW)</systemName>
+      <userName>SZ1-WestSW</userName>
       <unlit allowed="no" />
     </signalmast>
     <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
@@ -1587,8 +1587,13 @@
       <unlit allowed="no" />
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
-      <systemName>IF$vsm:basic:one-searchlight($0014)</systemName>
-      <userName>west-nz9</userName>
+      <systemName>IF$vsm:basic:one-low($0042)</systemName>
+      <userName>Virtual West-SW - West NW</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0043)</systemName>
+      <userName>Virtual West-NW-West-Sw</userName>
       <unlit allowed="no" />
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
@@ -1612,11 +1617,6 @@
       <unlit allowed="no" />
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
-      <systemName>IF$vsm:basic:one-searchlight($0025)</systemName>
-      <userName>Virtual sz1-west</userName>
-      <unlit allowed="no" />
-    </virtualsignalmast>
-    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
       <systemName>IF$vsm:basic:one-searchlight($0026)</systemName>
       <userName>nz1-ez13</userName>
       <unlit allowed="no" />
@@ -1626,17 +1626,6 @@
       <userName>nz1-nz2</userName>
       <unlit allowed="no" />
     </virtualsignalmast>
-    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
-      <systemName>IF$vsm:basic:one-searchlight($0028)</systemName>
-      <userName>west-sz1</userName>
-      <unlit allowed="no" />
-    </virtualsignalmast>
-    <signalmastrepeater>
-      <masterMast>sz1-west</masterMast>
-      <slaveMast>Virtual sz1-west</slaveMast>
-      <enabled>true</enabled>
-      <update>MasterToSlave</update>
-    </signalmastrepeater>
   </signalmasts>
   <blocks class="jmri.configurexml.BlockManagerXml">
     <defaultspeed>Normal</defaultspeed>
@@ -2504,18 +2493,11 @@
     </layoutblock>
   </layoutblocks>
   <sections class="jmri.configurexml.SectionManagerXml">
-    <section systemName="IY:AUTO:0105" userName="West" creationtype="userdefined">
-      <systemName>IY:AUTO:0105</systemName>
-      <userName>West</userName>
-      <blockentry sName="IB:AUTO:0020" order="0" />
-      <entrypoint fromblock="IB:AUTO:0013" toblock="IB:AUTO:0020" direction="4" fixed="no" fromblockdirection="North" />
-      <entrypoint fromblock="IB:AUTO:0021" toblock="IB:AUTO:0020" direction="8" fixed="no" fromblockdirection="Northeast" />
-    </section>
     <section systemName="IY:AUTO:0106" userName="SZ1" creationtype="userdefined">
       <systemName>IY:AUTO:0106</systemName>
       <userName>SZ1</userName>
       <blockentry sName="IB:AUTO:0021" order="0" />
-      <entrypoint fromblock="IB:AUTO:0020" toblock="IB:AUTO:0021" direction="4" fixed="no" fromblockdirection="Southwest" />
+      <entrypoint fromblock="IB:AUTO:0042" toblock="IB:AUTO:0021" direction="4" fixed="no" fromblockdirection="Southwest" />
       <entrypoint fromblock="IB:AUTO:0008" toblock="IB:AUTO:0021" direction="8" fixed="no" fromblockdirection="North" />
       <entrypoint fromblock="IB:AUTO:0022" toblock="IB:AUTO:0021" direction="8" fixed="no" fromblockdirection="North" />
     </section>
@@ -2603,20 +2585,6 @@
       <entrypoint fromblock="IB:AUTO:0018" toblock="IB:AUTO:0013" direction="4" fixed="no" fromblockdirection="North" />
       <entrypoint fromblock="IB:AUTO:0020" toblock="IB:AUTO:0013" direction="8" fixed="no" fromblockdirection="South" />
     </section>
-    <section systemName="IY:AUTO:0118" userName="Virtual nz8-nz9:nz9-west" creationtype="userdefined">
-      <systemName>IY:AUTO:0118</systemName>
-      <userName>Virtual nz8-nz9:nz9-west</userName>
-      <blockentry sName="IB:AUTO:0013" order="0" />
-      <entrypoint fromblock="IB:AUTO:0004" toblock="IB:AUTO:0013" direction="4" fixed="no" fromblockdirection="North" />
-      <entrypoint fromblock="IB:AUTO:0020" toblock="IB:AUTO:0013" direction="8" fixed="no" fromblockdirection="South" />
-    </section>
-    <section systemName="IY:AUTO:0120" userName="nz9-west:west-sz1" creationtype="userdefined">
-      <systemName>IY:AUTO:0120</systemName>
-      <userName>nz9-west:west-sz1</userName>
-      <blockentry sName="IB:AUTO:0020" order="0" />
-      <entrypoint fromblock="IB:AUTO:0013" toblock="IB:AUTO:0020" direction="4" fixed="no" fromblockdirection="North" />
-      <entrypoint fromblock="IB:AUTO:0021" toblock="IB:AUTO:0020" direction="8" fixed="no" fromblockdirection="Northeast" />
-    </section>
     <section systemName="IY:AUTO:0121" userName="MNT" creationtype="userdefined">
       <systemName>IY:AUTO:0121</systemName>
       <userName>MNT</userName>
@@ -2667,13 +2635,6 @@
       <entrypoint fromblock="IB:AUTO:0040" toblock="IB:AUTO:0031" direction="4" fixed="no" fromblockdirection="East" />
       <entrypoint fromblock="IB:AUTO:0007" toblock="IB:AUTO:0031" direction="8" fixed="no" fromblockdirection="West" />
     </section>
-    <section systemName="IY:AUTO:0127" userName="sz1-west:west-nz9" creationtype="userdefined">
-      <systemName>IY:AUTO:0127</systemName>
-      <userName>sz1-west:west-nz9</userName>
-      <blockentry sName="IB:AUTO:0020" order="0" />
-      <entrypoint fromblock="IB:AUTO:0021" toblock="IB:AUTO:0020" direction="4" fixed="no" fromblockdirection="Northeast" />
-      <entrypoint fromblock="IB:AUTO:0013" toblock="IB:AUTO:0020" direction="8" fixed="no" fromblockdirection="North" />
-    </section>
     <section systemName="IY:AUTO:0128" userName="Virtual nz6-nz8:Virtual nz8-nz9" creationtype="userdefined">
       <systemName>IY:AUTO:0128</systemName>
       <userName>Virtual nz6-nz8:Virtual nz8-nz9</userName>
@@ -2681,93 +2642,64 @@
       <entrypoint fromblock="IB:AUTO:0003" toblock="IB:AUTO:0004" direction="4" fixed="no" fromblockdirection="North" />
       <entrypoint fromblock="IB:AUTO:0013" toblock="IB:AUTO:0004" direction="8" fixed="no" fromblockdirection="South" />
     </section>
+    <section systemName="IY:AUTO:0131" userName="West-SW" creationtype="userdefined">
+      <systemName>IY:AUTO:0131</systemName>
+      <userName>West-SW</userName>
+      <blockentry sName="IB:AUTO:0042" order="0" />
+      <entrypoint fromblock="IB:AUTO:0020" toblock="IB:AUTO:0042" direction="4" fixed="no" fromblockdirection="West" />
+      <entrypoint fromblock="IB:AUTO:0021" toblock="IB:AUTO:0042" direction="8" fixed="no" fromblockdirection="Northeast" />
+    </section>
+    <section systemName="IY:AUTO:0132" userName="West-NW" creationtype="userdefined">
+      <systemName>IY:AUTO:0132</systemName>
+      <userName>West-NW</userName>
+      <blockentry sName="IB:AUTO:0020" order="0" />
+      <entrypoint fromblock="IB:AUTO:0013" toblock="IB:AUTO:0020" direction="4" fixed="no" fromblockdirection="North" />
+      <entrypoint fromblock="IB:AUTO:0042" toblock="IB:AUTO:0020" direction="8" fixed="no" fromblockdirection="East" />
+    </section>
   </sections>
   <transits class="jmri.configurexml.TransitManagerXml">
-    <transit systemName="IZ:AUTO:0005" userName="WestToWest">
-      <systemName>IZ:AUTO:0005</systemName>
-      <userName>WestToWest</userName>
-      <transitsection sectionname="IY:AUTO:0105" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0106" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0107" sequence="3" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0108" sequence="4" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0109" sequence="5" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0110" sequence="6" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0111" sequence="7" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0112" sequence="8" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0113" sequence="9" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0114" sequence="10" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0115" sequence="11" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0116" sequence="12" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0117" sequence="13" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0105" sequence="14" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+    <transit systemName="IZ:AUTO:0001" userName="WestNWCircleAround">
+      <systemName>IZ:AUTO:0001</systemName>
+      <userName>WestNWCircleAround</userName>
+      <transitsection sectionname="IY:AUTO:0132" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0131" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0106" sequence="3" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0107" sequence="4" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0108" sequence="5" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0109" sequence="6" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0110" sequence="7" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0111" sequence="8" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0112" sequence="9" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0113" sequence="10" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0114" sequence="11" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0115" sequence="12" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0116" sequence="13" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0117" sequence="14" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0132" sequence="15" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
     </transit>
-    <transit systemName="IZ:AUTO:0006" userName="WestToNZ9Reverse">
-      <systemName>IZ:AUTO:0006</systemName>
-      <userName>WestToNZ9Reverse</userName>
-      <transitsection sectionname="IY:AUTO:0105" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0106" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0107" sequence="3" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0108" sequence="4" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0109" sequence="5" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0110" sequence="6" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0111" sequence="7" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0112" sequence="8" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0113" sequence="9" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0114" sequence="10" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0115" sequence="11" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0116" sequence="12" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0117" sequence="13" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-    </transit>
-    <transit systemName="IZ:AUTO:0007" userName="WestToNZ8Reverse">
-      <systemName>IZ:AUTO:0007</systemName>
-      <userName>WestToNZ8Reverse</userName>
-      <transitsection sectionname="IY:AUTO:0105" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0106" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0107" sequence="3" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0108" sequence="4" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0109" sequence="5" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0110" sequence="6" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0111" sequence="7" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0112" sequence="8" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0113" sequence="9" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0114" sequence="10" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0115" sequence="11" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0116" sequence="12" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-    </transit>
-    <transit systemName="IZ:AUTO:0008" userName="MountainRoundAndRound">
-      <systemName>IZ:AUTO:0008</systemName>
-      <userName>MountainRoundAndRound</userName>
-      <transitsection sectionname="IY:AUTO:0121" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0122" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0123" sequence="3" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0124" sequence="4" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0125" sequence="5" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0126" sequence="6" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0121" sequence="7" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-    </transit>
-    <transit systemName="IZ:AUTO:0009" userName="MountainBackAndForth">
-      <systemName>IZ:AUTO:0009</systemName>
-      <userName>MountainBackAndForth</userName>
-      <transitsection sectionname="IY:AUTO:0126" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0121" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0122" sequence="3" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0123" sequence="4" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+    <transit systemName="IZ:AUTO:0002" userName="WestNWToNZ9">
+      <systemName>IZ:AUTO:0002</systemName>
+      <userName>WestNWToNZ9</userName>
+      <transitsection sectionname="IY:AUTO:0132" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0131" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0106" sequence="3" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0107" sequence="4" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0108" sequence="5" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0109" sequence="6" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0110" sequence="7" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0111" sequence="8" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0112" sequence="9" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0113" sequence="10" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0114" sequence="11" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0115" sequence="12" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0116" sequence="13" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0117" sequence="14" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
     </transit>
   </transits>
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
     <signalmastlogic source="ez1-sz5">
       <sourceSignalMast>ez1-sz5</sourceSignalMast>
-      <destinationMast destination="sz1-west">
-        <destinationSignalMast>sz1-west</destinationSignalMast>
-        <comment />
-        <enabled>yes</enabled>
-        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
-        <useLayoutEditor>yes</useLayoutEditor>
-        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
-        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <lockTurnouts>no</lockTurnouts>
-      </destinationMast>
       <destinationMast destination="sz2-mnt">
         <destinationSignalMast>sz2-mnt</destinationSignalMast>
         <comment />
@@ -2790,6 +2722,16 @@
       </destinationMast>
       <destinationMast destination="Virtual sz4-sz1">
         <destinationSignalMast>Virtual sz4-sz1</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="Virtual West-SW - West NW">
+        <destinationSignalMast>Virtual West-SW - West NW</destinationSignalMast>
         <comment />
         <enabled>yes</enabled>
         <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
@@ -2907,52 +2849,6 @@
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
-    <signalmastlogic source="nz9-west">
-      <sourceSignalMast>nz9-west</sourceSignalMast>
-      <destinationMast destination="west-sz1">
-        <destinationSignalMast>west-sz1</destinationSignalMast>
-        <comment />
-        <enabled>yes</enabled>
-        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
-        <useLayoutEditor>yes</useLayoutEditor>
-        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
-        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <lockTurnouts>no</lockTurnouts>
-      </destinationMast>
-    </signalmastlogic>
-    <signalmastlogic source="sz1-west">
-      <sourceSignalMast>sz1-west</sourceSignalMast>
-      <destinationMast destination="west-nz9">
-        <destinationSignalMast>west-nz9</destinationSignalMast>
-        <comment />
-        <enabled>yes</enabled>
-        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
-        <useLayoutEditor>no</useLayoutEditor>
-        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
-        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <lockTurnouts>no</lockTurnouts>
-        <blocks>
-          <block>
-            <blockName>WEST NW</blockName>
-            <blockState>unoccupied</blockState>
-          </block>
-        </blocks>
-        <turnouts>
-          <turnout>
-            <turnoutName>Staging NW Turnout 400</turnoutName>
-            <turnoutState>thrown</turnoutState>
-          </turnout>
-          <turnout>
-            <turnoutName>Staging NW Turnout 403</turnoutName>
-            <turnoutState>thrown</turnoutState>
-          </turnout>
-          <turnout>
-            <turnoutName>Staging SW Turnout 500</turnoutName>
-            <turnoutState>closed</turnoutState>
-          </turnout>
-        </turnouts>
-      </destinationMast>
-    </signalmastlogic>
     <signalmastlogic source="sz2-mnt">
       <sourceSignalMast>sz2-mnt</sourceSignalMast>
       <destinationMast destination="mnt-ez9">
@@ -3041,6 +2937,44 @@
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
+      <destinationMast destination="Virtual ez9-mnt">
+        <destinationSignalMast>Virtual ez9-mnt</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+        <blocks>
+          <block>
+            <blockName>EZ9</blockName>
+            <blockState>unoccupied</blockState>
+          </block>
+          <block>
+            <blockName>EZ2</blockName>
+            <blockState>unoccupied</blockState>
+          </block>
+          <block>
+            <blockName>EZ3</blockName>
+            <blockState>unoccupied</blockState>
+          </block>
+        </blocks>
+        <turnouts>
+          <turnout>
+            <turnoutName>East Turnout 202</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+          <turnout>
+            <turnoutName>East Turnout 205</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+          <turnout>
+            <turnoutName>East Turnout 211</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+        </turnouts>
+      </destinationMast>
     </signalmastlogic>
     <signalmastlogic source="Virtual sz1-sz4">
       <sourceSignalMast>Virtual sz1-sz4</sourceSignalMast>
@@ -3057,8 +2991,8 @@
     </signalmastlogic>
     <signalmastlogic source="Virtual sz4-sz1">
       <sourceSignalMast>Virtual sz4-sz1</sourceSignalMast>
-      <destinationMast destination="sz1-west">
-        <destinationSignalMast>sz1-west</destinationSignalMast>
+      <destinationMast destination="Virtual West-SW - West NW">
+        <destinationSignalMast>Virtual West-SW - West NW</destinationSignalMast>
         <comment />
         <enabled>yes</enabled>
         <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
@@ -3149,8 +3083,8 @@
     </signalmastlogic>
     <signalmastlogic source="Virtual nz8-nz9">
       <sourceSignalMast>Virtual nz8-nz9</sourceSignalMast>
-      <destinationMast destination="nz9-west">
-        <destinationSignalMast>nz9-west</destinationSignalMast>
+      <destinationMast destination="Virtual West-NW-West-Sw">
+        <destinationSignalMast>Virtual West-NW-West-Sw</destinationSignalMast>
         <comment />
         <enabled>yes</enabled>
         <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
@@ -3212,8 +3146,8 @@
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
-    <signalmastlogic source="west-nz9">
-      <sourceSignalMast>west-nz9</sourceSignalMast>
+    <signalmastlogic source="Virtual West-SW - West NW">
+      <sourceSignalMast>Virtual West-SW - West NW</sourceSignalMast>
       <destinationMast destination="nz2-nz1">
         <destinationSignalMast>nz2-nz1</destinationSignalMast>
         <comment />
@@ -3226,6 +3160,29 @@
       </destinationMast>
       <destinationMast destination="Virtual nz3-nz6">
         <destinationSignalMast>Virtual nz3-nz6</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Virtual West-NW-West-Sw">
+      <sourceSignalMast>Virtual West-NW-West-Sw</sourceSignalMast>
+      <destinationMast destination="sz5-ez1">
+        <destinationSignalMast>sz5-ez1</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="Virtual sz1-sz4">
+        <destinationSignalMast>Virtual sz1-sz4</destinationSignalMast>
         <comment />
         <enabled>yes</enabled>
         <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
@@ -3270,16 +3227,6 @@
     </signalmastlogic>
     <signalmastlogic source="nz1-nz2">
       <sourceSignalMast>nz1-nz2</sourceSignalMast>
-      <destinationMast destination="nz9-west">
-        <destinationSignalMast>nz9-west</destinationSignalMast>
-        <comment />
-        <enabled>yes</enabled>
-        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
-        <useLayoutEditor>yes</useLayoutEditor>
-        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
-        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <lockTurnouts>no</lockTurnouts>
-      </destinationMast>
       <destinationMast destination="Virtual nz6-nz8">
         <destinationSignalMast>Virtual nz6-nz8</destinationSignalMast>
         <comment />
@@ -3300,21 +3247,8 @@
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
-    </signalmastlogic>
-    <signalmastlogic source="west-sz1">
-      <sourceSignalMast>west-sz1</sourceSignalMast>
-      <destinationMast destination="sz5-ez1">
-        <destinationSignalMast>sz5-ez1</destinationSignalMast>
-        <comment />
-        <enabled>yes</enabled>
-        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
-        <useLayoutEditor>yes</useLayoutEditor>
-        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
-        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <lockTurnouts>no</lockTurnouts>
-      </destinationMast>
-      <destinationMast destination="Virtual sz1-sz4">
-        <destinationSignalMast>Virtual sz1-sz4</destinationSignalMast>
+      <destinationMast destination="Virtual West-NW-West-Sw">
+        <destinationSignalMast>Virtual West-NW-West-Sw</destinationSignalMast>
         <comment />
         <enabled>yes</enabled>
         <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
@@ -3636,7 +3570,7 @@
     </conditional>
   </conditionals>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Nov 29 11:15:51 MST 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="49" y="23" windowheight="800" windowwidth="1391" panelheight="1431" panelwidth="1740" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="572" y="45" windowheight="1395" windowwidth="1988" panelheight="1431" panelwidth="1740" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Mike Dean's Basement Layout" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -3743,8 +3677,6 @@
     </sensoricon>
     <signalmasticon signalmast="ez13-nz1" x="1214" y="1128" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="68" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="nz1-ez13" x="1269" y="1118" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="231" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="west-sz1" x="474" y="130" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="229" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="sz1-west" x="439" y="128" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="14" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="nz2-nz1" x="1150" y="583" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="43" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="nz1-nz2" x="1200" y="607" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="258" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="mnt-sz2" x="728" y="278" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
@@ -3902,7 +3834,7 @@
       <inconsistentText text="NW Staging Close" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
     <signalmasticon signalmast="Virtual sz1-sz4" x="438" y="390" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual sz4-sz1" x="409" y="417" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="359" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual sz4-sz1" x="410" y="417" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="359" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Virtual sz4-sz5" x="441" y="964" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Virtual ez1-ez7" x="625" y="1174" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Virtual ez7-ez13" x="1059" y="1147" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="91" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
@@ -3910,8 +3842,6 @@
     <signalmasticon signalmast="Virtual nz3-nz6" x="822" y="975" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="113" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Virtual nz6-nz8" x="612" y="785" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="352" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Virtual nz8-nz9" x="612" y="621" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="0" litmode="false" degrees="0" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="west-nz9" x="939" y="157" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="145" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="nz9-west" x="936" y="178" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="9" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="virtual ez4-ez2" x="647" y="1130" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="virtual ez3-ez2" x="647" y="1121" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="267" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <sensoricon sensor="SW Staging Close" x="101" y="318" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="SW Staging Close" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
@@ -4009,6 +3939,8 @@
       <unknownText text="SW Staging Track 4" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="SW Staging Track 4" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
+    <signalmasticon signalmast="Virtual West-SW - West NW" x="732" y="82" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual West-NW-West-Sw" x="758" y="110" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <layoutturnout ident="TO1" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="434.4202880859375" ycen="315.32244873046875" xa="435.4063720703125" ya="285.310791015625" xb="433.4342041015625" yb="345.3341064453125" xc="442.33642578125" yc="345.33038330078125" xd="435.4063720703125" yd="285.310791015625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 101" blockname="SZ1" connectaname="T13" connectbname="T7" connectcname="T114" />
     <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="437.7437744140625" ycen="1016.2344360351562" xa="438.7578125" ya="1046.24609375" xb="436.729736328125" yb="986.2227783203125" xc="447.6319580078125" yc="986.2191162109375" xd="438.7578125" yd="1046.24609375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 117" blockname="SZ5" connectaname="T9" connectbname="T8" connectcname="T113">
       <signalBMast>Virtual sz4-sz5</signalBMast>
@@ -4460,7 +4392,7 @@
     <tracksegment ident="T65" blockname="WEST NW" connect1name="A10" type1="POS_POINT" connect2name="TO38" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <positionablepoint ident="A8" type="ANCHOR" x="454.8828125" y="1108.156494140625" connect1name="T10" connect2name="T9" eastboundsignalmast="sz5-ez1" westboundsignalmast="ez1-sz5" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A9" type="ANCHOR" x="499.9420166015625" y="1153.164794921875" connect1name="T11" connect2name="T10" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A11" type="ANCHOR" x="467.2467041015625" y="154.634521484375" connect1name="T14" connect2name="T13" eastboundsignalmast="west-sz1" westboundsignalmast="sz1-west" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A11" type="ANCHOR" x="466.2467041015625" y="154.634521484375" connect1name="T14" connect2name="T13" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A12" type="ANCHOR" x="507.22900390625" y="120.6104736328125" connect1name="T15" connect2name="T14" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A13" type="ANCHOR" x="709.7509765625" y="105.044677734375" connect1name="T17" connect2name="T16" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A15" type="ANCHOR" x="642.060546875" y="820.4594116210938" connect1name="T20" connect2name="T19" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -4530,7 +4462,7 @@
     <positionablepoint ident="EB17" type="END_BUMPER" x="505.97802734375" y="1017.7335205078125" connect1name="T143" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB16" type="END_BUMPER" x="520.51220703125" y="993.6810913085938" connect1name="T147" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB15" type="END_BUMPER" x="535.037109375" y="1019.620849609375" connect1name="T150" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A125" type="ANCHOR" x="961.0576171875" y="204.1689453125" connect1name="T152" connect2name="T44" eastboundsignalmast="west-nz9" westboundsignalmast="nz9-west" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A125" type="ANCHOR" x="961.0576171875" y="204.1689453125" connect1name="T152" connect2name="T44" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A126" type="ANCHOR" x="946.8782348632812" y="289.390625" connect1name="T153" connect2name="T152" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A127" type="ANCHOR" x="895.7122802734375" y="329.74652099609375" connect1name="T154" connect2name="T153" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A128" type="ANCHOR" x="840.0651245117188" y="352.1212158203125" connect1name="T155" connect2name="T154" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -4572,110 +4504,110 @@
     <positionablepoint ident="A5" type="ANCHOR" x="1204.2017822265625" y="1105.810791015625" connect1name="T164" connect2name="T45" eastboundsignalmast="ez9-mnt" westboundsignalmast="mnt-ez9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A6" type="ANCHOR" x="462.0" y="421.0" connect1name="T225" connect2name="T46" eastboundsignalmast="mnt-sz2" westboundsignalmast="sz2-mnt" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A7" type="ANCHOR" x="480.3988037109375" y="553.6412963867188" connect1name="T130" connect2name="T48" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A10" type="ANCHOR" x="753.05029296875" y="105.25335693359375" connect1name="T17" connect2name="T65" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A10" type="ANCHOR" x="753.05029296875" y="105.25335693359375" connect1name="T17" connect2name="T65" eastboundsignalmast="Virtual West-SW - West NW" westboundsignalmast="Virtual West-NW-West-Sw" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <levelxing ident="X1" blocknameac="EZ8" blocknamebd="EZ11" connectaname="T239" connectbname="T240" connectcname="T67" connectdname="T241" xcen="933.6488037109375" ycen="1139.3004150390625" xa="962.6641235351562" ya="1147.1885986328125" xb="963.660400390625" yb="1139.286376953125" class="jmri.jmrit.display.layoutEditor.configurexml.LevelXingXml" />
   </LayoutEditor>
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sun Feb 14 16:20:32 MST 2021</date>
+      <date>Mon Feb 15 15:23:20 MST 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sun Feb 14 16:20:41 MST 2021</date>
+      <date>Mon Feb 15 15:23:31 MST 2021</date>
       <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Sun Feb 14 16:03:33 MST 2021</date>
+          <date>Mon Feb 15 15:17:52 MST 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Sun Feb 14 16:03:41 MST 2021</date>
+          <date>Mon Feb 15 15:18:07 MST 2021</date>
           <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Sun Feb 14 15:59:12 MST 2021</date>
+              <date>Mon Feb 15 15:05:27 MST 2021</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Sun Feb 14 15:59:22 MST 2021</date>
+              <date>Mon Feb 15 15:09:38 MST 2021</date>
               <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Fri Feb 12 11:38:48 MST 2021</date>
+                  <date>Mon Feb 15 14:53:10 MST 2021</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Fri Feb 12 11:39:01 MST 2021</date>
-                  <filename>/Users/mdean/JMRI/Mike_Basement_Layout/JanuaryPanelNewSectioning.xml</filename>
+                  <date>Mon Feb 15 14:53:21 MST 2021</date>
+                  <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Mon Feb 01 13:17:31 MST 2021</date>
+                      <date>Mon Feb 15 14:50:46 MST 2021</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
-                      <type>Load OK</type>
-                      <date>Mon Feb 01 13:17:40 MST 2021</date>
-                      <filename>/Users/mdean/JMRI/Mike_Basement_Layout/JanuaryPanelNewSectioning.xml</filename>
+                      <type>Load with errors</type>
+                      <date>Mon Feb 15 14:50:58 MST 2021</date>
+                      <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Mon Feb 01 12:53:30 MST 2021</date>
+                          <date>Mon Feb 15 14:49:26 MST 2021</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Mon Feb 01 12:53:38 MST 2021</date>
-                          <filename>/Users/mdean/JMRI/Mike_Basement_Layout/JanuaryPanelNewSectioning.xml</filename>
+                          <date>Mon Feb 15 14:49:39 MST 2021</date>
+                          <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Mon Feb 01 12:56:03 MST 2021</date>
+                          <date>Mon Feb 15 14:50:39 MST 2021</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Mon Feb 01 13:24:39 MST 2021</date>
+                      <date>Mon Feb 15 14:53:02 MST 2021</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Sun Feb 14 15:58:34 MST 2021</date>
+                  <date>Mon Feb 15 15:05:19 MST 2021</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Sun Feb 14 16:03:06 MST 2021</date>
+              <date>Mon Feb 15 15:17:45 MST 2021</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Sun Feb 14 16:18:59 MST 2021</date>
+          <date>Mon Feb 15 15:23:14 MST 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sun Feb 14 16:46:44 MST 2021</date>
+      <date>Mon Feb 15 15:25:39 MST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.21.3+R63094d48b on Sun Feb 14 16:46:44 MST 2021-->
+  <!--Written by JMRI version 4.21.3+R63094d48b on Mon Feb 15 15:25:39 MST 2021-->
 </layout-config>
