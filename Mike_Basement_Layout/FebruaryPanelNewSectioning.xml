@@ -1025,7 +1025,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="4:48 PM">
+    <memory value="9:42 AM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -1810,6 +1810,18 @@
       <systemName>IB:AUTO:0042</systemName>
       <userName>WEST SW</userName>
     </block>
+    <block systemName="IB:AUTO:0043">
+      <systemName>IB:AUTO:0043</systemName>
+      <userName>Dummy3</userName>
+    </block>
+    <block systemName="IB:AUTO:0044">
+      <systemName>IB:AUTO:0044</systemName>
+      <userName>Dummy1</userName>
+    </block>
+    <block systemName="IB:AUTO:0045">
+      <systemName>IB:AUTO:0045</systemName>
+      <userName>Dummy2</userName>
+    </block>
     <block systemName="IB:AUTO:0001" length="254.0" curve="0">
       <systemName>IB:AUTO:0001</systemName>
       <userName>SZ5</userName>
@@ -2068,6 +2080,19 @@
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB:AUTO:0042" />
+      <path todir="64" fromdir="128" block="IB:AUTO:0044">
+        <beansetting setting="2">
+          <turnout systemName="Staging NW Turnout 400" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB:AUTO:0045">
+        <beansetting setting="2">
+          <turnout systemName="Staging NW Turnout 403" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="Staging NW Turnout 400" />
+        </beansetting>
+      </path>
     </block>
     <block systemName="IB:AUTO:0021" length="2540.0" curve="0">
       <systemName>IB:AUTO:0021</systemName>
@@ -2405,6 +2430,41 @@
       <occupancysensor>West / SW</occupancysensor>
       <path todir="64" fromdir="128" block="IB:AUTO:0020" />
       <path todir="160" fromdir="80" block="IB:AUTO:0021" />
+      <path todir="128" fromdir="64" block="IB:AUTO:0043">
+        <beansetting setting="4">
+          <turnout systemName="Staging SW Turnout 500" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB:AUTO:0043" length="0.0" curve="0">
+      <systemName>IB:AUTO:0043</systemName>
+      <userName>Dummy3</userName>
+      <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB:AUTO:0042">
+        <beansetting setting="4">
+          <turnout systemName="Staging SW Turnout 500" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB:AUTO:0044" length="0.0" curve="0">
+      <systemName>IB:AUTO:0044</systemName>
+      <userName>Dummy1</userName>
+      <permissive>no</permissive>
+      <path todir="128" fromdir="64" block="IB:AUTO:0020">
+        <beansetting setting="2">
+          <turnout systemName="Staging NW Turnout 400" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB:AUTO:0045" length="0.0" curve="0">
+      <systemName>IB:AUTO:0045</systemName>
+      <userName>Dummy2</userName>
+      <permissive>no</permissive>
+      <path todir="128" fromdir="64" block="IB:AUTO:0020">
+        <beansetting setting="2">
+          <turnout systemName="Staging NW Turnout 403" />
+        </beansetting>
+      </path>
     </block>
   </blocks>
   <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml" blockrouting="yes">
@@ -2440,9 +2500,21 @@
       <systemName>ILB8</systemName>
       <userName>NZ8</userName>
     </layoutblock>
+    <layoutblock systemName="ILB9" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB9</systemName>
+      <userName>Dummy3</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB10" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB10</systemName>
+      <userName>Dummy1</userName>
+    </layoutblock>
     <layoutblock systemName="ILB11" occupancysensor="North Zone 3" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
       <systemName>ILB11</systemName>
       <userName>NZ3</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB12" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
+      <systemName>ILB12</systemName>
+      <userName>Dummy2</userName>
     </layoutblock>
     <layoutblock systemName="ILB17" occupancysensor="North Zone 2" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="cyan">
       <systemName>ILB17</systemName>
@@ -2839,6 +2911,14 @@
       <transitsection sectionname="IY:AUTO:0111" sequence="7" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
       <transitsection sectionname="IY:AUTO:0112" sequence="8" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
       <transitsection sectionname="IY:AUTO:0133" sequence="9" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+    </transit>
+    <transit systemName="IZ:AUTO:0005" userName="SouthClockWiseNW">
+      <systemName>IZ:AUTO:0005</systemName>
+      <userName>SouthClockWiseNW</userName>
+      <transitsection sectionname="IY:AUTO:0107" sequence="1" direction="8" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0106" sequence="2" direction="8" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0131" sequence="3" direction="8" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0132" sequence="4" direction="8" alternate="no" safe="no" stopallocatingsensor="" />
     </transit>
   </transits>
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
@@ -3944,7 +4024,7 @@
     </conditional>
   </conditionals>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Nov 29 11:15:51 MST 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="420" y="178" windowheight="1173" windowwidth="1990" panelheight="1431" panelwidth="1740" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="293" y="25" windowheight="1173" windowwidth="1990" panelheight="1431" panelwidth="1740" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Mike Dean's Basement Layout" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -4379,7 +4459,7 @@
     <layoutturnout ident="TO36" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="521.2237548828125" ycen="634.53076171875" xa="513.4427490234375" ya="605.5453491210938" xb="529.0047607421875" yb="663.5161743164062" xc="521.372802734375" yc="665.56494140625" xd="513.4427490234375" yd="605.5453491210938" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="South Turnout 111" connectcname="T147" />
     <layoutturnout ident="TO37" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="535.9208984375" ycen="693.5241088867188" xa="535.934814453125" ya="723.5357055664062" xb="535.906982421875" yb="663.5125122070312" xc="528.0047607421875" yc="663.5161743164062" xd="535.934814453125" yd="723.5357055664062" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 112" connectaname="T150" connectbname="T125" />
     <layoutturnout ident="TO38" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="818.79345703125" ycen="104.9935302734375" xa="788.7818603515625" ya="105.0074462890625" xb="848.8050537109375" yb="104.9796142578125" xc="848.8087158203125" yc="112.8818359375" xd="788.7818603515625" yd="105.0074462890625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging NW Turnout 400" blockname="WEST NW" connectaname="T65" connectbname="T51" connectcname="T253" />
-    <layoutturnout ident="TO39" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="890.3818359375" ycen="104.541015625" xa="860.3702392578125" ya="104.541015625" xb="920.3934326171875" yb="104.541015625" xc="920.3934326171875" yc="112.4432373046875" xd="860.3702392578125" yd="104.541015625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging NW Turnout 401" connectaname="T51" connectbname="T168" connectcname="T52" />
+    <layoutturnout ident="TO39" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="890.3818359375" ycen="104.541015625" xa="860.3702392578125" ya="104.541015625" xb="920.3934326171875" yb="104.541015625" xc="920.3934326171875" yc="112.4432373046875" xd="860.3702392578125" yd="104.541015625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging NW Turnout 401" blockname="Dummy1" connectaname="T51" connectbname="T168" connectcname="T52" />
     <layoutturnout ident="TO40" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="939.3824462890625" ycen="120.2108154296875" xa="910.3934936523438" ya="112.4432373046875" xb="968.3713989257812" yb="127.9783935546875" xc="970.4166870117188" yc="120.345458984375" xd="910.3934936523438" yd="112.4432373046875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Staging NW Turnout 402" connectaname="T52" connectcname="T177" />
     <layoutturnout ident="TO41" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="997.3604125976562" ycen="135.7459716796875" xa="967.3714599609375" ya="127.9783935546875" xb="1027.349365234375" yb="143.5135498046875" xc="1028.3946533203125" yc="135.880615234375" xd="967.3714599609375" yd="127.9783935546875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Staging NW Turnout 404" connectcname="T185" />
     <layoutturnout ident="TO42" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1055.33837890625" ycen="150.2811279296875" xa="1026.349365234375" ya="142.5135498046875" xb="1084.327392578125" yb="158.0487060546875" xc="1086.3726806640625" yc="150.415771484375" xd="1026.349365234375" yd="142.5135498046875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Staging NW Turnout 405" connectcname="T192" />
@@ -4627,7 +4707,7 @@
         <bumper end="stop" color="#000000" linewidth="8" length="10" />
       </decorations>
     </tracksegment>
-    <tracksegment ident="T205" connect1name="A194" type1="POS_POINT" connect2name="TO45" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" arc="yes" flip="no" circle="yes" angle="15.0" hideConLines="yes" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T205" blockname="Dummy3" connect1name="A194" type1="POS_POINT" connect2name="TO45" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" arc="yes" flip="no" circle="yes" angle="15.0" hideConLines="yes" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T215" connect1name="TO48" type1="TURNOUT_C" connect2name="EB3" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
       <decorations>
         <bumper end="stop" color="#000000" linewidth="8" length="10" />
@@ -4652,7 +4732,7 @@
     <tracksegment ident="T223" blockname="MNT" connect1name="A64" type1="POS_POINT" connect2name="A83" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T224" blockname="MNT" connect1name="A198" type1="POS_POINT" connect2name="A199" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T225" blockname="SZ2" connect1name="TO27" type1="TURNOUT_B" connect2name="A6" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T232" connect1name="TO50" type1="TURNOUT_B" connect2name="TO44" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+    <tracksegment ident="T232" blockname="Dummy2" connect1name="TO50" type1="TURNOUT_B" connect2name="TO44" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
       <controlpoints>
         <controlpoint index="0" x="986.6" y="152.6" />
         <controlpoint index="1" x="1096.5" y="187.3" />
@@ -4765,7 +4845,7 @@
         <bumper end="stop" color="#000000" linewidth="8" length="10" />
       </decorations>
     </tracksegment>
-    <tracksegment ident="T51" connect1name="TO38" type1="TURNOUT_B" connect2name="TO39" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T51" blockname="Dummy1" connect1name="TO38" type1="TURNOUT_B" connect2name="TO39" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T52" connect1name="TO40" type1="TURNOUT_A" connect2name="TO39" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T54" connect1name="TO47" type1="TURNOUT_A" connect2name="TO46" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T55" connect1name="TO47" type1="TURNOUT_B" connect2name="TO48" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -4890,104 +4970,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Thu Feb 18 16:44:09 MST 2021</date>
+      <date>Fri Feb 19 09:37:52 MST 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Thu Feb 18 16:44:22 MST 2021</date>
+      <date>Fri Feb 19 09:38:03 MST 2021</date>
       <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Thu Feb 18 16:33:59 MST 2021</date>
+          <date>Fri Feb 19 09:35:56 MST 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Thu Feb 18 16:34:15 MST 2021</date>
+          <date>Fri Feb 19 09:36:12 MST 2021</date>
           <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Thu Feb 18 11:10:32 MST 2021</date>
+              <date>Thu Feb 18 16:44:09 MST 2021</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Thu Feb 18 11:10:44 MST 2021</date>
+              <date>Thu Feb 18 16:44:22 MST 2021</date>
               <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Thu Feb 18 11:01:26 MST 2021</date>
+                  <date>Thu Feb 18 16:33:59 MST 2021</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Thu Feb 18 11:01:39 MST 2021</date>
+                  <date>Thu Feb 18 16:34:15 MST 2021</date>
                   <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Wed Feb 17 14:08:55 MST 2021</date>
+                      <date>Thu Feb 18 11:10:32 MST 2021</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Wed Feb 17 14:13:42 MST 2021</date>
+                      <date>Thu Feb 18 11:10:44 MST 2021</date>
                       <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Wed Feb 17 12:53:30 MST 2021</date>
+                          <date>Thu Feb 18 11:01:26 MST 2021</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Wed Feb 17 14:00:07 MST 2021</date>
+                          <date>Thu Feb 18 11:01:39 MST 2021</date>
                           <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Wed Feb 17 14:08:39 MST 2021</date>
+                          <date>Thu Feb 18 11:10:21 MST 2021</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Wed Feb 17 14:22:07 MST 2021</date>
+                      <date>Thu Feb 18 11:18:09 MST 2021</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Thu Feb 18 11:10:21 MST 2021</date>
+                  <date>Thu Feb 18 16:44:01 MST 2021</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Thu Feb 18 11:18:09 MST 2021</date>
+              <date>Thu Feb 18 16:48:10 MST 2021</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Thu Feb 18 16:44:01 MST 2021</date>
+          <date>Fri Feb 19 09:37:45 MST 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Thu Feb 18 16:48:10 MST 2021</date>
+      <date>Fri Feb 19 09:42:41 MST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.21.3+R63094d48b on Thu Feb 18 16:48:10 MST 2021-->
+  <!--Written by JMRI version 4.21.3+R63094d48b on Fri Feb 19 09:42:41 MST 2021-->
 </layout-config>
