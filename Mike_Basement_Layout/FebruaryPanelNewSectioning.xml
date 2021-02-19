@@ -1025,7 +1025,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="9:42 AM">
+    <memory value="9:47 AM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -2921,6 +2921,13 @@
       <transitsection sectionname="IY:AUTO:0132" sequence="4" direction="8" alternate="no" safe="no" stopallocatingsensor="" />
     </transit>
   </transits>
+  <routes class="jmri.managers.configurexml.DefaultRouteManagerXml">
+    <route userName="NW Staging Close">
+      <systemName>IO:AUTO:0001</systemName>
+      <userName>NW Staging Close</userName>
+      <routeOutputSensor systemName="NW Staging Close" state="ACTIVE" />
+    </route>
+  </routes>
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
     <signalmastlogic source="ez1-sz5">
@@ -4970,104 +4977,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Fri Feb 19 09:37:52 MST 2021</date>
+      <date>Fri Feb 19 09:45:54 MST 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Fri Feb 19 09:38:03 MST 2021</date>
+      <date>Fri Feb 19 09:46:04 MST 2021</date>
       <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Fri Feb 19 09:35:56 MST 2021</date>
+          <date>Fri Feb 19 09:37:52 MST 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Fri Feb 19 09:36:12 MST 2021</date>
+          <date>Fri Feb 19 09:38:03 MST 2021</date>
           <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Thu Feb 18 16:44:09 MST 2021</date>
+              <date>Fri Feb 19 09:35:56 MST 2021</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Thu Feb 18 16:44:22 MST 2021</date>
+              <date>Fri Feb 19 09:36:12 MST 2021</date>
               <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Thu Feb 18 16:33:59 MST 2021</date>
+                  <date>Thu Feb 18 16:44:09 MST 2021</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Thu Feb 18 16:34:15 MST 2021</date>
+                  <date>Thu Feb 18 16:44:22 MST 2021</date>
                   <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Thu Feb 18 11:10:32 MST 2021</date>
+                      <date>Thu Feb 18 16:33:59 MST 2021</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Thu Feb 18 11:10:44 MST 2021</date>
+                      <date>Thu Feb 18 16:34:15 MST 2021</date>
                       <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Thu Feb 18 11:01:26 MST 2021</date>
+                          <date>Thu Feb 18 11:10:32 MST 2021</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Thu Feb 18 11:01:39 MST 2021</date>
+                          <date>Thu Feb 18 11:10:44 MST 2021</date>
                           <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Thu Feb 18 11:10:21 MST 2021</date>
+                          <date>Thu Feb 18 11:18:09 MST 2021</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Thu Feb 18 11:18:09 MST 2021</date>
+                      <date>Thu Feb 18 16:44:01 MST 2021</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Thu Feb 18 16:44:01 MST 2021</date>
+                  <date>Thu Feb 18 16:48:10 MST 2021</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Thu Feb 18 16:48:10 MST 2021</date>
+              <date>Fri Feb 19 09:37:45 MST 2021</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Fri Feb 19 09:37:45 MST 2021</date>
+          <date>Fri Feb 19 09:42:41 MST 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Feb 19 09:42:41 MST 2021</date>
+      <date>Fri Feb 19 09:47:58 MST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.21.3+R63094d48b on Fri Feb 19 09:42:41 MST 2021-->
+  <!--Written by JMRI version 4.21.3+R63094d48b on Fri Feb 19 09:47:58 MST 2021-->
 </layout-config>
