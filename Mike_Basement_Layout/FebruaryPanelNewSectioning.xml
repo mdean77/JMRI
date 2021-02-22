@@ -1025,7 +1025,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="3:23 PM">
+    <memory value="4:37 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -1612,6 +1612,26 @@
       <unlit allowed="no" />
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0049)</systemName>
+      <userName>Virtual SZ3-SZ5</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0050)</systemName>
+      <userName>Virtual SZ2-SZ3</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0051)</systemName>
+      <userName>Virtual SZ2-SZ6</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0052)</systemName>
+      <userName>Virtual SZ2-SZ7</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
       <systemName>IF$vsm:basic:one-searchlight($0019)</systemName>
       <userName>Virtual ez1-sz5</userName>
       <unlit allowed="no" />
@@ -1822,7 +1842,7 @@
       <systemName>IB:AUTO:0045</systemName>
       <userName>Dummy2</userName>
     </block>
-    <block systemName="IB:AUTO:0001" length="254.0" curve="0">
+    <block systemName="IB:AUTO:0001" length="381.0" curve="0">
       <systemName>IB:AUTO:0001</systemName>
       <userName>SZ5</userName>
       <permissive>no</permissive>
@@ -1839,7 +1859,7 @@
         </beansetting>
       </path>
     </block>
-    <block systemName="IB:AUTO:0002" length="254.0" curve="0">
+    <block systemName="IB:AUTO:0002" length="584.2" curve="0">
       <systemName>IB:AUTO:0002</systemName>
       <userName>EZ1</userName>
       <permissive>no</permissive>
@@ -1856,7 +1876,7 @@
         </beansetting>
       </path>
     </block>
-    <block systemName="IB:AUTO:0003" length="0.0" curve="0">
+    <block systemName="IB:AUTO:0003" length="1016.0" curve="1">
       <systemName>IB:AUTO:0003</systemName>
       <userName>NZ6</userName>
       <permissive>no</permissive>
@@ -1872,7 +1892,7 @@
         </beansetting>
       </path>
     </block>
-    <block systemName="IB:AUTO:0004" length="0.0" curve="0">
+    <block systemName="IB:AUTO:0004" length="482.6" curve="0">
       <systemName>IB:AUTO:0004</systemName>
       <userName>NZ8</userName>
       <permissive>no</permissive>
@@ -1893,7 +1913,7 @@
         </beansetting>
       </path>
     </block>
-    <block systemName="IB:AUTO:0005" length="0.0" curve="0">
+    <block systemName="IB:AUTO:0005" length="1320.7999" curve="1">
       <systemName>IB:AUTO:0005</systemName>
       <userName>NZ3</userName>
       <permissive>no</permissive>
@@ -1917,7 +1937,7 @@
         </beansetting>
       </path>
     </block>
-    <block systemName="IB:AUTO:0006" length="0.0" curve="0">
+    <block systemName="IB:AUTO:0006" length="381.0" curve="1">
       <systemName>IB:AUTO:0006</systemName>
       <userName>NZ2</userName>
       <permissive>no</permissive>
@@ -1945,7 +1965,7 @@
       <path todir="32" fromdir="16" block="IB:AUTO:0023" />
       <path todir="128" fromdir="64" block="IB:AUTO:0031" />
     </block>
-    <block systemName="IB:AUTO:0008" length="0.0" curve="0">
+    <block systemName="IB:AUTO:0008" length="1981.2" curve="0">
       <systemName>IB:AUTO:0008</systemName>
       <userName>SZ4</userName>
       <permissive>no</permissive>
@@ -1957,7 +1977,7 @@
       </path>
       <path todir="16" fromdir="32" block="IB:AUTO:0021" />
     </block>
-    <block systemName="IB:AUTO:0013" length="0.0" curve="0">
+    <block systemName="IB:AUTO:0013" length="2032.0" curve="1">
       <systemName>IB:AUTO:0013</systemName>
       <userName>NZ9</userName>
       <permissive>no</permissive>
@@ -1974,7 +1994,7 @@
       </path>
       <path todir="16" fromdir="32" block="IB:AUTO:0020" />
     </block>
-    <block systemName="IB:AUTO:0014" length="0.0" curve="0">
+    <block systemName="IB:AUTO:0014" length="584.2" curve="0">
       <systemName>IB:AUTO:0014</systemName>
       <userName>EZ13</userName>
       <permissive>no</permissive>
@@ -1991,7 +2011,7 @@
         </beansetting>
       </path>
     </block>
-    <block systemName="IB:AUTO:0015" length="2540.0" curve="0">
+    <block systemName="IB:AUTO:0015" length="2438.4" curve="1">
       <systemName>IB:AUTO:0015</systemName>
       <userName>NZ1</userName>
       <permissive>no</permissive>
@@ -2066,7 +2086,7 @@
         </beansetting>
       </path>
     </block>
-    <block systemName="IB:AUTO:0020" length="2540.0" curve="0">
+    <block systemName="IB:AUTO:0020" length="685.8" curve="1">
       <systemName>IB:AUTO:0020</systemName>
       <userName>WEST NW</userName>
       <permissive>no</permissive>
@@ -2094,7 +2114,7 @@
         </beansetting>
       </path>
     </block>
-    <block systemName="IB:AUTO:0021" length="2540.0" curve="0">
+    <block systemName="IB:AUTO:0021" length="787.39996" curve="1">
       <systemName>IB:AUTO:0021</systemName>
       <userName>SZ1</userName>
       <permissive>no</permissive>
@@ -2118,14 +2138,14 @@
         </beansetting>
       </path>
       <path todir="16" fromdir="32" block="IB:AUTO:0021" />
-      <path todir="16" fromdir="32" block="IB:AUTO:0023">
-        <beansetting setting="4">
-          <turnout systemName="South Turnout 116" />
-        </beansetting>
-      </path>
       <path todir="64" fromdir="128" block="IB:AUTO:0023">
         <beansetting setting="4">
           <turnout systemName="South Turnout 105" />
+        </beansetting>
+      </path>
+      <path todir="144" fromdir="96" block="IB:AUTO:0023">
+        <beansetting setting="4">
+          <turnout systemName="South Turnout 116" />
         </beansetting>
       </path>
     </block>
@@ -2139,7 +2159,7 @@
           <turnout systemName="South Turnout 106" />
         </beansetting>
       </path>
-      <path todir="32" fromdir="16" block="IB:AUTO:0022">
+      <path todir="96" fromdir="144" block="IB:AUTO:0022">
         <beansetting setting="4">
           <turnout systemName="South Turnout 116" />
         </beansetting>
@@ -2226,7 +2246,7 @@
         </beansetting>
       </path>
     </block>
-    <block systemName="IB:AUTO:0032" length="2540.0" curve="0">
+    <block systemName="IB:AUTO:0032" length="1422.4" curve="0">
       <systemName>IB:AUTO:0032</systemName>
       <userName>EZ7</userName>
       <permissive>no</permissive>
@@ -2423,7 +2443,7 @@
       </path>
       <path todir="32" fromdir="16" block="IB:AUTO:0024" />
     </block>
-    <block systemName="IB:AUTO:0042" length="609.6" curve="0">
+    <block systemName="IB:AUTO:0042" length="812.8" curve="0">
       <systemName>IB:AUTO:0042</systemName>
       <userName>WEST SW</userName>
       <permissive>no</permissive>
@@ -3738,6 +3758,58 @@
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
+    <signalmastlogic source="Virtual SZ3-SZ5">
+      <sourceSignalMast>Virtual SZ3-SZ5</sourceSignalMast>
+      <destinationMast destination="sz5-ez1">
+        <destinationSignalMast>sz5-ez1</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Virtual SZ2-SZ3">
+      <sourceSignalMast>Virtual SZ2-SZ3</sourceSignalMast>
+      <destinationMast destination="Virtual SZ3-SZ5">
+        <destinationSignalMast>Virtual SZ3-SZ5</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Virtual SZ2-SZ6">
+      <sourceSignalMast>Virtual SZ2-SZ6</sourceSignalMast>
+      <destinationMast destination="sz6-ez2">
+        <destinationSignalMast>sz6-ez2</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Virtual SZ2-SZ7">
+      <sourceSignalMast>Virtual SZ2-SZ7</sourceSignalMast>
+      <destinationMast destination="sz6-ez2">
+        <destinationSignalMast>sz6-ez2</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
     <signalmastlogic source="nz1-ez13">
       <sourceSignalMast>nz1-ez13</sourceSignalMast>
       <destinationMast destination="ez1-sz5">
@@ -4118,7 +4190,7 @@
     </conditional>
   </conditionals>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Nov 29 11:15:51 MST 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="49" y="100" windowheight="800" windowwidth="1391" panelheight="1431" panelwidth="1740" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="72" y="348" windowheight="799" windowwidth="1522" panelheight="1431" panelwidth="1740" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Mike Dean's Basement Layout" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -4383,7 +4455,6 @@
     </sensoricon>
     <signalmasticon signalmast="Virtual sz1-sz4" x="438" y="390" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Virtual sz4-sz1" x="410" y="417" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="359" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual sz4-sz5" x="441" y="964" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Virtual ez1-ez7" x="625" y="1174" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Virtual ez7-ez13" x="1059" y="1147" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="91" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="virtual ez4-ez2" x="641" y="1125" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
@@ -4494,9 +4565,15 @@
     <signalmasticon signalmast="Virtual WestSW - SZ1" x="473" y="144" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="231" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="SZ1-WestSW" x="439" y="128" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="13" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Virtual nz2-nz3" x="1102" y="782" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="7" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <layoutturnout ident="TO1" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="434.4202880859375" ycen="315.32244873046875" xa="435.4063720703125" ya="285.310791015625" xb="433.4342041015625" yb="345.3341064453125" xc="442.33642578125" yc="345.33038330078125" xd="435.4063720703125" yd="285.310791015625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 101" blockname="SZ1" connectaname="T13" connectbname="T7" connectcname="T114" />
+    <signalmasticon signalmast="Virtual sz4-sz5" x="437" y="966" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual SZ3-SZ5" x="446" y="948" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="182" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual SZ2-SZ3" x="452" y="783" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="154" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual SZ2-SZ7" x="478" y="678" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="188" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual SZ2-SZ6" x="471" y="925" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <layoutturnout ident="TO1" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="434.4202880859375" ycen="315.32244873046875" xa="436.4063720703125" ya="285.310791015625" xb="432.4342041015625" yb="345.3341064453125" xc="442.33642578125" yc="345.33038330078125" xd="436.4063720703125" yd="285.310791015625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 101" blockname="SZ1" connectaname="T13" connectbname="T7" connectcname="T114" />
     <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="437.7437744140625" ycen="1016.2344360351562" xa="438.7578125" ya="1046.24609375" xb="436.729736328125" yb="986.2227783203125" xc="447.6319580078125" yc="986.2191162109375" xd="438.7578125" yd="1046.24609375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 117" blockname="SZ5" connectaname="T9" connectbname="T8" connectcname="T113">
       <signalBMast>Virtual sz4-sz5</signalBMast>
+      <signalCMast>Virtual SZ3-SZ5</signalCMast>
     </layoutturnout>
     <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="636.73876953125" ycen="750.2760009765625" xa="637.7247314453125" ya="721.2643432617188" xb="635.7528076171875" yb="779.2876586914062" xc="646.655029296875" yc="779.283935546875" xd="637.7247314453125" yd="721.2643432617188" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="North Turnout 308" blockname="NZ8" connectaname="T106" connectbname="T19" connectcname="T103">
       <signalBMast>Virtual nz6-nz8</signalBMast>
@@ -4537,13 +4614,19 @@
       <signalBMast>Virtual nz8-nz9</signalBMast>
     </layoutturnout>
     <layoutturnout ident="TO22" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="607.871337890625" ycen="719.7206420898438" xa="608.88525390625" ya="747.7322387695312" xb="606.857421875" yb="691.7090454101562" xc="615.7596435546875" yc="680.7053833007812" xd="608.88525390625" yd="747.7322387695312" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="North Turnout 307" blockname="NZ10" connectaname="T108" connectbname="T105" connectcname="T18" />
-    <layoutturnout ident="TO23" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="464.6417236328125" ycen="974.9036254882812" xa="464.6556396484375" ya="1004.915283203125" xb="464.6278076171875" yb="944.8919677734375" xc="476.530029296875" yc="943.8883056640625" xd="464.6556396484375" yd="1004.915283203125" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 114" blockname="SZ6" connectaname="T64" connectbname="T5" connectcname="T6" />
-    <layoutturnout ident="TO24" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="448.853759765625" ycen="842.324462890625" xa="448.86767578125" ya="875.3360595703125" xb="448.83984375" yb="809.3128662109375" xc="456.741943359375" yc="812.3092041015625" xd="448.86767578125" yd="875.3360595703125" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 116" blockname="SZ3" connectaname="T113" connectbname="T3" connectcname="T242" />
+    <layoutturnout ident="TO23" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="466.6417236328125" ycen="977.9036254882812" xa="466.6556396484375" ya="1007.915283203125" xb="466.6278076171875" yb="947.8919677734375" xc="478.530029296875" yc="946.8883056640625" xd="466.6556396484375" yd="1007.915283203125" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 114" blockname="SZ6" connectaname="T64" connectbname="T5" connectcname="T6">
+      <signalBMast>Virtual SZ2-SZ6</signalBMast>
+    </layoutturnout>
+    <layoutturnout ident="TO24" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="449.853759765625" ycen="841.324462890625" xa="449.86767578125" ya="874.3360595703125" xb="449.83984375" yb="808.3128662109375" xc="457.741943359375" yc="811.3092041015625" xd="449.86767578125" yd="874.3360595703125" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 116" blockname="SZ3" connectaname="T113" connectbname="T3" connectcname="T242">
+      <signalCMast>Virtual SZ2-SZ3</signalCMast>
+    </layoutturnout>
     <layoutturnout ident="TO25" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="464.6302490234375" ycen="779.2939453125" xa="464.6162109375" ya="746.2823486328125" xb="464.644287109375" yb="812.3055419921875" xc="456.741943359375" yc="809.3092041015625" xd="464.6162109375" yd="746.2823486328125" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="South Turnout 115" blockname="SZ2" connectaname="T4" connectbname="T5" connectcname="T242" />
     <layoutturnout ident="TO26" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="443.7064208984375" ycen="517.5863037109375" xa="443.6925048828125" ya="485.57470703125" xb="443.7203369140625" yb="549.597900390625" xc="451.62255859375" yc="547.59423828125" xd="443.6925048828125" yd="485.57470703125" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 105" blockname="SZ3" connectaname="T117" connectbname="T3" connectcname="T243" />
     <layoutturnout ident="TO27" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="462.5386962890625" ycen="578.6021728515625" xa="463.552734375" ya="592.61376953125" xb="461.524658203125" yb="564.590576171875" xc="454.62255859375" yc="548.59423828125" xd="463.552734375" yd="592.61376953125" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 106" blockname="SZ2" connectaname="T244" connectbname="T225" connectcname="T243" />
     <layoutturnout ident="TO28" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="464.5665283203125" ycen="640.6254272460938" xa="463.552490234375" ya="601.6138305664062" xb="465.58056640625" yb="679.6370239257812" xc="477.482666015625" yc="658.6333618164062" xd="463.552490234375" yd="601.6138305664062" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 107" blockname="SZ2" connectaname="T244" connectbname="T4" connectcname="T47" />
-    <layoutturnout ident="TO29" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="478.3988037109375" ycen="713.6412963867188" xa="476.4127197265625" ya="735.6528930664062" xb="480.3848876953125" yb="691.6296997070312" xc="472.482666015625" yc="694.6333618164062" xd="476.4127197265625" yd="735.6528930664062" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 108" blockname="SZ7" connectaname="T246" connectbname="T130" connectcname="T47" />
+    <layoutturnout ident="TO29" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="478.3988037109375" ycen="713.6412963867188" xa="476.4127197265625" ya="735.6528930664062" xb="480.3848876953125" yb="691.6296997070312" xc="472.482666015625" yc="694.6333618164062" xd="476.4127197265625" yd="735.6528930664062" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 108" blockname="SZ7" connectaname="T246" connectbname="T130" connectcname="T47">
+      <signalCMast>Virtual SZ2-SZ7</signalCMast>
+    </layoutturnout>
     <layoutturnout ident="TO30" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="489.9644775390625" ycen="517.566650390625" xa="489.9505615234375" ya="487.55499267578125" xb="489.9783935546875" yb="547.5783081054688" xc="497.880615234375" yc="547.5746459960938" xd="489.9505615234375" yd="487.55499267578125" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 109" connectaname="T124" connectbname="T122" />
     <layoutturnout ident="TO31" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="488.92724609375" ycen="437.5357666015625" xa="488.9132080078125" ya="407.524169921875" xb="488.9412841796875" yb="467.54736328125" xc="496.843505859375" yc="467.543701171875" xd="488.9132080078125" yd="407.524169921875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 104" connectbname="T124" connectcname="T125" />
     <layoutturnout ident="TO32" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="488.8994140625" ycen="377.51251220703125" xa="488.913330078125" ya="407.52410888671875" xb="488.885498046875" yb="347.50091552734375" xc="496.7877197265625" yc="347.4971923828125" xd="488.913330078125" yd="407.52410888671875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 103" connectcname="T134" />
@@ -5064,104 +5147,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Fri Feb 19 15:19:38 MST 2021</date>
+      <date>Mon Feb 22 16:20:04 MST 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Fri Feb 19 15:19:47 MST 2021</date>
+      <date>Mon Feb 22 16:20:14 MST 2021</date>
       <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Fri Feb 19 15:06:01 MST 2021</date>
+          <date>Mon Feb 22 15:29:15 MST 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Fri Feb 19 15:06:10 MST 2021</date>
+          <date>Mon Feb 22 15:29:25 MST 2021</date>
           <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Fri Feb 19 12:30:27 MST 2021</date>
+              <date>Mon Feb 22 14:45:27 MST 2021</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Fri Feb 19 12:30:46 MST 2021</date>
+              <date>Mon Feb 22 14:45:37 MST 2021</date>
               <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Fri Feb 19 09:45:54 MST 2021</date>
+                  <date>Fri Feb 19 15:19:38 MST 2021</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Fri Feb 19 09:46:04 MST 2021</date>
+                  <date>Fri Feb 19 15:19:47 MST 2021</date>
                   <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Fri Feb 19 09:37:52 MST 2021</date>
+                      <date>Fri Feb 19 15:06:01 MST 2021</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Fri Feb 19 09:38:03 MST 2021</date>
+                      <date>Fri Feb 19 15:06:10 MST 2021</date>
                       <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Fri Feb 19 09:35:56 MST 2021</date>
+                          <date>Fri Feb 19 12:30:27 MST 2021</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Fri Feb 19 09:36:12 MST 2021</date>
+                          <date>Fri Feb 19 12:30:46 MST 2021</date>
                           <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Fri Feb 19 09:37:45 MST 2021</date>
+                          <date>Fri Feb 19 12:50:11 MST 2021</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Fri Feb 19 09:42:41 MST 2021</date>
+                      <date>Fri Feb 19 15:13:04 MST 2021</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Fri Feb 19 09:47:58 MST 2021</date>
+                  <date>Fri Feb 19 15:23:52 MST 2021</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Fri Feb 19 12:50:11 MST 2021</date>
+              <date>Mon Feb 22 15:28:31 MST 2021</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Fri Feb 19 15:13:04 MST 2021</date>
+          <date>Mon Feb 22 16:19:30 MST 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Feb 19 15:23:52 MST 2021</date>
+      <date>Mon Feb 22 16:37:04 MST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.21.3+R63094d48b on Fri Feb 19 15:23:52 MST 2021-->
+  <!--Written by JMRI version 4.21.3+R63094d48b on Mon Feb 22 16:37:04 MST 2021-->
 </layout-config>
