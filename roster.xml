@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.21.3+R63094d48b on Sat Jan 02 12:47:10 MST 2021-->
+  <!--Written by JMRI version 4.21.3+R63094d48b on Mon Feb 22 14:43:47 MST 2021-->
   <roster>
     <locomotive id="1029 NW2 Switcher" fileName="1029_NW2_Switcher.xml" roadNumber="1029" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="176-4374" dccAddress="1029" comment="$92 plus decoder" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T14:58:45.000+0000</dateUpdated>
@@ -581,7 +581,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="RG 5334" fileName="RG_5334.xml" roadNumber="5334" roadName="Rio Grande" mfg="Kato" owner="Mike Dean" model="" dccAddress="5334" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2016-08-14T22:15:03.000+0000</dateUpdated>
+      <dateUpdated>2021-02-22T21:43:00.689+0000</dateUpdated>
       <decoder model="DN163K1C" family="Series 3 with FX3, silent, readback" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5334" longaddress="yes" />

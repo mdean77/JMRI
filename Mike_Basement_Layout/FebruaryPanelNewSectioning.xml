@@ -1025,7 +1025,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="3:13 PM">
+    <memory value="3:23 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -3566,6 +3566,32 @@
         <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
+      <destinationMast destination="NZ9-WestNW">
+        <destinationSignalMast>NZ9-WestNW</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+        <blocks>
+          <block>
+            <blockName>WEST NW</blockName>
+            <blockState>unoccupied</blockState>
+          </block>
+        </blocks>
+        <turnouts>
+          <turnout>
+            <turnoutName>Staging NW Turnout 400</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+          <turnout>
+            <turnoutName>Staging NW Turnout 403</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+        </turnouts>
+      </destinationMast>
       <destinationMast destination="Virtual nz3-nz6">
         <destinationSignalMast>Virtual nz3-nz6</destinationSignalMast>
         <comment />
@@ -4092,7 +4118,7 @@
     </conditional>
   </conditionals>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Nov 29 11:15:51 MST 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="179" y="348" windowheight="800" windowwidth="1391" panelheight="1431" panelwidth="1740" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="49" y="100" windowheight="800" windowwidth="1391" panelheight="1431" panelwidth="1740" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Mike Dean's Basement Layout" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -4362,7 +4388,7 @@
     <signalmasticon signalmast="Virtual ez7-ez13" x="1059" y="1147" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="91" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="virtual ez4-ez2" x="641" y="1125" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="virtual ez3-ez2" x="640" y="1093" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="267" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <sensoricon sensor="SW Staging Close" x="101" y="318" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="SW Staging Close" size="20" style="0" red="51" green="255" blue="0" hasBackground="yes" redBack="0" greenBack="0" blueBack="0" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="SW Staging Close" x="101" y="318" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="SW Staging Close" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4381,7 +4407,7 @@
       <unknownText text="SW Staging Close" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="SW Staging Close" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <sensoricon sensor="SW Staging Track 1" x="106" y="181" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="SW Staging Track 1" size="20" style="0" red="51" green="255" blue="0" hasBackground="yes" redBack="0" greenBack="0" blueBack="0" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="SW Staging Track 1" x="106" y="181" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="SW Staging Track 1" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4419,7 +4445,7 @@
       <unknownText text="SW Staging Track 2" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="SW Staging Track 2" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <sensoricon sensor="SW Staging Track 3" x="105" y="242" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="SW Staging Track 3" size="20" style="0" red="51" green="255" blue="0" hasBackground="yes" redBack="0" greenBack="0" blueBack="0" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="SW Staging Track 3" x="105" y="242" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="SW Staging Track 3" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4438,7 +4464,7 @@
       <unknownText text="SW Staging Track 3" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="SW Staging Track 3" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <sensoricon sensor="SW Staging Track 4" x="104" y="272" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="SW Staging Track 4" size="20" style="0" red="51" green="255" blue="0" hasBackground="yes" redBack="0" greenBack="0" blueBack="0" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="SW Staging Track 4" x="104" y="272" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="SW Staging Track 4" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4458,7 +4484,7 @@
       <inconsistentText text="SW Staging Track 4" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
     <signalmasticon signalmast="Virtual West-SW - West NW" x="732" y="82" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual West-NW-West-Sw" x="758" y="109" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual West-NW-West-Sw" x="758" y="110" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="WestNW-NZ9" x="965" y="177" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="145" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="NZ9-WestNW" x="919" y="190" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="9" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Virtual nz8-nz9" x="611" y="575" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="359" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
@@ -5038,104 +5064,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Fri Feb 19 15:06:01 MST 2021</date>
+      <date>Fri Feb 19 15:19:38 MST 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Fri Feb 19 15:06:10 MST 2021</date>
+      <date>Fri Feb 19 15:19:47 MST 2021</date>
       <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Fri Feb 19 12:30:27 MST 2021</date>
+          <date>Fri Feb 19 15:06:01 MST 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Fri Feb 19 12:30:46 MST 2021</date>
+          <date>Fri Feb 19 15:06:10 MST 2021</date>
           <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Fri Feb 19 09:45:54 MST 2021</date>
+              <date>Fri Feb 19 12:30:27 MST 2021</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Fri Feb 19 09:46:04 MST 2021</date>
+              <date>Fri Feb 19 12:30:46 MST 2021</date>
               <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Fri Feb 19 09:37:52 MST 2021</date>
+                  <date>Fri Feb 19 09:45:54 MST 2021</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Fri Feb 19 09:38:03 MST 2021</date>
+                  <date>Fri Feb 19 09:46:04 MST 2021</date>
                   <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Fri Feb 19 09:35:56 MST 2021</date>
+                      <date>Fri Feb 19 09:37:52 MST 2021</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Fri Feb 19 09:36:12 MST 2021</date>
+                      <date>Fri Feb 19 09:38:03 MST 2021</date>
                       <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Thu Feb 18 16:44:09 MST 2021</date>
+                          <date>Fri Feb 19 09:35:56 MST 2021</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Thu Feb 18 16:44:22 MST 2021</date>
+                          <date>Fri Feb 19 09:36:12 MST 2021</date>
                           <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Thu Feb 18 16:48:10 MST 2021</date>
+                          <date>Fri Feb 19 09:37:45 MST 2021</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Fri Feb 19 09:37:45 MST 2021</date>
+                      <date>Fri Feb 19 09:42:41 MST 2021</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Fri Feb 19 09:42:41 MST 2021</date>
+                  <date>Fri Feb 19 09:47:58 MST 2021</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Fri Feb 19 09:47:58 MST 2021</date>
+              <date>Fri Feb 19 12:50:11 MST 2021</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Fri Feb 19 12:50:11 MST 2021</date>
+          <date>Fri Feb 19 15:13:04 MST 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Feb 19 15:13:04 MST 2021</date>
+      <date>Fri Feb 19 15:23:52 MST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.21.3+R63094d48b on Fri Feb 19 15:13:04 MST 2021-->
+  <!--Written by JMRI version 4.21.3+R63094d48b on Fri Feb 19 15:23:52 MST 2021-->
 </layout-config>
