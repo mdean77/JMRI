@@ -1025,7 +1025,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="11:14 AM">
+    <memory value="5:18 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -2148,14 +2148,14 @@
         </beansetting>
       </path>
       <path todir="16" fromdir="32" block="IB:AUTO:0021" />
+      <path todir="16" fromdir="32" block="IB:AUTO:0023">
+        <beansetting setting="4">
+          <turnout systemName="South Turnout 116" />
+        </beansetting>
+      </path>
       <path todir="64" fromdir="128" block="IB:AUTO:0023">
         <beansetting setting="4">
           <turnout systemName="South Turnout 105" />
-        </beansetting>
-      </path>
-      <path todir="144" fromdir="96" block="IB:AUTO:0023">
-        <beansetting setting="4">
-          <turnout systemName="South Turnout 116" />
         </beansetting>
       </path>
     </block>
@@ -2169,7 +2169,7 @@
           <turnout systemName="South Turnout 106" />
         </beansetting>
       </path>
-      <path todir="96" fromdir="144" block="IB:AUTO:0022">
+      <path todir="32" fromdir="16" block="IB:AUTO:0022">
         <beansetting setting="4">
           <turnout systemName="South Turnout 116" />
         </beansetting>
@@ -4226,7 +4226,7 @@
     </conditional>
   </conditionals>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Nov 29 11:15:51 MST 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="703" y="25" windowheight="1274" windowwidth="1488" panelheight="1438" panelwidth="1740" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="96" y="255" windowheight="799" windowwidth="1393" panelheight="1438" panelwidth="1740" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Mike Dean's Basement Layout" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -4689,7 +4689,7 @@
     <layoutturnout ident="TO48" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="345.83837890625" ycen="122.13623046875" xa="374.82373046875" ya="114.355224609375" xb="316.85302734375" yb="129.917236328125" xc="314.80419921875" yc="122.2852783203125" xd="374.82373046875" yd="114.355224609375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging SW Turnout 503" connectaname="T55" connectcname="T215" />
     <layoutturnout ident="TO49" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="286.8450927734375" ycen="137.83349609375" xa="256.83349609375" ya="137.8475341796875" xb="316.856689453125" yb="137.8194580078125" xc="316.85302734375" yc="129.917236328125" xd="256.83349609375" yd="137.8475341796875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Staging SW Turnout 504" connectaname="T220" connectbname="T233" />
     <layoutturnout ident="TO50" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="886.8013305664062" ycen="121.6358642578125" xa="863.8087158203125" ya="116.8817138671875" xb="909.7939453125" yb="126.3900146484375" xc="913.7522583007812" yc="137.02392578125" xd="863.8087158203125" yd="116.8817138671875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging NW Turnout 403" blockname="WEST NW" connectaname="T253" connectbname="T232" connectcname="T44" />
-    <layoutturnout ident="TO51" type="DOUBLE_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="483.0" ycen="796.0" xa="489.0863492158346" ya="752.4967295950681" xb="487.2314491447184" yb="839.7226831385881" xc="476.9136507841654" yc="839.5032704049319" xd="478.7685508552816" yd="752.2773168614119" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutDoubleXOverXml" turnoutname="South Turnout 113" blockname="SZ7" connectaname="T122" connectbname="T119" connectcname="T12" connectdname="T246" />
+    <layoutturnout ident="TO51" type="DOUBLE_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="483.0" ycen="796.0" xa="489.0863342285156" ya="752.4967041015625" xb="487.2314501582162" yb="839.7227063197915" xc="476.9136657714844" yc="839.5032958984375" xd="478.7685498417838" yd="752.2772936802085" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutDoubleXOverXml" turnoutname="South Turnout 113" blockname="SZ7" connectaname="T122" connectbname="T119" connectcname="T12" connectdname="T246" />
     <tracksegment ident="T8" blockname="SZ4" connect1name="TO2" type1="TURNOUT_B" connect2name="A3" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T9" blockname="SZ5" connect1name="A8" type1="POS_POINT" connect2name="TO2" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="30.0" hideConLines="yes" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T10" blockname="EZ1" connect1name="A9" type1="POS_POINT" connect2name="A8" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="30.0" hideConLines="yes" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -5188,104 +5188,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Tue Feb 23 10:54:54 MST 2021</date>
+      <date>Tue Feb 23 11:55:49 MST 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Tue Feb 23 10:55:11 MST 2021</date>
+      <date>Tue Feb 23 11:56:00 MST 2021</date>
       <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Mon Feb 22 16:20:04 MST 2021</date>
+          <date>Tue Feb 23 10:54:54 MST 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Mon Feb 22 16:20:14 MST 2021</date>
+          <date>Tue Feb 23 10:55:11 MST 2021</date>
           <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Mon Feb 22 15:29:15 MST 2021</date>
+              <date>Mon Feb 22 16:20:04 MST 2021</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Mon Feb 22 15:29:25 MST 2021</date>
+              <date>Mon Feb 22 16:20:14 MST 2021</date>
               <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Mon Feb 22 14:45:27 MST 2021</date>
+                  <date>Mon Feb 22 15:29:15 MST 2021</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Mon Feb 22 14:45:37 MST 2021</date>
+                  <date>Mon Feb 22 15:29:25 MST 2021</date>
                   <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Fri Feb 19 15:19:38 MST 2021</date>
+                      <date>Mon Feb 22 14:45:27 MST 2021</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Fri Feb 19 15:19:47 MST 2021</date>
+                      <date>Mon Feb 22 14:45:37 MST 2021</date>
                       <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Fri Feb 19 15:06:01 MST 2021</date>
+                          <date>Fri Feb 19 15:19:38 MST 2021</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Fri Feb 19 15:06:10 MST 2021</date>
+                          <date>Fri Feb 19 15:19:47 MST 2021</date>
                           <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Fri Feb 19 15:13:04 MST 2021</date>
+                          <date>Fri Feb 19 15:23:52 MST 2021</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Fri Feb 19 15:23:52 MST 2021</date>
+                      <date>Mon Feb 22 15:28:31 MST 2021</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Mon Feb 22 15:28:31 MST 2021</date>
+                  <date>Mon Feb 22 16:19:30 MST 2021</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Mon Feb 22 16:19:30 MST 2021</date>
+              <date>Mon Feb 22 16:37:04 MST 2021</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Mon Feb 22 16:37:04 MST 2021</date>
+          <date>Tue Feb 23 11:14:19 MST 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue Feb 23 11:14:19 MST 2021</date>
+      <date>Tue Feb 23 17:18:06 MST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.21.3+R63094d48b on Tue Feb 23 11:14:19 MST 2021-->
+  <!--Written by JMRI version 4.21.3+R63094d48b on Tue Feb 23 17:18:06 MST 2021-->
 </layout-config>
