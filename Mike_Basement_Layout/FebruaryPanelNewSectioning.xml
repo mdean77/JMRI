@@ -1025,7 +1025,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="3:56 PM">
+    <memory value="8:18 AM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -1719,6 +1719,16 @@
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
       <systemName>IF$vsm:basic:one-low($0070)</systemName>
       <userName>VirtualDummy2-WestNW</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0071)</systemName>
+      <userName>Virtual SZ6 - SZ7</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0072)</systemName>
+      <userName>Virtual SZ7 - SZ6</userName>
       <unlit allowed="no" />
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
@@ -4231,6 +4241,52 @@
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
+    <signalmastlogic source="Virtual SZ6 - SZ7">
+      <sourceSignalMast>Virtual SZ6 - SZ7</sourceSignalMast>
+      <destinationMast destination="sz2-mnt">
+        <destinationSignalMast>sz2-mnt</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="Virtual SZ2-SZ3">
+        <destinationSignalMast>Virtual SZ2-SZ3</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="Virtual SZ2-SZ6">
+        <destinationSignalMast>Virtual SZ2-SZ6</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Virtual SZ7 - SZ6">
+      <sourceSignalMast>Virtual SZ7 - SZ6</sourceSignalMast>
+      <destinationMast destination="sz6-ez2">
+        <destinationSignalMast>sz6-ez2</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
     <signalmastlogic source="nz1-ez13">
       <sourceSignalMast>nz1-ez13</sourceSignalMast>
       <destinationMast destination="ez1-sz5">
@@ -4611,7 +4667,7 @@
     </conditional>
   </conditionals>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Nov 29 11:15:51 MST 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="516" y="23" windowheight="875" windowwidth="1391" panelheight="1438" panelwidth="1740" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="78" y="199" windowheight="1415" windowwidth="2514" panelheight="1438" panelwidth="1740" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Mike Dean's Basement Layout" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -5002,12 +5058,13 @@
     <signalmasticon signalmast="Virtual EZ6-E8" x="956" y="1139" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="91" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Virtual EZ10-EZ11" x="1029" y="1128" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="255" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Virtual EZ10-EZ9" x="1043" y="1100" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="73" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="VirtualCrossEZ11-EZ8-B" x="879" y="1144" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="0" litmode="false" degrees="0" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Virtual NZ7-NZ10" x="609" y="856" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="333" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="VirtualDummy6-NZ10" x="609" y="667" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="173" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="VirtualDummy3-WestSW" x="546" y="68" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="96" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Virtual Dummy1-WestNW" x="853" y="109" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="VirtualDummy2-WestNW" x="909" y="132" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="283" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual SZ7 - SZ6" x="481" y="868" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual SZ6 - SZ7" x="452" y="895" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="358" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <layoutturnout ident="TO1" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="434.4202880859375" ycen="315.32244873046875" xa="436.4063720703125" ya="285.310791015625" xb="432.4342041015625" yb="345.3341064453125" xc="442.33642578125" yc="345.33038330078125" xd="436.4063720703125" yd="285.310791015625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 101" blockname="SZ1" connectaname="T13" connectbname="T7" connectcname="T114" />
     <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="437.7437744140625" ycen="1016.2344360351562" xa="438.7578125" ya="1046.24609375" xb="436.729736328125" yb="986.2227783203125" xc="447.6319580078125" yc="986.2191162109375" xd="438.7578125" yd="1046.24609375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 117" blockname="SZ5" connectaname="T9" connectbname="T8" connectcname="T113">
       <signalBMast>Virtual sz4-sz5</signalBMast>
@@ -5099,7 +5156,7 @@
     <layoutturnout ident="TO38" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="818.79345703125" ycen="104.9935302734375" xa="788.7818603515625" ya="105.0074462890625" xb="848.8050537109375" yb="104.9796142578125" xc="848.8087158203125" yc="112.8818359375" xd="788.7818603515625" yd="105.0074462890625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging NW Turnout 400" blockname="WEST NW" connectaname="T65" connectbname="T51" connectcname="T253">
       <signalBMast>Virtual Dummy1-WestNW</signalBMast>
     </layoutturnout>
-    <layoutturnout ident="TO39" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="890.3818359375" ycen="104.541015625" xa="860.3702392578125" ya="104.541015625" xb="920.3934326171875" yb="104.541015625" xc="920.3934326171875" yc="112.4432373046875" xd="860.3702392578125" yd="104.541015625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging NW Turnout 401" blockname="Dummy1" connectaname="T51" connectbname="T168" connectcname="T52" />
+    <layoutturnout ident="TO39" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="890.3818359375" ycen="104.541015625" xa="872.3702392578125" ya="104.541015625" xb="908.3934326171875" yb="104.541015625" xc="920.3934326171875" yc="112.4432373046875" xd="872.3702392578125" yd="104.541015625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging NW Turnout 401" blockname="Dummy1" connectaname="T51" connectbname="T168" connectcname="T52" />
     <layoutturnout ident="TO40" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="939.3824462890625" ycen="120.2108154296875" xa="910.3934936523438" ya="112.4432373046875" xb="968.3713989257812" yb="127.9783935546875" xc="970.4166870117188" yc="120.345458984375" xd="910.3934936523438" yd="112.4432373046875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Staging NW Turnout 402" connectaname="T52" connectcname="T177" />
     <layoutturnout ident="TO41" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="997.3604125976562" ycen="135.7459716796875" xa="967.3714599609375" ya="127.9783935546875" xb="1027.349365234375" yb="143.5135498046875" xc="1028.3946533203125" yc="135.880615234375" xd="967.3714599609375" yd="127.9783935546875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Staging NW Turnout 404" connectcname="T185" />
     <layoutturnout ident="TO42" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1055.33837890625" ycen="150.2811279296875" xa="1026.349365234375" ya="142.5135498046875" xb="1084.327392578125" yb="158.0487060546875" xc="1086.3726806640625" yc="150.415771484375" xd="1026.349365234375" yd="142.5135498046875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Staging NW Turnout 405" connectcname="T192" />
@@ -5115,7 +5172,7 @@
     <layoutturnout ident="TO50" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="886.8013305664062" ycen="121.6358642578125" xa="863.8087158203125" ya="116.8817138671875" xb="909.7939453125" yb="126.3900146484375" xc="913.7522583007812" yc="137.02392578125" xd="863.8087158203125" yd="116.8817138671875" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging NW Turnout 403" blockname="WEST NW" connectaname="T253" connectbname="T232" connectcname="T44">
       <signalBMast>VirtualDummy2-WestNW</signalBMast>
     </layoutturnout>
-    <layoutturnout ident="TO51" type="DOUBLE_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="483.0" ycen="796.0" xa="489.0863342285156" ya="752.4967041015625" xb="487.23144430609403" yb="839.7227068861552" xc="476.9136657714844" yc="839.5032958984375" xd="478.76855569390597" yd="752.2772931138448" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutDoubleXOverXml" turnoutname="South Turnout 113" blockname="SZ7" connectaname="T122" connectbname="T119" connectcname="T12" connectdname="T246" />
+    <layoutturnout ident="TO51" type="DOUBLE_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="483.0" ycen="796.0" xa="489.09881591796875" ya="753.3898315429688" xb="488.11660515188225" yb="838.7392368118288" xc="476.90118408203125" yc="838.6101684570312" xd="477.88339484811775" yd="753.2607631881712" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutDoubleXOverXml" turnoutname="South Turnout 113" blockname="SZ7" connectaname="T122" connectbname="T119" connectcname="T12" connectdname="T246" />
     <tracksegment ident="T8" blockname="SZ4" connect1name="TO2" type1="TURNOUT_B" connect2name="A3" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T9" blockname="SZ5" connect1name="A8" type1="POS_POINT" connect2name="TO2" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="30.0" hideConLines="yes" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T10" blockname="EZ1" connect1name="A9" type1="POS_POINT" connect2name="A8" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="30.0" hideConLines="yes" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -5518,7 +5575,7 @@
     <positionablepoint ident="A31" type="ANCHOR" x="1371.01513671875" y="1001.49072265625" connect1name="T39" connect2name="T38" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A32" type="ANCHOR" x="1347.8939208984375" y="1057.3837890625" connect1name="T40" connect2name="T39" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A33" type="ANCHOR" x="1308.853759765625" y="1105.2188720703125" connect1name="T41" connect2name="T40" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A34" type="ANCHOR" x="1262.73095703125" y="1142.9542236328125" connect1name="T42" connect2name="T41" eastboundsignalmast="ez13-nz1" westboundsignalmast="nz1-ez13" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A34" type="ANCHOR" x="1261.73095703125" y="1142.9542236328125" connect1name="T42" connect2name="T41" eastboundsignalmast="ez13-nz1" westboundsignalmast="nz1-ez13" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A35" type="ANCHOR" x="1206.386962890625" y="1164.792724609375" connect1name="T43" connect2name="T42" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB26" type="END_BUMPER" x="501.582763671875" y="1138.2161865234375" connect1name="T53" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A46" type="ANCHOR" x="802.7487182617188" y="1125.7066650390625" connect1name="T60" connect2name="T59" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -5604,116 +5661,114 @@
     <positionablepoint ident="A1" type="ANCHOR" x="461.9666748046875" y="309.2393798828125" connect1name="T46" connect2name="T1" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A2" type="ANCHOR" x="596.3062744140625" y="606.16650390625" connect1name="T105" connect2name="T2" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A3" type="ANCHOR" x="433.623046875" y="412.91015625" connect1name="T8" connect2name="T7" eastboundsignalmast="Virtual sz1-sz4" westboundsignalmast="Virtual sz4-sz1" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A4" type="ANCHOR" x="476.705322265625" y="890.8134155273438" connect1name="T6" connect2name="T12" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A4" type="ANCHOR" x="476.705322265625" y="890.8134155273438" connect1name="T6" connect2name="T12" eastboundsignalmast="Virtual SZ7 - SZ6" westboundsignalmast="Virtual SZ6 - SZ7" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A5" type="ANCHOR" x="1204.2017822265625" y="1105.810791015625" connect1name="T164" connect2name="T45" eastboundsignalmast="ez9-mnt" westboundsignalmast="mnt-ez9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A6" type="ANCHOR" x="462.0" y="421.0" connect1name="T225" connect2name="T46" eastboundsignalmast="mnt-sz2" westboundsignalmast="sz2-mnt" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A7" type="ANCHOR" x="480.3988037109375" y="553.6412963867188" connect1name="T130" connect2name="T48" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A10" type="ANCHOR" x="753.05029296875" y="105.25335693359375" connect1name="T17" connect2name="T65" eastboundsignalmast="Virtual West-SW - West NW" westboundsignalmast="Virtual West-NW-West-Sw" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <levelxing ident="X1" blocknameac="EZ8" blocknamebd="EZ11" connectaname="T239" connectbname="T240" connectcname="T67" connectdname="T241" xcen="933.6488037109375" ycen="1139.3004150390625" xa="962.6641235351562" ya="1147.1885986328125" xb="963.660400390625" yb="1139.286376953125" class="jmri.jmrit.display.layoutEditor.configurexml.LevelXingXml">
-      <signalDMast>VirtualCrossEZ11-EZ8-B</signalDMast>
-    </levelxing>
+    <levelxing ident="X1" blocknameac="EZ8" blocknamebd="EZ11" connectaname="T239" connectbname="T240" connectcname="T67" connectdname="T241" xcen="933.6488037109375" ycen="1139.3004150390625" xa="962.6641235351562" ya="1147.1885986328125" xb="963.660400390625" yb="1139.286376953125" class="jmri.jmrit.display.layoutEditor.configurexml.LevelXingXml" />
   </LayoutEditor>
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Wed Feb 24 15:34:38 MST 2021</date>
+      <date>Thu Feb 25 08:03:19 MST 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Wed Feb 24 15:34:48 MST 2021</date>
+      <date>Thu Feb 25 08:03:32 MST 2021</date>
       <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Wed Feb 24 15:20:51 MST 2021</date>
+          <date>Thu Feb 25 07:52:02 MST 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Wed Feb 24 15:21:01 MST 2021</date>
+          <date>Thu Feb 25 07:52:26 MST 2021</date>
           <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Wed Feb 24 15:15:33 MST 2021</date>
+              <date>Wed Feb 24 15:34:38 MST 2021</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Wed Feb 24 15:15:42 MST 2021</date>
+              <date>Wed Feb 24 15:34:48 MST 2021</date>
               <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Wed Feb 24 15:11:57 MST 2021</date>
+                  <date>Wed Feb 24 15:20:51 MST 2021</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Wed Feb 24 15:12:12 MST 2021</date>
+                  <date>Wed Feb 24 15:21:01 MST 2021</date>
                   <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Wed Feb 24 14:18:43 MST 2021</date>
+                      <date>Wed Feb 24 15:15:33 MST 2021</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Wed Feb 24 14:18:55 MST 2021</date>
+                      <date>Wed Feb 24 15:15:42 MST 2021</date>
                       <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Wed Feb 24 14:01:19 MST 2021</date>
+                          <date>Wed Feb 24 15:11:57 MST 2021</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Wed Feb 24 14:01:36 MST 2021</date>
+                          <date>Wed Feb 24 15:12:12 MST 2021</date>
                           <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Wed Feb 24 14:18:32 MST 2021</date>
+                          <date>Wed Feb 24 15:13:38 MST 2021</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Wed Feb 24 15:11:31 MST 2021</date>
+                      <date>Wed Feb 24 15:20:21 MST 2021</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Wed Feb 24 15:13:38 MST 2021</date>
+                  <date>Wed Feb 24 15:34:12 MST 2021</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Wed Feb 24 15:20:21 MST 2021</date>
+              <date>Wed Feb 24 15:56:49 MST 2021</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Wed Feb 24 15:34:12 MST 2021</date>
+          <date>Thu Feb 25 08:01:01 MST 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Wed Feb 24 15:56:49 MST 2021</date>
+      <date>Thu Feb 25 08:18:50 MST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.21.3+R63094d48b on Wed Feb 24 15:56:49 MST 2021-->
+  <!--Written by JMRI version 4.21.3+R63094d48b on Thu Feb 25 08:18:50 MST 2021-->
 </layout-config>
