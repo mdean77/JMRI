@@ -2,8 +2,8 @@
 <?xml-stylesheet href="/xml/XSLT/blockValues.xsl" type="text/xsl"?>
 <!DOCTYPE block_values SYSTEM "/xml/DTD/block-values.dtd">
 <block_values>
-  <!--Written by JMRI version 4.21.3+R63094d48b on Tue Feb 23 17:18:11 MST 2021-->
+  <!--Written by JMRI version 4.21.3+R63094d48b on Wed Feb 24 15:57:00 MST 2021-->
   <blockvalues>
-    <block systemname="IB:AUTO:0021" value="RG 5334" dir="16" />
+    <block systemname="IB:AUTO:0020" value="RG 5334" dir="64" />
   </blockvalues>
 </block_values>
