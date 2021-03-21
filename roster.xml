@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.21.5+R9c40019f7 on Wed Mar 17 17:14:22 MDT 2021-->
+  <!--Written by JMRI version 4.21.5+R9c40019f7 on Sun Mar 21 16:56:09 MDT 2021-->
   <roster>
     <locomotive id="1029 NW2 Switcher" fileName="1029_NW2_Switcher.xml" roadNumber="1029" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="176-4374" dccAddress="1029" comment="$92 plus decoder" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T14:58:45.000+0000</dateUpdated>
@@ -438,7 +438,7 @@
       </attributepairs>
     </locomotive>
     <locomotive id="GE ES44AC 8096" fileName="GE_ES44AC_Diesel.xml" roadNumber="8096" roadName="Union Pacific" mfg="Broadway Limited" owner="Mike Dean" model="" dccAddress="8096" comment="While this has a Rolling Thunder decoder, if I select that decoder then I cannot edit the motor settings." developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="http://www.rrpicturearchives.net/showPicture.aspx?id=3608369" IsShuntingOn="">
-      <dateUpdated>2021-01-02T19:43:55.840+0000</dateUpdated>
+      <dateUpdated>2021-03-21T22:43:14.741+0000</dateUpdated>
       <decoder model="Diesel" family="Paragon 3" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="8096" longaddress="yes" />
@@ -480,11 +480,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2018-07-08T16:07:04Z</value>
+          <value>2021-03-21T22:28:40.433+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>20</value>
+          <value>29</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -630,7 +630,7 @@
       </attributepairs>
     </locomotive>
     <locomotive id="UP 2570 GEVo" fileName="UP2570.xml" roadNumber="2570" roadName="Union Pacific" mfg="ScaleTrains" owner="Mike Dean" model="GE Tier 4 GEVo Rivet Counter" dccAddress="2570" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-05-12T19:12:16.442+0000</dateUpdated>
+      <dateUpdated>2021-03-21T22:53:53.859+0000</dateUpdated>
       <decoder model="LokSound Select direct / micro" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="2570" longaddress="yes" />
