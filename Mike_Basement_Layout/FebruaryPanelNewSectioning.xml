@@ -9,6 +9,61 @@
   </jmriversion>
   <sensors class="jmri.jmrix.nce.configurexml.NceSensorManagerXml">
     <sensor inverted="false">
+      <systemName>NS80</systemName>
+      <userName>South Track 4</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS81</systemName>
+      <userName>South Track 2</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS82</systemName>
+      <userName>South Track 3</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS83</systemName>
+      <userName>South Reset Main</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS84</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS85</systemName>
+      <userName>South Track 1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS86</systemName>
+      <userName>North Reset Main</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS87</systemName>
+      <userName>North Track 2</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS88</systemName>
+      <userName>North Track 1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS89</systemName>
+      <userName>North Track 4</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS90</systemName>
+      <userName>North Track 3</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS91</systemName>
+      <userName>North Bypass</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS92</systemName>
+      <userName>North Track 5</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>NS93</systemName>
+      <userName>North Track 6</userName>
+    </sensor>
+    <sensor inverted="false">
       <systemName>NS96</systemName>
       <userName>North Zone 1</userName>
     </sensor>
@@ -1025,7 +1080,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="12:03 PM">
+    <memory value="10:16 AM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -3102,66 +3157,79 @@
       <systemName>IO:AUTO:0001</systemName>
       <userName>NW Staging Close</userName>
       <routeOutputSensor systemName="NW Staging Close" state="TOGGLE" />
+      <routeSensor systemName="NS86" mode="onActive" />
     </route>
     <route userName="SW Staging Close">
       <systemName>IO:AUTO:0002</systemName>
       <userName>SW Staging Close</userName>
       <routeOutputSensor systemName="SW Staging Close" state="TOGGLE" />
+      <routeSensor systemName="NS83" mode="onActive" />
     </route>
     <route userName="NW Track 1">
       <systemName>IO:AUTO:0003</systemName>
       <userName>NW Track 1</userName>
       <routeOutputSensor systemName="NW Staging Track 1" state="TOGGLE" />
+      <routeSensor systemName="NS88" mode="onActive" />
     </route>
     <route userName="NW Track 2">
       <systemName>IO:AUTO:0004</systemName>
       <userName>NW Track 2</userName>
       <routeOutputSensor systemName="NW Staging Track 2" state="TOGGLE" />
+      <routeSensor systemName="NS87" mode="onActive" />
     </route>
     <route userName="NW Track 3">
       <systemName>IO:AUTO:0005</systemName>
       <userName>NW Track 3</userName>
       <routeOutputSensor systemName="NW Staging Track 3" state="TOGGLE" />
+      <routeSensor systemName="NS90" mode="onActive" />
     </route>
     <route userName="NW Track 4">
       <systemName>IO:AUTO:0006</systemName>
       <userName>NW Track 4</userName>
       <routeOutputSensor systemName="NW Staging Track 4" state="TOGGLE" />
+      <routeSensor systemName="NS89" mode="onActive" />
     </route>
     <route userName="NW Track 5">
       <systemName>IO:AUTO:0007</systemName>
       <userName>NW Track 5</userName>
       <routeOutputSensor systemName="NW Staging Track 5" state="TOGGLE" />
+      <routeSensor systemName="NS92" mode="onActive" />
     </route>
     <route userName="NW Track 6">
       <systemName>IO:AUTO:0008</systemName>
       <userName>NW Track 6</userName>
       <routeOutputSensor systemName="NW Staging Track 6" state="TOGGLE" />
+      <routeSensor systemName="NS93" mode="onActive" />
     </route>
     <route userName="NW Bypass">
       <systemName>IO:AUTO:0009</systemName>
       <userName>NW Bypass</userName>
       <routeOutputSensor systemName="NW Bypass Track" state="TOGGLE" />
+      <routeSensor systemName="NS91" mode="onActive" />
     </route>
     <route userName="SW Track 1">
       <systemName>IO:AUTO:0010</systemName>
       <userName>SW Track 1</userName>
       <routeOutputSensor systemName="SW Staging Track 1" state="TOGGLE" />
+      <routeSensor systemName="NS85" mode="onActive" />
     </route>
     <route userName="SW Track 2">
       <systemName>IO:AUTO:0011</systemName>
       <userName>SW Track 2</userName>
       <routeOutputSensor systemName="SW Staging Track 2" state="TOGGLE" />
+      <routeSensor systemName="NS81" mode="onActive" />
     </route>
     <route userName="SW Track 3">
       <systemName>IO:AUTO:0012</systemName>
       <userName>SW Track 3</userName>
       <routeOutputSensor systemName="SW Staging Track 3" state="TOGGLE" />
+      <routeSensor systemName="NS82" mode="onActive" />
     </route>
     <route userName="SW Track 4">
       <systemName>IO:AUTO:0013</systemName>
       <userName>SW Track 4</userName>
       <routeOutputSensor systemName="SW Staging Track 4" state="TOGGLE" />
+      <routeSensor systemName="NS80" mode="onActive" />
     </route>
   </routes>
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
@@ -4917,7 +4985,7 @@
       <unknownText text="NW Bypass Track" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="NW Bypass Track" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <sensoricon sensor="NW Staging Close" x="1484" y="319" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="NW Staging Close" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NW Staging Close" x="1484" y="319" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="NW Staging Close" size="20" style="0" red="255" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="0" blueBack="0" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4940,7 +5008,7 @@
     <signalmasticon signalmast="Virtual sz4-sz1" x="410" y="417" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="359" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="virtual ez4-ez2" x="641" y="1125" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="virtual ez3-ez2" x="640" y="1093" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="267" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <sensoricon sensor="SW Staging Close" x="101" y="318" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="SW Staging Close" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="SW Staging Close" x="101" y="318" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="SW Staging Close" size="20" style="0" red="51" green="255" blue="0" hasBackground="yes" redBack="0" greenBack="0" blueBack="0" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -5681,104 +5749,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Thu Feb 25 12:01:25 MST 2021</date>
+      <date>Wed Mar 31 09:45:08 MDT 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Thu Feb 25 12:01:36 MST 2021</date>
+      <date>Wed Mar 31 09:45:18 MDT 2021</date>
       <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Thu Feb 25 08:27:48 MST 2021</date>
+          <date>Thu Feb 25 12:01:25 MST 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Thu Feb 25 08:27:58 MST 2021</date>
+          <date>Thu Feb 25 12:01:36 MST 2021</date>
           <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Thu Feb 25 08:03:19 MST 2021</date>
+              <date>Thu Feb 25 08:27:48 MST 2021</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Thu Feb 25 08:03:32 MST 2021</date>
+              <date>Thu Feb 25 08:27:58 MST 2021</date>
               <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Thu Feb 25 07:52:02 MST 2021</date>
+                  <date>Thu Feb 25 08:03:19 MST 2021</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Thu Feb 25 07:52:26 MST 2021</date>
+                  <date>Thu Feb 25 08:03:32 MST 2021</date>
                   <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Wed Feb 24 15:34:38 MST 2021</date>
+                      <date>Thu Feb 25 07:52:02 MST 2021</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Wed Feb 24 15:34:48 MST 2021</date>
+                      <date>Thu Feb 25 07:52:26 MST 2021</date>
                       <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Wed Feb 24 15:20:51 MST 2021</date>
+                          <date>Wed Feb 24 15:34:38 MST 2021</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Wed Feb 24 15:21:01 MST 2021</date>
+                          <date>Wed Feb 24 15:34:48 MST 2021</date>
                           <filename>/Users/mdean/JMRI/Mike_Basement_Layout/FebruaryPanelNewSectioning.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Wed Feb 24 15:34:12 MST 2021</date>
+                          <date>Wed Feb 24 15:56:49 MST 2021</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Wed Feb 24 15:56:49 MST 2021</date>
+                      <date>Thu Feb 25 08:01:01 MST 2021</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Thu Feb 25 08:01:01 MST 2021</date>
+                  <date>Thu Feb 25 08:18:50 MST 2021</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Thu Feb 25 08:18:50 MST 2021</date>
+              <date>Thu Feb 25 08:57:59 MST 2021</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Thu Feb 25 08:57:59 MST 2021</date>
+          <date>Thu Feb 25 12:03:14 MST 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Thu Feb 25 12:03:14 MST 2021</date>
+      <date>Wed Mar 31 10:16:05 MDT 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.21.5+R9c40019f7 on Thu Feb 25 12:03:14 MST 2021-->
+  <!--Written by JMRI version 4.21.5+R9c40019f7 on Wed Mar 31 10:16:05 MDT 2021-->
 </layout-config>
