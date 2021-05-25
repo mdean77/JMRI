@@ -1,5 +1,5 @@
-#JMRI Preferences version 4.21.3+R63094d48b
-#Fri Feb 19 09:49:56 MST 2021
+#JMRI Preferences version 4.23.5+R0e79567f8
+#Sat May 22 14:27:57 MDT 2021
 apps-gui.fontSize=0
 apps-gui.graphicTableState=false
 apps-gui.locale=en-US
@@ -20,6 +20,11 @@ jmri-jmris-json.validateServerMessages=false
 jmri-jmris-simpleserver.port=2048
 jmri-jmris-srcp.port=4303
 jmri-jmrit-consisttool.updateCV19=false
+jmri-jmrit-logixng-implementation.errorHandlingType=ShowDialogBox
+jmri-jmrit-logixng-implementation.installDebugger=true
+jmri-jmrit-logixng-implementation.showSystemUserNames=false
+jmri-jmrit-logixng-implementation.startLogixNGOnStartup=true
+jmri-jmrit-logixng-implementation.useGenericFemaleSockets=false
 jmri-jmrit-roster.defaultOwner=mdean
 jmri-jmrit-roster.directory=home\:JMRI/
 jmri-jmrit-symbolicprog.canCacheDefault=false
@@ -44,6 +49,7 @@ jmri-util-gui.fontSize=0
 jmri-util-gui.graphicTableState=false
 jmri-util-gui.locale=en-US
 jmri-util-gui.lookAndFeel=com.apple.laf.AquaLookAndFeel
+jmri-util-gui.maxComboRows=0
 jmri-util-gui.nonstandardMouseEvent=false
 jmri-util-gui.oblockEditTabbed=false
 jmri-util-gui.showToolTipDismissDelay=4000

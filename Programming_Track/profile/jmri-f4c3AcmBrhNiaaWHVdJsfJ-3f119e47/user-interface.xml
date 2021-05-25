@@ -20,7 +20,9 @@
         <comboBox xmlns="" lastSelected="NCE USB" name="NCE"/>
         <comboBox xmlns="" lastSelected="19,200 baud" name="jmri.jmrix.nce.usbdriver.UsbDriverAdapter.baud"/>
     </comboBoxLastValue>
-    <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd"/>
+    <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd">
+        <setting xmlns="">apps.gui3.dp3.DecoderPro3Window.hideGroups</setting>
+    </settings>
     <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
         <table xmlns="" name="apps.gui3.dp3.DecoderPro3Window:DecoderPro:roster">
             <columns>
@@ -51,7 +53,7 @@
             <properties>
                 <property>
                     <key>selectedProgrammer</key>
-                    <value class="java.lang.String">edit</value>
+                    <value class="java.lang.String">service</value>
                 </property>
             </properties>
         </window>

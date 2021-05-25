@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <warrantPreferences>
-  <!--Written by JMRI version 4.23.5+R0e79567f8 on Sat May 22 15:07:49 MDT 2021-->
-  <layoutParams layoutScale="160.0" searchDepth="20">
+  <!--Written by JMRI version 4.23.5+R0e79567f8 on Mon May 24 12:31:51 MDT 2021-->
+  <layoutParams layoutScale="87.1" searchDepth="20">
     <shutdown>PROMPT</shutdown>
   </layoutParams>
   <speedMapParams>

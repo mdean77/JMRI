@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.23.4+R203912efd on Thu May 20 08:48:35 MDT 2021-->
+  <!--Written by JMRI version 4.23.4+R203912efd on Thu May 20 18:00:54 MDT 2021-->
   <locomotive id="EMD SD70ACe 8997" fileName="EMD_SD70ACe_8997.xml" roadNumber="8997" roadName="Union Pacific" mfg="BLI" owner="Mike Dean" model="" dccAddress="8997" comment="Stop button makes it accelerate" developerID="-1" manufacturerID="38" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2021-05-20T14:48:35.016+0000</dateUpdated>
+    <dateUpdated>2021-05-21T00:00:54.619+0000</dateUpdated>
     <decoder model="Diesel" family="Paragon 3" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="8997" longaddress="yes" />

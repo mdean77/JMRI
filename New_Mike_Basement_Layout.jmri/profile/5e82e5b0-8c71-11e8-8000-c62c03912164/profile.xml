@@ -14,13 +14,4 @@
             </options>
         </connection>
     </connections>
-    <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" name="apps.SystemConsoleAction" type="Action">
-            <property name="systemPrefix" value=""/>
-        </perform>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformFileModelXml" name="preference:FebruaryPanelNewSectioning.xml" type="XmlFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" name="jmri.jmrit.withrottle.WiThrottleCreationAction" type="Action">
-            <property name="systemPrefix" value=""/>
-        </perform>
-    </startup>
 </auxiliary-configuration>

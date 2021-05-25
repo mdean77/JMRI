@@ -87,5 +87,6 @@
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program WP GP40-2 3549 in Service Mode (Programming Track)" height="712.0" locX="106.0" locY="92.0" width="1052.0"/>
         <window xmlns="" class="PanelPro" height="231.0" locX="436.0" locY="334.0" width="568.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:UP 2570 GEVo" height="865.0" locX="51.0" locY="23.0" width="1389.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:P42 Amtrak Phase IV" height="865.0" locX="51.0" locY="23.0" width="1052.0"/>
     </windowDetails>
 </auxiliary-configuration>
