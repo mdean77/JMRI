@@ -1080,11 +1080,11 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="Yes">
+    <memory value="No">
       <systemName>IM:AUTO:0001</systemName>
       <userName>Train Done</userName>
     </memory>
-    <memory value="5:16 PM">
+    <memory value="4:34 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -5877,9 +5877,9 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sun Jun 27 17:16:34 MDT 2021</date>
+      <date>Sun Jun 27 16:34:19 MDT 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.23.7+R2dd7487a0 on Sun Jun 27 17:16:34 MDT 2021-->
+  <!--Written by JMRI version 4.23.7+R2dd7487a0 on Sun Jun 27 16:34:19 MDT 2021-->
 </layout-config>
