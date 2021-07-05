@@ -1106,14 +1106,7 @@
       <systemName>IM:AUTO:0005</systemName>
       <userName>Start Intermodal Train</userName>
     </memory>
-    <memory value="Yes">
-      <systemName>IM:AUTO:0006</systemName>
-      <userName>Intermediate Work Done</userName>
-    </memory>
-    <memory>
-      <systemName>IM:AUTO:0007</systemName>
-    </memory>
-    <memory value="5:06 PM">
+    <memory value="1:32 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -4579,11 +4572,10 @@
     </logix>
   </logixs>
   <conditionals class="jmri.managers.configurexml.DefaultConditionalManagerXml">
-    <conditional systemName="IX:RTX11T" userName="Route 1C Initialize Layout" antecedent="R1 or R2" logicType="3" triggerOnChange="no">
+    <conditional systemName="IX:RTX11T" userName="Route 1C Initialize Layout" antecedent="R1" logicType="3" triggerOnChange="no">
       <systemName>IX:RTX11T</systemName>
       <userName>Route 1C Initialize Layout</userName>
       <conditionalStateVariable operator="4" negated="no" type="1" systemName="Reset" dataString="" num1="0" num2="0" triggersCalc="yes" />
-      <conditionalStateVariable operator="5" negated="no" type="2" systemName="Reset" dataString="" num1="0" num2="0" triggersCalc="yes" />
       <conditionalAction option="1" type="2" systemName="South Turnout 100" data="2" delay="0" string="" />
       <conditionalAction option="1" type="2" systemName="South Turnout 101" data="2" delay="0" string="" />
       <conditionalAction option="1" type="2" systemName="South Turnout 102" data="4" delay="0" string="" />
@@ -4785,7 +4777,7 @@
     </conditional>
   </conditionals>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Nov 29 11:15:51 MST 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="689" y="119" windowheight="801" windowwidth="1389" panelheight="1438" panelwidth="1740" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="51" y="99" windowheight="801" windowwidth="1389" panelheight="1438" panelwidth="1740" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Mike Dean's Basement Layout" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -5025,7 +5017,7 @@
       <unknownText text="NW Bypass Track" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="NW Bypass Track" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <sensoricon sensor="NW Staging Close" x="1484" y="319" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="true" icon="no" text="NW Staging Close" size="20" style="0" red="255" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="0" blueBack="0" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NW Staging Close" x="1484" y="319" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="true" icon="no" text="NW Staging Close" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -5789,104 +5781,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Mon Jul 05 16:41:31 MDT 2021</date>
+      <date>Mon Jul 05 13:27:44 MDT 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Mon Jul 05 16:41:40 MDT 2021</date>
+      <date>Mon Jul 05 13:27:54 MDT 2021</date>
       <filename>/Users/mdean/JMRI/New_Mike_Basement_Layout.jmri/FebruaryPanelNewSectioning.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Mon Jul 05 13:38:12 MDT 2021</date>
+          <date>Mon Jul 05 13:19:09 MDT 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Mon Jul 05 13:38:23 MDT 2021</date>
+          <date>Mon Jul 05 13:19:18 MDT 2021</date>
           <filename>/Users/mdean/JMRI/New_Mike_Basement_Layout.jmri/FebruaryPanelNewSectioning.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Mon Jul 05 13:34:14 MDT 2021</date>
+              <date>Mon Jul 05 13:02:47 MDT 2021</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Mon Jul 05 13:34:23 MDT 2021</date>
+              <date>Mon Jul 05 13:02:57 MDT 2021</date>
               <filename>/Users/mdean/JMRI/New_Mike_Basement_Layout.jmri/FebruaryPanelNewSectioning.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Mon Jul 05 13:27:44 MDT 2021</date>
+                  <date>Mon Jul 05 12:43:02 MDT 2021</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Mon Jul 05 13:27:54 MDT 2021</date>
+                  <date>Mon Jul 05 12:43:12 MDT 2021</date>
                   <filename>/Users/mdean/JMRI/New_Mike_Basement_Layout.jmri/FebruaryPanelNewSectioning.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Mon Jul 05 13:19:09 MDT 2021</date>
+                      <date>Mon Jul 05 12:26:41 MDT 2021</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Mon Jul 05 13:19:18 MDT 2021</date>
+                      <date>Mon Jul 05 12:26:51 MDT 2021</date>
                       <filename>/Users/mdean/JMRI/New_Mike_Basement_Layout.jmri/FebruaryPanelNewSectioning.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Mon Jul 05 13:02:47 MDT 2021</date>
+                          <date>Mon Jul 05 10:59:55 MDT 2021</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Mon Jul 05 13:02:57 MDT 2021</date>
+                          <date>Mon Jul 05 11:00:10 MDT 2021</date>
                           <filename>/Users/mdean/JMRI/New_Mike_Basement_Layout.jmri/FebruaryPanelNewSectioning.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Mon Jul 05 13:18:51 MDT 2021</date>
+                          <date>Mon Jul 05 11:25:32 MDT 2021</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Mon Jul 05 13:27:18 MDT 2021</date>
+                      <date>Mon Jul 05 12:42:45 MDT 2021</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Mon Jul 05 13:33:59 MDT 2021</date>
+                  <date>Mon Jul 05 13:02:29 MDT 2021</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Mon Jul 05 13:37:57 MDT 2021</date>
+              <date>Mon Jul 05 13:18:51 MDT 2021</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Mon Jul 05 16:40:13 MDT 2021</date>
+          <date>Mon Jul 05 13:27:18 MDT 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Mon Jul 05 17:06:29 MDT 2021</date>
+      <date>Mon Jul 05 13:32:03 MDT 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.23.7+R2dd7487a0 on Mon Jul 05 17:06:29 MDT 2021-->
+  <!--Written by JMRI version 4.23.7+R2dd7487a0 on Mon Jul 05 13:32:03 MDT 2021-->
 </layout-config>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.23.5+R0e79567f8 on Tue Jun 01 17:23:27 MDT 2021-->
+  <!--Written by JMRI version 4.23.7+R2dd7487a0 on Sat Jul 03 17:33:14 MDT 2021-->
   <roster>
     <locomotive id="1029 NW2 Switcher" fileName="1029_NW2_Switcher.xml" roadNumber="1029" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="176-4374" dccAddress="1029" comment="$92 plus decoder" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T14:58:45.000+0000</dateUpdated>
@@ -18,6 +18,14 @@
           <key>DispatcherTrainType</key>
           <value>LOCAL_FREIGHT</value>
         </keyvaluepair>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:38:00.204+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
       </attributepairs>
     </locomotive>
     <locomotive id="1590 4-6-0 Steam" fileName="Baldwin_4_6_0_Steam.xml" roadNumber="1590" roadName="Union Pacific" mfg="Bachmann" owner="Mike Dean" model="51454" dccAddress="1590" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
@@ -33,6 +41,16 @@
         <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Dim Lights</functionlabel>
       </functionlabels>
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:37:59.364+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="6001 EMD E7A" fileName="6001_EMD_E7A.xml" roadNumber="6001" roadName="Southern Pacific" mfg="Broadway Limited" owner="Mike Dean" model="3043" dccAddress="6001" comment="$159" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T15:48:53.000+0000</dateUpdated>
@@ -70,6 +88,16 @@
         <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
       </functionlabels>
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:37:59.716+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="9155 NW Switcher" fileName="9155_NW_Switcher.xml" roadNumber="9155" roadName="Union Pacific" mfg="Bachmann" owner="Mike Dean" model="61651" dccAddress="9155" comment="$89.40" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T15:05:54.000+0000</dateUpdated>
@@ -84,6 +112,16 @@
         <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Dim Lights</functionlabel>
       </functionlabels>
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:37:59.648+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="ALCO 2-6-0 Steam" fileName="ALCO_2_6_0_Steam.xml" roadNumber="41" roadName="Union Pacific" mfg="Bachmann" owner="Mike Dean" model="" dccAddress="41" comment="$125" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2016-03-27T18:31:16.000+0000</dateUpdated>
@@ -97,6 +135,16 @@
         <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
       </functionlabels>
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:37:59.430+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="ALCO PA 605" fileName="ALCO_PA_605.xml" roadNumber="605" roadName="Union Pacific" mfg="Broadway Limited" owner="Mike Dean" model="3104" dccAddress="605" comment="$159" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2016-06-10T22:56:16.000+0000</dateUpdated>
@@ -134,6 +182,16 @@
         <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
       </functionlabels>
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:37:59.580+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="ALCO PA 606" fileName="ALCO_PA_606.xml" roadNumber="606" roadName="Union Pacific" mfg="Broadway Limited" owner="Mike Dean" model="3202" dccAddress="606" comment="606A 606B pair purchased, B unit unpowered" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2016-06-10T23:57:24.000+0000</dateUpdated>
@@ -208,6 +266,16 @@
         <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
       </functionlabels>
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:37:59.763+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="ALCO RS3 5200" fileName="ALCO_RS3_.xml" roadNumber="5200" roadName="Rio Grande" mfg="Bachmann" owner="Mike Dean" model="" dccAddress="5200" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2021-01-02T19:43:24.806+0000</dateUpdated>
@@ -219,6 +287,16 @@
       </locoaddress>
       <functionlabels />
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:38:00.030+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="Big Boy 4023" fileName="Big_Boy_4_8_8_4.xml" roadNumber="4023" roadName="Union Pacific" mfg="Athearn" owner="Mike Dean" model="22904" dccAddress="4023" comment="$418&lt;?p?&gt;Had to return to Athearn for repairs" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2021-01-02T19:43:05.387+0000</dateUpdated>
@@ -244,6 +322,16 @@
         <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Water Stop</functionlabel>
       </functionlabels>
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:37:59.670+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="Challenger 3985" fileName="Challenger.xml" roadNumber="3985" roadName="Union Pacific" mfg="Athearn" owner="Mike Dean" model="" dccAddress="3985" comment="$411" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2021-01-02T19:42:56.589+0000</dateUpdated>
@@ -269,6 +357,16 @@
         <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Water Stop</functionlabel>
       </functionlabels>
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:37:59.885+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="EMD DD40AX 6900" fileName="EMD_DD40AX_6900.xml" roadNumber="6900" roadName="Union Pacific" mfg="Bachmann" owner="Mike Dean" model="65151" dccAddress="6900" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T22:31:39.000+0000</dateUpdated>
@@ -290,6 +388,16 @@
         <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
       </functionlabels>
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:37:59.408+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="EMD DD40AX 6929" fileName="EMD_DD40AX_6929.xml" roadNumber="6929" roadName="Union Pacific" mfg="Bachmann" owner="Mike Dean" model="65152" dccAddress="6929" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T22:21:52.000+0000</dateUpdated>
@@ -311,6 +419,16 @@
         <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
       </functionlabels>
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:37:59.812+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="EMD DD40AX 6940" fileName="EMD_DD40AX_6940.xml" roadNumber="6940" roadName="Union Pacific" mfg="Bachmann" owner="Mike Dean" model="" dccAddress="6940" comment="$125" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T14:59:41.000+0000</dateUpdated>
@@ -332,6 +450,16 @@
         <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
       </functionlabels>
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:37:59.385+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="EMD SD70ACe 8997" fileName="EMD_SD70ACe_8997.xml" roadNumber="8997" roadName="Union Pacific" mfg="BLI" owner="Mike Dean" model="" dccAddress="8997" comment="Stop button makes it accelerate" developerID="-1" manufacturerID="38" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2021-05-21T00:00:54.619+0000</dateUpdated>
@@ -373,6 +501,16 @@
         <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
       </functionlabels>
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:37:59.837+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="F7A Diesel 317-A" fileName="F7A_Diesel_317_A.xml" roadNumber="317-A" roadName="Great Northern" mfg="Bachmann" owner="Mike Dean" model="" dccAddress="317" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2016-03-27T18:16:37.000+0000</dateUpdated>
@@ -384,6 +522,16 @@
       </locoaddress>
       <functionlabels />
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:38:00.056+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="FEF-3 Steam 844" fileName="FEF_3_Steam_844.xml" roadNumber="844" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="126-0401-1" dccAddress="844" comment="$264" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T19:30:20.000+0000</dateUpdated>
@@ -397,6 +545,16 @@
         <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlights</functionlabel>
       </functionlabels>
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:37:59.737+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="GE 44 Ton Yellow" fileName="GE_44_Ton_Yellow.xml" roadNumber="Unnumbered" roadName="Unlettered" mfg="Bachmann Spectrum" owner="Mike Dean" model="" dccAddress="1111" comment="Unnumbered and unlettered" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T15:00:39.000+0000</dateUpdated>
@@ -411,6 +569,16 @@
         <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Dim Lights</functionlabel>
       </functionlabels>
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:37:59.477+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="GE 70 Ton Green" fileName="GE_70_Ton_Green.xml" roadNumber="Unnumbered" roadName="Unlettered" mfg="Bachmann Spectrum" owner="Mike Dean" model="82053" dccAddress="3333" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T22:55:39.000+0000</dateUpdated>
@@ -425,6 +593,16 @@
         <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Dim Lights</functionlabel>
       </functionlabels>
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:37:59.503+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="GE 70 Ton Red" fileName="GE_70_Ton_Red.xml" roadNumber="Unnumbered" roadName="Unlettered" mfg="Bachmann Spectrum" owner="Mike Dean" model="82052" dccAddress="2222" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2015-08-15T22:50:25.000+0000</dateUpdated>
@@ -439,6 +617,16 @@
         <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Dim Lights</functionlabel>
       </functionlabels>
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:37:59.530+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="GE ES44AC 5467" fileName="GE_ES44AC_5467.xml" roadNumber="5467" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="" dccAddress="5467" comment="" developerID="-1" manufacturerID="153" productID="29" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2021-03-17T23:14:22.171+0000</dateUpdated>
@@ -450,6 +638,16 @@
       </locoaddress>
       <functionlabels />
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:37:59.960+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="GE ES44AC 5542" fileName="UP_GEVO.xml" roadNumber="5542" roadName="Union Pacific" mfg="Kato" owner="Mike Dean" model="" dccAddress="5542" comment="Most reliable engine" developerID="" manufacturerID="" productID="" maxSpeed="49" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2021-01-02T19:43:38.943+0000</dateUpdated>
@@ -470,7 +668,7 @@
         </keyvaluepair>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2018-07-21T18:12:52Z</value>
+          <value>2021-07-03T22:37:59.986+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
@@ -521,7 +719,7 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2021-03-21T22:28:40.433+0000</value>
+          <value>2021-07-03T22:37:59.859+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
@@ -542,7 +740,7 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2019-09-12T11:54:10Z</value>
+          <value>2021-07-03T22:37:59.453+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
@@ -560,6 +758,16 @@
       </locoaddress>
       <functionlabels />
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:37:59.787+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="GP7 Diesel 5102" fileName="GP7_Diesel.xml" roadNumber="5102" roadName="Rio Grande" mfg="Bachmann" owner="Mike Dean" model="62458" dccAddress="5102" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2021-01-02T19:43:13.678+0000</dateUpdated>
@@ -571,6 +779,16 @@
       </locoaddress>
       <functionlabels />
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:38:00.007+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="GP7 UP 116" fileName="GP7.xml" roadNumber="0116" roadName="Union Pacific" mfg="Bachmann" owner="Mike Dean" model="" dccAddress="116" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2019-06-02T18:48:35.000+0000</dateUpdated>
@@ -582,6 +800,16 @@
       </locoaddress>
       <functionlabels />
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:37:59.937+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="Great Northern 147" fileName="Great_Northern_147.xml" roadNumber="147" roadName="Great Northern" mfg="Bachmann" owner="Mike Dean" model="" dccAddress="147" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2016-03-27T18:02:55.000+0000</dateUpdated>
@@ -599,7 +827,7 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>Thu Aug 13 20:51:46 MDT 2015</value>
+          <value>2021-07-03T22:37:59.554+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
@@ -620,6 +848,16 @@
         <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Dim Lights</functionlabel>
       </functionlabels>
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:49:26.298+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>684</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="RG 5327 SD45" fileName="RG_5327_SD45.xml" roadNumber="5327" roadName="Rio Grande" mfg="Kato" owner="Mike Dean" model="176-3123" dccAddress="5327" comment="Bought used from Cameron." developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2019-01-12T22:39:40.000+0000</dateUpdated>
@@ -631,6 +869,16 @@
       </locoaddress>
       <functionlabels />
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:37:59.911+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="RG 5334" fileName="RG_5334.xml" roadNumber="5334" roadName="Rio Grande" mfg="Kato" owner="Mike Dean" model="" dccAddress="5334" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2021-02-22T21:43:00.689+0000</dateUpdated>
@@ -647,6 +895,14 @@
           <key>DispatcherTrainType</key>
           <value>LOCAL_FREIGHT</value>
         </keyvaluepair>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:37:59.603+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
       </attributepairs>
     </locomotive>
     <locomotive id="SP 8584 SD45" fileName="SP_8584_SD45.xml" roadNumber="8584" roadName="Southern Pacific" mfg="Kato" owner="Mike Dean" model="176-3131" dccAddress="8584" comment="Purchased used as DC from Cameron." developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
@@ -662,7 +918,7 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2019-05-27T21:59:20Z</value>
+          <value>2021-07-03T22:37:59.625+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
@@ -687,6 +943,16 @@
         <soundlabel num="26">Automatic brake sound</soundlabel>
         <soundlabel num="27">Gear shift sound</soundlabel>
       </soundlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:38:00.082+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="USRA 2-8-2 Mikado" fileName="USRA_2_8_2_Mikado_Updated.xml" roadNumber="746" roadName="Southern Pacific Lines" mfg="MRC" owner="Mike Dean" model="" dccAddress="746" comment="Updated decoder definition." developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2016-06-10T23:47:44.000+0000</dateUpdated>
@@ -728,6 +994,16 @@
         <functionlabel num="28" lockable="false" functionImage="" functionImageSelected="">Associated loco sound</functionlabel>
       </functionlabels>
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:37:59.693+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="WP GP 40-2 3546" fileName="WP_GP_40_2_3546.xml" roadNumber="3546" roadName="Western Pacific" mfg="Atlas" owner="Mike Dean" model="" dccAddress="3546" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-12-23T17:44:17.002+0000</dateUpdated>
@@ -739,6 +1015,16 @@
       </locoaddress>
       <functionlabels />
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:38:00.180+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="WP GP40-2  3548" fileName="WP_GP40_2__3548.xml" roadNumber="3548" roadName="Western Pacific" mfg="Atlas" owner="Mike Dean" model="" dccAddress="3548" comment="$65" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-12-23T17:35:27.789+0000</dateUpdated>
@@ -753,7 +1039,7 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2020-12-23T17:09:50.332+0000</value>
+          <value>2021-07-03T22:38:00.130+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
@@ -771,6 +1057,16 @@
       </locoaddress>
       <functionlabels />
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-07-03T22:38:00.154+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
   </roster>
 </roster-config>

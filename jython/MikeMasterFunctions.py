@@ -4,16 +4,26 @@
 
 def getTableData(self):
 # Get relevant routes
-    self.trackBypassNW = routes.getRoute("NW Bypass")
-    self.closeNW = routes.getRoute("NW Staging Close")
-    self.track6NW = routes.getRoute("NW Track 6")
     self.crossOver = routes.getRoute("Crossover")
     self.straightThru = routes.getRoute("Straight Through")
-
+    
+# Get relevant internal sensors that set up routes
+    self.trackBypassNW = sensors.provideSensor("NW Bypass Track")
+    self.closeNW = sensors.provideSensor("NW Staging Close")
+    self.closeSW = sensors.provideSensor("SW Staging Close")
+    self.track3SW = sensors.provideSensor("SW Staging Track 3")
+    self.track6NW = sensors.provideSensor("NW Staging Track 6")
+    self.track2NW = sensors.provideSensor("NW Staging Track 2")
+    
 #Get relevant turnouts
     self.to403 = turnouts.getTurnout("Staging NW Turnout 403")
     self.to407 = turnouts.getTurnout("Staging NW Turnout 407")
     self.to400 = turnouts.getTurnout("Staging NW Turnout 400")
+    self.to401 = turnouts.getTurnout("Staging NW Turnout 401")
+    self.to402 = turnouts.getTurnout("Staging NW Turnout 402")
+    self.to404 = turnouts.getTurnout("Staging NW Turnout 404")
+    self.to405 = turnouts.getTurnout("Staging NW Turnout 405")
+    self.to406 = turnouts.getTurnout("Staging NW Turnout 406")
     self.to201 = turnouts.getTurnout("East Turnout 201")
     self.to202 = turnouts.getTurnout("East Turnout 202")
     self.to203 = turnouts.getTurnout("East Turnout 203")
@@ -25,8 +35,13 @@ def getTableData(self):
     self.to209 = turnouts.getTurnout("East Turnout 209")
     self.to210 = turnouts.getTurnout("East Turnout 210")
     self.to211 = turnouts.getTurnout("East Turnout 211") 
+    self.to500 = turnouts.getTurnout("Staging SW Turnout 500")
+    self.to501 = turnouts.getTurnout("Staging SW Turnout 501")
+    self.to502 = turnouts.getTurnout("Staging SW Turnout 502")
+    self.to503 = turnouts.getTurnout("Staging SW Turnout 503")
+    self.to504 = turnouts.getTurnout("Staging SW Turnout 504")
               
-#Get relevant sensors
+#Get NCE relevant sensors
     self.westSWSensor = sensors.getSensor("West / SW")
     self.westNWSensor = sensors.getSensor("West / NW")
     self.mountainSensor = sensors.getSensor("Mountain")
@@ -72,22 +87,42 @@ def LongHorn(self,duration, pause, times):
     return
 
 def openNWTrack6(self):
-    self.track6NW.setRoute()
+    self.track6NW.setCommandedState(ACTIVE)
+    self.track6NW.setCommandedState(INACTIVE)
     print("Track 6 should be open")
     return
-        
+def openNWTrack2(self):
+    self.track2NW.setCommandedState(ACTIVE)
+    self.track2NW.setCommandedState(INACTIVE)
+    print("Track 2 should be open")
+    return
+    
 def openNWBypass(self):
-    self.trackBypassNW.setRoute()
-    self.to403.setState(CLOSED)
-    self.to407.setState(CLOSED)
-    self.to400.setState(THROWN)
+    self.trackBypassNW.setCommandedState(ACTIVE)
+    self.trackBypassNW.setCommandedState(INACTIVE)
+    #self.to403.setState(CLOSED)
+    #self.to407.setState(CLOSED)
+    #self.to400.setState(THROWN)
     print("Bypass should be open")
     return
     
 def closeNWStaging(self):
-    self.closeNW.setRoute()
-    self.to403.setState(THROWN)
-    self.to400.setState(THROWN)
+    self.closeNW.setCommandedState(ACTIVE)
+    self.closeNW.setCommandedState(INACTIVE)
+    #self.to403.setState(THROWN)
+    #self.to400.setState(THROWN)
     print("Staging should be closed")
     return
 
+def openSWTrack3(self):
+    self.track3SW.setCommandedState(ACTIVE)
+    self.track3SW.setCommandedState(INACTIVE)
+    print("Staging SW Track 3 should be open")
+    return
+    
+def closeSWStaging(self):
+    self.closeSW.setCommandedState(ACTIVE)
+    self.closeSW.setCommandedState(INACTIVE)
+    #self.to500.setState(CLOSED)
+    print("Staging SW should be closed")
+    return

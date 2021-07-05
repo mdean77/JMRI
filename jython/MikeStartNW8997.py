@@ -1,11 +1,11 @@
-# StartTrain.py created by Mike Dean May 2021
-# Hoping to set up automation for train club meeting later this week
+# StartNW8997.py created by Mike Dean July 2021
+# This script can be executed directly or called from another script.
 #
 
 import jarray
 import jmri
-global trainDone
-class StartSimpleTrain(jmri.jmrit.automat.AbstractAutomaton):
+#global trainDone
+class StartNW8997(jmri.jmrit.automat.AbstractAutomaton):
 
     MasterFunctions = jmri.util.FileUtil.getExternalFilename("scripts:MikeMasterFunctions.py")
     execfile(MasterFunctions)
@@ -28,8 +28,8 @@ class StartSimpleTrain(jmri.jmrit.automat.AbstractAutomaton):
     def init(self):
         print("Inside init")
         memories.provideMemory("Train Done").setValue("No")
-        trainDone = memories.provideMemory("Train Done").getValue()
         self.getTableData()
+        return
 
     def handle(self):
         print("This program will start up engine 8997 on NW Staging Track 6,")
@@ -98,14 +98,14 @@ class StartSimpleTrain(jmri.jmrit.automat.AbstractAutomaton):
         self.waitMsec(25000)
         self.closeNWStaging()
         memories.provideMemory("Train Done").setValue("Yes")
-        trainDone = memories.provideMemory("Train Done").getValue()
-        print(trainDone)
+        #trainDone = memories.provideMemory("Train Done").getValue()
+        #print(trainDone)
         return False	# to continue
 	
 # end of class definition
 
 # create one of these
-a = StartSimpleTrain()
+a = StartNW8997()
 
 # and start it running
 a.start()

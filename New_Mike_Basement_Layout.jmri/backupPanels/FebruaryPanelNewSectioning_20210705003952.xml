@@ -255,10 +255,6 @@
       <userName>SW Staging Track 4</userName>
     </sensor>
     <sensor inverted="false">
-      <systemName>IS15</systemName>
-      <userName>SW Close Staging Track 4</userName>
-    </sensor>
-    <sensor inverted="false">
       <systemName>IS:IY:AUTO:0001:forward</systemName>
       <userName>IY:AUTO:0001:forward</userName>
     </sensor>
@@ -1106,14 +1102,7 @@
       <systemName>IM:AUTO:0005</systemName>
       <userName>Start Intermodal Train</userName>
     </memory>
-    <memory value="Yes">
-      <systemName>IM:AUTO:0006</systemName>
-      <userName>Intermediate Work Done</userName>
-    </memory>
-    <memory>
-      <systemName>IM:AUTO:0007</systemName>
-    </memory>
-    <memory value="5:06 PM">
+    <memory value="12:39 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -4552,11 +4541,6 @@
       <userName>SW Staging Closed</userName>
       <logixConditional systemName="IX:RTXSW Close1T" order="0" />
     </logix>
-    <logix userName="Close SW Staging Track 4" enabled="yes">
-      <systemName>IX:RTXSW Close Track 4</systemName>
-      <userName>Close SW Staging Track 4</userName>
-      <logixConditional systemName="IX:RTXSW Close Track 4C1" order="0" />
-    </logix>
     <logix userName="Open SW Staging Track 1" enabled="yes">
       <systemName>IX:RTXSW Track 1</systemName>
       <userName>Open SW Staging Track 1</userName>
@@ -4579,11 +4563,10 @@
     </logix>
   </logixs>
   <conditionals class="jmri.managers.configurexml.DefaultConditionalManagerXml">
-    <conditional systemName="IX:RTX11T" userName="Route 1C Initialize Layout" antecedent="R1 or R2" logicType="3" triggerOnChange="no">
+    <conditional systemName="IX:RTX11T" userName="Route 1C Initialize Layout" antecedent="R1" logicType="3" triggerOnChange="yes">
       <systemName>IX:RTX11T</systemName>
       <userName>Route 1C Initialize Layout</userName>
       <conditionalStateVariable operator="4" negated="no" type="1" systemName="Reset" dataString="" num1="0" num2="0" triggersCalc="yes" />
-      <conditionalStateVariable operator="5" negated="no" type="2" systemName="Reset" dataString="" num1="0" num2="0" triggersCalc="yes" />
       <conditionalAction option="1" type="2" systemName="South Turnout 100" data="2" delay="0" string="" />
       <conditionalAction option="1" type="2" systemName="South Turnout 101" data="2" delay="0" string="" />
       <conditionalAction option="1" type="2" systemName="South Turnout 102" data="4" delay="0" string="" />
@@ -4635,27 +4618,62 @@
       <conditionalAction option="1" type="2" systemName="Staging SW Turnout 502" data="2" delay="0" string="" />
       <conditionalAction option="1" type="2" systemName="Staging SW Turnout 503" data="2" delay="0" string="" />
       <conditionalAction option="1" type="2" systemName="Staging SW Turnout 504" data="2" delay="0" string="" />
-      <conditionalAction option="1" type="9" systemName="NW Staging Close" data="4" delay="0" string="" />
-      <conditionalAction option="1" type="9" systemName="NW Staging Track 1" data="4" delay="0" string="" />
-      <conditionalAction option="1" type="9" systemName="NW Staging Track 2" data="4" delay="0" string="" />
-      <conditionalAction option="1" type="9" systemName="NW Staging Track 3" data="4" delay="0" string="" />
-      <conditionalAction option="1" type="9" systemName="NW Staging Track 4" data="4" delay="0" string="" />
-      <conditionalAction option="1" type="9" systemName="NW Staging Track 5" data="4" delay="0" string="" />
-      <conditionalAction option="1" type="9" systemName="NW Staging Track 6" data="4" delay="0" string="" />
-      <conditionalAction option="1" type="9" systemName="NW Bypass Track" data="4" delay="0" string="" />
-      <conditionalAction option="1" type="9" systemName="SW Staging Close" data="4" delay="0" string="" />
-      <conditionalAction option="1" type="9" systemName="SW Staging Track 1" data="4" delay="0" string="" />
-      <conditionalAction option="1" type="9" systemName="SW Staging Track 2" data="4" delay="0" string="" />
-      <conditionalAction option="1" type="9" systemName="SW Staging Track 3" data="4" delay="0" string="" />
-      <conditionalAction option="1" type="9" systemName="SW Staging Track 4" data="4" delay="0" string="" />
-      <conditionalAction option="1" type="9" systemName="SW Close Staging Track 4" data="4" delay="0" string="" />
     </conditional>
     <conditional systemName="IX:RTXINITIALIZER1T" userName="Route 1C Startup Turnout Init" antecedent="R1" logicType="3" triggerOnChange="no">
       <systemName>IX:RTXINITIALIZER1T</systemName>
       <userName>Route 1C Startup Turnout Init</userName>
       <conditionalStateVariable operator="4" negated="no" type="0" systemName="IX:RTXINITIALIZER" dataString="" num1="0" num2="0" triggersCalc="yes" />
-      <conditionalAction option="3" type="13" systemName="Initialize Layout" data="-1" delay="0" string="" />
-      <conditionalAction option="3" type="9" systemName="Reset" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="South Turnout 100" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="South Turnout 101" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="South Turnout 102" data="4" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="South Turnout 103" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="South Turnout 104" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="South Turnout 105" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="South Turnout 106" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="South Turnout 107" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="South Turnout 108" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="South Turnout 109" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="South Turnout 110" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="South Turnout 111" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="South Turnout 112" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="South Turnout 113" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="South Turnout 114" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="South Turnout 115" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="South Turnout 116" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="South Turnout 117" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="East Turnout 201" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="East Turnout 202" data="4" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="East Turnout 203" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="East Turnout 204" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="East Turnout 205" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="East Turnout 206" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="East Turnout 207" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="East Turnout 208" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="East Turnout 209" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="East Turnout 210" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="East Turnout 211" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="North Turnout 301" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="North Turnout 302" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="North Turnout 303" data="4" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="North Turnout 304" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="North Turnout 305" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="North Turnout 306" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="North Turnout 307" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="North Turnout 308" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="North Turnout 309" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="Staging NW Turnout 400" data="4" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="Staging NW Turnout 401" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="Staging NW Turnout 402" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="Staging NW Turnout 403" data="4" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="Staging NW Turnout 404" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="Staging NW Turnout 405" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="Staging NW Turnout 406" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="Staging NW Turnout 407" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="Staging SW Turnout 500" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="Staging SW Turnout 501" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="Staging SW Turnout 502" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="Staging SW Turnout 503" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="2" systemName="Staging SW Turnout 504" data="2" delay="0" string="" />
     </conditional>
     <conditional systemName="IX:RTXNW Bypass1T" userName="Route 1C Open NW Bypass Track" antecedent="R1" logicType="3" triggerOnChange="no">
       <systemName>IX:RTXNW Bypass1T</systemName>
@@ -4741,13 +4759,6 @@
       <userName>Route 1C SW Staging Closed</userName>
       <conditionalStateVariable operator="4" negated="no" type="1" systemName="SW Staging Close" dataString="" num1="0" num2="0" triggersCalc="yes" />
       <conditionalAction option="1" type="2" systemName="Staging SW Turnout 500" data="2" delay="0" string="" />
-      <conditionalAction option="1" type="2" systemName="NT504" data="2" delay="0" string="" />
-    </conditional>
-    <conditional systemName="IX:RTXSW Close Track 4C1" userName="Close SW Track 4" antecedent="R1" logicType="1" triggerOnChange="no">
-      <systemName>IX:RTXSW Close Track 4C1</systemName>
-      <userName>Close SW Track 4</userName>
-      <conditionalStateVariable operator="4" negated="no" type="1" systemName="IS15" dataString="" num1="0" num2="0" triggersCalc="yes" />
-      <conditionalAction option="3" type="2" systemName="NT504" data="2" delay="0" string="" />
     </conditional>
     <conditional systemName="IX:RTXSW Track 11T" userName="Route 1C Open SW Staging Track 1" antecedent="R1" logicType="3" triggerOnChange="no">
       <systemName>IX:RTXSW Track 11T</systemName>
@@ -4785,7 +4796,7 @@
     </conditional>
   </conditionals>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Nov 29 11:15:51 MST 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="689" y="119" windowheight="801" windowwidth="1389" panelheight="1438" panelwidth="1740" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="200" y="235" windowheight="801" windowwidth="1389" panelheight="1438" panelwidth="1740" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Mike Dean's Basement Layout" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -4867,7 +4878,7 @@
     <signalmasticon signalmast="ez1-sz5" x="446" y="1116" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="314" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <positionablelabel x="1130" y="64" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="Northwest Staging" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="197" y="50" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="Southwest Staging" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="Reset" x="1023" y="252" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" momentary="true" icon="no" text="Reset Turnouts" size="20" style="0" red="255" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="0" blueBack="0" borderSize="3" redBorder="255" greenBorder="255" blueBorder="255" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Reset" x="1024" y="252" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" momentary="true" icon="no" text="Reset Turnouts" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" borderSize="3" redBorder="255" greenBorder="255" blueBorder="255" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -5006,7 +5017,7 @@
       <unknownText text="NW Staging Track 6" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="NW Staging Track 6" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <sensoricon sensor="NW Bypass Track" x="1486" y="285" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="true" icon="no" text="NW Bypass Track" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NW Bypass Track" x="1486" y="285" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="true" icon="no" text="NW Bypass Track" size="20" style="0" red="255" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="0" blueBack="0" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -5025,7 +5036,7 @@
       <unknownText text="NW Bypass Track" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="NW Bypass Track" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <sensoricon sensor="NW Staging Close" x="1484" y="319" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="true" icon="no" text="NW Staging Close" size="20" style="0" red="255" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="0" blueBack="0" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NW Staging Close" x="1484" y="319" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="true" icon="no" text="NW Staging Close" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -5789,104 +5800,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Mon Jul 05 16:41:31 MDT 2021</date>
+      <date>Mon Jul 05 12:26:41 MDT 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Mon Jul 05 16:41:40 MDT 2021</date>
+      <date>Mon Jul 05 12:26:51 MDT 2021</date>
       <filename>/Users/mdean/JMRI/New_Mike_Basement_Layout.jmri/FebruaryPanelNewSectioning.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Mon Jul 05 13:38:12 MDT 2021</date>
+          <date>Mon Jul 05 10:59:55 MDT 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Mon Jul 05 13:38:23 MDT 2021</date>
+          <date>Mon Jul 05 11:00:10 MDT 2021</date>
           <filename>/Users/mdean/JMRI/New_Mike_Basement_Layout.jmri/FebruaryPanelNewSectioning.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Mon Jul 05 13:34:14 MDT 2021</date>
+              <date>Sun Jul 04 16:48:08 MDT 2021</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Mon Jul 05 13:34:23 MDT 2021</date>
+              <date>Sun Jul 04 16:48:19 MDT 2021</date>
               <filename>/Users/mdean/JMRI/New_Mike_Basement_Layout.jmri/FebruaryPanelNewSectioning.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Mon Jul 05 13:27:44 MDT 2021</date>
+                  <date>Sun Jul 04 14:44:51 MDT 2021</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Mon Jul 05 13:27:54 MDT 2021</date>
+                  <date>Sun Jul 04 14:45:01 MDT 2021</date>
                   <filename>/Users/mdean/JMRI/New_Mike_Basement_Layout.jmri/FebruaryPanelNewSectioning.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Mon Jul 05 13:19:09 MDT 2021</date>
+                      <date>Sat Jul 03 16:33:15 MDT 2021</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Mon Jul 05 13:19:18 MDT 2021</date>
+                      <date>Sat Jul 03 16:33:24 MDT 2021</date>
                       <filename>/Users/mdean/JMRI/New_Mike_Basement_Layout.jmri/FebruaryPanelNewSectioning.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Mon Jul 05 13:02:47 MDT 2021</date>
+                          <date>Sun Jun 27 12:32:04 MDT 2021</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Mon Jul 05 13:02:57 MDT 2021</date>
+                          <date>Sun Jun 27 12:32:19 MDT 2021</date>
                           <filename>/Users/mdean/JMRI/New_Mike_Basement_Layout.jmri/FebruaryPanelNewSectioning.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Mon Jul 05 13:18:51 MDT 2021</date>
+                          <date>Sun Jun 27 17:16:34 MDT 2021</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Mon Jul 05 13:27:18 MDT 2021</date>
+                      <date>Sat Jul 03 17:33:10 MDT 2021</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Mon Jul 05 13:33:59 MDT 2021</date>
+                  <date>Sun Jul 04 16:03:40 MDT 2021</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Mon Jul 05 13:37:57 MDT 2021</date>
+              <date>Sun Jul 04 17:12:26 MDT 2021</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Mon Jul 05 16:40:13 MDT 2021</date>
+          <date>Mon Jul 05 11:25:32 MDT 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Mon Jul 05 17:06:29 MDT 2021</date>
+      <date>Mon Jul 05 12:39:12 MDT 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.23.7+R2dd7487a0 on Mon Jul 05 17:06:29 MDT 2021-->
+  <!--Written by JMRI version 4.23.7+R2dd7487a0 on Mon Jul 05 12:39:12 MDT 2021-->
 </layout-config>
