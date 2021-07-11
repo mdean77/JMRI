@@ -47,7 +47,7 @@
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program WP GP40-2  3548 in Service Mode (Programming Track)" height="712.0" locX="150.0" locY="23.0" width="1052.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GE ES44AC 5467" height="865.0" locX="271.0" locY="23.0" width="1052.0"/>
-        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="775.0" locX="214.0" locY="23.0" width="1024.0">
+        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="775.0" locX="214.0" locY="25.0" width="1024.0">
             <properties>
                 <property>
                     <key>selectedProgrammer</key>
@@ -55,13 +55,13 @@
                 </property>
             </properties>
         </window>
-        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="464.0" locX="51.0" locY="23.0" width="937.0"/>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="464.0" locX="51.0" locY="25.0" width="937.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GP 35 UP 749" height="688.0" locX="47.0" locY="23.0" width="1052.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GP35 UP 749" height="688.0" locX="122.0" locY="51.0" width="1085.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GP7 UP 116" height="711.0" locX="65.0" locY="24.0" width="1060.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GE ES44AC 8096" height="865.0" locX="94.0" locY="192.0" width="1273.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:SP 8584 SD45" height="854.0" locX="46.0" locY="23.0" width="1052.0"/>
-        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:RG 5327 SD45" height="854.0" locX="262.0" locY="23.0" width="1052.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:RG 5327 SD45" height="854.0" locX="262.0" locY="25.0" width="1052.0"/>
         <window xmlns="" class="apps.gui3.TabbedPreferencesFrame:Preferences" height="464.0" locX="381.0" locY="236.0" width="937.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:EMD SD70ACe 8997" height="865.0" locX="110.0" locY="23.0" width="1273.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>

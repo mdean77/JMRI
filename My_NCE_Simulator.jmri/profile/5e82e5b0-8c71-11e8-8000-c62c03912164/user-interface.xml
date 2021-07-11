@@ -21,6 +21,7 @@
     <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd">
         <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:Mike Dean's Basement Layout.antialiasingOn</setting>
         <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:Mike Dean's Basement Layout.toolBarThin</setting>
+        <setting xmlns="">jmri.jmrit.roster.swing.RosterFrame.hideGroups</setting>
     </settings>
     <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd"/>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
@@ -29,5 +30,13 @@
         <window xmlns="" class="PanelPro" height="231.0" locX="464.0" locY="334.0" width="512.0"/>
         <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Mike Dean's Basement Layout" height="836.0" locX="51.0" locY="64.0" width="1389.0"/>
         <window xmlns="" class="Local JMRI throttles" height="222.0" locX="73.0" locY="24.0" width="320.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="51.0" locY="25.0" width="1024.0">
+            <properties>
+                <property>
+                    <key>selectedProgrammer</key>
+                    <value class="java.lang.String">service</value>
+                </property>
+            </properties>
+        </window>
     </windowDetails>
 </auxiliary-configuration>
