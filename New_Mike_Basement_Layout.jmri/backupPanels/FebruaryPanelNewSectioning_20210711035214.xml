@@ -1106,14 +1106,14 @@
       <systemName>IM:AUTO:0005</systemName>
       <userName>Start Intermodal Train</userName>
     </memory>
-    <memory value="No">
+    <memory value="Yes">
       <systemName>IM:AUTO:0006</systemName>
       <userName>Intermediate Work Done</userName>
     </memory>
     <memory>
       <systemName>IM:AUTO:0007</systemName>
     </memory>
-    <memory value="3:52 PM">
+    <memory value="5:06 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -4785,7 +4785,7 @@
     </conditional>
   </conditionals>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Nov 29 11:15:51 MST 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="175" y="117" windowheight="801" windowwidth="1389" panelheight="1438" panelwidth="1740" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Mike Dean's Basement Layout" x="689" y="119" windowheight="801" windowwidth="1389" panelheight="1438" panelwidth="1740" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="cyan" defaulttextcolor="black" turnoutcirclecolor="blue" turnoutcirclethrowncolor="red" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Mike Dean's Basement Layout" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -4812,62 +4812,62 @@
       <sideTieLength>0</sideTieLength>
       <sideTieWidth>0</sideTieWidth>
     </layoutTrackDrawingOptions>
-    <positionablelabel x="798" y="73" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT400" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="870" y="72" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT401" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="944" y="95" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT402" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="866" y="130" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT403" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1000" y="110" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT404" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1060" y="126" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT405" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1125" y="141" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT406" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1151" y="181" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT407" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="600" y="73" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT500" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="262" y="136" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT504" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="300" y="97" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT503" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="369" y="80" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT502" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="431" y="59" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT501" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1140" y="752" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" text="NT301" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1061" y="808" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" text="NT302" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="853" y="1025" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" text="NT303" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="785" y="1026" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" text="NT304" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="724" y="870" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" text="NT305" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="578" y="794" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" text="NT306" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="575" y="690" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" text="NT307" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="650" y="745" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" text="NT308" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="649" y="585" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" text="NT309" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="570" y="1169" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT201" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="587" y="1094" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT202" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="693" y="1146" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT203" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="777" y="1132" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT204" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="796" y="1080" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT205" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="883" y="1080" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT206" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="872" y="1132" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT207" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="980" y="1148" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT208" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1098" y="1171" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT209" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="970" y="1111" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT210" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1086" y="1104" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="NT211" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="534" y="290" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT100" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="414" y="292" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT101" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="488" y="271" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="110" text="NT102" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="502" y="349" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT103" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="500" y="416" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT104" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="452" y="475" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT105" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="468" y="540" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT106" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="451" y="615" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT107" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="480" y="662" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT108" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="497" y="494" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT109" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="512" y="540" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT110" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="525" y="604" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT111" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="543" y="673" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT112" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="494" y="777" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT113" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="475" y="958" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT114" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="451" y="750" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT115" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="448" y="850" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT116" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="421" y="1015" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" text="NT117" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <signalmasticon signalmast="sz5-ez1" x="448" y="1060" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="166" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez1-sz5" x="446" y="1116" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="314" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <positionablelabel x="1130" y="64" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="Northwest Staging" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="197" y="50" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" text="Southwest Staging" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="Reset" x="1023" y="252" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="360" momentary="true" icon="no" text="Reset Turnouts" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" borderSize="3" redBorder="255" greenBorder="255" blueBorder="255" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <positionablelabel x="798" y="73" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT400" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="870" y="72" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT401" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="944" y="95" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT402" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="866" y="130" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT403" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1000" y="110" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT404" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1060" y="126" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT405" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1125" y="141" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT406" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1151" y="181" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT407" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="600" y="73" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT500" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="262" y="136" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT504" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="300" y="97" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT503" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="369" y="80" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT502" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="431" y="59" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT501" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1140" y="752" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" text="NT301" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1061" y="808" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" text="NT302" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="853" y="1025" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" text="NT303" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="785" y="1026" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" text="NT304" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="724" y="870" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" text="NT305" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="578" y="794" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" text="NT306" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="575" y="690" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" text="NT307" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="650" y="745" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" text="NT308" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="649" y="585" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" text="NT309" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="570" y="1169" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT201" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="587" y="1094" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT202" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="693" y="1146" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT203" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="777" y="1132" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT204" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="796" y="1080" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT205" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="883" y="1080" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT206" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="872" y="1132" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT207" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="980" y="1148" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT208" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1098" y="1171" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT209" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="970" y="1111" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT210" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1086" y="1104" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="NT211" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="534" y="290" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT100" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="414" y="292" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT101" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="488" y="271" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="110" text="NT102" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="502" y="349" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT103" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="500" y="416" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT104" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="452" y="475" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT105" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="468" y="540" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT106" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="451" y="615" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT107" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="480" y="662" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT108" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="497" y="494" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT109" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="512" y="540" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT110" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="525" y="604" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT111" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="543" y="673" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT112" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="494" y="777" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT113" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="475" y="958" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT114" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="451" y="750" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT115" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="448" y="850" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT116" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="421" y="1015" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" text="NT117" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <signalmasticon signalmast="sz5-ez1" x="448" y="1060" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="166" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez1-sz5" x="446" y="1116" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="314" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <positionablelabel x="1130" y="64" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="Northwest Staging" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="197" y="50" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" text="Southwest Staging" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <sensoricon sensor="Reset" x="1023" y="252" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="360" momentary="true" icon="no" text="Reset Turnouts" size="20" style="0" red="255" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="0" blueBack="0" borderSize="3" redBorder="255" greenBorder="255" blueBorder="255" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4886,13 +4886,13 @@
       <unknownText text="Reset All Turnouts" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="Reset All Turnouts" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <signalmasticon signalmast="ez13-nz1" x="1214" y="1128" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="68" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="nz1-ez13" x="1269" y="1118" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="231" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="nz2-nz1" x="1150" y="583" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="43" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="nz1-nz2" x="1200" y="607" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="258" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="mnt-sz2" x="729" y="279" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="sz2-mnt" x="445" y="426" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="0" litmode="false" degrees="0" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <sensoricon sensor="NW Staging Track 1" x="1254" y="224" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="NW Staging Track 1" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <signalmasticon signalmast="ez13-nz1" x="1214" y="1128" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="68" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="nz1-ez13" x="1269" y="1118" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="231" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="nz2-nz1" x="1150" y="583" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="43" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="nz1-nz2" x="1200" y="607" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="258" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="mnt-sz2" x="729" y="279" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="sz2-mnt" x="445" y="426" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" clickmode="0" litmode="false" degrees="0" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <sensoricon sensor="NW Staging Track 1" x="1254" y="224" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="true" icon="no" text="NW Staging Track 1" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4911,7 +4911,7 @@
       <unknownText text="NW Staging Track 1" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="NW Staging Track 1" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <sensoricon sensor="NW Staging Track 2" x="1254" y="252" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="NW Staging Track 2" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NW Staging Track 2" x="1254" y="252" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="true" icon="no" text="NW Staging Track 2" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4930,7 +4930,7 @@
       <unknownText text="NW Staging Track 2" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="NW Staging Track 2" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <sensoricon sensor="NW Staging Track 3" x="1253" y="283" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="NW Staging Track 3" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NW Staging Track 3" x="1253" y="283" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="true" icon="no" text="NW Staging Track 3" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4949,7 +4949,7 @@
       <unknownText text="NW Staging Track 3" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="NW Staging Track 3" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <sensoricon sensor="NW Staging Track 4" x="1252" y="313" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="NW Staging Track 4" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NW Staging Track 4" x="1252" y="313" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="true" icon="no" text="NW Staging Track 4" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4968,7 +4968,7 @@
       <unknownText text="NW Staging Track 4" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="NW Staging Track 4" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <sensoricon sensor="NW Staging Track 5" x="1252" y="343" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="NW Staging Track 5" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NW Staging Track 5" x="1252" y="343" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="true" icon="no" text="NW Staging Track 5" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4987,7 +4987,7 @@
       <unknownText text="NW Staging Track 5" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="NW Staging Track 5" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <sensoricon sensor="NW Staging Track 6" x="1250" y="374" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="NW Staging Track 6" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NW Staging Track 6" x="1250" y="374" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="true" icon="no" text="NW Staging Track 6" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -5006,7 +5006,7 @@
       <unknownText text="NW Staging Track 6" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="NW Staging Track 6" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <sensoricon sensor="NW Bypass Track" x="1486" y="285" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="NW Bypass Track" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NW Bypass Track" x="1486" y="285" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="true" icon="no" text="NW Bypass Track" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -5025,7 +5025,7 @@
       <unknownText text="NW Bypass Track" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="NW Bypass Track" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <sensoricon sensor="NW Staging Close" x="1484" y="319" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="NW Staging Close" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NW Staging Close" x="1484" y="319" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="true" icon="no" text="NW Staging Close" size="20" style="0" red="255" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="0" blueBack="0" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -5044,11 +5044,11 @@
       <unknownText text="NW Staging Close" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="NW Staging Close" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <signalmasticon signalmast="Virtual sz1-sz4" x="438" y="390" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual sz4-sz1" x="410" y="417" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="359" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="virtual ez4-ez2" x="641" y="1125" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="virtual ez3-ez2" x="640" y="1093" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="267" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <sensoricon sensor="SW Staging Close" x="101" y="318" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="SW Staging Close" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <signalmasticon signalmast="Virtual sz1-sz4" x="438" y="390" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual sz4-sz1" x="410" y="417" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="359" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="virtual ez4-ez2" x="641" y="1125" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="virtual ez3-ez2" x="640" y="1093" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="267" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <sensoricon sensor="SW Staging Close" x="101" y="318" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="true" icon="no" text="SW Staging Close" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -5067,7 +5067,7 @@
       <unknownText text="SW Staging Close" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="SW Staging Close" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <sensoricon sensor="SW Staging Track 1" x="106" y="181" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="SW Staging Track 1" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="SW Staging Track 1" x="106" y="181" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="true" icon="no" text="SW Staging Track 1" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -5086,7 +5086,7 @@
       <unknownText text="SW Staging Track 1" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="SW Staging Track 1" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <sensoricon sensor="SW Staging Track 2" x="104" y="212" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="SW Staging Track 2" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="SW Staging Track 2" x="104" y="212" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="true" icon="no" text="SW Staging Track 2" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -5105,7 +5105,7 @@
       <unknownText text="SW Staging Track 2" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="SW Staging Track 2" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <sensoricon sensor="SW Staging Track 3" x="105" y="242" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="SW Staging Track 3" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="SW Staging Track 3" x="105" y="242" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="true" icon="no" text="SW Staging Track 3" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -5124,7 +5124,7 @@
       <unknownText text="SW Staging Track 3" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="SW Staging Track 3" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <sensoricon sensor="SW Staging Track 4" x="104" y="272" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="no" text="SW Staging Track 4" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="SW Staging Track 4" x="104" y="272" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="true" icon="no" text="SW Staging Track 4" size="20" style="0" red="255" green="255" blue="0" hasBackground="yes" redBack="128" greenBack="128" blueBack="128" justification="centre" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -5143,46 +5143,46 @@
       <unknownText text="SW Staging Track 4" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
       <inconsistentText text="SW Staging Track 4" red="255" green="255" blue="0" redBack="128" greenBack="128" blueBack="128" />
     </sensoricon>
-    <signalmasticon signalmast="Virtual West-SW - West NW" x="732" y="82" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual West-NW-West-Sw" x="758" y="110" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="WestNW-NZ9" x="965" y="177" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="145" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="NZ9-WestNW" x="919" y="190" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="9" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual nz8-nz9" x="611" y="575" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="359" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual nz3-nz6" x="852" y="982" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="112" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual nz6-nz8" x="619" y="785" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="351" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual NZ5-NZ8" x="653" y="770" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="326" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual nz2-nz3" x="1102" y="782" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="7" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual SZ2-SZ3" x="452" y="783" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="154" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="sz6-ez2" x="474" y="1017" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="171" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez2-sz6" x="467" y="1072" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="314" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual SZ2-SZ6" x="471" y="925" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual sz4-sz5" x="441" y="964" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual SZ3-SZ5" x="452" y="969" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="182" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual S3-S2" x="439" y="558" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="288" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual WestSW - SZ1" x="473" y="144" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="231" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="SZ1-WestSW" x="439" y="128" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="12" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual SZ2-SZ7" x="480" y="678" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="175" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual ez1-ez7" x="623" y="1172" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual EZ6-EZ1" x="625" y="1162" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="265" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual EZ8-EZ3" x="843" y="1088" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="283" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual EZ5-EZ11" x="850" y="1138" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="92" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual EZ4-EZ11" x="845" y="1120" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="101" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="ez9-mnt" x="1157" y="1088" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="87" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="mnt-ez9" x="1210" y="1093" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="248" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual EZ5-EZ6" x="747" y="1126" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="207" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual EZ5-Dummy" x="719" y="1124" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="89" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual ez7-ez13" x="1066" y="1154" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="91" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual EZ8-EZ13" x="1060" y="1136" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="99" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual EZ6-E8" x="956" y="1139" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="91" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual EZ10-EZ11" x="1029" y="1128" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="255" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual EZ10-EZ9" x="1043" y="1100" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="73" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual NZ7-NZ10" x="609" y="856" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="333" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="VirtualDummy6-NZ10" x="609" y="667" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="173" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="VirtualDummy3-WestSW" x="546" y="68" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="96" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual Dummy1-WestNW" x="853" y="109" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="VirtualDummy2-WestNW" x="909" y="132" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="283" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual SZ7 - SZ6" x="481" y="868" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Virtual SZ6 - SZ7" x="452" y="895" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="358" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual West-SW - West NW" x="732" y="82" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual West-NW-West-Sw" x="758" y="110" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="WestNW-NZ9" x="965" y="177" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="145" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="NZ9-WestNW" x="919" y="190" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="9" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual nz8-nz9" x="611" y="575" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="359" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual nz3-nz6" x="852" y="982" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="112" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual nz6-nz8" x="619" y="785" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="351" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual NZ5-NZ8" x="653" y="770" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="326" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual nz2-nz3" x="1102" y="782" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="7" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual SZ2-SZ3" x="452" y="783" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="154" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="sz6-ez2" x="474" y="1017" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="171" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez2-sz6" x="467" y="1072" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="314" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual SZ2-SZ6" x="471" y="925" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual sz4-sz5" x="441" y="964" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual SZ3-SZ5" x="452" y="969" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="182" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual S3-S2" x="439" y="558" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="288" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual WestSW - SZ1" x="473" y="144" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="231" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="SZ1-WestSW" x="439" y="128" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="12" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual SZ2-SZ7" x="480" y="678" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="175" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual ez1-ez7" x="623" y="1172" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual EZ6-EZ1" x="625" y="1162" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="265" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual EZ8-EZ3" x="843" y="1088" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="283" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual EZ5-EZ11" x="850" y="1138" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="92" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual EZ4-EZ11" x="845" y="1120" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="101" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ez9-mnt" x="1157" y="1088" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="87" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="mnt-ez9" x="1210" y="1093" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="248" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual EZ5-EZ6" x="747" y="1126" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="207" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual EZ5-Dummy" x="719" y="1124" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="89" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual ez7-ez13" x="1066" y="1154" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="91" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual EZ8-EZ13" x="1060" y="1136" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="99" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual EZ6-E8" x="956" y="1139" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="91" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual EZ10-EZ11" x="1029" y="1128" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="255" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual EZ10-EZ9" x="1043" y="1100" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="73" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual NZ7-NZ10" x="609" y="856" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="333" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="VirtualDummy6-NZ10" x="609" y="667" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="173" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="VirtualDummy3-WestSW" x="546" y="68" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="96" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual Dummy1-WestNW" x="853" y="109" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="VirtualDummy2-WestNW" x="909" y="132" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="283" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual SZ7 - SZ6" x="481" y="868" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Virtual SZ6 - SZ7" x="452" y="895" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="358" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <layoutturnout ident="TO1" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="434.4202880859375" ycen="315.32244873046875" xa="436.4063720703125" ya="285.310791015625" xb="432.4342041015625" yb="345.3341064453125" xc="442.33642578125" yc="345.33038330078125" xd="436.4063720703125" yd="285.310791015625" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 101" blockname="SZ1" connectaname="T13" connectbname="T7" connectcname="T114" />
     <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="437.7437744140625" ycen="1016.2344360351562" xa="438.7578125" ya="1046.24609375" xb="436.729736328125" yb="986.2227783203125" xc="447.6319580078125" yc="986.2191162109375" xd="438.7578125" yd="1046.24609375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="South Turnout 117" blockname="SZ5" connectaname="T9" connectbname="T8" connectcname="T113">
       <signalBMast>Virtual sz4-sz5</signalBMast>
@@ -5789,104 +5789,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sun Jul 11 15:12:04 MDT 2021</date>
+      <date>Mon Jul 05 16:41:31 MDT 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sun Jul 11 15:12:10 MDT 2021</date>
+      <date>Mon Jul 05 16:41:40 MDT 2021</date>
       <filename>/Users/mdean/JMRI/New_Mike_Basement_Layout.jmri/FebruaryPanelNewSectioning.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Mon Jul 05 16:41:31 MDT 2021</date>
+          <date>Mon Jul 05 13:38:12 MDT 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Mon Jul 05 16:41:40 MDT 2021</date>
+          <date>Mon Jul 05 13:38:23 MDT 2021</date>
           <filename>/Users/mdean/JMRI/New_Mike_Basement_Layout.jmri/FebruaryPanelNewSectioning.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Mon Jul 05 13:38:12 MDT 2021</date>
+              <date>Mon Jul 05 13:34:14 MDT 2021</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Mon Jul 05 13:38:23 MDT 2021</date>
+              <date>Mon Jul 05 13:34:23 MDT 2021</date>
               <filename>/Users/mdean/JMRI/New_Mike_Basement_Layout.jmri/FebruaryPanelNewSectioning.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Mon Jul 05 13:34:14 MDT 2021</date>
+                  <date>Mon Jul 05 13:27:44 MDT 2021</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Mon Jul 05 13:34:23 MDT 2021</date>
+                  <date>Mon Jul 05 13:27:54 MDT 2021</date>
                   <filename>/Users/mdean/JMRI/New_Mike_Basement_Layout.jmri/FebruaryPanelNewSectioning.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Mon Jul 05 13:27:44 MDT 2021</date>
+                      <date>Mon Jul 05 13:19:09 MDT 2021</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Mon Jul 05 13:27:54 MDT 2021</date>
+                      <date>Mon Jul 05 13:19:18 MDT 2021</date>
                       <filename>/Users/mdean/JMRI/New_Mike_Basement_Layout.jmri/FebruaryPanelNewSectioning.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Mon Jul 05 13:19:09 MDT 2021</date>
+                          <date>Mon Jul 05 13:02:47 MDT 2021</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Mon Jul 05 13:19:18 MDT 2021</date>
+                          <date>Mon Jul 05 13:02:57 MDT 2021</date>
                           <filename>/Users/mdean/JMRI/New_Mike_Basement_Layout.jmri/FebruaryPanelNewSectioning.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Mon Jul 05 13:27:18 MDT 2021</date>
+                          <date>Mon Jul 05 13:18:51 MDT 2021</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Mon Jul 05 13:33:59 MDT 2021</date>
+                      <date>Mon Jul 05 13:27:18 MDT 2021</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Mon Jul 05 13:37:57 MDT 2021</date>
+                  <date>Mon Jul 05 13:33:59 MDT 2021</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Mon Jul 05 16:40:13 MDT 2021</date>
+              <date>Mon Jul 05 13:37:57 MDT 2021</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Mon Jul 05 17:06:29 MDT 2021</date>
+          <date>Mon Jul 05 16:40:13 MDT 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sun Jul 11 15:52:14 MDT 2021</date>
+      <date>Mon Jul 05 17:06:29 MDT 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.23.7+R2dd7487a0 on Sun Jul 11 15:52:14 MDT 2021-->
+  <!--Written by JMRI version 4.23.7+R2dd7487a0 on Mon Jul 05 17:06:29 MDT 2021-->
 </layout-config>

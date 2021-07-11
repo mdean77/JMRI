@@ -40,6 +40,7 @@ def getTableData(self):
     self.to502 = turnouts.getTurnout("Staging SW Turnout 502")
     self.to503 = turnouts.getTurnout("Staging SW Turnout 503")
     self.to504 = turnouts.getTurnout("Staging SW Turnout 504")
+    self.to101 = turnouts.getTurnout("South Turnout 101")
               
 #Get NCE relevant sensors
     self.westSWSensor = sensors.getSensor("West / SW")
