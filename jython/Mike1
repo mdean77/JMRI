@@ -14,7 +14,7 @@ class Mike1(jmri.jmrit.automat.AbstractAutomaton):
 		self.waitMsec(10000)
 		self.throttle.setIsForward(False)
 		print("Reverse")
-		self.waitMsec(10000)
+		self.waitMsec(20000)
 		self.throttle.setSpeedSetting(0)
 		return False
 		
