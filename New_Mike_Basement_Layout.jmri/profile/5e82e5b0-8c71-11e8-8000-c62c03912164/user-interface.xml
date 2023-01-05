@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <checkBoxLastValue xmlns="http://jmri.org/xml/schema/auxiliary-configuration/checkbox-4-21-3.xsd">
+        <checkBox xmlns="" lastChecked="yes" name="jmri.jmrit.logixng.LogixNG_UserPreferences.AutoSystemName"/>
+        <checkBox xmlns="" lastChecked="yes" name="jmri.jmrit.logixng.tools.swing.LogixNGEditor.AutoSystemName"/>
+    </checkBoxLastValue>
     <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
         <preferences xmlns="" class="jmri.jmrit.conditional.ConditionalListEdit">
             <reminderPrompts>
                 <reminder>remindSaveLogix</reminder>
+            </reminderPrompts>
+        </preferences>
+        <preferences xmlns="" class="jmri.jmrit.display.EditorManager">
+            <reminderPrompts>
+                <reminder>skipHideDialog</reminder>
             </reminderPrompts>
         </preferences>
         <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager"/>
@@ -79,15 +88,27 @@
             <columns/>
         </table>
         <table xmlns="" name="jmri.jmrit.beantable.LRouteTableAction:LRoutes">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="145"/>
+                <column hidden="false" name="User Name" order="1" width="310"/>
+                <column hidden="false" name="Enabled" order="2" width="70"/>
+                <column hidden="false" name="Column4" order="4" width="79"/>
+                <column hidden="false" name="System Name" order="0" width="250"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="1" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.logixng.LogixNG_UserPreferences:LogixNGs">
             <columns/>
         </table>
         <table xmlns="" name="jmri.jmrit.beantable.LogixTableAction:Logix">
             <columns>
-                <column hidden="false" name="Comment" order="3" width="190"/>
-                <column hidden="false" name="User Name" order="1" width="214"/>
+                <column hidden="false" name="Comment" order="4" width="190"/>
+                <column hidden="false" name="User Name" order="1" width="227"/>
                 <column hidden="false" name="Enabled" order="2" width="88"/>
-                <column hidden="false" name="Column4" order="4" width="154"/>
-                <column hidden="false" name="System Name" order="0" width="154"/>
+                <column hidden="false" name="Column4" order="3" width="154"/>
+                <column hidden="false" name="System Name" order="0" width="160"/>
             </columns>
             <sortOrder>
                 <sortKey column="0" sortOrder="ASCENDING"/>
@@ -100,14 +121,56 @@
         <table xmlns="" name="jmri.jmrit.beantable.ReporterTableAction:All">
             <columns/>
         </table>
+        <table xmlns="" name="jmri.jmrit.beantable.MemoryTableDataModel:Memory Variables">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="190"/>
+                <column hidden="false" name="User Name" order="1" width="190"/>
+                <column hidden="false" name="Value" order="2" width="51"/>
+                <column hidden="false" name="Column4" order="4" width="88"/>
+                <column hidden="false" name="System Name" order="0" width="136"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="1" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.logixng.LogixNG_UserPreferences:LogixNG Global Variables">
+            <columns/>
+        </table>
         <table xmlns="" name="jmri.jmrit.beantable.SignalGroupTableAction:Signal Groups">
             <columns/>
         </table>
         <table xmlns="" name="jmri.jmrit.beantable.SignalMastLogicTableAction:Signal Mast Logic">
             <columns/>
         </table>
-        <table xmlns="" name="jmri.jmrit.beantable.TurnoutTableAction:All">
+        <table xmlns="" name="jmri.jmrit.logixng.LogixNG_UserPreferences:LogixNG Modules">
             <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.TurnoutTableAction:All">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="190"/>
+                <column hidden="true" name="Automation" order="12" width="85"/>
+                <column hidden="true" name="Lock Mode" order="14" width="130"/>
+                <column hidden="true" name="Thrown Speed" order="17" width="178"/>
+                <column hidden="false" name="User Name" order="1" width="190"/>
+                <column hidden="true" name="Closed Speed" order="16" width="178"/>
+                <column hidden="true" name="ForgetState" order="18" width="84"/>
+                <column hidden="true" name="Mode" order="9" width="130"/>
+                <column hidden="true" name="Column13" order="13" width="102"/>
+                <column hidden="false" name="Column4" order="4" width="88"/>
+                <column hidden="true" name="QueryState" order="19" width="81"/>
+                <column hidden="true" name="Decoder" order="15" width="130"/>
+                <column hidden="false" name="Locked" order="6" width="82"/>
+                <column hidden="false" name="Column7" order="7" width="79"/>
+                <column hidden="true" name="Feedback" order="8" width="130"/>
+                <column hidden="true" name="Sensor1" order="10" width="70"/>
+                <column hidden="false" name="State" order="2" width="88"/>
+                <column hidden="false" name="Inverted" order="5" width="82"/>
+                <column hidden="true" name="Sensor2" order="11" width="70"/>
+                <column hidden="false" name="System Name" order="0" width="131"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="1" sortOrder="ASCENDING"/>
+            </sortOrder>
         </table>
         <table xmlns="" name="jmri.jmrit.beantable.AudioTableAction">
             <columns>
@@ -143,9 +206,6 @@
         <table xmlns="" name="jmri.jmrit.beantable.LightTableAction:Internal">
             <columns/>
         </table>
-        <table xmlns="" name="jmri.jmrit.beantable.AbstractLogixNGTableAction:LogixNG Modules">
-            <columns/>
-        </table>
         <table xmlns="" name="jmri.jmrit.beantable.RailComTableAction:RailCom IDs">
             <columns/>
         </table>
@@ -171,15 +231,25 @@
             </sortOrder>
         </table>
         <table xmlns="" name="jmri.jmrit.beantable.SignalMastTableAction:Signal Masts">
-            <columns/>
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="190"/>
+                <column hidden="false" name="Column6" order="6" width="130"/>
+                <column hidden="false" name="User Name" order="1" width="190"/>
+                <column hidden="false" name="Lit" order="7" width="46"/>
+                <column hidden="false" name="Held" order="8" width="58"/>
+                <column hidden="false" name="Column4" order="4" width="88"/>
+                <column hidden="false" name="Column5" order="5" width="58"/>
+                <column hidden="false" name="System Name" order="0" width="302"/>
+                <column hidden="false" name="Aspect" order="2" width="175"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="1" sortOrder="ASCENDING"/>
+            </sortOrder>
         </table>
         <table xmlns="" name="jmri.jmrit.beantable.IdTagTableAction:Internal">
             <columns/>
         </table>
         <table xmlns="" name="jmri.jmrit.beantable.TurnoutTableAction:MQTT">
-            <columns/>
-        </table>
-        <table xmlns="" name="jmri.jmrit.beantable.AbstractLogixNGTableAction:LogixNGs">
             <columns/>
         </table>
         <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:NCE">
@@ -203,10 +273,10 @@
                 <sortKey column="1" sortOrder="ASCENDING"/>
             </sortOrder>
         </table>
-        <table xmlns="" name="jmri.jmrit.beantable.AbstractLogixNGTableAction:LogixNG Tables">
+        <table xmlns="" name="jmri.jmrit.beantable.IdTagTableAction:All">
             <columns/>
         </table>
-        <table xmlns="" name="jmri.jmrit.beantable.IdTagTableAction:All">
+        <table xmlns="" name="jmri.jmrit.logixng.LogixNG_UserPreferences:LogixNG Tables">
             <columns/>
         </table>
         <table xmlns="" name="jmri.jmrit.beantable.RouteTableDataModel:Routes">
@@ -248,13 +318,10 @@
                 <column hidden="false" name="Road Name" order="4" width="143"/>
             </columns>
             <sortOrder>
-                <sortKey column="4" sortOrder="ASCENDING"/>
+                <sortKey column="5" sortOrder="ASCENDING"/>
             </sortOrder>
         </table>
         <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:MQTT">
-            <columns/>
-        </table>
-        <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:All">
             <columns>
                 <column hidden="false" name="Comment" order="3" width="190"/>
                 <column hidden="false" name="User Name" order="1" width="190"/>
@@ -268,7 +335,30 @@
                 <column hidden="false" name="Column6" order="6" width="79"/>
                 <column hidden="false" name="State" order="2" width="88"/>
                 <column hidden="false" name="Inverted" order="5" width="58"/>
-                <column hidden="false" name="System Name" order="0" width="183"/>
+                <column hidden="false" name="System Name" order="0" width="101"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="1" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.IdTagTableAction:RailCom">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:All">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="190"/>
+                <column hidden="false" name="User Name" order="1" width="142"/>
+                <column hidden="false" name="ForgetState" order="11" width="88"/>
+                <column hidden="false" name="Delay to Active" order="8" width="106"/>
+                <column hidden="false" name="Column4" order="4" width="88"/>
+                <column hidden="false" name="QueryState" order="12" width="85"/>
+                <column hidden="true" name="Pull-Up/Down" order="10" width="106"/>
+                <column hidden="false" name="Delay to Inactive" order="9" width="106"/>
+                <column hidden="false" name="Use Global Delays" order="7" width="106"/>
+                <column hidden="false" name="Column6" order="6" width="79"/>
+                <column hidden="false" name="State" order="2" width="88"/>
+                <column hidden="false" name="Inverted" order="5" width="58"/>
+                <column hidden="false" name="System Name" order="0" width="274"/>
             </columns>
             <sortOrder>
                 <sortKey column="0" sortOrder="ASCENDING"/>
@@ -277,20 +367,34 @@
             </sortOrder>
         </table>
         <table xmlns="" name="jmri.jmrit.beantable.SignalHeadTableAction:Signal Heads">
-            <columns/>
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="190"/>
+                <column hidden="false" name="User Name" order="1" width="190"/>
+                <column hidden="false" name="Column7" order="7" width="94"/>
+                <column hidden="false" name="Lit" order="5" width="58"/>
+                <column hidden="false" name="Held" order="6" width="58"/>
+                <column hidden="false" name="Column4" order="4" width="88"/>
+                <column hidden="false" name="System Name" order="0" width="70"/>
+                <column hidden="false" name="Appearance" order="2" width="226"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="1" sortOrder="ASCENDING"/>
+            </sortOrder>
         </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
-        <window xmlns="" class="Edit Track Segment" locX="51.0" locY="23.0"/>
-        <window xmlns="" class="Memory Usage Monitor" height="167.0" locX="91.0" locY="23.0" width="570.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.beanedit.SensorEditAction">
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Sensors" height="850.0" locX="-145.0" locY="320.0" width="740.0"/>
+        <window xmlns="" class="jmri.jmrit.signalling.SignallingSourceFrame:1" locX="50.0" locY="25.0"/>
+        <window xmlns="" class="JMRI System Console" height="850.0" locX="138.0" locY="51.0" width="1335.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.beanedit.TurnoutEditAction">
             <properties>
                 <property>
                     <key>selectedTabIndex</key>
-                    <value class="java.lang.Integer">3</value>
+                    <value class="java.lang.Integer">4</value>
                 </property>
             </properties>
         </window>
+        <window xmlns="" class="Copy Conditional from Logix &quot;Open SW Staging Track 4&quot; (IX:RTXSW Track 4)" height="291.0" locX="525.0" locY="304.0" width="404.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.LogixTableAction">
             <properties>
                 <property>
@@ -303,75 +407,24 @@
                 </property>
             </properties>
         </window>
-        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="601.0" locX="149.0" locY="25.0" width="1017.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.routetable.RouteEditFrame:Edit Route" locX="100.0" locY="23.0"/>
-        <window xmlns="" class="Edit Action" height="182.0" locX="291.0" locY="23.0" width="1098.0"/>
-        <window xmlns="" class="jmri.jmrix.nce.ncemon.NceMonPanel" height="379.0" locX="481.0" locY="357.0" width="974.0"/>
-        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Mike Dean's Basement Layout" height="801.0" locX="51.0" locY="99.0" width="1389.0">
+        <window xmlns="" class="jmri.jmrit.signalling.SignallingSourceFrame" locX="78.0" locY="26.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Blocks" height="725.0" locX="69.0" locY="37.0" width="1089.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:LogixNG Global Variables:1" height="850.0" locX="50.0" locY="25.0" width="1340.0"/>
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Mike Dean's Basement Layout" height="729.0" locX="51.0" locY="25.0" width="1308.0">
             <properties>
                 <property>
                     <key>zoom</key>
-                    <value class="java.lang.Double">0.98276778858938</value>
+                    <value class="java.lang.Double">1.408808484999124</value>
                 </property>
             </properties>
         </window>
-        <window xmlns="" class="JMRI System Console" height="587.0" locX="188.0" locY="232.0" width="1149.0"/>
-        <window xmlns="" class="Add New Sensor" height="165.0" locX="51.0" locY="25.0" width="852.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.routetable.RouteAddFrame:Add/Edit Route" locX="182.0" locY="23.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Turnouts" height="854.0" locX="205.0" locY="25.0" width="1152.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.beanedit.TurnoutEditAction">
-            <properties>
-                <property>
-                    <key>selectedTabIndex</key>
-                    <value class="java.lang.Integer">1</value>
-                </property>
-            </properties>
-        </window>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Memory Variables:1" height="854.0" locX="281.0" locY="555.0" width="1338.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Sensors" height="850.0" locX="226.0" locY="179.0" width="1586.0"/>
-        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:SP 8584 SD45" height="865.0" locX="71.0" locY="23.0" width="1052.0"/>
-        <window xmlns="" class="jmri.jmrit.picker.PickFrame" height="511.0" locX="52.0" locY="26.0" width="377.0"/>
-        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
-        <window xmlns="" class="jmri.jmrit.beantable.beanedit.BlockEditAction">
-            <properties>
-                <property>
-                    <key>selectedTabIndex</key>
-                    <value class="java.lang.Integer">5</value>
-                </property>
-            </properties>
-        </window>
+        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="496.0" locX="51.0" locY="102.0" width="546.0"/>
         <window xmlns="" class="Local JMRI throttles" height="222.0" locX="73.0" locY="25.0" width="320.0"/>
-        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutBlock$LayoutBlockEditAction">
-            <properties>
-                <property>
-                    <key>selectedTabIndex</key>
-                    <value class="java.lang.Integer">0</value>
-                </property>
-            </properties>
-        </window>
-        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster:1" height="600.0" locX="71.0" locY="24.0" width="1024.0">
-            <properties>
-                <property>
-                    <key>selectedProgrammer</key>
-                    <value class="java.lang.String">ops</value>
-                </property>
-            </properties>
-        </window>
-        <window xmlns="" class="Script Entry" height="560.0" locX="245.0" locY="25.0" width="652.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:RailCom IDs" locX="180.0" locY="321.0"/>
-        <window xmlns="" class="OBlock Tables" height="622.0" locX="51.0" locY="23.0" width="1100.0"/>
-        <window xmlns="" class="jmri.jmrit.withrottle.UserInterface" height="250.0" locX="51.0" locY="23.0" width="400.0"/>
-        <window xmlns="" class="Edit Variable" height="182.0" locX="585.0" locY="346.0" width="707.0"/>
-        <window xmlns="" class="jmri.jmrix.nce.ncemon.NceMonPanel.FilterField">
-            <properties>
-                <property>
-                    <key>jmri.jmrix.nce.ncemon.NceMonPanel.FilterField</key>
-                    <value class="java.lang.String"/>
-                </property>
-            </properties>
-        </window>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Blocks" height="725.0" locX="69.0" locY="37.0" width="875.0"/>
-        <window xmlns="" class="Conditional Browser" locX="71.0" locY="24.0"/>
+        <window xmlns="" class="Add Logix" height="171.0" locX="405.0" locY="364.0" width="644.0"/>
+        <window xmlns="" class="Memory Usage Monitor" height="167.0" locX="91.0" locY="23.0" width="570.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Lights" height="854.0" locX="1185.0" locY="697.0" width="1152.0"/>
+        <window xmlns="" class="jmri.jmrix.nce.cab.NceShowCabPanel" height="503.0" locX="117.0" locY="34.0" width="1000.0"/>
+        <window xmlns="" class="apps.jmrit.log.LogFrame" height="87.0" locX="51.0" locY="23.0" width="563.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame">
             <properties>
                 <property>
@@ -380,12 +433,36 @@
                 </property>
             </properties>
         </window>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Lights" height="854.0" locX="1185.0" locY="697.0" width="1152.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Memory Variables" height="854.0" locX="205.0" locY="25.0" width="1152.0"/>
-        <window xmlns="" class="Script Output" height="411.0" locX="893.0" locY="76.0" width="438.0"/>
-        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="496.0" locX="51.0" locY="102.0" width="546.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:LRoutes" height="854.0" locX="108.0" locY="23.0" width="1207.0"/>
-        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="71.0" locY="24.0" width="1024.0">
+        <window xmlns="" class="Edit Turnout" locX="50.0" locY="25.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:Programming: SP 8584 SD45" height="865.0" locX="50.0" locY="25.0" width="1052.0"/>
+        <window xmlns="" class="apps.jmrit.log.Log4JTreePane" height="875.0" locX="49.0" locY="25.0" width="629.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:LogixNGs:1" height="850.0" locX="50.0" locY="25.0" width="1340.0"/>
+        <window xmlns="" class="Script Entry" height="407.0" locX="539.0" locY="272.0" width="652.0"/>
+        <window xmlns="" class="Conditional Browser:4" locX="78.0" locY="26.0"/>
+        <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:Sensor" height="427.0" locX="759.0" locY="141.0" width="358.0"/>
+        <window xmlns="" class="Copy Logix" height="165.0" locX="616.0" locY="367.0" width="644.0"/>
+        <window xmlns="" class="Conditional Browser:3" locX="78.0" locY="26.0"/>
+        <window xmlns="" class="Conditional Browser:2" locX="50.0" locY="25.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:LogixNG Modules" height="850.0" locX="50.0" locY="25.0" width="1340.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.routetable.RouteEditFrame:Edit Route" locX="100.0" locY="25.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Memory Variables:1" height="854.0" locX="281.0" locY="555.0" width="1338.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.routetable.RouteAddFrame:Add/Edit Route" locX="182.0" locY="23.0"/>
+        <window xmlns="" class="jmri.jmrit.automat.monitor.AutomatTableFrame" height="231.0" locX="93.0" locY="307.0" width="424.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:SP 8584 SD45" height="865.0" locX="71.0" locY="23.0" width="1052.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:LRoutes" height="850.0" locX="218.0" locY="357.0" width="1340.0"/>
+        <window xmlns="" class="Edit Variable" height="182.0" locX="304.0" locY="353.0" width="1102.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Logix" height="850.0" locX="337.0" locY="25.0" width="899.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Signal Groups" height="850.0" locX="337.0" locY="25.0" width="899.0"/>
+        <window xmlns="" class="jmri.jmrit.signalling.SignallingFrame" locX="78.0" locY="26.0"/>
+        <window xmlns="" class="Conditional Browser:6" locX="78.0" locY="26.0"/>
+        <window xmlns="" class="jmri.jmrit.logixng.tools.swing.ConditionalNGEditor" height="572.0" locX="222.0" locY="272.0" width="500.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Transits" height="850.0" locX="117.0" locY="37.0" width="1340.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:RailCom IDs" locX="180.0" locY="321.0"/>
+        <window xmlns="" class="LogixNG/Module Browser" locX="49.0" locY="25.0"/>
+        <window xmlns="" class="Conditional Browser" locX="50.0" locY="25.0"/>
+        <window xmlns="" class="Add LogixNG" height="171.0" locX="297.0" locY="105.0" width="663.0"/>
+        <window xmlns="" class="jmri.jmrit.dispatcher.DispatcherFrame" height="711.0" locX="50.0" locY="25.0" width="954.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster:1" height="600.0" locX="71.0" locY="24.0" width="1024.0">
             <properties>
                 <property>
                     <key>selectedProgrammer</key>
@@ -393,14 +470,85 @@
                 </property>
             </properties>
         </window>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Routes" height="854.0" locX="151.0" locY="23.0" width="1207.0"/>
-        <window xmlns="" class="Copy Logix" height="165.0" locX="401.0" locY="497.0" width="644.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Turnouts" height="850.0" locX="50.0" locY="25.0" width="1340.0"/>
+        <window xmlns="" class="Script Output" height="411.0" locX="892.0" locY="76.0" width="438.0"/>
+        <window xmlns="" class="Edit Track Segment" locX="51.0" locY="23.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:LogixNG Tables" height="850.0" locX="50.0" locY="25.0" width="1340.0"/>
+        <window xmlns="" class="Conditional Browser:1" locX="785.0" locY="552.0"/>
+        <window xmlns="" class="jmri.jmrix.ncemonitor.NcePacketMonitorPanel.FilterField">
+            <properties>
+                <property>
+                    <key>jmri.jmrix.ncemonitor.NcePacketMonitorPanel.FilterField</key>
+                    <value class="java.lang.String"/>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutBlock$LayoutBlockEditAction">
+            <properties>
+                <property>
+                    <key>selectedTabIndex</key>
+                    <value class="java.lang.Integer">0</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Signal Heads" height="850.0" locX="49.0" locY="25.0" width="1342.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.beanedit.SensorEditAction">
+            <properties>
+                <property>
+                    <key>selectedTabIndex</key>
+                    <value class="java.lang.Integer">3</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="491.0" locX="217.0" locY="97.0" width="1017.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:LogixNG Global Variables" height="850.0" locX="50.0" locY="25.0" width="1340.0"/>
+        <window xmlns="" class="jmri.jmrix.ncemonitor.NcePacketMonitorPanel" height="617.0" locX="100.0" locY="25.0" width="1272.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.signalmast.AddSignalMastJFrame:Add/Edit Signal Mast" locX="78.0" locY="26.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.beanedit.BlockEditAction">
+            <properties>
+                <property>
+                    <key>selectedTabIndex</key>
+                    <value class="java.lang.Integer">3</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:LogixNG Tables:1" height="850.0" locX="50.0" locY="25.0" width="1340.0"/>
+        <window xmlns="" class="Edit Action" height="182.0" locX="386.0" locY="426.0" width="933.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Reporters" height="850.0" locX="50.0" locY="25.0" width="1340.0"/>
+        <window xmlns="" class="jmri.jmrix.nce.ncemon.NceMonPanel" height="379.0" locX="185.0" locY="252.0" width="909.0"/>
+        <window xmlns="" class="Add New Sensor" height="165.0" locX="349.0" locY="293.0" width="852.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Signal Masts" height="850.0" locX="51.0" locY="25.0" width="1340.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Routes" height="850.0" locX="183.0" locY="25.0" width="1207.0"/>
+        <window xmlns="" class="PanelPro" height="231.0" locX="95.0" locY="618.0" width="512.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Transits:1" height="725.0" locX="235.0" locY="337.0" width="875.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:LogixNGs" height="850.0" locX="50.0" locY="25.0" width="1340.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Signal Mast Logic" height="850.0" locX="49.0" locY="25.0" width="1342.0"/>
+        <window xmlns="" class="jmri.jmrix.nce.ncemon.NceMonPanel.FilterField">
+            <properties>
+                <property>
+                    <key>jmri.jmrix.nce.ncemon.NceMonPanel.FilterField</key>
+                    <value class="java.lang.String"/>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="Edit Signal Head" locX="78.0" locY="26.0"/>
         <window xmlns="" class="Add New Memory" locX="51.0" locY="23.0"/>
-        <window xmlns="" class="apps.jmrit.log.LogFrame" height="87.0" locX="51.0" locY="23.0" width="563.0"/>
-        <window xmlns="" class="Add Logix" height="171.0" locX="405.0" locY="364.0" width="644.0"/>
-        <window xmlns="" class="PanelPro" height="231.0" locX="878.0" locY="669.0" width="512.0"/>
-        <window xmlns="" class="jmri.jmrit.automat.monitor.AutomatTableFrame" height="231.0" locX="56.0" locY="587.0" width="424.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Logix" height="854.0" locX="108.0" locY="23.0" width="1207.0"/>
-        <window xmlns="" class="Copy Conditional from Logix &quot;Open SW Staging Track 4&quot; (IX:RTXSW Track 4)" height="291.0" locX="525.0" locY="304.0" width="404.0"/>
+        <window xmlns="" class="jmri.jmrit.withrottle.UserInterface" height="250.0" locX="163.0" locY="126.0" width="400.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Sensors:1" height="850.0" locX="987.0" locY="509.0" width="1340.0"/>
+        <window xmlns="" class="Conditional Browser:5" locX="0.0" locY="574.0"/>
+        <window xmlns="" class="Copy Conditional from Logix &quot;NW Staging Closed&quot; (IX:RTXNW Close)" height="297.0" locX="765.0" locY="301.0" width="346.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Memory Variables" height="850.0" locX="205.0" locY="25.0" width="1152.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Logix:1" height="850.0" locX="50.0" locY="25.0" width="1340.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="71.0" locY="25.0" width="1024.0">
+            <properties>
+                <property>
+                    <key>selectedProgrammer</key>
+                    <value class="java.lang.String">ops</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="jmri.jmrit.picker.PickFrame" height="511.0" locX="61.0" locY="328.0" width="377.0"/>
+        <window xmlns="" class="OBlock Tables" height="622.0" locX="51.0" locY="23.0" width="1100.0"/>
     </windowDetails>
 </auxiliary-configuration>

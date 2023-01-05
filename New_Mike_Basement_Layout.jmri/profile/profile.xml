@@ -37,11 +37,11 @@
                 </option>
                 <option>
                     <name>11.3</name>
-                    <value>track/sensor</value>
+                    <value>track/sensor/</value>
                 </option>
                 <option>
                     <name>11.5</name>
-                    <value>track/sensor</value>
+                    <value>track/sensor/</value>
                 </option>
                 <option>
                     <name>12.3</name>
@@ -63,6 +63,14 @@
                     <name>15</name>
                     <value>track/signalmast/</value>
                 </option>
+                <option>
+                    <name>LastWillMessage</name>
+                    <value>lost</value>
+                </option>
+                <option>
+                    <name>LastWillTopic</name>
+                    <value>track/$state</value>
+                </option>
             </options>
         </connection>
     </connections>
@@ -70,14 +78,11 @@
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" name="apps.SystemConsoleAction" type="Action">
             <property name="systemPrefix" value=""/>
         </perform>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformFileModelXml" name="preference:FebruaryPanelNewSectioning.xml" type="XmlFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" name="jmri.jmrit.jython.InputWindowAction" type="Action">
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformFileModelXml" name="preference:October2022Settings.xml" type="XmlFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" name="jmri.jmrit.withrottle.WiThrottleCreationAction" type="Action">
             <property name="systemPrefix" value=""/>
         </perform>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" name="jmri.jmrit.jython.JythonWindow" type="Action">
-            <property name="systemPrefix" value=""/>
-        </perform>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" name="jmri.jmrit.automat.monitor.AutomatTableAction" type="Action">
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" name="jmri.web.server.WebServerAction" type="Action">
             <property name="systemPrefix" value=""/>
         </perform>
     </startup>

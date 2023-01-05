@@ -25,6 +25,7 @@ class ExecuteTrains(jmri.jmrit.automat.AbstractAutomaton):
         return
 
     def handle(self):
+	memories.provideMemory("Train Done").setValue("No")
         execfile(TrainNW8997)
         self.checkTrainDone()
         execfile(Amtrak)

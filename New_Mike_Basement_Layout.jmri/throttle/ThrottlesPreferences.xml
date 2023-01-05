@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE throttles-preferences SYSTEM "/xml/DTD/throttles-preferences.dtd">
 <throttles-preferences>
-  <throttlesPreferences isUsingExThrottle="true" isUsingToolBar="true" isUsingFunctionIcon="false" isResizingWindow="false" windowDimensionWidth="800" windowDimensionHeight="600" isSavingThrottleOnLayoutSave="true" isUsingRosterImage="true" isEnablingRosterSearch="true" isAutoLoading="true" isHidingUndefinedFunctionButtons="false" isIgnoringThrottlePosition="true" isSilentSteal="false" isSilentShare="false" isUsingLargeSpeedSlider="false" isHidingSpeedStepSelector="false">
+  <throttlesPreferences isUsingExThrottle="true" isUsingToolBar="true" isUsingFunctionIcon="false" isResizingWindow="false" windowDimensionWidth="800" windowDimensionHeight="600" isSavingThrottleOnLayoutSave="true" isUsingRosterImage="true" isEnablingRosterSearch="true" isAutoLoading="true" isHidingUndefinedFunctionButtons="false" isIgnoringThrottlePosition="true" isSilentSteal="false" isSilentShare="false" isUsingLargeSpeedSlider="false" defaultThrottleFilePath="">
     <throttlesControls moreSpeedMultiplier="5.0">
       <nextThrottleWindowKeys>
         <ksc-0 m="0" k="155" />

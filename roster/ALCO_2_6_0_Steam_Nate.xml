@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Mon Mar 21 14:18:30 MDT 2022-->
+  <locomotive id="ALCO 2-6-0 Steam Nate" fileName="ALCO_2_6_0_Steam_Nate.xml" roadNumber="41" roadName="Union Pacific" mfg="Bachman" owner="Mike Dean from Nate" model="#51755" dccAddress="41" comment="Duplicate of another locomotive that I already have." developerID="-1" manufacturerID="101" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2022-03-21T20:18:30.931+0000</dateUpdated>
+    <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" maxFnNum="28" />
+    <locoaddress>
+      <dcclocoaddress number="41" longaddress="yes" />
+      <number>41</number>
+      <protocol>dcc_long</protocol>
+    </locoaddress>
+    <functionlabels />
+    <soundlabels />
+    <values>
+      <decoderDef>
+        <varValue item="Vstart" value="10" />
+        <varValue item="Accel" value="1" />
+        <varValue item="Decel" value="1" />
+        <varValue item="Decoder Version" value="46" />
+        <varValue item="Manufacturer" value="101" />
+        <varValue item="DC Brake Momentum" value="1" />
+        <varValue item="F1 controls output Dim" value="1" />
+        <varValue item="F2 controls output Dim" value="0" />
+        <varValue item="F3 controls output Dim" value="0" />
+        <varValue item="F4 controls output Dim" value="0" />
+        <varValue item="F5 controls output Dim" value="0" />
+        <varValue item="F6 controls output Dim" value="0" />
+        <varValue item="F7 controls output Dim" value="0" />
+        <varValue item="F8 controls output Dim" value="0" />
+        <varValue item="Global lighting option 1" value="64" />
+        <varValue item="FL(f) controls output 1" value="1" />
+        <varValue item="FL(r) controls output 2" value="1" />
+        <varValue item="Short Address" value="41" />
+        <varValue item="Long Address" value="41" />
+        <varValue item="Address Format" value="1" />
+        <varValue item="Consist Direction" value="0" />
+        <varValue item="Consist Address" value="0" />
+        <varValue item="Locomotive Direction" value="0" />
+        <varValue item="Speed Step Mode" value="1" />
+        <varValue item="Analog (DC) Operation" value="0" />
+        <varValue item="User Id #1" value="255" />
+        <varValue item="User Id #2" value="255" />
+      </decoderDef>
+      <CVvalue name="2" value="10" />
+      <CVvalue name="3" value="1" />
+      <CVvalue name="4" value="1" />
+      <CVvalue name="7" value="46" />
+      <CVvalue name="8" value="101" />
+      <CVvalue name="50" value="4" />
+      <CVvalue name="51" value="1" />
+      <CVvalue name="52" value="64" />
+      <CVvalue name="1" value="41" />
+      <CVvalue name="17" value="192" />
+      <CVvalue name="18" value="41" />
+      <CVvalue name="29" value="34" />
+      <CVvalue name="19" value="0" />
+      <CVvalue name="105" value="255" />
+      <CVvalue name="106" value="255" />
+    </values>
+  </locomotive>
+</locomotive-config>

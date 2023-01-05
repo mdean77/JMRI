@@ -40,44 +40,37 @@
                 <column hidden="false" name="Road Name" order="4" width="143"/>
             </columns>
             <sortOrder>
-                <sortKey column="4" sortOrder="DESCENDING"/>
+                <sortKey column="9" sortOrder="DESCENDING"/>
             </sortOrder>
         </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
-        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program WP GP40-2  3548 in Service Mode (Programming Track)" height="712.0" locX="150.0" locY="23.0" width="1052.0"/>
-        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GE ES44AC 5467" height="865.0" locX="271.0" locY="23.0" width="1052.0"/>
-        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="775.0" locX="214.0" locY="23.0" width="1024.0">
-            <properties>
-                <property>
-                    <key>selectedProgrammer</key>
-                    <value class="java.lang.String">service</value>
-                </property>
-            </properties>
-        </window>
-        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="464.0" locX="51.0" locY="23.0" width="937.0"/>
-        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GP 35 UP 749" height="688.0" locX="47.0" locY="23.0" width="1052.0"/>
-        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GP35 UP 749" height="688.0" locX="122.0" locY="51.0" width="1085.0"/>
-        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GP7 UP 116" height="711.0" locX="65.0" locY="24.0" width="1060.0"/>
-        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GE ES44AC 8096" height="865.0" locX="94.0" locY="192.0" width="1273.0"/>
-        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:SP 8584 SD45" height="854.0" locX="46.0" locY="23.0" width="1052.0"/>
-        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:RG 5327 SD45" height="854.0" locX="262.0" locY="23.0" width="1052.0"/>
-        <window xmlns="" class="apps.gui3.TabbedPreferencesFrame:Preferences" height="464.0" locX="381.0" locY="236.0" width="937.0"/>
-        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:EMD SD70ACe 8997" height="865.0" locX="110.0" locY="23.0" width="1273.0"/>
-        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
-        <window xmlns="" class="Local JMRI throttles" height="222.0" locX="51.0" locY="23.0" width="320.0"/>
-        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:WP GP40-2  3548" height="712.0" locX="51.0" locY="23.0" width="1052.0"/>
-        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$4:GE ES44AC 8096" height="774.0" locX="51.0" locY="23.0" width="1260.0"/>
-        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:WP GP40-2 3549" height="712.0" locX="51.0" locY="23.0" width="1052.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$4:EMD SD70ACe 8997" height="697.0" locX="51.0" locY="23.0" width="981.0"/>
-        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:WP GP 40-2 3546" height="712.0" locX="201.0" locY="58.0" width="1052.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:RG 5327 SD45" height="854.0" locX="262.0" locY="25.0" width="1052.0"/>
+        <window xmlns="" class="Local JMRI throttles" height="222.0" locX="51.0" locY="23.0" width="320.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program &lt;new loco&gt; in Service Mode (Programming Track)" height="865.0" locX="51.0" locY="23.0" width="1273.0"/>
-        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$4:GE ES44AC 5467" height="697.0" locX="119.0" locY="23.0" width="981.0"/>
-        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:WP GP 40-2 3548" height="688.0" locX="51.0" locY="23.0" width="1052.0"/>
-        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:RG 5334" height="854.0" locX="46.0" locY="23.0" width="1052.0"/>
-        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow:2" height="484.0" locX="69.0" locY="24.0" width="554.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program CN GMD-1 1032 Green in Service Mode (Programming Track)" height="833.0" locX="49.0" locY="25.0" width="1052.0"/>
         <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="484.0" locX="134.0" locY="110.0" width="554.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program EMD SD70ACe 8997 in Service Mode (Programming Track)" height="865.0" locX="51.0" locY="23.0" width="1273.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GP 35 UP 749" height="688.0" locX="47.0" locY="23.0" width="1052.0"/>
         <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow:1" height="484.0" locX="47.0" locY="23.0" width="554.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:UP 2570 GEVo" height="865.0" locX="51.0" locY="23.0" width="1389.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:SP 8584 SD45" height="854.0" locX="46.0" locY="23.0" width="1052.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:WP GP 40-2 3548" height="688.0" locX="51.0" locY="23.0" width="1052.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:CN GMD-1 1044 Black" height="833.0" locX="49.0" locY="25.0" width="1052.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GP35 UP 749" height="688.0" locX="122.0" locY="51.0" width="1085.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program WP GP40-2  3548 in Service Mode (Programming Track)" height="712.0" locX="150.0" locY="23.0" width="1052.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program WP GP40-2 3549 in Service Mode (Programming Track)" height="712.0" locX="106.0" locY="92.0" width="1052.0"/>
+        <window xmlns="" class="PanelPro" height="231.0" locX="436.0" locY="334.0" width="568.0"/>
+        <window xmlns="" class="apps.gui3.TabbedPreferencesFrame:Preferences" height="464.0" locX="381.0" locY="236.0" width="937.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:NYC P&amp;LE S4 Diesel" height="717.0" locX="49.0" locY="25.0" width="1060.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:RG 5334" height="854.0" locX="46.0" locY="23.0" width="1052.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GE ES44AC 5467" height="865.0" locX="271.0" locY="23.0" width="1052.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:P42 Amtrak Phase IV" height="865.0" locX="51.0" locY="23.0" width="1052.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GE ES44AC 8096" height="865.0" locX="94.0" locY="192.0" width="1273.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:WP GP40-2  3548" height="712.0" locX="51.0" locY="23.0" width="1052.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Programming: GP7 Diesel 1227" height="696.0" locX="50.0" locY="25.0" width="1060.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="43.0" locY="23.0" width="1024.0">
             <properties>
                 <property>
@@ -86,11 +79,27 @@
                 </property>
             </properties>
         </window>
-        <window xmlns="" class="Create New Loco" height="555.0" locX="438.0" locY="191.0" width="392.0"/>
-        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program WP GP40-2 3549 in Service Mode (Programming Track)" height="712.0" locX="106.0" locY="92.0" width="1052.0"/>
-        <window xmlns="" class="PanelPro" height="231.0" locX="436.0" locY="334.0" width="568.0"/>
-        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program EMD SD70ACe 8997 in Service Mode (Programming Track)" height="865.0" locX="51.0" locY="23.0" width="1273.0"/>
-        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:UP 2570 GEVo" height="865.0" locX="51.0" locY="23.0" width="1389.0"/>
-        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:P42 Amtrak Phase IV" height="865.0" locX="51.0" locY="23.0" width="1052.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$4:GE ES44AC 5467" height="697.0" locX="119.0" locY="23.0" width="981.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GP7 Diesel 1227" height="696.0" locX="50.0" locY="25.0" width="1060.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:GP7 UP 116" height="711.0" locX="65.0" locY="24.0" width="1060.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program NYC P&amp;LE S4 Diesel in Service Mode (Programming Track)" height="717.0" locX="49.0" locY="25.0" width="1060.0"/>
+        <window xmlns="" class="Create New Loco" height="555.0" locX="708.0" locY="138.0" width="392.0"/>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="464.0" locX="51.0" locY="25.0" width="937.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$4:GE ES44AC 8096" height="774.0" locX="51.0" locY="23.0" width="1260.0"/>
+        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow:2" height="484.0" locX="69.0" locY="24.0" width="554.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program CN GMD-1 1044 Black in Service Mode (Programming Track)" height="833.0" locX="49.0" locY="25.0" width="1052.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Duplicate" height="633.0" locX="50.0" locY="25.0" width="1052.0"/>
+        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="775.0" locX="126.0" locY="51.0" width="1202.0">
+            <properties>
+                <property>
+                    <key>selectedProgrammer</key>
+                    <value class="java.lang.String">service</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:WP GP 40-2 3546" height="712.0" locX="201.0" locY="58.0" width="1052.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program ALCO 2-6-0 Steam Nate in Service Mode (Programming Track)" height="654.0" locX="49.0" locY="25.0" width="1052.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:EMD SD70ACe 8997" height="865.0" locX="110.0" locY="23.0" width="1273.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:WP GP40-2 3549" height="712.0" locX="51.0" locY="23.0" width="1052.0"/>
     </windowDetails>
 </auxiliary-configuration>
