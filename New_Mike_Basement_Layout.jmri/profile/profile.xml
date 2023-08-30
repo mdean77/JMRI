@@ -13,19 +13,76 @@
                 </option>
             </options>
         </connection>
+        <connection xmlns="" address="localhost" class="jmri.jmrix.mqtt.configurexml.MqttConnectionConfigXml" disabled="no" manufacturer="MQTT" mdnsConfigure="false" port="1883" reconnectMaxAttempts="100" reconnectMaxInterval="120" systemPrefix="M" turnoutInterval="250" userName="MQTT">
+            <options>
+                <option>
+                    <name>0 MQTTchannel</name>
+                    <value>mikeLayout/</value>
+                </option>
+                <option>
+                    <name>0.1</name>
+                    <value/>
+                </option>
+                <option>
+                    <name>0.2</name>
+                    <value/>
+                </option>
+                <option>
+                    <name>10.3</name>
+                    <value>track/turnout/</value>
+                </option>
+                <option>
+                    <name>10.5</name>
+                    <value>track/turnout/</value>
+                </option>
+                <option>
+                    <name>11.3</name>
+                    <value>track/sensor/</value>
+                </option>
+                <option>
+                    <name>11.5</name>
+                    <value>track/sensor/</value>
+                </option>
+                <option>
+                    <name>12.3</name>
+                    <value>track/light/</value>
+                </option>
+                <option>
+                    <name>12.5</name>
+                    <value>track/light/</value>
+                </option>
+                <option>
+                    <name>13</name>
+                    <value>track/reporter/</value>
+                </option>
+                <option>
+                    <name>14</name>
+                    <value>track/signalhead/</value>
+                </option>
+                <option>
+                    <name>15</name>
+                    <value>track/signalmast/</value>
+                </option>
+                <option>
+                    <name>LastWillMessage</name>
+                    <value>lost</value>
+                </option>
+                <option>
+                    <name>LastWillTopic</name>
+                    <value>track/$state</value>
+                </option>
+            </options>
+        </connection>
     </connections>
     <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" name="apps.SystemConsoleAction" type="Action">
             <property name="systemPrefix" value=""/>
         </perform>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformFileModelXml" name="preference:FebruaryPanelNewSectioning.xml" type="XmlFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" name="jmri.jmrit.jython.InputWindowAction" type="Action">
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformFileModelXml" name="preference:October2022Settings.xml" type="XmlFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" name="jmri.jmrit.withrottle.WiThrottleCreationAction" type="Action">
             <property name="systemPrefix" value=""/>
         </perform>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" name="jmri.jmrit.jython.JythonWindow" type="Action">
-            <property name="systemPrefix" value=""/>
-        </perform>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" name="jmri.jmrit.automat.monitor.AutomatTableAction" type="Action">
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" name="jmri.web.server.WebServerAction" type="Action">
             <property name="systemPrefix" value=""/>
         </perform>
     </startup>
